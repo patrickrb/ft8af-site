@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>
+  @font-face {
+    font-family: 'Geist';
+    src: url('../../public/assets/fonts/geist-latin-wght-normal.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Geist Mono';
+    src: url('../../public/assets/fonts/geist-mono-latin-wght-normal.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+  }
+  html, body { margin: 0; padding: 0; }
+  body {
+    width: 1200px;
+    height: 630px;
+    background:
+      radial-gradient(60% 50% at 12% 30%, rgba(255,175,94,0.18) 0%, transparent 65%),
+      radial-gradient(50% 50% at 92% 80%, rgba(92,214,232,0.12) 0%, transparent 70%),
+      linear-gradient(180deg, #07090f 0%, #050709 100%);
+    font-family: 'Geist', system-ui, sans-serif;
+    color: #e7ecf3;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+  .grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(to right, rgba(148,163,184,0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(148,163,184,0.05) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: radial-gradient(ellipse 80% 70% at 50% 50%, black 0%, transparent 100%);
+  }
+  .row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    padding: 0 96px;
+    box-sizing: border-box;
+  }
+  .icon {
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    filter: drop-shadow(0 30px 70px rgba(255,175,94,0.25));
+  }
+  .copy { flex: 1; }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Geist Mono', ui-monospace, monospace;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #ffaf5e;
+    margin-bottom: 28px;
+  }
+  .eyebrow .dot {
+    width: 9px; height: 9px; border-radius: 50%;
+    background: #ffaf5e;
+    box-shadow: 0 0 16px #ffaf5e;
+  }
+  h1 {
+    font-size: 124px;
+    font-weight: 700;
+    margin: 0 0 18px;
+    letter-spacing: -0.045em;
+    line-height: 0.95;
+  }
+  h1 b { color: #ffaf5e; font-weight: 700; }
+  p {
+    font-size: 36px;
+    font-weight: 500;
+    color: #cdd5e3;
+    margin: 0 0 24px;
+    letter-spacing: -0.015em;
+    line-height: 1.18;
+  }
+  .meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: 'Geist Mono', ui-monospace, monospace;
+    font-size: 18px;
+    color: #8a96b1;
+    letter-spacing: 0.02em;
+  }
+  .meta .sep { color: #3e4862; }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255,175,94,0.10);
+    border: 1px solid rgba(255,175,94,0.28);
+    color: #ffaf5e;
+  }
+  .pill .d { width: 7px; height: 7px; border-radius: 50%; background: #ffaf5e; }
+</style>
+</head>
+<body>
+<div class="grid"></div>
+<div class="row">
+  <img class="icon" src="../../public/assets/icon.svg" alt="" />
+  <div class="copy">
+    <div class="eyebrow"><span class="dot"></span>FT8 · Native Android</div>
+    <h1>FT<b>8</b>AF</h1>
+    <p>Work the world from your pocket.</p>
+    <div class="meta">
+      <span class="pill"><span class="d"></span>Free &amp; open source</span>
+      <span class="sep">·</span>
+      <span>GPL-3.0</span>
+      <span class="sep">·</span>
+      <span>ft8af.app</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>

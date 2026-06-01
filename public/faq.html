@@ -4,6 +4,32 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>FT8AF — FAQ</title>
+<link rel="canonical" href="https://ft8af.app/faq" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="FT8AF" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="https://ft8af.app/faq" />
+<meta property="og:title" content="FT8AF — Frequently asked questions" />
+<meta property="og:description" content="Pricing, the Google Play test track, supported radios and cabling, how this relates to FT8CN, and contributing." />
+<meta property="og:image" content="https://ft8af.app/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:alt" content="FT8AF — Work the world from your pocket. FT8 on Android." />
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="FT8AF — Frequently asked questions" />
+<meta name="twitter:description" content="Pricing, the Google Play test track, supported radios and cabling, how this relates to FT8CN, and contributing." />
+<meta name="twitter:image" content="https://ft8af.app/assets/og-image.png" />
+<meta name="twitter:image:alt" content="FT8AF — Work the world from your pocket. FT8 on Android." />
+
+<!-- Color tokens for browser/UI chrome -->
+<meta name="theme-color" content="#07090f" />
+<meta name="color-scheme" content="dark" />
+
 <meta name="description" content="Frequently asked questions about FT8AF: pricing, the Google Play test track, supported radios and cabling, the relationship to FT8CN, and contributing." />
 <link rel="icon" type="image/svg+xml" href="/assets/icon.svg" />
 <link rel="preload" href="/assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
@@ -12,6 +38,111 @@
 <link rel="stylesheet" href="/assets/sections.css" />
 <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
 <script defer src="/_vercel/insights/script.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://ft8af.app/faq#faqpage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is FT8AF really free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — completely. FT8AF is open source under the GPL-3.0 license. You can download the signed APK from the GitHub Releases page or build it yourself from source, with every feature unlocked and no account required. The $3.50 Google Play option is the same app; you're paying for automatic updates and to support development, not for features."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Then what does the $3.50 on Google Play get me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Convenience and good karma. The Play Store build updates itself automatically in the background, installs in one tap with no \"allow unknown sources\" steps, and is Play Protect verified — which makes it the easy choice for a phone you don't want to fuss with. The purchase also directly funds continued development. The app itself is identical to the free GitHub build."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "The Google Play link won't let me install. Why?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Play Store listing is currently on an internal test track, so you may need to be added to the tester list before Google will let you install it. If the link doesn't work for you yet, download the free APK from the GitHub Releases page instead — it's exactly the same application."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I install the APK safely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Download the latest .apk from GitHub Releases, tap it, and approve the one-time \"install from this source\" prompt Android shows. Then open FT8AF and grant the USB and microphone permissions. Full step-by-step instructions are on the Download page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which radios are supported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any CAT-capable HF radio that the underlying Hamlib-style control supports — including popular rigs like the Icom IC-7300 and Yaesu FT-891, with rig model, control mode, and audio device pickers in Settings. FT8AF includes specific fixes such as setting the FT-891 to 3000&nbsp;Hz bandwidth in DATA-USB mode. If your rig isn't listed, open an issue and let us know."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What cable do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A single USB connection from your phone to the rig's USB port handles both CAT control and audio on most modern radios. Newer phones connect with a USB-C cable directly; older phones need a USB-OTG adapter. Your device must support USB host (OTG) mode."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I try it without a radio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. FT8AF can decode from the phone's microphone, so you can hold it up to a speaker or just explore the interface and watch the waterfall before wiring up CAT control. It's a good way to learn the layout first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which bands work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All the standard FT8 sub-bands from 160m through 6m are built in, with one tap to switch. The waterfall covers the full audio passband so you can see and work everything in the segment at once."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is this different from FT8CN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FT8AF is a fork of the excellent FT8CN that brings it forward: a full Jetpack Compose / Material 3 dark UI, complete English localization (the original was Chinese-only), an active QSO monitor with caller queue, Cloudlog and QRZ auto-logging, plus 58+ bug fixes across two \"bug bash\" passes. The core decoding heritage is FT8CN's — we modernized the experience around it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who makes FT8AF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It's built by Patrick Burns (K1AF) and Reid (N0RC) — much of it, famously, vibe-coded on I-70 on the way to Hamvention. Huge credit goes to BG7YOZ, the original author of FT8CN, and N0BOY, who hosts the original repository and did early translation work. None of this exists without them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I contribute or report a bug?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Please do. The code lives on GitHub — open an issue for bugs or feature ideas, send a pull request, or just star the repo to follow along. Field reports from real on-the-air use are especially welcome."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will it keep getting updates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "That's the plan. Development is active and ongoing. The fastest way to get new builds automatically is the Google Play version; otherwise watch the Releases page or the repo. Want a nudge when something ships? Join the update list on the home page."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <div class="bg-field"></div>
