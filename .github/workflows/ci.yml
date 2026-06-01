@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate vercel.json
+        run: |
+          jq empty vercel.json
+          echo "vercel.json is valid JSON"
+
+      - name: JS syntax — public/assets/ft8af.js
+        run: node --check public/assets/ft8af.js
+
+      - name: Python syntax — dev-server.py
+        run: python -m py_compile dev-server.py
+
+      - name: Internal link / asset resolution
+        run: python .github/scripts/check_links.py
+
+      - name: HTML well-formedness (html5validator)
+        run: |
+          pip install --quiet html5validator==0.4.2
+          html5validator --root public --match "*.html" --log INFO
