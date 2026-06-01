@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FT8AF — Hero treatments</title>
+<link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/site.css" />
+<link rel="stylesheet" href="assets/sections.css" />
+<link rel="stylesheet" href="assets/phone.css" />
+<style>
+  body { background: #0c0e13; }
+  .opt-page { max-width: 1240px; margin: 0 auto; padding: 56px 28px 100px; }
+  .opt-head { margin-bottom: 12px; }
+  .opt-head h1 { font-size: 30px; letter-spacing: -0.02em; }
+  .opt-head p { color: var(--text-muted); max-width: 64ch; margin: 12px 0 0; }
+  .opt-block { margin-top: 48px; }
+  .opt-label {
+    display: flex; align-items: baseline; gap: 14px; margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  .opt-label .tag {
+    font-family: var(--font-mono); font-size: 12px; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent);
+    background: var(--accent-soft); border: 1px solid var(--border-amber);
+    padding: 4px 11px; border-radius: 99px;
+  }
+  .opt-label .nm { font-size: 17px; font-weight: 600; letter-spacing: -0.01em; }
+  .opt-label .ds { font-size: 13.5px; color: var(--text-faint); }
+  .frame {
+    border: 1px solid var(--border-strong); border-radius: 18px; overflow: hidden;
+    background: var(--bg-deep); box-shadow: var(--shadow-lift); position: relative;
+  }
+  .frame-field { position: absolute; inset: 0; z-index: 0; pointer-events: none;
+    background:
+      radial-gradient(1000px 500px at 18% -5%, #11172680, transparent 60%),
+      radial-gradient(800px 450px at 85% 8%, rgba(255,138,44,0.07), transparent 55%),
+      var(--bg-deep);
+  }
+  .frame-field::before { content:''; position:absolute; inset:0;
+    background-image: linear-gradient(rgba(148,163,184,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(148,163,184,0.035) 1px, transparent 1px);
+    background-size: 40px 40px;
+    -webkit-mask-image: radial-gradient(120% 90% at 50% 0%, #000 25%, transparent 75%);
+    mask-image: radial-gradient(120% 90% at 50% 0%, #000 25%, transparent 75%);
+  }
+  .frame-inner { position: relative; z-index: 1; padding: 0 48px; }
+
+  /* shared mini-nav inside frame */
+  .fnav { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; border-bottom: 1px solid var(--border); }
+  .fnav .lnk { display: flex; gap: 22px; color: var(--text-muted); font-size: 14px; }
+
+  /* ── Option A: split rig (same as live home) ── */
+  .hA { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 40px; align-items: center; padding: 56px 0 64px; }
+  .hA .dev { position: relative; display: flex; justify-content: center; align-items: center; }
+  .hA .dev canvas { position: absolute; width: 360px; border-radius: 22px; opacity: 0.5; transform: translateX(30px); -webkit-mask-image: radial-gradient(120% 100% at 70% 50%, #000 35%, transparent 80%); mask-image: radial-gradient(120% 100% at 70% 50%, #000 35%, transparent 80%); }
+
+  /* ── Option B: beacon / centered ── */
+  .hB { text-align: center; padding: 56px 0 0; display: flex; flex-direction: column; align-items: center; }
+  .hB .beacon { position: relative; width: 132px; height: 132px; margin-bottom: 26px; }
+  .hB .beacon .glow { position: absolute; inset: -50px; background: radial-gradient(circle, rgba(255,175,94,0.28), transparent 62%); filter: blur(8px); }
+  .hB .beacon .ic { position: relative; width: 132px; height: 132px; border-radius: 30px; overflow: hidden; box-shadow: 0 20px 50px -16px rgba(255,138,44,0.5), 0 0 0 1px rgba(255,255,255,0.06); }
+  .hB h1 { font-size: clamp(40px, 6vw, 72px); letter-spacing: -0.03em; line-height: 0.98; }
+  .hB .lede { margin: 22px auto 0; text-align: center; }
+  .hB .cta { display: flex; gap: 12px; justify-content: center; margin-top: 30px; }
+  .hB .bandstrip { width: 100%; margin-top: 48px; border-top: 1px solid var(--border); }
+  .hB .bandstrip .lbls { display: flex; justify-content: space-between; padding: 12px 2px 8px; font-family: var(--font-mono); font-size: 10px; color: var(--text-faint); letter-spacing: 0.06em; }
+  .hB .bandstrip canvas { width: 100%; display: block; border-radius: 8px; opacity: 0.85; }
+
+  /* ── Option C: console / full waterfall ── */
+  .hC { position: relative; padding: 60px 0 0; min-height: 540px; }
+  .hC .wfbg { position: absolute; inset: -1px 0 0 0; z-index: 0; overflow: hidden; }
+  .hC .wfbg canvas { width: 100%; height: 100%; object-fit: cover; opacity: 0.42; -webkit-mask-image: linear-gradient(90deg, transparent, #000 45%); mask-image: linear-gradient(90deg, transparent, #000 45%); }
+  .hC .inner { position: relative; z-index: 2; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 30px; align-items: center; }
+  .hC .ticker { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 22px; }
+  .hC .ticker .t { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); background: rgba(7,9,15,0.6); border: 1px solid var(--border); border-radius: 7px; padding: 5px 9px; }
+  .hC .ticker .t b { color: var(--accent); font-weight: 600; }
+  .hC h1 { font-size: clamp(38px, 5.4vw, 66px); letter-spacing: -0.03em; line-height: 0.98; }
+  .hC .lede { margin-top: 18px; }
+  .hC .cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
+  .hC .devwrap { display: flex; justify-content: flex-end; }
+
+  @media (max-width: 880px) {
+    .hA, .hC .inner { grid-template-columns: 1fr; }
+    .frame-inner { padding: 0 24px; }
+    .hC .devwrap { justify-content: center; }
+  }
+</style>
+</head>
+<body>
+<div class="opt-page">
+  <div class="opt-head">
+    <div class="eyebrow">FT8AF · Hero exploration</div>
+    <h1 style="margin-top:14px">Three hero treatments</h1>
+    <p>Same brand DNA — navy ground, amber radio-wave icon, Geist + mono, the live waterfall — arranged three ways. Tell me which direction feels right (or mix elements) and I'll lock it into the home page. <strong style="color:var(--text)">Option A is what's currently live.</strong></p>
+  </div>
+
+  <!-- OPTION A -->
+  <div class="opt-block">
+    <div class="opt-label">
+      <span class="tag">Option A</span>
+      <span class="nm">Split rig</span>
+      <span class="ds">Copy left, the Decode screen + waterfall haze right. Product-forward and concrete. (Currently live.)</span>
+    </div>
+    <div class="frame">
+      <div class="frame-field"></div>
+      <div class="frame-inner">
+        <div class="fnav">
+          <span class="brand"><span class="mark"><img src="assets/icon.svg" width="34" height="34" style="display:block" alt="" /></span><span class="word">FT<b>8</b>AF</span></span>
+          <span class="lnk"><span>Features</span><span>Download</span><span>FAQ</span></span>
+        </div>
+        <div class="hA">
+          <div>
+            <div class="eyebrow">FT8 · Native Android</div>
+            <h1 class="h-display" style="margin-top:16px">Work the world<br />from your pocket.</h1>
+            <p class="lede" style="margin-top:20px">Decode the band, drive your rig over USB CAT, and run the full auto-sequence — natively on Android. No laptop.</p>
+            <div class="hero-cta" style="margin-top:28px">
+              <a class="btn btn-primary btn-lg">Get it free on GitHub</a>
+              <a class="btn btn-ghost btn-lg">$3.50 on Google Play</a>
+            </div>
+          </div>
+          <div class="dev">
+            <canvas data-waterfall data-h="480"></canvas>
+            <div class="phone" style="--pw:280px;--ph:560px">
+              <div class="phone-screen">
+                <div class="phone-statusbar"><span>9:41</span><span class="cam"></span><span class="sb-right"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 17h3v4H2zM7 13h3v8H7zM12 9h3v12h-3zM17 5h3v16h-3z"/></svg></span></div>
+                <div class="phone-body">
+                  <div class="app-topbar"><div><h1>Decode</h1><div class="sub"><span>14:23 UTC</span><span style="color:var(--text-dim)">·</span><span class="dot-live">14 new</span></div></div></div>
+                  <div class="chips"><span class="chip active">All <span class="ct">14</span></span><span class="chip">CQ <span class="ct">11</span></span><span class="chip">New</span></div>
+                  <div class="decode-list">
+                    <div class="drow cq"><span class="accent-bar" style="background:var(--status-new)"></span><div class="r-head"><span class="tag" style="color:var(--status-new)">CQ</span><span class="call">JA1AYO</span><span class="grid">PM95</span><span class="spacer"></span><span class="spill" style="color:var(--status-new);background:rgba(192,132,252,.12);border:1px solid rgba(192,132,252,.28)"><span class="d" style="background:var(--status-new)"></span>New</span></div><div class="r-meta"><span class="sig" style="color:#4ade80"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span><span style="color:var(--text)">−3 dB</span><span class="sep">·</span><span>1247 Hz</span></div><div class="r-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/></svg>Japan</div></div>
+                    <div class="drow cq"><span class="accent-bar" style="background:var(--accent)"></span><div class="r-head"><span class="tag" style="color:var(--accent)">CQ</span><span class="call">EA8DH</span><span class="grid">IL18</span><span class="spacer"></span><span class="spill" style="color:var(--accent);background:rgba(255,175,94,.12);border:1px solid rgba(255,175,94,.28)"><span class="d" style="background:var(--accent)"></span>Needed</span></div><div class="r-meta"><span class="sig" style="color:var(--signal)"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span><span style="color:var(--text)">−8 dB</span><span class="sep">·</span><span>0832 Hz</span></div><div class="r-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/></svg>Canary Is.</div></div>
+                  </div>
+                  <div class="tx-strip"><span class="live"><b>LISTENING</b><span style="color:var(--text-faint)">·</span>20m</span><span class="freq"><b>14.074</b></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OPTION B -->
+  <div class="opt-block">
+    <div class="opt-label">
+      <span class="tag">Option B</span>
+      <span class="nm">Beacon</span>
+      <span class="ds">Centered, icon-forward and bold. The radio-wave mark glows over a full-width spectrum band. Brand-led, confident.</span>
+    </div>
+    <div class="frame">
+      <div class="frame-field"></div>
+      <div class="frame-inner">
+        <div class="fnav">
+          <span class="brand"><span class="mark"><img src="assets/icon.svg" width="34" height="34" style="display:block" alt="" /></span><span class="word">FT<b>8</b>AF</span></span>
+          <span class="lnk"><span>Features</span><span>Download</span><span>FAQ</span></span>
+        </div>
+        <div class="hB">
+          <div class="beacon"><div class="glow"></div><div class="ic"><img src="assets/icon.svg" width="132" height="132" style="display:block" alt="FT8AF" /></div></div>
+          <div class="eyebrow" style="justify-content:center;margin-bottom:18px">FT8 · Native Android · Open source</div>
+          <h1>Decode the band.<br />Work the world.</h1>
+          <p class="lede">FT8 running natively on your Android phone — USB CAT control, full auto-sequence, and a live waterfall, with no laptop in the loop.</p>
+          <div class="cta">
+            <a class="btn btn-primary btn-lg">Get it free on GitHub</a>
+            <a class="btn btn-ghost btn-lg">$3.50 on Google Play</a>
+          </div>
+          <div class="bandstrip">
+            <div class="lbls"><span>0</span><span>500</span><span>1000</span><span>1500</span><span>2000</span><span>2500</span><span>3000 Hz</span></div>
+            <canvas data-spectrum data-h="70"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OPTION C -->
+  <div class="opt-block">
+    <div class="opt-label">
+      <span class="tag">Option C</span>
+      <span class="nm">Console</span>
+      <span class="ds">Immersive. A full-bleed waterfall fills the hero behind a live callsign ticker; the phone bleeds in from the right. Technical, "you're on the band."</span>
+    </div>
+    <div class="frame">
+      <div class="frame-field"></div>
+      <div class="frame-inner">
+        <div class="fnav" style="position:relative;z-index:3">
+          <span class="brand"><span class="mark"><img src="assets/icon.svg" width="34" height="34" style="display:block" alt="" /></span><span class="word">FT<b>8</b>AF</span></span>
+          <span class="lnk"><span>Features</span><span>Download</span><span>FAQ</span></span>
+        </div>
+        <div class="hC">
+          <div class="wfbg"><canvas data-waterfall data-h="540"></canvas></div>
+          <div class="inner">
+            <div>
+              <div class="ticker">
+                <span class="t">JA1AYO <b>−3</b></span>
+                <span class="t">EA8DH <b>−8</b></span>
+                <span class="t">VK6BMA <b>−14</b></span>
+                <span class="t">14.074 <b>MHz</b></span>
+              </div>
+              <h1>Your whole shack,<br />in your pocket.</h1>
+              <p class="lede">Watch the full passband scroll by, tap a needed station, and let FT8AF run the QSO to a logged contact — all over a single USB-C cable.</p>
+              <div class="cta">
+                <a class="btn btn-primary btn-lg">Get it free on GitHub</a>
+                <a class="btn btn-ghost btn-lg">$3.50 on Google Play</a>
+              </div>
+            </div>
+            <div class="devwrap">
+              <div class="phone" style="--pw:250px;--ph:500px">
+                <div class="phone-screen">
+                  <div class="phone-statusbar"><span>9:41</span><span class="cam"></span><span class="sb-right"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 17h3v4H2zM7 13h3v8H7zM12 9h3v12h-3zM17 5h3v16h-3z"/></svg></span></div>
+                  <div class="phone-body">
+                    <div class="app-topbar"><div><h1 style="font-size:20px">Waterfall</h1><div class="sub"><span>2.5 kHz</span></div></div></div>
+                    <div style="margin:0 10px;background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;padding:0 6px 6px">
+                      <div class="wf-axis"><span>0</span><span>1k</span><span>2k</span><span>3k</span></div>
+                      <canvas data-spectrum data-h="34" style="width:100%;display:block;border-radius:5px 5px 0 0"></canvas>
+                      <canvas data-waterfall data-h="200" style="width:100%;display:block;border-radius:0 0 5px 5px"></canvas>
+                    </div>
+                    <div class="tx-strip" style="margin-top:10px"><span class="live"><b>LISTENING</b></span><span class="freq"><b>14.074</b></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script src="assets/ft8af.js"></script>
+</body>
+</html>

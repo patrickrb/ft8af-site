@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FT8AF — FAQ</title>
+<meta name="description" content="Frequently asked questions about FT8AF: pricing, the Google Play test track, supported radios and cabling, the relationship to FT8CN, and contributing." />
+<link rel="icon" type="image/svg+xml" href="/assets/icon.svg" />
+<link rel="preload" href="/assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/assets/fonts/geist-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="/assets/site.css" />
+<link rel="stylesheet" href="/assets/sections.css" />
+</head>
+<body>
+<div class="bg-field"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/">
+      <span class="mark"><img src="/assets/icon.svg" alt="" width="34" height="34" style="display:block" /></span>
+      <span class="word">FT<b>8</b>AF</span>
+    </a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/features">Features</a>
+      <a href="/download">Download</a>
+      <a href="/faq" class="active">FAQ</a>
+      <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div class="nav-cta">
+      <a class="btn btn-ghost btn-sm" href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.85.09-.66.35-1.12.63-1.37-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.4 9.4 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+        Star
+      </a>
+      <a class="btn btn-primary btn-sm" href="/download">Get it free</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu">
+    <a href="/">Home</a>
+    <a href="/features">Features</a>
+    <a href="/download">Download</a>
+    <a href="/faq">FAQ</a>
+    <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow reveal">FAQ</div>
+    <h1 class="reveal" data-delay="60">Questions, answered.</h1>
+    <p class="lede reveal" data-delay="120">Pricing, the Play Store test track, radios and cabling, and how this all relates to FT8CN. Still stuck? <a href="https://github.com/patrickrb/FT8AF/issues" target="_blank" rel="noopener" style="color:var(--signal)">Open an issue on GitHub</a>.</p>
+  </div>
+</header>
+
+<section class="section-sm" style="padding-top:24px;padding-bottom:96px">
+  <div class="wrap faq-wrap reveal">
+
+    <div class="faq-cat-title">Getting it</div>
+    <div class="faq-cats">
+      <div class="faq-item open">
+        <button class="faq-q">Is FT8AF really free?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes — completely. FT8AF is open source under the GPL-3.0 license. You can download the signed APK from the GitHub Releases page or build it yourself from source, with every feature unlocked and no account required. The $3.50 Google Play option is the same app; you're paying for automatic updates and to support development, not for features.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Then what does the $3.50 on Google Play get me?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Convenience and good karma. The Play Store build updates itself automatically in the background, installs in one tap with no "allow unknown sources" steps, and is Play Protect verified — which makes it the easy choice for a phone you don't want to fuss with. The purchase also directly funds continued development. The app itself is identical to the free GitHub build.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">The Google Play link won't let me install. Why?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">The Play Store listing is currently on an <strong>internal test track</strong>, so you may need to be added to the tester list before Google will let you install it. If the link doesn't work for you yet, download the free APK from the <a href="https://github.com/patrickrb/FT8AF/releases" target="_blank" rel="noopener">GitHub Releases page</a> instead — it's exactly the same application.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How do I install the APK safely?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Download the latest <code>.apk</code> from GitHub Releases, tap it, and approve the one-time "install from this source" prompt Android shows. Then open FT8AF and grant the USB and microphone permissions. Full step-by-step instructions are on the <a href="/download">Download page</a>.</div></div>
+      </div>
+    </div>
+
+    <div class="faq-cat-title">Radios &amp; setup</div>
+    <div class="faq-cats">
+      <div class="faq-item">
+        <button class="faq-q">Which radios are supported?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Any CAT-capable HF radio that the underlying Hamlib-style control supports — including popular rigs like the Icom IC-7300 and Yaesu FT-891, with rig model, control mode, and audio device pickers in Settings. FT8AF includes specific fixes such as setting the FT-891 to 3000&nbsp;Hz bandwidth in DATA-USB mode. If your rig isn't listed, open an issue and let us know.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What cable do I need?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">A single USB connection from your phone to the rig's USB port handles both CAT control and audio on most modern radios. Newer phones connect with a USB-C cable directly; older phones need a USB-OTG adapter. Your device must support USB host (OTG) mode.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can I try it without a radio?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes. FT8AF can decode from the phone's microphone, so you can hold it up to a speaker or just explore the interface and watch the waterfall before wiring up CAT control. It's a good way to learn the layout first.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Which bands work?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">All the standard FT8 sub-bands from 160m through 6m are built in, with one tap to switch. The waterfall covers the full audio passband so you can see and work everything in the segment at once.</div></div>
+      </div>
+    </div>
+
+    <div class="faq-cat-title">The project</div>
+    <div class="faq-cats">
+      <div class="faq-item">
+        <button class="faq-q">How is this different from FT8CN?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">FT8AF is a fork of the excellent FT8CN that brings it forward: a full Jetpack Compose / Material 3 dark UI, complete English localization (the original was Chinese-only), an active QSO monitor with caller queue, Cloudlog and QRZ auto-logging, plus 58+ bug fixes across two "bug bash" passes. The core decoding heritage is FT8CN's — we modernized the experience around it.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Who makes FT8AF?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">It's built by <a href="https://www.qrz.com/db/K1AF" target="_blank" rel="noopener">Patrick Burns (K1AF)</a> and <a href="https://www.qrz.com/db/N0RC" target="_blank" rel="noopener">Reid (N0RC)</a> — much of it, famously, vibe-coded on I-70 on the way to Hamvention. Huge credit goes to <strong>BG7YOZ</strong>, the original author of FT8CN, and <strong>N0BOY</strong>, who hosts the original repository and did early translation work. None of this exists without them.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can I contribute or report a bug?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Please do. The code lives on <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub</a> — open an issue for bugs or feature ideas, send a pull request, or just star the repo to follow along. Field reports from real on-the-air use are especially welcome.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Will it keep getting updates?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">That's the plan. Development is active and ongoing. The fastest way to get new builds automatically is the Google Play version; otherwise watch the Releases page or the repo. Want a nudge when something ships? <a href="/#pricing">Join the update list</a> on the home page.</div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section cta-band">
+  <div class="wrap center">
+    <h2 class="h-section reveal">Still curious? Just try it.</h2>
+    <div class="hero-cta reveal" data-delay="80" style="justify-content:center;margin-top:28px">
+      <a class="btn btn-primary btn-lg" href="/download">Download FT8AF</a>
+      <a class="btn btn-ghost btn-lg" href="https://github.com/patrickrb/FT8AF/issues" target="_blank" rel="noopener">Ask on GitHub</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="brand" href="/" style="margin-bottom:16px">
+          <span class="mark"><img src="/assets/icon.svg" alt="" width="34" height="34" style="display:block" /></span>
+          <span class="word">FT<b>8</b>AF</span>
+        </a>
+        <p style="color:var(--text-muted);font-size:14px;max-width:34ch;margin:0">FT8 on Android, modernized. A community fork of FT8CN, built for real on-the-air use.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="/features">Features</a>
+        <a href="/download">Download</a>
+        <a href="/faq">FAQ</a>
+        <a href="https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af" target="_blank" rel="noopener">Google Play</a>
+      </div>
+      <div class="footer-col">
+        <h4>Project</h4>
+        <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub repo</a>
+        <a href="https://github.com/patrickrb/FT8AF/releases" target="_blank" rel="noopener">Releases</a>
+        <a href="https://github.com/patrickrb/FT8AF/issues" target="_blank" rel="noopener">Report a bug</a>
+        <a href="https://github.com/N0BOY/FT8CN" target="_blank" rel="noopener">Original FT8CN</a>
+      </div>
+      <div class="footer-col">
+        <h4>Operators</h4>
+        <a href="https://www.qrz.com/db/K1AF" target="_blank" rel="noopener">Patrick · K1AF</a>
+        <a href="https://www.qrz.com/db/N0RC" target="_blank" rel="noopener">Reid · N0RC</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 FT8AF · GPL-3.0 · Stands on the shoulders of BG7YOZ &amp; N0BOY</span>
+      <span style="color:var(--accent)">73</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/ft8af.js" defer></script>
+</body>
+</html>

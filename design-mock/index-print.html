@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FT8AF — FT8 for Android</title>
+<meta name="description" content="FT8AF runs FT8 natively on your Android phone or tablet. Decode the band, drive your radio over USB CAT, and work the world from anywhere. Free and open source." />
+<link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/site.css" />
+<link rel="stylesheet" href="assets/sections.css" />
+<link rel="stylesheet" href="assets/phone.css" />
+<style>
+/* ───── Print optimization ───── */
+@media print {
+  @page { size: portrait; margin: 1cm; }
+  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+  html, body { background: #07090f !important; }
+  /* fixed background field doesn't tile across pages — drop it, body color carries */
+  .bg-field { display: none !important; }
+  /* de-stick the nav so it doesn't overlay content */
+  .nav { position: static !important; backdrop-filter: none !important; background: #0a0f1a !important; }
+  .nav-toggle, .mobile-menu { display: none !important; }
+  /* reveal everything (no JS dependence in print) */
+  .reveal { opacity: 1 !important; transform: none !important; }
+  /* tighten vertical rhythm for paper */
+  .section { padding: 40px 0 !important; }
+  .section-sm { padding: 32px 0 !important; }
+  .hero { padding: 32px 0 40px !important; }
+  .hero-device { min-height: 0 !important; }
+  /* keep composed blocks intact across page breaks */
+  .card, .feat, .price, .frow, .mini, .signup, .story-inner,
+  .trust-item, .footer, .phone, .hero-copy { break-inside: avoid; }
+  .price-grid, .feat-grid, .cta-grid { break-inside: avoid; }
+  /* no clipped overflow hiding content */
+  .hero { overflow: visible !important; }
+  a { text-decoration: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="bg-field"></div>
+
+<!-- ───────── NAV ───────── -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">
+      <span class="mark"><img src="assets/icon.svg" alt="" width="34" height="34" style="display:block" /></span>
+      <span class="word">FT<b>8</b>AF</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="features.html">Features</a>
+      <a href="download.html">Download</a>
+      <a href="faq.html">FAQ</a>
+      <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div class="nav-cta">
+      <a class="btn btn-ghost btn-sm" href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.85.09-.66.35-1.12.63-1.37-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.4 9.4 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+        Star
+      </a>
+      <a class="btn btn-primary btn-sm" href="download.html">Get it free</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="features.html">Features</a>
+    <a href="download.html">Download</a>
+    <a href="faq.html">FAQ</a>
+    <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</nav>
+
+<!-- ───────── HERO ───────── -->
+<header class="hero section">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow reveal">FT8 · Native Android</div>
+      <h1 class="h-display reveal" data-delay="60">Work the world<br />from your pocket.</h1>
+      <p class="lede reveal" data-delay="120" style="margin-top:22px">
+        FT8AF decodes the band, drives your radio over USB CAT, and runs the full
+        auto-sequence — all natively on your Android phone or tablet. No laptop. No
+        soundcard tangle. Just your rig and a USB-C cable.
+      </p>
+      <div class="hero-cta reveal" data-delay="180">
+        <a class="btn btn-primary btn-lg" href="download.html">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.85.09-.66.35-1.12.63-1.37-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.4 9.4 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+          Get it free on GitHub
+        </a>
+        <a class="btn btn-ghost btn-lg" href="https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3.6 2.7 14.5 12 3.6 21.3a1 1 0 0 1-.6-.93V3.63a1 1 0 0 1 .6-.93Z"/><path d="m14.5 12 3.9-3.3 2.7 1.5a1.4 1.4 0 0 1 0 2.45l-2.7 1.5L14.5 12Z"/></svg>
+          $3.50 on Google Play
+        </a>
+      </div>
+      <div class="hero-meta reveal" data-delay="240">
+        <span class="pill amber"><span class="dot" style="background:var(--accent)"></span>Free &amp; open source</span>
+        <span class="hero-meta-sep">·</span>
+        <span class="mono">GPL-3.0</span>
+        <span class="hero-meta-sep">·</span>
+        <span class="mono">Forked from FT8CN</span>
+      </div>
+    </div>
+
+    <!-- Phone + waterfall backdrop -->
+    <div class="hero-device reveal" data-delay="160">
+      <canvas class="hero-wf" data-waterfall data-h="520"></canvas>
+      <div class="phone">
+        <div class="phone-screen">
+          <div class="phone-statusbar">
+            <span>9:41</span>
+            <span class="cam"></span>
+            <span class="sb-right">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 17h3v4H2zM7 13h3v8H7zM12 9h3v12h-3zM17 5h3v16h-3z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 4C7 4 3 7 1 10l11 11L23 10c-2-3-6-6-11-6z" opacity="0.9"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="18" height="10" rx="2.5"/><rect x="4" y="9" width="12" height="6" rx="1" fill="currentColor"/><path d="M22 10v4"/></svg>
+            </span>
+          </div>
+          <div class="phone-body">
+            <div class="app-topbar">
+              <div>
+                <h1>Decode</h1>
+                <div class="sub"><span>14:23:00 UTC</span><span style="color:var(--text-dim)">·</span><span class="dot-live">14 new</span></div>
+              </div>
+              <div class="icon-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-3.5-3.5"/></svg>
+              </div>
+            </div>
+            <div class="chips">
+              <span class="chip active">All <span class="ct">14</span></span>
+              <span class="chip">CQ Calls <span class="ct">11</span></span>
+              <span class="chip">New DXCC <span class="ct">4</span></span>
+              <span class="chip">Needed</span>
+            </div>
+            <div class="decode-list">
+              <!-- JA1AYO -->
+              <div class="drow cq">
+                <span class="accent-bar" style="background:var(--status-new);box-shadow:0 0 8px rgba(192,132,252,0.5)"></span>
+                <div class="r-head">
+                  <span class="tag" style="color:var(--status-new)">CQ</span>
+                  <span class="call">JA1AYO</span>
+                  <span class="grid">PM95</span>
+                  <span class="spacer"></span>
+                  <span class="spill" style="color:var(--status-new);background:rgba(192,132,252,0.12);border:1px solid rgba(192,132,252,0.28)"><span class="d" style="background:var(--status-new)"></span>New DXCC</span>
+                </div>
+                <div class="r-meta">
+                  <span class="sig" style="color:#4ade80"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>
+                  <span style="color:var(--text);font-weight:500">−3 dB</span>
+                  <span class="sep">·</span><span>1247 Hz</span>
+                  <span class="sep">·</span><span>10,312 km</span>
+                  <span class="spacer"></span><span class="t">14:23:00</span>
+                </div>
+                <div class="r-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>Japan</div>
+              </div>
+              <!-- EA8DH -->
+              <div class="drow cq">
+                <span class="accent-bar" style="background:var(--accent);box-shadow:0 0 8px rgba(255,175,94,0.5)"></span>
+                <div class="r-head">
+                  <span class="tag" style="color:var(--accent)">CQ</span>
+                  <span class="call">EA8DH</span>
+                  <span class="grid">IL18</span>
+                  <span class="spacer"></span>
+                  <span class="spill" style="color:var(--accent);background:rgba(255,175,94,0.12);border:1px solid rgba(255,175,94,0.28)"><span class="d" style="background:var(--accent)"></span>Needed</span>
+                </div>
+                <div class="r-meta">
+                  <span class="sig" style="color:var(--signal)"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span>
+                  <span style="color:var(--text);font-weight:500">−8 dB</span>
+                  <span class="sep">·</span><span>0832 Hz</span>
+                  <span class="sep">·</span><span>6,710 km</span>
+                  <span class="spacer"></span><span class="t">14:23:00</span>
+                </div>
+                <div class="r-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>Canary Is.</div>
+              </div>
+              <!-- VK6BMA -->
+              <div class="drow cq">
+                <span class="accent-bar" style="background:var(--status-new);box-shadow:0 0 8px rgba(192,132,252,0.5)"></span>
+                <div class="r-head">
+                  <span class="tag" style="color:var(--status-new)">CQ</span>
+                  <span class="call">VK6BMA</span>
+                  <span class="grid">OF78</span>
+                  <span class="spacer"></span>
+                  <span class="spill" style="color:var(--status-new);background:rgba(192,132,252,0.12);border:1px solid rgba(192,132,252,0.28)"><span class="d" style="background:var(--status-new)"></span>New DXCC</span>
+                </div>
+                <div class="r-meta">
+                  <span class="sig" style="color:var(--accent)"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span>
+                  <span style="color:var(--text);font-weight:500">−14 dB</span>
+                  <span class="sep">·</span><span>1684 Hz</span>
+                  <span class="sep">·</span><span>17,580 km</span>
+                  <span class="spacer"></span><span class="t">14:23:00</span>
+                </div>
+                <div class="r-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>Australia</div>
+              </div>
+              <!-- W3LPL to you -->
+              <div class="drow tome">
+                <div class="r-head">
+                  <span class="tag" style="color:var(--signal)">↳ TO YOU</span>
+                  <span class="call">W3LPL</span>
+                  <span class="grid">FM19</span>
+                  <span class="spacer"></span>
+                  <span class="spill" style="color:var(--signal);background:rgba(92,214,232,0.1);border:1px solid rgba(92,214,232,0.22)"><span class="d" style="background:var(--signal)"></span>Worked</span>
+                </div>
+                <div class="r-meta">
+                  <span class="sig" style="color:var(--signal)"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>
+                  <span style="color:var(--text);font-weight:500">−6 dB</span>
+                  <span class="sep">·</span><span>1502 Hz</span>
+                  <span class="sep">·</span><span>1,180 km</span>
+                  <span class="spacer"></span><span class="t">14:22:45</span>
+                </div>
+              </div>
+            </div>
+            <div class="tx-strip">
+              <span class="live"><b>LISTENING</b><span style="color:var(--text-faint)">·</span>20m FT8</span>
+              <span class="freq"><b>14.074</b> <span>MHz</span></span>
+            </div>
+            <div class="tabbar">
+              <span class="tabbtn active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3.5 6h17M3.5 12h12M3.5 18h17"/><circle cx="19" cy="12" r="1.2" fill="currentColor" stroke="none"/></svg>Decode</span>
+              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>Map</span>
+              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V9M9 19V5M14 19V11M19 19V7"/></svg>Waterfall</span>
+              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19"/></svg>Logbook</span>
+              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1l2.1-2.1M17 7l2.1-2.1"/></svg>Settings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ───────── TRUST STRIP ───────── -->
+<section class="trust">
+  <div class="wrap trust-inner">
+    <div class="trust-item reveal"><span class="mono num">11</span><span class="lbl">HF bands<br />160m – 6m</span></div>
+    <div class="trust-item reveal" data-delay="60"><span class="mono num">58<span style="color:var(--text-faint)">+</span></span><span class="lbl">Bug fixes<br />over the fork</span></div>
+    <div class="trust-item reveal" data-delay="120"><span class="mono num">M3</span><span class="lbl">Material 3<br />dark UI</span></div>
+    <div class="trust-item reveal" data-delay="180"><span class="mono num">USB</span><span class="lbl">CAT control<br />+ audio</span></div>
+    <div class="trust-item reveal" data-delay="240"><span class="mono num">EN</span><span class="lbl">Full English<br />localization</span></div>
+  </div>
+</section>
+
+<!-- ───────── FEATURES TEASER ───────── -->
+<section class="section" id="features">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Built for the air</div>
+      <h2 class="h-section">Everything you need to<br />run a band — on a phone.</h2>
+    </div>
+    <div class="feat-grid">
+      <article class="card feat reveal">
+        <div class="feat-ic amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V9M9 19V5M14 19V11M19 19V7"/></svg></div>
+        <h3>Live band decoding &amp; waterfall</h3>
+        <p>A continuously scrolling waterfall with UTC timestamps at every FT8 period, tap-to-tune labels, and decodes in milliseconds.</p>
+      </article>
+      <article class="card feat reveal" data-delay="80">
+        <div class="feat-ic cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="2"/><path d="M8.5 8.5a5 5 0 0 0 0 7M15.5 8.5a5 5 0 0 1 0 7M5.5 5.5a9 9 0 0 0 0 13M18.5 5.5a9 9 0 0 1 0 13"/></svg></div>
+        <h3>Active QSO monitor</h3>
+        <p>A collapsible panel tracks your current contact through the full auto-sequence, with a caller queue so you stay on target.</p>
+      </article>
+      <article class="card feat reveal" data-delay="160">
+        <div class="feat-ic amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 11a8 8 0 0 1 13.5-5.7M7 11a5 5 0 0 1 8.5-3.6"/><circle cx="4" cy="20" r="2"/><path d="M4 18V14"/></svg></div>
+        <h3>USB CAT radio control</h3>
+        <p>Drive your rig directly over USB-C — CAT control, audio, rig models, and DATA-USB bandwidth handled, with auto-connect fixes.</p>
+      </article>
+      <article class="card feat reveal" data-delay="40">
+        <div class="feat-ic cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19"/><path d="M9 8h6M9 12h4"/></svg></div>
+        <h3>Cloudlog &amp; QRZ logging</h3>
+        <p>Automatic log upload to Cloudlog and QRZ the moment a QSO completes — configured once, then out of your way.</p>
+      </article>
+      <article class="card feat reveal" data-delay="120">
+        <div class="feat-ic amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></div>
+        <h3>Full English localization</h3>
+        <p>The original was Chinese-only. FT8AF is translated end-to-end, with RTL support and clean, readable menus throughout.</p>
+      </article>
+      <article class="card feat reveal" data-delay="200">
+        <div class="feat-ic cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div>
+        <h3>Material 3 dark UI</h3>
+        <p>A complete Jetpack Compose rebuild — fast, legible at a glance in the field, and easy on the eyes during a long night of DX.</p>
+      </article>
+    </div>
+    <div class="center reveal" style="margin-top:44px">
+      <a class="btn btn-ghost btn-lg" href="features.html">Explore all features
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── PRICING ───────── -->
+<section class="section" id="pricing" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="eyebrow" style="justify-content:center">Get FT8AF</div>
+      <h2 class="h-section">Free forever.<br />Or $3.50 to keep it fed.</h2>
+      <p class="lede mx-auto" style="margin-top:16px;text-align:center">Same app, either way. The Play Store build just makes updates automatic — and chips in toward the next road-trip debugging session.</p>
+    </div>
+    <div class="price-grid">
+      <article class="card price reveal">
+        <div class="price-top">
+          <span class="pill cyan"><span class="dot" style="background:var(--signal)"></span>Open source</span>
+          <div class="price-amt"><span class="mono">$0</span></div>
+        </div>
+        <h3>Free from GitHub</h3>
+        <p>The full app, GPL-licensed and built in the open. Grab the APK or build it yourself.</p>
+        <ul class="price-list">
+          <li>Every feature, no limits</li>
+          <li>Sideload the latest APK</li>
+          <li>Build from source with Gradle</li>
+          <li>Read, fork &amp; contribute the code</li>
+        </ul>
+        <a class="btn btn-ghost btn-lg" style="width:100%" href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.85.09-.66.35-1.12.63-1.37-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.4 9.4 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+          View on GitHub
+        </a>
+      </article>
+      <article class="card price featured reveal" data-delay="80">
+        <span class="price-flag mono">Supports the project</span>
+        <div class="price-top">
+          <span class="pill amber"><span class="dot" style="background:var(--accent)"></span>Google Play</span>
+          <div class="price-amt"><span class="mono">$3.50</span><span class="price-per">one-time</span></div>
+        </div>
+        <h3>Support the project</h3>
+        <p>Identical app, delivered through the Play Store — so it stays current without you lifting a finger.</p>
+        <ul class="price-list">
+          <li><strong>Automatic background updates</strong></li>
+          <li>One-tap install, no sideloading</li>
+          <li>Play Protect verified build</li>
+          <li>Directly funds development</li>
+        </ul>
+        <a class="btn btn-primary btn-lg" style="width:100%" href="https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3.6 2.7 14.5 12 3.6 21.3a1 1 0 0 1-.6-.93V3.63a1 1 0 0 1 .6-.93Z"/><path d="m14.5 12 3.9-3.3 2.7 1.5a1.4 1.4 0 0 1 0 2.45l-2.7 1.5L14.5 12Z"/></svg>
+          Get it on Google Play
+        </a>
+      </article>
+    </div>
+    <p class="center mono price-note reveal">Internal test track · you may need to join the tester list first. <a href="faq.html" style="color:var(--signal)">More in the FAQ →</a></p>
+  </div>
+</section>
+
+<!-- ───────── ORIGIN STORY ───────── -->
+<section class="section-sm story reveal">
+  <div class="wrap story-inner">
+    <div class="eyebrow cyan">73 from the road</div>
+    <p class="story-quote">
+      Most of FT8AF was vibe-coded on I-70 at 70&nbsp;mph, heading to and from Hamvention —
+      laptop on the passenger seat, radio in the back, Claude in the loop.
+      <span style="color:var(--text-muted)">Some of the best debugging happens at highway speed.</span>
+    </p>
+    <div class="story-by">
+      <span class="mono">Patrick Burns · <a href="https://www.qrz.com/db/K1AF" target="_blank" rel="noopener" style="color:var(--accent)">K1AF</a></span>
+      <span style="color:var(--text-dim)">·</span>
+      <span class="mono">Reid · <a href="https://www.qrz.com/db/N0RC" target="_blank" rel="noopener" style="color:var(--accent)">N0RC</a></span>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── CTA / EMAIL ───────── -->
+<section class="section cta-band">
+  <div class="wrap cta-grid">
+    <div class="reveal">
+      <div class="eyebrow">Stay in the loop</div>
+      <h2 class="h-section">Get build notes &amp;<br />new-feature drops.</h2>
+      <p class="lede" style="margin-top:14px">Low volume. Release notes, field reports, and the occasional "we fixed the thing that crashed on your FT-891." Unsubscribe anytime.</p>
+    </div>
+    <div class="reveal" data-delay="80">
+      <form class="signup card" data-signup>
+        <div data-signup-fields class="signup-fields">
+          <label class="signup-lbl mono">Email address</label>
+          <div class="signup-row">
+            <input type="email" required placeholder="you@callsign.radio" class="signup-input" />
+            <button type="submit" class="btn btn-primary">Notify me</button>
+          </div>
+          <div class="signup-or">
+            <span>or just</span>
+            <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">★ star the repo to follow along</a>
+          </div>
+        </div>
+        <div data-signup-done class="signup-done">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12l5 5 11-12"/></svg>
+          <span>You're on the list. <span class="mono" style="color:var(--text-muted)">73!</span></span>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── FOOTER ───────── -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="brand" href="index.html" style="margin-bottom:16px">
+          <span class="mark"><img src="assets/icon.svg" alt="" width="34" height="34" style="display:block" /></span>
+          <span class="word">FT<b>8</b>AF</span>
+        </a>
+        <p style="color:var(--text-muted);font-size:14px;max-width:34ch;margin:0">FT8 on Android, modernized. A community fork of FT8CN, built for real on-the-air use.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="features.html">Features</a>
+        <a href="download.html">Download</a>
+        <a href="faq.html">FAQ</a>
+        <a href="https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af" target="_blank" rel="noopener">Google Play</a>
+      </div>
+      <div class="footer-col">
+        <h4>Project</h4>
+        <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub repo</a>
+        <a href="https://github.com/patrickrb/FT8AF/releases" target="_blank" rel="noopener">Releases</a>
+        <a href="https://github.com/patrickrb/FT8AF/issues" target="_blank" rel="noopener">Report a bug</a>
+        <a href="https://github.com/N0BOY/FT8CN" target="_blank" rel="noopener">Original FT8CN</a>
+      </div>
+      <div class="footer-col">
+        <h4>Operators</h4>
+        <a href="https://www.qrz.com/db/K1AF" target="_blank" rel="noopener">Patrick · K1AF</a>
+        <a href="https://www.qrz.com/db/N0RC" target="_blank" rel="noopener">Reid · N0RC</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 FT8AF · GPL-3.0 · Stands on the shoulders of BG7YOZ &amp; N0BOY</span>
+      <span style="color:var(--accent)">73</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/ft8af.js"></script>
+<script>
+/* Auto-open the print dialog once fonts + canvases are ready */
+(function () {
+  function go() { setTimeout(function () { window.print(); }, 600); }
+  function whenReady() {
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(go);
+    } else { go(); }
+  }
+  if (document.readyState === 'complete') { whenReady(); }
+  else { window.addEventListener('load', whenReady); }
+})();
+</script>
+</body>
+</html>

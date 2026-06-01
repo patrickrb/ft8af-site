@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FT8AF — Features</title>
+<meta name="description" content="Live band decoding and a continuous waterfall, an active QSO monitor with full auto-sequence, USB CAT radio control, automatic Cloudlog and QRZ logging, full English localization, and a Material 3 dark UI." />
+<link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/site.css" />
+<link rel="stylesheet" href="assets/sections.css" />
+<link rel="stylesheet" href="assets/phone.css" />
+</head>
+<body>
+<div class="bg-field"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">
+      <span class="mark"><img src="assets/icon.svg" alt="" width="34" height="34" style="display:block" /></span>
+      <span class="word">FT<b>8</b>AF</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="features.html" class="active">Features</a>
+      <a href="download.html">Download</a>
+      <a href="faq.html">FAQ</a>
+      <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div class="nav-cta">
+      <a class="btn btn-ghost btn-sm" href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.85.09-.66.35-1.12.63-1.37-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.4 9.4 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+        Star
+      </a>
+      <a class="btn btn-primary btn-sm" href="download.html">Get it free</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="features.html">Features</a>
+    <a href="download.html">Download</a>
+    <a href="faq.html">FAQ</a>
+    <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow reveal">The feature set</div>
+    <h1 class="reveal" data-delay="60">A full FT8 station,<br />rebuilt for Android.</h1>
+    <p class="lede reveal" data-delay="120">Every part of the operating loop — decode, target, transmit, log — reworked in a fast Jetpack Compose UI and hardened over two bug-bash passes. Here's what's inside.</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- 1 · Waterfall -->
+  <section class="frow reveal">
+    <div class="frow-visual">
+      <div class="viz">
+        <div class="viz-head"><span>20m · 14.074 MHz</span><span class="live">Live</span></div>
+        <div class="viz-body" style="padding:12px">
+          <div class="wf-axis"><span>0</span><span>500</span><span>1000</span><span>1500</span><span>2000</span><span>2500</span><span>3000</span></div>
+          <canvas data-spectrum data-h="48" style="width:100%;display:block;border-radius:8px 8px 0 0"></canvas>
+          <canvas data-waterfall data-h="240" style="width:100%;display:block;border-radius:0 0 8px 8px"></canvas>
+        </div>
+        <div class="wf-foot"><span>UTC 14:23:00</span><span>Decoded in 64 ms</span><span class="live" style="color:var(--signal)">● 14 signals</span></div>
+      </div>
+    </div>
+    <div class="frow-copy">
+      <div class="eyebrow">01 · Spectrum</div>
+      <h2>Live band decoding &amp; waterfall</h2>
+      <p>Watch the whole 3&nbsp;kHz passband at once. The waterfall scrolls continuously with UTC timestamps drawn at every FT8 period boundary, so you can read propagation at a glance and pounce the instant a needed station appears.</p>
+      <ul class="feat-points">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Continuous scroll with period-boundary time markers</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Configurable spectrum width &amp; zoom (Wide → 500&nbsp;Hz)</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Tap a signal to tune; TX marker stays aligned</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 2 · QSO monitor -->
+  <section class="frow flip reveal">
+    <div class="frow-visual">
+      <div class="viz">
+        <div class="viz-head"><span>Active QSO · EA8DH</span><span class="live">Auto</span></div>
+        <div class="viz-body">
+          <div class="qseq">
+            <div class="qstep done"><span class="num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 12l5 5 11-12"/></svg></span><div><div class="ql">Send call</div><div class="qm"><span class="tx">TX</span> KD9XYZ EN52</div></div></div>
+            <div class="qstep done"><span class="num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 12l5 5 11-12"/></svg></span><div><div class="ql">Report sent</div><div class="qm"><span class="rx">RX</span> KD9XYZ EA8DH −12</div></div></div>
+            <div class="qstep active"><span class="num">3</span><div><div class="ql">Roger report</div><div class="qm"><span class="tx">TX</span> EA8DH KD9XYZ R−09</div></div></div>
+            <div class="qstep pending"><span class="num">4</span><div><div class="ql">Confirm</div></div></div>
+            <div class="qstep pending"><span class="num">5</span><div><div class="ql">Logged</div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="frow-copy">
+      <div class="eyebrow cyan">02 · Operating</div>
+      <h2>Active QSO monitor &amp; auto-sequence</h2>
+      <p>A collapsible panel sits right above the TX strip and tracks your current contact through every step of the FT8 exchange. A caller queue keeps you locked on your target instead of bouncing to whoever's loudest.</p>
+      <ul class="feat-points">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Full auto-sequence: call → report → roger → 73 → log</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Caller queue so you stay on the station you want</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>CQ / Stop toggle and TX1 / TX2 slot picker on the strip</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 3 · USB CAT -->
+  <section class="frow reveal">
+    <div class="frow-visual">
+      <div class="viz">
+        <div class="viz-head"><span>USB CAT + Audio</span><span class="live">Connected</span></div>
+        <div class="viz-body">
+          <div class="usb-diag">
+            <div class="usb-node">
+              <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M10 18h4"/></svg></div>
+              <div class="nl"><b>FT8AF</b>Android</div>
+            </div>
+            <div class="usb-link">
+              <div class="wire"></div>
+              <span class="lbl">USB-C · CAT</span>
+            </div>
+            <div class="usb-node">
+              <div class="ic" style="color:var(--signal)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="8" cy="12" r="2.4"/><path d="M14 10h5M14 14h5"/></svg></div>
+              <div class="nl"><b>Your rig</b>IC-7300 · FT-891</div>
+            </div>
+          </div>
+          <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;font-family:var(--font-mono);font-size:11px">
+            <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:9px"><div style="color:var(--text-faint);font-size:9px;text-transform:uppercase;letter-spacing:.06em">Mode</div><div style="color:var(--text);margin-top:3px">DATA-USB</div></div>
+            <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:9px"><div style="color:var(--text-faint);font-size:9px;text-transform:uppercase;letter-spacing:.06em">BW</div><div style="color:var(--text);margin-top:3px">3000 Hz</div></div>
+            <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:9px"><div style="color:var(--text-faint);font-size:9px;text-transform:uppercase;letter-spacing:.06em">PTT</div><div style="color:var(--status-confirmed);margin-top:3px">CAT</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="frow-copy">
+      <div class="eyebrow">03 · Hardware</div>
+      <h2>USB CAT radio control</h2>
+      <p>Plug your rig straight into your phone with a single USB-C cable. FT8AF handles CAT frequency control, USB audio, and PTT — with a pile of reliability fixes for auto-connect races, multi-port handling, and serial control.</p>
+      <ul class="feat-points">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Rig model, control mode &amp; audio device pickers</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>FT-891 correctly set to 3000&nbsp;Hz in DATA-USB</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>TX volume mapped to the hardware volume buttons</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4 · Logging -->
+  <section class="frow flip reveal">
+    <div class="frow-visual">
+      <div class="viz">
+        <div class="viz-head"><span>Logbook · auto-upload</span><span class="live">Synced</span></div>
+        <div class="viz-body" style="padding:6px 16px 12px">
+          <div class="logrow">
+            <span class="spill" style="color:var(--status-confirmed);background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.22)"><span class="d" style="background:var(--status-confirmed)"></span>QRZ</span>
+            <div><div class="lc">DL7VEE <span style="color:var(--text-faint);font-weight:400;font-size:12px">JO62</span></div><div class="ld">Germany · 20m · FT8</div></div>
+            <div class="lt">14:18<br />−18 / −09</div>
+          </div>
+          <div class="logrow">
+            <span class="spill" style="color:var(--signal);background:rgba(92,214,232,.1);border:1px solid rgba(92,214,232,.22)"><span class="d" style="background:var(--signal)"></span>Cloud</span>
+            <div><div class="lc">W3LPL <span style="color:var(--text-faint);font-weight:400;font-size:12px">FM19</span></div><div class="ld">Maryland · 20m · FT8</div></div>
+            <div class="lt">14:02<br />−06 / −11</div>
+          </div>
+          <div class="logrow">
+            <span class="spill" style="color:var(--status-confirmed);background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.22)"><span class="d" style="background:var(--status-confirmed)"></span>QRZ</span>
+            <div><div class="lc">JA3YBK <span style="color:var(--text-faint);font-weight:400;font-size:12px">PM74</span></div><div class="ld">Japan · 15m · FT8</div></div>
+            <div class="lt">13:45<br />−12 / −15</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="frow-copy">
+      <div class="eyebrow cyan">04 · Logging</div>
+      <h2>Cloudlog &amp; QRZ auto-logging</h2>
+      <p>Configure your log services once and forget them. The moment a QSO completes, FT8AF pushes it straight to Cloudlog and QRZ — no exporting ADIF files, no copying callsigns by hand at the end of the night.</p>
+      <ul class="feat-points">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Cloudlog configuration dialog with automatic upload</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>QRZ automatic log upload</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Every contact captured with both SNR reports</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 5 · Localization -->
+  <section class="frow reveal">
+    <div class="frow-visual">
+      <div class="viz">
+        <div class="viz-head"><span>Language</span><span>EN · RTL ready</span></div>
+        <div class="viz-body">
+          <div class="loc-pair">
+            <div class="loc-col before">
+              <div class="lh">Original FT8CN</div>
+              <div class="loc-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>设置</div>
+              <div class="loc-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V9M9 19V5M14 19V11M19 19V7"/></svg>瀑布图</div>
+              <div class="loc-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/></svg>日志</div>
+            </div>
+            <div class="loc-col now">
+              <div class="lh">FT8AF</div>
+              <div class="loc-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>Settings</div>
+              <div class="loc-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V9M9 19V5M14 19V11M19 19V7"/></svg>Waterfall</div>
+              <div class="loc-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/></svg>Logbook</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="frow-copy">
+      <div class="eyebrow">05 · Accessibility</div>
+      <h2>Full English localization</h2>
+      <p>The original FT8CN was Chinese-only. FT8AF is translated end to end — every menu, dialog, and label — with right-to-left layout support added along the way, so the app reads cleanly wherever you operate from.</p>
+      <ul class="feat-points">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Complete English strings across the app</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>RTL layout support &amp; encoding fixes</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Clear, readable menus throughout</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 6 · Material 3 -->
+  <section class="frow flip reveal">
+    <div class="frow-visual">
+      <div class="phone" style="--pw:280px;--ph:570px">
+        <div class="phone-screen">
+          <div class="phone-statusbar">
+            <span>9:41</span><span class="cam"></span>
+            <span class="sb-right">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 17h3v4H2zM7 13h3v8H7zM12 9h3v12h-3zM17 5h3v16h-3z"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="18" height="10" rx="2.5"/><rect x="4" y="9" width="12" height="6" rx="1" fill="currentColor"/><path d="M22 10v4"/></svg>
+            </span>
+          </div>
+          <div class="phone-body">
+            <div class="app-topbar">
+              <div><h1>Waterfall</h1><div class="sub"><span>2.5 kHz</span><span style="color:var(--text-dim)">·</span><span>14 signals</span></div></div>
+              <div class="icon-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1l2.1-2.1M17 7l2.1-2.1"/></svg></div>
+            </div>
+            <div class="chips">
+              <span class="chip active">Wide</span><span class="chip">1.5 kHz</span><span class="chip">500 Hz</span>
+            </div>
+            <div style="margin:0 10px 12px;background:var(--bg-surface);border:1px solid var(--border);border-radius:14px;overflow:hidden">
+              <div class="wf-axis"><span>0</span><span>1k</span><span>2k</span><span>3k</span></div>
+              <div style="padding:0 8px 8px">
+                <canvas data-spectrum data-h="40" style="width:100%;display:block;border-radius:6px 6px 0 0"></canvas>
+                <canvas data-waterfall data-h="230" style="width:100%;display:block;border-radius:0 0 6px 6px"></canvas>
+              </div>
+            </div>
+            <div class="tx-strip"><span class="live"><b>LISTENING</b><span style="color:var(--text-faint)">·</span>20m</span><span class="freq"><b>14.074</b></span></div>
+            <div class="tabbar">
+              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3.5 6h17M3.5 12h12M3.5 18h17"/></svg>Decode</span>
+              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18"/></svg>Map</span>
+              <span class="tabbtn active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V9M9 19V5M14 19V11M19 19V7"/></svg>Waterfall</span>
+              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/></svg>Log</span>
+              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>Setup</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="frow-copy">
+      <div class="eyebrow cyan">06 · Interface</div>
+      <h2>Material 3 dark UI</h2>
+      <p>The whole interface is a fresh Jetpack Compose rebuild on a Material 3 dark theme — high-contrast, legible at a glance in bright sun or a dark shack, and laid out for thumbs, with a compact density mode for tablets.</p>
+      <ul class="feat-points">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Jetpack Compose, Material 3, dark by default</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Status-coded decodes: new, needed, worked, confirmed</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Field-ready contrast and tap targets</li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<!-- MORE / STABILITY -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">And the unglamorous wins</div>
+      <h2 class="h-section">58+ fixes you'll never<br />have to think about.</h2>
+      <p class="lede" style="margin-top:16px">Two full "bug bash" passes went after the crashes, leaks, and lifecycle gremlins that get between you and a clean QSO.</p>
+    </div>
+    <div class="mini-grid">
+      <div class="mini reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2 2 7l10 5 10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg><div><h4>Crash &amp; leak fixes</h4><p>NPE crashes, resource leaks, and threading races hunted down across the app.</p></div></div>
+      <div class="mini cyan reveal" data-delay="60"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><h4>UTC waterfall stamps</h4><p>Timestamps drawn at FT8 period boundaries so you can read timing instantly.</p></div></div>
+      <div class="mini reveal" data-delay="120"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M16 8a5 5 0 0 1 0 8"/></svg><div><h4>Hardware TX volume</h4><p>Set transmit level with the phone's physical volume buttons, mid-QSO.</p></div></div>
+      <div class="mini cyan reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 7h10M7 7l3-3M7 7l3 3M17 17H7M17 17l-3-3M17 17l-3 3"/></svg><div><h4>TX1 / TX2 slot toggle</h4><p>Pick your transmit period directly, right from the TX strip.</p></div></div>
+      <div class="mini reveal" data-delay="60"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg><div><h4>Android 12+ clean</h4><p>Lint errors and lifecycle bugs resolved for modern Android releases.</p></div></div>
+      <div class="mini cyan reveal" data-delay="120"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="2"/><path d="M5.5 5.5a9 9 0 0 0 0 13M18.5 5.5a9 9 0 0 1 0 13"/></svg><div><h4>TX marker alignment</h4><p>Transmit frequency cursor stays locked to your actual TX audio.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section cta-band">
+  <div class="wrap center">
+    <h2 class="h-section reveal">Ready to put a station<br />in your pocket?</h2>
+    <div class="hero-cta reveal" data-delay="80" style="justify-content:center;margin-top:30px">
+      <a class="btn btn-primary btn-lg" href="download.html">Download FT8AF</a>
+      <a class="btn btn-ghost btn-lg" href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.85.09-.66.35-1.12.63-1.37-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.4 9.4 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+        Star on GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="brand" href="index.html" style="margin-bottom:16px">
+          <span class="mark"><img src="assets/icon.svg" alt="" width="34" height="34" style="display:block" /></span>
+          <span class="word">FT<b>8</b>AF</span>
+        </a>
+        <p style="color:var(--text-muted);font-size:14px;max-width:34ch;margin:0">FT8 on Android, modernized. A community fork of FT8CN, built for real on-the-air use.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="features.html">Features</a>
+        <a href="download.html">Download</a>
+        <a href="faq.html">FAQ</a>
+        <a href="https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af" target="_blank" rel="noopener">Google Play</a>
+      </div>
+      <div class="footer-col">
+        <h4>Project</h4>
+        <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub repo</a>
+        <a href="https://github.com/patrickrb/FT8AF/releases" target="_blank" rel="noopener">Releases</a>
+        <a href="https://github.com/patrickrb/FT8AF/issues" target="_blank" rel="noopener">Report a bug</a>
+        <a href="https://github.com/N0BOY/FT8CN" target="_blank" rel="noopener">Original FT8CN</a>
+      </div>
+      <div class="footer-col">
+        <h4>Operators</h4>
+        <a href="https://www.qrz.com/db/K1AF" target="_blank" rel="noopener">Patrick · K1AF</a>
+        <a href="https://www.qrz.com/db/N0RC" target="_blank" rel="noopener">Reid · N0RC</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 FT8AF · GPL-3.0 · Stands on the shoulders of BG7YOZ &amp; N0BOY</span>
+      <span style="color:var(--accent)">73</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/ft8af.js"></script>
+</body>
+</html>
