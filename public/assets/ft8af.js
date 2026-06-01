@@ -156,6 +156,7 @@
     document.querySelectorAll('form[data-signup]').forEach(function (f) {
       f.addEventListener('submit', function (e) {
         e.preventDefault();
+        track('email_signup', { page: location.pathname });
         var done = f.querySelector('[data-signup-done]');
         var fields = f.querySelector('[data-signup-fields]');
         if (done && fields) { fields.style.display = 'none'; done.style.display = 'flex'; }
@@ -163,8 +164,44 @@
     });
   }
 
+  // ───── Vercel Analytics — custom events ─────
+  // window.va is defined by /_vercel/insights/script.js; we stubbed a queue in <head>
+  // so events fired before it loads aren't lost.
+  function track(name, props) {
+    if (typeof window.va !== 'function') return;
+    try { window.va('event', Object.assign({ name: name }, props || {})); } catch (e) {}
+  }
+
+  function classifyLink(a) {
+    var href = a.getAttribute('href') || '';
+    if (!href) return null;
+    if (/play\.google\.com\/store/i.test(href))                return 'buy_play_store';
+    if (/github\.com\/patrickrb\/FT8AF\/releases/i.test(href)) return 'download_apk';
+    if (/github\.com\/patrickrb\/FT8AF\/issues/i.test(href))   return 'github_issues';
+    if (/github\.com\/patrickrb\/FT8AF/i.test(href))           return 'github_repo';
+    if (/github\.com\/N0BOY\/FT8CN/i.test(href))               return 'github_ft8cn';
+    if (/qrz\.com\//i.test(href))                              return 'qrz_profile';
+    return null;
+  }
+
+  function initAnalytics() {
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a');
+      if (!a) return;
+      var name = classifyLink(a);
+      if (!name) return;
+      track(name, {
+        page: location.pathname,
+        href: a.getAttribute('href'),
+        label: (a.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 60),
+        cta: a.classList.contains('btn-primary') ? 'primary'
+           : a.classList.contains('btn') ? 'secondary' : 'inline'
+      });
+    });
+  }
+
   function init() {
-    initNav(); initReveal(); initCanvases(); initFaq(); initForms();
+    initNav(); initReveal(); initCanvases(); initFaq(); initForms(); initAnalytics();
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
