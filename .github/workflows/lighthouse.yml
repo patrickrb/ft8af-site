@@ -1,7 +1,14 @@
 name: Lighthouse
 
-# Fires when Vercel reports a successful deployment back to GitHub via the
-# Deployments API. Works for both PR preview deploys and production deploys.
+# Runs when Vercel reports a successful deployment back to GitHub.
+# If the deployment is behind Vercel Deployment Protection, the URL redirects
+# to vercel.com/login — we detect that and skip with a warning. To make
+# Lighthouse work on protected previews, either:
+#   1. Disable Deployment Protection in Vercel project settings, or
+#   2. Add a VERCEL_PROTECTION_BYPASS secret (Vercel → project → Settings →
+#      Deployment Protection → Protection Bypass for Automation → generate
+#      a token, paste into the GH repo secret).
+
 on:
   deployment_status:
 
@@ -16,21 +23,64 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check accessibility of deployment
+        id: pubcheck
+        env:
+          BASE: ${{ github.event.deployment_status.target_url }}
+          BYPASS: ${{ secrets.VERCEL_PROTECTION_BYPASS }}
+        run: |
+          if [ -z "$BASE" ]; then
+            echo "No target_url on deployment_status event; nothing to test."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          PROBE="$BASE"
+          if [ -n "$BYPASS" ]; then
+            PROBE="${BASE}?x-vercel-protection-bypass=${BYPASS}&x-vercel-set-bypass-cookie=true"
+          fi
+          # Follow redirects; capture final URL + final status
+          FINAL_URL=$(curl -sL --max-time 15 -o /dev/null -w '%{url_effective}' "$PROBE" || echo "")
+          FINAL_CODE=$(curl -sL --max-time 15 -o /dev/null -w '%{http_code}' "$PROBE" || echo "000")
+          echo "BASE=$BASE"
+          echo "FINAL_URL=$FINAL_URL"
+          echo "FINAL_CODE=$FINAL_CODE"
+          case "$FINAL_URL" in
+            *vercel.com/login*|*vercel.com/sso*)
+              echo "::warning::Deployment $BASE is behind Vercel Deployment Protection (redirects to $FINAL_URL). Skipping Lighthouse. Add VERCEL_PROTECTION_BYPASS secret or disable protection to enable."
+              echo "skip=true" >> "$GITHUB_OUTPUT"
+              ;;
+            *)
+              if [ "$FINAL_CODE" = "200" ]; then
+                echo "skip=false" >> "$GITHUB_OUTPUT"
+              else
+                echo "::warning::Deployment $BASE returned HTTP $FINAL_CODE; skipping Lighthouse."
+                echo "skip=true" >> "$GITHUB_OUTPUT"
+              fi
+              ;;
+          esac
+
       - name: Resolve target URLs
         id: urls
+        if: steps.pubcheck.outputs.skip != 'true'
+        env:
+          BASE: ${{ github.event.deployment_status.target_url }}
+          BYPASS: ${{ secrets.VERCEL_PROTECTION_BYPASS }}
         run: |
-          BASE="${{ github.event.deployment_status.target_url || github.event.deployment_status.environment_url }}"
-          echo "Targeting $BASE"
+          SUFFIX=""
+          if [ -n "$BYPASS" ]; then
+            SUFFIX="?x-vercel-protection-bypass=${BYPASS}&x-vercel-set-bypass-cookie=true"
+          fi
           {
             echo "list<<EOF"
-            echo "$BASE"
-            echo "$BASE/features"
-            echo "$BASE/download"
-            echo "$BASE/faq"
+            echo "${BASE}${SUFFIX}"
+            echo "${BASE}/features${SUFFIX}"
+            echo "${BASE}/download${SUFFIX}"
+            echo "${BASE}/faq${SUFFIX}"
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
 
       - name: Run Lighthouse CI
+        if: steps.pubcheck.outputs.skip != 'true'
         uses: treosh/lighthouse-ci-action@v12
         with:
           urls: ${{ steps.urls.outputs.list }}
