@@ -156,25 +156,28 @@
 .wiki-body ol li::marker { color: var(--accent); font-family: var(--font-mono); font-weight: 600; }
 
 /* Numbered task list with circle markers */
-.wiki-steps { list-style: none; counter-reset: w; padding: 0; margin: 0 0 26px; display: flex; flex-direction: column; gap: 16px; }
+.wiki-steps { list-style: none; counter-reset: w; padding: 0; margin: 0 0 26px; }
 .wiki-steps li {
   counter-increment: w;
-  display: flex; align-items: flex-start; gap: 14px;
-  font-size: 15.5px; line-height: 1.55; color: var(--text);
+  position: relative;
+  padding-left: 44px;
+  min-height: 28px;
+  margin-bottom: 16px;
+  font-size: 15.5px; line-height: 1.6; color: var(--text);
 }
-.wiki-steps li > * { min-width: 0; }
+.wiki-steps li:last-child { margin-bottom: 0; }
 .wiki-steps li::before {
   content: counter(w);
+  position: absolute; left: 0; top: 1px;
   width: 28px; height: 28px; border-radius: 50%;
   background: var(--bg-surface-2); border: 1px solid var(--border-strong);
   font-family: var(--font-mono); font-size: 12.5px; font-weight: 600;
   color: var(--accent);
   display: flex; align-items: center; justify-content: center;
-  flex-shrink: 0;
-  margin-top: 1px;
 }
 .wiki-steps.cyan li::before { color: var(--signal); }
 .wiki-steps li strong { color: var(--text); }
+.wiki-steps li pre { margin-top: 10px; }
 
 /* Inline settings-row mockup (used inside .viz panels) */
 .set-row {
