@@ -92,9 +92,10 @@
         <div class="wiki-toc-title">On this page</div>
         <ol>
           <li><a href="#what">What's in the log</a></li>
-          <li><a href="#find-phone">Find it on your phone</a></li>
-          <li><a href="#find-adb">Or pull it with ADB</a></li>
-          <li><a href="#share">Share it with us</a></li>
+          <li><a href="#unlock">Unlock debug mode</a></li>
+          <li><a href="#share">Open Debug &amp; share</a></li>
+          <li><a href="#fallback-files">Fallback: Files app</a></li>
+          <li><a href="#fallback-adb">Fallback: ADB</a></li>
           <li><a href="#write">Write the issue</a></li>
           <li><a href="#template">Issue template</a></li>
           <li><a href="#crash">If the app crashed</a></li>
@@ -115,8 +116,70 @@
         </ul>
         <p>It's plain text, safe to read, and doesn't include passwords or upload API keys. See the <a href="#privacy">privacy</a> section below if you'd like to skim it before sharing.</p>
 
-        <h2 id="find-phone"><span class="step-num cyan">2</span>Find it on your phone</h2>
-        <p>The easiest path — no computer required — uses Android's built-in <strong>Files</strong> app (sometimes labelled <em>My Files</em> on Samsung). The log lives at:</p>
+        <h2 id="unlock"><span class="step-num cyan">2</span>Unlock debug mode</h2>
+        <p>The easiest way to grab the log uses an in-app debug screen — no computer, no file manager, no Android-data folder permissions. The screen is hidden by default and you unlock it the same way Android's developer options work: tap the version block seven times.</p>
+
+        <ol class="wiki-steps cyan">
+          <li>Open the <span class="tap">Settings</span> tab in FT8AF.</li>
+          <li>Scroll to the bottom — the <strong>ABOUT</strong> section.</li>
+          <li>Tap <strong>FAQ &amp; Support</strong>. The About dialog opens, showing the app version and a description starting "FT8, made easy."</li>
+          <li>Tap that description text <strong>seven times in a row</strong>. After the seventh tap, debug mode flips on and persists across launches.</li>
+          <li>Close the About dialog. A new <span class="tap">Debug</span> row now appears in the ABOUT section, right under <em>FAQ &amp; Support</em>.</li>
+        </ol>
+
+        <figure class="wiki-fig cyan">
+          <div class="viz" style="max-width:none">
+            <div class="viz-head"><span>Settings · About</span><span class="live">Debug unlocked</span></div>
+            <div class="viz-body" style="padding:0">
+              <div class="set-row"><span class="set-l">FT8AF</span><span class="set-v mono">v1.2 · build 2026.06.02</span></div>
+              <div class="set-row"><span class="set-l">FAQ &amp; Support</span><span class="set-v mono" style="color:var(--text-faint)">›</span></div>
+              <div class="set-row last" style="background:rgba(92,214,232,0.06)"><span class="set-l" style="color:var(--signal)">Debug</span><span class="set-v mono" style="color:var(--signal)">View / share debug.log · ›</span></div>
+            </div>
+          </div>
+          <figcaption><b>After unlocking</b> — the Debug row appears in the ABOUT section. Once debug mode is on, it stays on until you toggle it again (tap the description seven more times to turn it off).</figcaption>
+        </figure>
+
+        <h2 id="share"><span class="step-num cyan">3</span>Open Debug &amp; share</h2>
+        <p>Tap the new <span class="tap">Debug</span> row. A full-screen log viewer opens, tailing the last few hundred lines of <code>debug.log</code> live — it refreshes every couple of seconds and auto-scrolls to the bottom.</p>
+
+        <figure class="wiki-fig cyan">
+          <div class="viz" style="max-width:none">
+            <div class="viz-head"><span>Debug · 412 lines</span><span class="live">Tailing</span></div>
+            <div class="viz-body" style="padding:0">
+              <div style="display:flex;gap:4px;padding:12px 14px;border-bottom:1px solid var(--border);font-family:var(--font-mono);font-size:12px">
+                <span style="padding:6px 12px;border-radius:6px;background:var(--signal-soft);color:var(--signal);font-weight:600">Share</span>
+                <span style="padding:6px 12px;border-radius:6px;color:var(--text-muted)">Clear</span>
+                <span style="padding:6px 12px;border-radius:6px;color:var(--text-muted)">Logcat: OFF</span>
+              </div>
+              <pre style="margin:0;border:none;border-radius:0;background:var(--bg-app);padding:14px 16px;font-size:11.5px;line-height:1.55;color:var(--text);overflow:hidden"><code>13:42:01  USB attach: vid=10c4 pid=ea60
+13:42:01  autoConnect attempt #1 &rarr; SUCCESS
+13:42:02  CAT &gt; FE FE 94 E0 03 FD
+13:42:02  CAT &lt; FE FE E0 94 03 00 74 04 00 14 FD
+13:42:05  band &rarr; 20m, freq 14.074 MHz
+13:42:18  decode: 14 messages in 64 ms
+13:42:33  decode: 11 messages in 58 ms</code></pre>
+            </div>
+          </div>
+          <figcaption><b>Debug screen.</b> Tap <strong>Share</strong> to open Android's share sheet with <code>debug.log</code> already attached. Pick Gmail, Outlook, Drive, Files — whatever you want to send it through.</figcaption>
+        </figure>
+
+        <p>From the top toolbar:</p>
+        <dl class="wiki-dl">
+          <dt>Share</dt><dd>Opens the Android share sheet with <code>debug.log</code> attached as a text file (subject line "FT8AF debug.log"). Pick Gmail to email it to us directly, or any app that handles file attachments — Drive, Outlook, Slack, Signal, Telegram, the system Files app, all work.</dd>
+          <dt>Clear</dt><dd>Deletes the current log. Useful if you want to start fresh before reproducing a bug — just hit Clear, exit the dialog, reproduce the issue, come back, and Share. The shorter log makes the relevant events easier for us to spot.</dd>
+          <dt>Logcat: ON / OFF</dt><dd>When ON, the viewer also appends recent <code>logcat</code> output from the app's own process — useful when a crash or audio bug isn't fully captured in <code>debug.log</code>. The logcat tail rides along when you tap Share.</dd>
+        </dl>
+
+        <div class="callout">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16v.5"/></svg>
+          <div>
+            <h4>Send it straight to us.</h4>
+            <p>When the share sheet appears, pick your mail app and address it to whoever's working the issue — the operators are <a href="https://www.qrz.com/db/K1AF" target="_blank" rel="noopener">K1AF</a> and <a href="https://www.qrz.com/db/N0RC" target="_blank" rel="noopener">N0RC</a> (addresses on QRZ). Even better: open a GitHub issue first, then share the log to whichever email or cloud-drive shortcut you like and paste the link or attachment into the issue thread so it stays public.</p>
+          </div>
+        </div>
+
+        <h2 id="fallback-files"><span class="step-num cyan">4</span>Fallback: Files app</h2>
+        <p>If you can't get to the in-app Debug screen for some reason — older build, the unlock didn't take, you'd just rather use the file manager — the log file also lives on disk at:</p>
         <pre><code>/Android/data/com.bg7yoz.ft8cn/files/debug.log</code></pre>
 
         <ol class="wiki-steps cyan">
@@ -130,12 +193,12 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16v.5"/></svg>
           <div>
             <h4>Android 11+ may block <code>/Android/data</code> in Files.</h4>
-            <p>If you can't see <code>com.bg7yoz.ft8cn</code> in the data folder on a recent Android, install a third-party file manager like <strong>Material Files</strong> or <strong>Solid Explorer</strong> from the Play Store — both can read app data folders. Or use the ADB path in the next section.</p>
+            <p>If you can't see <code>com.bg7yoz.ft8cn</code> in the data folder on a recent Android, install a third-party file manager like <strong>Material Files</strong> or <strong>Solid Explorer</strong> from the Play Store — both can read app data folders. Or, easier: use the in-app Debug screen above, which sidesteps this entirely.</p>
           </div>
         </div>
 
-        <h2 id="find-adb"><span class="step-num cyan">3</span>Or pull it with ADB</h2>
-        <p>If you've got a computer and Android's developer tools, this is the fastest way and works regardless of which Android version your phone is on.</p>
+        <h2 id="fallback-adb"><span class="step-num cyan">5</span>Fallback: ADB</h2>
+        <p>For developers with a computer and Android's <code>adb</code> tool:</p>
         <ol class="wiki-steps cyan">
           <li>On your phone, enable <strong>Developer options → USB debugging</strong>.</li>
           <li>Plug the phone into your computer with USB, accept the debug-authorization prompt.</li>
@@ -148,15 +211,7 @@
           </li>
         </ol>
 
-        <h2 id="share"><span class="step-num cyan">4</span>Share it with us</h2>
-        <p>Pick whichever is easiest for you:</p>
-        <ul>
-          <li><strong>Attach to a GitHub issue.</strong> The best place. GitHub accepts <code>.log</code> and <code>.txt</code> uploads — drag the file straight into the comment box. <a href="https://github.com/patrickrb/FT8AF/issues/new" target="_blank" rel="noopener">Open a new issue →</a></li>
-          <li><strong>Google Drive / iCloud / Dropbox.</strong> Upload the file, share a link with view-access, paste the link into the issue.</li>
-          <li><strong>Email.</strong> If you'd rather not use GitHub, send the log and a description to one of the operators on their QRZ-listed addresses: <a href="https://www.qrz.com/db/K1AF" target="_blank" rel="noopener">K1AF</a> or <a href="https://www.qrz.com/db/N0RC" target="_blank" rel="noopener">N0RC</a>.</li>
-        </ul>
-
-        <h2 id="write"><span class="step-num cyan">5</span>Write the issue</h2>
+        <h2 id="write"><span class="step-num cyan">6</span>Write the issue</h2>
         <p>A useful bug report is small — three or four short paragraphs is plenty. The pattern that always works:</p>
         <ol class="wiki-steps cyan">
           <li><strong>What did you do?</strong> "Plugged in my FT-891, tapped CQ on 20m." Concrete actions in order. No need to describe the app — just what you tapped.</li>
@@ -166,7 +221,7 @@
           <li><strong>Attach the log.</strong> Grab <code>debug.log</code> right after reproducing the issue — the most recent lines are the most useful.</li>
         </ol>
 
-        <h2 id="template"><span class="step-num cyan">6</span>Issue template</h2>
+        <h2 id="template"><span class="step-num cyan">7</span>Issue template</h2>
         <p>Copy this into a new issue and fill in the blanks:</p>
         <pre><code>## What happened
 
@@ -196,7 +251,7 @@ Actual:   (what did happen)
 (Attach debug.log, or paste the last ~50 lines in a code block.)
 </code></pre>
 
-        <h2 id="crash"><span class="step-num cyan">7</span>If the app crashed</h2>
+        <h2 id="crash"><span class="step-num cyan">8</span>If the app crashed</h2>
         <p>When FT8AF crashes outright, Android keeps a separate crash report. Two places to look:</p>
         <ul>
           <li>If you got it from <strong>Google Play</strong>, opt in to anonymous crash reporting once, and we'll see the stack trace automatically. You don't have to do anything — but adding "I just sent a crash report from device X around &lt;time&gt;" to the issue helps us match it up.</li>
@@ -206,7 +261,7 @@ Actual:   (what did happen)
           </li>
         </ul>
 
-        <h2 id="privacy"><span class="step-num cyan">8</span>Privacy</h2>
+        <h2 id="privacy"><span class="step-num cyan">9</span>Privacy</h2>
         <p>The debug log is just text. It captures the operating events of the app, not your personal data. You'll see lines like:</p>
         <pre><code>13:42:01 USB attach: vid=10c4 pid=ea60 (Silicon Labs CP210x)
 13:42:01 autoConnect attempt #1 → SUCCESS
