@@ -44,7 +44,7 @@
 /* ───── TRUST STRIP ───── */
 .trust { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: rgba(14,19,30,0.4); }
 .trust-inner {
-  display: grid; grid-template-columns: repeat(5, 1fr);
+  display: grid; grid-template-columns: repeat(4, 1fr);
   gap: 24px; padding: 30px var(--gutter);
 }
 .trust-item { display: flex; align-items: center; gap: 14px; }
@@ -55,7 +55,6 @@
 .trust-item .lbl { font-size: 12.5px; color: var(--text-muted); line-height: 1.35; }
 @media (max-width: 860px) {
   .trust-inner { grid-template-columns: repeat(2, 1fr); gap: 22px; }
-  .trust-item:last-child { grid-column: span 2; }
 }
 
 /* ───── FEATURE GRID ───── */
@@ -237,16 +236,6 @@
 .usb-link .wire::after { content:''; position:absolute; top:-2px; width:6px; height:6px; border-radius:50%; background:var(--signal); box-shadow:0 0 8px var(--signal); animation: usbflow 2s linear infinite; }
 @keyframes usbflow { from { left: 0; } to { left: 58px; } }
 .usb-link .lbl { font-family: var(--font-mono); font-size: 9.5px; letter-spacing: 0.06em; }
-
-/* localization toggle viz */
-.loc-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.loc-col { border: 1px solid var(--border); border-radius: 12px; padding: 14px; background: var(--bg-app); }
-.loc-col .lh { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-faint); margin-bottom: 10px; }
-.loc-col.now { border-color: var(--border-amber); }
-.loc-col.now .lh { color: var(--accent); }
-.loc-line { display: flex; align-items: center; gap: 8px; padding: 7px 0; font-size: 13.5px; }
-.loc-line svg { width: 15px; height: 15px; color: var(--text-faint); flex-shrink: 0; }
-.loc-col.before .loc-line { color: var(--text-faint); }
 
 /* mini feature grid */
 .mini-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
