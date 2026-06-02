@@ -263,6 +263,7 @@
 /* ───── Install methods / steps ───── */
 .method-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .method { padding: 26px; display: flex; flex-direction: column; }
+.method > .btn:last-child { margin-top: auto; }
 .method .m-ic { width: 44px; height: 44px; border-radius: 11px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; background: var(--accent-soft); color: var(--accent); border: 1px solid var(--border-amber); }
 .method.cyan .m-ic { background: var(--signal-soft); color: var(--signal); border-color: rgba(92,214,232,0.22); }
 .method h3 { font-size: 18px; margin-bottom: 6px; }
