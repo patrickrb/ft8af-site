@@ -34,6 +34,7 @@
 <link rel="preload" href="/assets/fonts/geist-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
 <link rel="stylesheet" href="/assets/site.css" />
 <link rel="stylesheet" href="/assets/sections.css" />
+<link rel="stylesheet" href="/assets/phone.css" />
 <link rel="stylesheet" href="/assets/wiki.css" />
 <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
 <script defer src="/_vercel/insights/script.js"></script>
@@ -99,7 +100,6 @@
           <li><a href="#call">Call a station</a></li>
           <li><a href="#qso">Run the auto-sequence</a></li>
           <li><a href="#log">Logging &amp; uploads</a></li>
-          <li><a href="#map">Map &amp; statistics</a></li>
           <li><a href="#tips">Field tips</a></li>
         </ol>
       </aside>
@@ -118,26 +118,65 @@
         <p>Open the <span class="tap">Settings</span> tab and fill in the operator card at the top. These two fields drive everything the app transmits, so it's worth getting right before you key up.</p>
 
         <figure class="wiki-fig">
-          <img src="/assets/screens/wiki-settings.jpg" alt="The FT8AF Settings screen, showing fields for grid square, audio frequency, TX delay, control mode, rig model, and CAT options." loading="lazy" />
-          <figcaption><b>Settings.</b> Operator identity at the top; rig, CAT mode, and audio frequency below. Tap the <em>i</em> bubble on any row for an explanation of what it does.</figcaption>
+          <div class="viz" style="max-width:none">
+            <div class="viz-head"><span>Settings · Operator</span><span class="live">Saved</span></div>
+            <div class="viz-body" style="padding:0">
+              <div class="set-row"><span class="set-l">Callsign</span><span class="set-v mono">K1AF</span></div>
+              <div class="set-row"><span class="set-l">Grid square</span><span class="set-v mono">FN42hk</span></div>
+              <div class="set-row"><span class="set-l">Power (W)</span><span class="set-v mono">50</span></div>
+              <div class="set-row"><span class="set-l">Antenna</span><span class="set-v mono">Dipole · 20m</span></div>
+              <div class="set-row"><span class="set-l">Audio frequency</span><span class="set-v mono">1500 Hz</span></div>
+              <div class="set-row"><span class="set-l">TX delay</span><span class="set-v mono">400 ms</span></div>
+              <div class="set-row last"><span class="set-l">Clock source</span><span class="set-v mono">Network (NTP)</span></div>
+            </div>
+          </div>
+          <figcaption><b>Settings → Operator.</b> Tap any row to edit. Grid square will offer to fill from GPS if you grant location.</figcaption>
         </figure>
 
         <dl class="wiki-dl">
           <dt>Callsign</dt><dd>Your licensed callsign. Suffix portable indicators with a slash (e.g. <code>K1AF/M</code>) if you're operating mobile or portable.</dd>
           <dt>Grid square</dt><dd>4- or 6-character Maidenhead locator (e.g. <code>FN42</code> or <code>FN42hk</code>). FT8AF will offer to fill it from GPS if location is granted.</dd>
-          <dt>Audio freq</dt><dd>Your transmit audio frequency in Hz, inside the 3 kHz FT8 segment. <code>1500</code> is a sane starting default.</dd>
+          <dt>Audio frequency</dt><dd>Your transmit audio frequency in Hz, inside the 3 kHz FT8 segment. <code>1500</code> is a sane starting default.</dd>
           <dt>TX delay</dt><dd>Milliseconds the app waits after PTT before sending tones. <code>400</code> works for most CAT-controlled rigs.</dd>
         </dl>
 
         <h2 id="connect"><span class="step-num">3</span>Connect your radio</h2>
         <p>FT8AF talks to your rig over a single USB-C connection — both CAT (frequency, PTT) and audio (RX, TX) ride on the same cable. Modern Android phones connect directly with USB-C; older devices need a USB-OTG adapter. Your phone must support USB host mode.</p>
 
+        <figure class="wiki-fig">
+          <div class="viz" style="max-width:none">
+            <div class="viz-head"><span>USB CAT + Audio</span><span class="live">Connected</span></div>
+            <div class="viz-body">
+              <div class="usb-diag">
+                <div class="usb-node">
+                  <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M10 18h4"/></svg></div>
+                  <div class="nl"><b>FT8AF</b>Android</div>
+                </div>
+                <div class="usb-link">
+                  <div class="wire"></div>
+                  <span class="lbl">USB-C · CAT + Audio</span>
+                </div>
+                <div class="usb-node">
+                  <div class="ic" style="color:var(--signal)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="8" cy="12" r="2.4"/><path d="M14 10h5M14 14h5"/></svg></div>
+                  <div class="nl"><b>Your rig</b>IC-7300 · FT-891 · IC-705</div>
+                </div>
+              </div>
+              <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;font-family:var(--font-mono);font-size:11px">
+                <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:9px"><div style="color:var(--text-faint);font-size:9px;text-transform:uppercase;letter-spacing:.06em">Mode</div><div style="color:var(--text);margin-top:3px">DATA-USB</div></div>
+                <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:9px"><div style="color:var(--text-faint);font-size:9px;text-transform:uppercase;letter-spacing:.06em">BW</div><div style="color:var(--text);margin-top:3px">3000 Hz</div></div>
+                <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:9px"><div style="color:var(--text-faint);font-size:9px;text-transform:uppercase;letter-spacing:.06em">PTT</div><div style="color:var(--status-confirmed);margin-top:3px">CAT</div></div>
+              </div>
+            </div>
+          </div>
+          <figcaption><b>Settings → Radio.</b> One USB-C cable carries CAT control, audio, and PTT.</figcaption>
+        </figure>
+
         <ol class="wiki-steps">
           <li><strong>Plug in.</strong> Connect your phone to the rig's USB port. Android will prompt for permission to talk to the device — accept it, and tick <em>Always</em> so the app can reconnect later.</li>
-          <li><strong>Pick your rig.</strong> In <span class="tap">Settings</span>, open the <em>Rig</em> picker and choose your model (IC-7300, FT-891, IC-705, etc.). FT8AF includes a fix that forces the FT-891 to 3000&nbsp;Hz bandwidth in DATA-USB — you don't need to set that yourself.</li>
+          <li><strong>Pick your rig.</strong> In <span class="tap">Settings → Radio</span>, open the <em>Rig model</em> picker and choose your transceiver (IC-7300, FT-891, IC-705, etc.). FT8AF includes a fix that forces the FT-891 to 3000&nbsp;Hz bandwidth in DATA-USB — you don't need to set that yourself.</li>
           <li><strong>Set control mode to CAT.</strong> Under <em>Control</em>, choose <strong>CAT</strong>. (VOX, RTS, and DTR are available if your setup needs them, but CAT is what you want with a modern HF rig over USB.)</li>
-          <li><strong>Choose USB connection.</strong> Under <em>Connection type</em>, leave it on <strong>USB</strong>. Confirm CI-V address and baud rate match your rig — defaults are usually correct.</li>
-          <li><strong>Set frequency.</strong> Tap the band button on the top bar to switch between 160m–6m FT8 segments, or punch in a custom frequency from Settings.</li>
+          <li><strong>Confirm CI-V / baud rate.</strong> The defaults usually match — Icom rigs default to <code>A4</code> at <code>115200</code>; Yaesu rigs have their own conventions. If CAT won't connect, this is the first place to check.</li>
+          <li><strong>Pick a band.</strong> Tap the band chip on the <span class="tap">Decode</span> tab to switch between 160m–6m FT8 segments, or punch in a custom frequency from <em>Settings → Radio → Frequency</em>.</li>
         </ol>
 
         <div class="callout">
@@ -149,37 +188,39 @@
         </div>
 
         <h2 id="decode"><span class="step-num">4</span>Decode the band</h2>
-        <p>The <span class="tap">Decode</span> tab is where you'll spend most of your operating time. Every 15 seconds, at the FT8 period boundary, the app processes the last slot of audio and drops the new decodes into the list.</p>
+        <p>The <span class="tap">Decode</span> tab is where you'll spend most of your operating time. Every 15 seconds, at the FT8 period boundary, the app processes the last slot of audio and drops the new decodes into the list. Stations get status pills — <em>New DXCC</em>, <em>Needed</em>, <em>Worked</em>, <em>Confirmed</em> — so the band tells you what to chase at a glance.</p>
 
         <figure class="wiki-fig">
-          <img src="/assets/screens/wiki-decode-list.jpg" alt="FT8AF decode list — a scrolling table of received FT8 messages with SNR, time offset, audio frequency, callsigns, country flags, and distance." loading="lazy" />
-          <figcaption><b>Decode list.</b> Each row is one received message. Tap a row to make that station your QSO target. The chips along the top filter the list — <em>All</em>, <em>CQ Calls</em>, <em>New DXCC</em>, <em>Needed</em>.</figcaption>
+          <img src="/assets/screens/wiki-decode-mock.png" alt="FT8AF decode list — Material 3 dark UI showing the Decode tab with filter chips (All 14, CQ Calls 11, New DXCC 4, Needed) and decoded rows for JA1AYO, EA8DH, VK6BMA, and W3LPL, each with status pills, SNR, audio frequency, distance, and country labels." loading="lazy" />
+          <figcaption><b>Decode tab.</b> Each row is a decoded station. Tap a row to make that station your QSO target. Use the chips along the top to filter — <em>All</em>, <em>CQ Calls</em>, <em>New DXCC</em>, <em>Needed</em>.</figcaption>
         </figure>
 
-        <p>What each column tells you:</p>
+        <p>Each row tells you:</p>
         <dl class="wiki-dl">
-          <dt>S / dB</dt><dd>Signal-to-noise ratio. Values from roughly <code>−24</code> (barely decodable) to <code>+15</code> (very strong).</dd>
-          <dt>Δt</dt><dd>Time offset in seconds. Decodes outside ±2.5 s indicate the other op's clock is off — or yours is.</dd>
-          <dt>Freq</dt><dd>Audio frequency in Hz inside the 3 kHz segment. Tap to make this your TX audio frequency.</dd>
-          <dt>Message</dt><dd>The actual FT8 payload — <code>CQ</code> calls, signal reports, <code>RR73</code>, etc. Country flags and your callsign are highlighted.</dd>
+          <dt>SNR / dB</dt><dd>Signal-to-noise ratio. Values from roughly <code>−24</code> (barely decodable) to <code>+15</code> (very strong).</dd>
+          <dt>Audio Hz</dt><dd>Where the signal sits inside the 3 kHz segment. Tap a row or signal on the waterfall to make this your TX audio frequency.</dd>
           <dt>Distance</dt><dd>Great-circle distance from your grid to the decoded station, when their grid is known.</dd>
+          <dt>Status pill</dt><dd><span class="mono">New DXCC</span> = entity you've never worked. <span class="mono">Needed</span> = needed on this band/mode. <span class="mono">Worked</span> = QSO complete but not yet confirmed.</dd>
+          <dt>↳ To you</dt><dd>Highlighted in cyan when a station is directly answering you. You'll see this during your own QSOs.</dd>
         </dl>
 
         <h2 id="waterfall"><span class="step-num">5</span>Read the waterfall</h2>
-        <p>The <span class="tap">Spectrum</span> / <span class="tap">Waterfall</span> tab shows the full 3 kHz FT8 passband over time. Newer audio is at the top, older at the bottom — a horizontal red line marks each FT8 period boundary so you can read timing at a glance.</p>
+        <p>The <span class="tap">Waterfall</span> tab shows the full 3 kHz FT8 passband over time. Newer audio is at the top, older at the bottom — a thin line marks each FT8 period boundary with a UTC timestamp drawn beside it, so you can read timing at a glance.</p>
 
-        <div class="wiki-fig-row">
-          <figure class="wiki-fig">
-            <img src="/assets/screens/wiki-waterfall.jpg" alt="FT8AF waterfall — a vertically scrolling spectrogram of the 3 kHz FT8 passband with decoded callsigns drawn next to each signal trace." loading="lazy" />
-            <figcaption><b>Full waterfall.</b> Each vertical streak is a station; the label drawn over it is what FT8AF decoded.</figcaption>
-          </figure>
-          <figure class="wiki-fig">
-            <img src="/assets/screens/wiki-waterfall-split.jpg" alt="FT8AF split view — waterfall on the left, decoded message table on the right." loading="lazy" />
-            <figcaption><b>Split view.</b> Waterfall on the left, decode table on the right. Useful when you want to correlate a signal trace with the call that produced it.</figcaption>
-          </figure>
-        </div>
+        <figure class="wiki-fig">
+          <div class="viz" style="max-width:none">
+            <div class="viz-head"><span>20m · 14.074 MHz</span><span class="live">Live</span></div>
+            <div class="viz-body" style="padding:12px">
+              <div class="wf-axis"><span>0</span><span>500</span><span>1000</span><span>1500</span><span>2000</span><span>2500</span><span>3000</span></div>
+              <canvas data-spectrum data-h="48" style="width:100%;display:block;border-radius:8px 8px 0 0"></canvas>
+              <canvas data-waterfall data-h="260" style="width:100%;display:block;border-radius:0 0 8px 8px"></canvas>
+            </div>
+            <div class="wf-foot"><span>UTC 14:23:00 · period boundary</span><span>Decoded in 64 ms</span><span class="live" style="color:var(--signal)">● 14 signals</span></div>
+          </div>
+          <figcaption><b>Waterfall.</b> Vertical streaks are signals; tap one to set your TX audio frequency to that slot. Width chips (Wide / 1.5 kHz / 500 Hz) let you zoom in on a busy segment.</figcaption>
+        </figure>
 
-        <p><strong>Tap-to-tune.</strong> Tap any visible signal in the waterfall to set your TX audio frequency to that slot. The transmit marker stays locked to your actual TX audio thanks to the alignment fix in FT8AF.</p>
+        <p><strong>Tap-to-tune.</strong> Tap any visible signal in the waterfall to set your TX audio frequency to that slot. The TX marker stays locked to your actual TX audio thanks to the alignment fix in FT8AF.</p>
 
         <h2 id="call"><span class="step-num">6</span>Call a station</h2>
         <p>You have two ways into a QSO:</p>
@@ -191,45 +232,65 @@
         <p>Watch the <strong>Active QSO monitor</strong> panel above the TX strip. It tracks who you're working and what step of the auto-sequence you're at. If multiple stations come back to your CQ, the <strong>caller queue</strong> keeps the others lined up — you finish the current QSO instead of bouncing to whoever's loudest.</p>
 
         <h2 id="qso"><span class="step-num">7</span>Run the auto-sequence</h2>
-        <p>FT8AF handles the standard 6-message FT8 exchange automatically once you've selected a target. You'll see the panel step through:</p>
-        <ol class="wiki-steps">
-          <li><strong>Call.</strong> <code>EA8DH K1AF FN42</code></li>
-          <li><strong>Send report.</strong> <code>EA8DH K1AF −09</code></li>
-          <li><strong>Roger report.</strong> <code>K1AF EA8DH R−06</code></li>
-          <li><strong>Confirm.</strong> <code>EA8DH K1AF RR73</code></li>
-          <li><strong>Acknowledge &amp; close.</strong> <code>K1AF EA8DH 73</code></li>
-          <li><strong>Log.</strong> The QSO drops into the logbook and uploads (if enabled).</li>
-        </ol>
+        <p>FT8AF handles the standard FT8 exchange automatically once you've selected a target. You'll see the panel step through:</p>
+
+        <figure class="wiki-fig">
+          <div class="viz" style="max-width:none">
+            <div class="viz-head"><span>Active QSO · EA8DH</span><span class="live">Auto</span></div>
+            <div class="viz-body">
+              <div class="qseq">
+                <div class="qstep done"><span class="num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 12l5 5 11-12"/></svg></span><div><div class="ql">Call</div><div class="qm"><span class="tx">TX</span> EA8DH K1AF FN42</div></div></div>
+                <div class="qstep done"><span class="num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 12l5 5 11-12"/></svg></span><div><div class="ql">Report sent</div><div class="qm"><span class="tx">TX</span> EA8DH K1AF −09</div></div></div>
+                <div class="qstep active"><span class="num">3</span><div><div class="ql">Roger report</div><div class="qm"><span class="rx">RX</span> K1AF EA8DH R−06</div></div></div>
+                <div class="qstep pending"><span class="num">4</span><div><div class="ql">Confirm (RR73)</div></div></div>
+                <div class="qstep pending"><span class="num">5</span><div><div class="ql">Logged &amp; uploaded</div></div></div>
+              </div>
+            </div>
+          </div>
+          <figcaption><b>Active QSO monitor.</b> Steps tick off as the exchange progresses. The panel collapses to a single line when there's no active contact.</figcaption>
+        </figure>
+
         <p>If you need to bail mid-QSO, tap <span class="tap">Stop</span> on the TX strip — the app drops the queue and goes back to listening. The TX1 / TX2 slot toggle lets you flip transmit periods without losing your target.</p>
 
         <h2 id="log"><span class="step-num">8</span>Logging &amp; uploads</h2>
-        <p>Every completed QSO is written to the on-device <span class="tap">QSO Logs</span> tab. If you've configured upload services, it also flies up to them the moment the contact closes — no ADIF export, no copying calls by hand at the end of the night.</p>
+        <p>Every completed QSO is written to the on-device <span class="tap">Logbook</span> tab. If you've configured upload services, it also flies up to them the moment the contact closes — no ADIF export, no copying calls by hand at the end of the night.</p>
+
+        <figure class="wiki-fig">
+          <div class="viz" style="max-width:none">
+            <div class="viz-head"><span>Logbook · auto-upload</span><span class="live">Synced</span></div>
+            <div class="viz-body" style="padding:6px 16px 12px">
+              <div class="logrow">
+                <span class="spill" style="color:var(--status-confirmed);background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.22)"><span class="d" style="background:var(--status-confirmed)"></span>QRZ</span>
+                <div><div class="lc">DL7VEE <span style="color:var(--text-faint);font-weight:400;font-size:12px">JO62</span></div><div class="ld">Germany · 20m · FT8</div></div>
+                <div class="lt">14:18<br />−18 / −09</div>
+              </div>
+              <div class="logrow">
+                <span class="spill" style="color:var(--signal);background:rgba(92,214,232,.1);border:1px solid rgba(92,214,232,.22)"><span class="d" style="background:var(--signal)"></span>Cloud</span>
+                <div><div class="lc">W3LPL <span style="color:var(--text-faint);font-weight:400;font-size:12px">FM19</span></div><div class="ld">Maryland · 20m · FT8</div></div>
+                <div class="lt">14:02<br />−06 / −11</div>
+              </div>
+              <div class="logrow">
+                <span class="spill" style="color:var(--status-confirmed);background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.22)"><span class="d" style="background:var(--status-confirmed)"></span>QRZ</span>
+                <div><div class="lc">JA3YBK <span style="color:var(--text-faint);font-weight:400;font-size:12px">PM74</span></div><div class="ld">Japan · 15m · FT8</div></div>
+                <div class="lt">13:45<br />−12 / −15</div>
+              </div>
+            </div>
+          </div>
+          <figcaption><b>Logbook.</b> Pill badges show which services accepted each upload. Failed uploads stay visible with a retry indicator until they succeed.</figcaption>
+        </figure>
+
         <h3>Cloudlog</h3>
         <p>Open <em>Settings → Cloudlog</em>, paste your Cloudlog URL and API key, and toggle the service on. New QSOs upload automatically. If a contact fails to upload, it stays in the logbook with a retry indicator.</p>
         <h3>QRZ</h3>
         <p>Open <em>Settings → QRZ</em>, sign in with your QRZ Logbook API key, and toggle uploads on. Same automatic behavior as Cloudlog.</p>
         <p>You can run both at once — most operators do, with Cloudlog as their primary log and QRZ for visibility.</p>
 
-        <h2 id="map"><span class="step-num">9</span>Map &amp; statistics</h2>
-        <p>The <span class="tap">Map</span> tab plots every decoded station on a world map, with a heading line drawn from your grid. CQ callers get a megaphone icon so you can spot openings visually instead of scanning the list.</p>
-
-        <figure class="wiki-fig">
-          <img src="/assets/screens/wiki-map.jpg" alt="FT8AF map view — world map with decoded stations plotted as colored markers, megaphone icons over CQ callers, and a dashed great-circle line to one of them." loading="lazy" />
-          <figcaption><b>Map.</b> Squares mark decoded stations. Megaphones mark active CQs. The dashed line is the great-circle path from your grid to whichever station you tapped most recently.</figcaption>
-        </figure>
-
-        <p>The <span class="tap">QSO Logs</span> tab also includes statistics — band breakdown, ITU zones worked, DXCC completion — so you can see at a glance which entities you still need.</p>
-
-        <figure class="wiki-fig">
-          <img src="/assets/screens/wiki-stats.jpg" alt="FT8AF statistics screen — donut charts breaking down QSOs by ITU zone, band, and completion percentage, plus a bar chart of zone counts." loading="lazy" />
-          <figcaption><b>Statistics.</b> ITU zones, band breakdown, and totals. Useful for picking what to chase next.</figcaption>
-        </figure>
-
-        <h2 id="tips"><span class="step-num">10</span>Field tips</h2>
+        <h2 id="tips"><span class="step-num">9</span>Field tips</h2>
         <ul>
           <li><strong>Set your clock from the network</strong> before each session. FT8 demands accurate timing — Android's automatic time is usually fine; if you're somewhere without signal, sync from GPS or NTP.</li>
           <li><strong>Use the hardware volume buttons</strong> to set TX drive level mid-QSO. FT8AF maps them to TX volume so you don't have to fiddle with the on-screen slider while transmitting.</li>
           <li><strong>Watch the QSO monitor</strong> when conditions are crowded. The caller queue prevents the classic "two stations both think you came back to them" mess.</li>
+          <li><strong>Use the <span class="tap">Map</span> tab</strong> to spot openings visually — CQ callers get a megaphone marker, so you can see which paths are coming in without scanning the decode list.</li>
           <li><strong>Star the GitHub repo</strong> if you want a nudge when a new release lands. Or grab the Play Store build and updates happen by themselves.</li>
         </ul>
 
