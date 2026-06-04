@@ -288,7 +288,7 @@ h1, h2, h3 { margin: 0; letter-spacing: -0.02em; line-height: 1.05; font-weight:
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr;
   gap: 40px;
 }
 .footer-col h4 {
