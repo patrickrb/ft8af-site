@@ -30,7 +30,7 @@
 <meta name="theme-color" content="#07090f" />
 <meta name="color-scheme" content="dark" />
 
-<meta name="description" content="FT8AF runs FT8 natively on your Android phone or tablet. Decode the band, drive your radio over USB CAT, and work the world from anywhere. Free and open source." />
+<meta name="description" content="FT8AF runs FT8, FT4 and FT2 natively on your Android phone or tablet. Decode the band, drive your radio over USB CAT, map QSO paths, activate parks for POTA, and work the world from anywhere. Free and open source." />
 <link rel="icon" type="image/svg+xml" href="/assets/icon.svg" />
 <link rel="preload" href="/assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
 <link rel="preload" href="/assets/fonts/geist-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
@@ -93,7 +93,7 @@
       "author": {
         "@id": "https://ft8af.app#org"
       },
-      "description": "FT8AF runs FT8 natively on Android. Live decoding and waterfall, USB CAT radio control, auto-sequence QSO monitor, Cloudlog & QRZ auto-logging, full English UI, Material 3 dark.",
+      "description": "FT8AF runs FT8, FT4 and FT2 natively on Android. Live decoding and waterfall, USB CAT control for 75+ rigs, auto-sequence QSO monitor, world map with QSO paths, POTA activation mode, automatic logging to Cloudlog, QRZ, Wavelog and PSKReporter, needed-DX alerts, Material 3 dark.",
       "screenshot": "https://ft8af.app/assets/og-image.png"
     }
   ]
@@ -296,10 +296,10 @@
 <!-- ───────── TRUST STRIP ───────── -->
 <section class="trust">
   <div class="wrap trust-inner">
-    <div class="trust-item reveal"><span class="mono num">11</span><span class="lbl">HF bands<br />160m – 6m</span></div>
-    <div class="trust-item reveal" data-delay="60"><span class="mono num">58<span style="color:var(--text-faint)">+</span></span><span class="lbl">Bug fixes<br />over the fork</span></div>
-    <div class="trust-item reveal" data-delay="120"><span class="mono num">M3</span><span class="lbl">Material 3<br />dark UI</span></div>
-    <div class="trust-item reveal" data-delay="180"><span class="mono num">USB</span><span class="lbl">CAT control<br />+ audio</span></div>
+    <div class="trust-item reveal"><span class="mono num">3</span><span class="lbl">Modes<br />FT8 · FT4 · FT2</span></div>
+    <div class="trust-item reveal" data-delay="60"><span class="mono num">75<span style="color:var(--text-faint)">+</span></span><span class="lbl">Rig models<br />over USB CAT</span></div>
+    <div class="trust-item reveal" data-delay="120"><span class="mono num">POTA</span><span class="lbl">Activation<br />mode built in</span></div>
+    <div class="trust-item reveal" data-delay="180"><span class="mono num">MAP</span><span class="lbl">World map<br />+ QSO paths</span></div>
   </div>
 </section>
 
@@ -313,28 +313,33 @@
     <div class="feat-grid">
       <article class="card feat reveal">
         <div class="feat-ic amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V9M9 19V5M14 19V11M19 19V7"/></svg></div>
-        <h3>Live band decoding &amp; waterfall</h3>
-        <p>A continuously scrolling waterfall with UTC timestamps at every FT8 period, tap-to-tune labels, and decodes in milliseconds.</p>
+        <h3>FT8, FT4 &amp; FT2 decoding</h3>
+        <p>A continuously scrolling waterfall with UTC timestamps at every period, tap-to-tune labels, and decodes in milliseconds — now across three modes.</p>
       </article>
       <article class="card feat reveal" data-delay="80">
-        <div class="feat-ic cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="2"/><path d="M8.5 8.5a5 5 0 0 0 0 7M15.5 8.5a5 5 0 0 1 0 7M5.5 5.5a9 9 0 0 0 0 13M18.5 5.5a9 9 0 0 1 0 13"/></svg></div>
-        <h3>Active QSO monitor</h3>
-        <p>A collapsible panel tracks your current contact through the full auto-sequence, with a caller queue so you stay on target.</p>
+        <div class="feat-ic cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/><circle cx="12" cy="12" r="1.6" fill="currentColor" stroke="none"/></svg></div>
+        <h3>World map &amp; QSO paths</h3>
+        <p>A built-in map tab plots every decode and draws the great-circle path to your contact — with distance, DX location, and US state borders.</p>
       </article>
       <article class="card feat reveal" data-delay="160">
-        <div class="feat-ic amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 11a8 8 0 0 1 13.5-5.7M7 11a5 5 0 0 1 8.5-3.6"/><circle cx="4" cy="20" r="2"/><path d="M4 18V14"/></svg></div>
-        <h3>USB CAT radio control</h3>
-        <p>Drive your rig directly over USB-C — CAT control, audio, rig models, and DATA-USB bandwidth handled, with auto-connect fixes.</p>
+        <div class="feat-ic amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="2"/><path d="M8.5 8.5a5 5 0 0 0 0 7M15.5 8.5a5 5 0 0 1 0 7M5.5 5.5a9 9 0 0 0 0 13M18.5 5.5a9 9 0 0 1 0 13"/></svg></div>
+        <h3>Active QSO monitor &amp; hunting</h3>
+        <p>Track a contact through the full auto-sequence, with a caller queue, Hunt mode, Auto-CQ, directional-CQ awareness, and needed-DX alerts.</p>
       </article>
       <article class="card feat reveal" data-delay="40">
-        <div class="feat-ic cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19"/><path d="M9 8h6M9 12h4"/></svg></div>
-        <h3>Cloudlog &amp; QRZ logging</h3>
-        <p>Automatic log upload to Cloudlog and QRZ the moment a QSO completes — configured once, then out of your way.</p>
+        <div class="feat-ic cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z"/><path d="M9 9l2 2 4-4"/></svg></div>
+        <h3>POTA activation mode</h3>
+        <p>Run a park activation end to end — live contact list, two-fer / multi-park support, an activation map, and direct upload to POTA.</p>
+      </article>
+      <article class="card feat reveal" data-delay="120">
+        <div class="feat-ic amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 11a8 8 0 0 1 13.5-5.7M7 11a5 5 0 0 1 8.5-3.6"/><circle cx="4" cy="20" r="2"/><path d="M4 18V14"/></svg></div>
+        <h3>USB CAT for 75+ rigs</h3>
+        <p>Drive your rig over a single USB-C cable — CAT, audio, ALC auto-leveling and SWR protection — across 75+ Icom, Yaesu, Kenwood, Xiegu and more.</p>
       </article>
       <article class="card feat reveal" data-delay="200">
-        <div class="feat-ic cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div>
-        <h3>Material 3 dark UI</h3>
-        <p>A complete Jetpack Compose rebuild — fast, legible at a glance in the field, and easy on the eyes during a long night of DX.</p>
+        <div class="feat-ic cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19"/><path d="M9 8h6M9 12h4"/></svg></div>
+        <h3>Logs everywhere, automatically</h3>
+        <p>The instant a QSO completes it uploads to Cloudlog, QRZ and Wavelog — and every decode you hear is spotted to PSKReporter.</p>
       </article>
     </div>
     <div class="center reveal" style="margin-top:44px">
