@@ -12,7 +12,7 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:url" content="https://ft8af.app/faq" />
 <meta property="og:title" content="FT8AF — Frequently asked questions" />
-<meta property="og:description" content="Pricing, the Google Play test track, supported radios and cabling, how this relates to FT8CN, and contributing." />
+<meta property="og:description" content="Pricing, the Google Play test track, supported radios, FT4/FT2 modes, POTA, logging services, how this relates to FT8CN, and contributing." />
 <meta property="og:image" content="https://ft8af.app/assets/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -22,7 +22,7 @@
 <!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="FT8AF — Frequently asked questions" />
-<meta name="twitter:description" content="Pricing, the Google Play test track, supported radios and cabling, how this relates to FT8CN, and contributing." />
+<meta name="twitter:description" content="Pricing, the Google Play test track, supported radios, FT4/FT2 modes, POTA, logging services, how this relates to FT8CN, and contributing." />
 <meta name="twitter:image" content="https://ft8af.app/assets/og-image.png" />
 <meta name="twitter:image:alt" content="FT8AF — Work the world from your pocket. FT8 on Android." />
 
@@ -30,7 +30,7 @@
 <meta name="theme-color" content="#07090f" />
 <meta name="color-scheme" content="dark" />
 
-<meta name="description" content="Frequently asked questions about FT8AF: pricing, the Google Play test track, supported radios and cabling, the relationship to FT8CN, and contributing." />
+<meta name="description" content="Frequently asked questions about FT8AF: pricing, the Google Play test track, supported radios, FT4 and FT2 modes, POTA activation, logging and spotting services, the relationship to FT8CN, and contributing." />
 <link rel="icon" type="image/svg+xml" href="/assets/icon.svg" />
 <link rel="preload" href="/assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
 <link rel="preload" href="/assets/fonts/geist-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
@@ -81,7 +81,31 @@
       "name": "Which radios are supported?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Any CAT-capable HF radio that the underlying Hamlib-style control supports — including popular rigs like the Icom IC-7300 and Yaesu FT-891, with rig model, control mode, and audio device pickers in Settings. FT8AF includes specific fixes such as setting the FT-891 to 3000&nbsp;Hz bandwidth in DATA-USB mode. If your rig isn't listed, open an issue and let us know."
+        "text": "Over 75 rig models across Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 and more — picked from a list in Settings along with control mode and audio device. Popular rigs like the Icom IC-7300 and Yaesu FT-891 are well supported, and recent additions include the Yaesu FT-710, Kenwood TS-440, and Lab599 Discovery TX-500. FT8AF also adds ALC auto-leveling and an SWR-triggered TX halt to protect your radio. If your rig isn't listed, open an issue and let us know."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does FT8AF support FT4 and FT2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. FT8AF started as FT8-only and now decodes and transmits FT8, FT4 and the experimental FT2 mode, each with the correct slot timing and band plan — switchable in a tap. There's also Fox & Hound (DXpedition) operating for chasing rare stations in a pileup."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I run POTA activations with it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — there's a dedicated POTA activation mode. It keeps a live contact list with hunter callsigns and grids, shows an activation map, detects park-to-park (P2P) contacts, supports multi-park (two-fer) activations, resumes if you close the app, and uploads your log straight to POTA when you're done."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which logging and spotting services does it support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When a QSO completes, FT8AF can auto-upload to Cloudlog / Wavelog and the QRZ logbook, and it spots every decode you hear to PSKReporter so your station shows up on the propagation maps. You can also export ADIF. Each service is configured once in Settings and then runs in the background."
       }
     },
     {
@@ -113,7 +137,7 @@
       "name": "How is this different from FT8CN?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "FT8AF is a fork of the excellent FT8CN that brings it forward: a full Jetpack Compose / Material 3 dark UI, an active QSO monitor with caller queue, Cloudlog and QRZ auto-logging, multi-language support (English, Greek, Spanish, Japanese, French, Russian, and Chinese — the original was Chinese-only), plus 58+ bug fixes across two \"bug bash\" passes. The core decoding heritage is FT8CN's — we modernized the experience around it."
+        "text": "FT8AF is a fork of the excellent FT8CN that brings it forward: a full Jetpack Compose / Material 3 dark UI, an active QSO monitor with caller queue and smart hunting, FT4 and FT2 modes alongside FT8, a world map with QSO paths, POTA activation mode, auto-logging to Cloudlog, QRZ, Wavelog and PSKReporter, multi-language support (the original was Chinese-only), plus dozens of bug fixes across multiple \"bug bash\" passes. The core decoding heritage is FT8CN's — we modernized and expanded the experience around it."
       }
     },
     {
@@ -121,7 +145,7 @@
       "name": "What languages does FT8AF support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "FT8AF ships with seven languages: English (100%, the default), Greek (99%), Spanish (99%), Japanese (99%), French (99%), Russian (99%), and Chinese (99%). The app auto-detects your Android device locale and switches automatically. All translations are community-contributed — if you'd like to add or improve a language, pull requests are welcome on GitHub."
+        "text": "FT8AF ships in 16 languages: English (the default), Greek, Spanish, Japanese, French, Russian, Chinese, Italian, Polish, Korean, Dutch, Czech, Turkish, Indonesian, Ukrainian, and Arabic (right-to-left). The app auto-detects your Android device locale and switches automatically. All translations are community-contributed — if you'd like to add or improve a language, pull requests are welcome on GitHub."
       }
     },
     {
@@ -225,7 +249,7 @@
     <div class="faq-cats">
       <div class="faq-item">
         <button class="faq-q">Which radios are supported?<span class="fi"></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Any CAT-capable HF radio that the underlying Hamlib-style control supports — including popular rigs like the Icom IC-7300 and Yaesu FT-891, with rig model, control mode, and audio device pickers in Settings. FT8AF includes specific fixes such as setting the FT-891 to 3000&nbsp;Hz bandwidth in DATA-USB mode. If your rig isn't listed, open an issue and let us know.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">Over <strong>75 rig models</strong> across Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 and more — picked from a list in Settings along with control mode and audio device. Popular rigs like the Icom IC-7300 and Yaesu FT-891 are well supported, and recent additions include the <strong>Yaesu FT-710</strong>, <strong>Kenwood TS-440</strong>, and <strong>Lab599 Discovery TX-500</strong>. FT8AF also adds ALC auto-leveling and an SWR-triggered TX halt to protect your radio. If your rig isn't listed, <a href="https://github.com/patrickrb/FT8AF/issues" target="_blank" rel="noopener">open an issue</a> and let us know.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q">What cable do I need?<span class="fi"></span></button>
@@ -241,15 +265,35 @@
       </div>
     </div>
 
+    <div class="faq-cat-title">Modes, maps &amp; POTA</div>
+    <div class="faq-cats">
+      <div class="faq-item">
+        <button class="faq-q">Does FT8AF support FT4 and FT2?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes. FT8AF started as FT8-only and now decodes and transmits <strong>FT8, FT4 and the experimental FT2</strong> mode, each with the correct slot timing and band plan — switchable in a tap. There's also Fox &amp; Hound (DXpedition) operating for chasing rare stations in a pileup.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can I run POTA activations with it?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes — there's a dedicated <strong>POTA activation mode</strong>. It keeps a live contact list with hunter callsigns and grids, shows an activation map, detects park-to-park (P2P) contacts, supports multi-park (two-fer) activations, resumes if you close the app, and uploads your log straight to POTA when you're done.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is there a map?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">There is. A dedicated map tab plots the stations you're hearing and draws the great-circle path to whoever you're working, with the distance, DX location, and US state borders. Pick your units — miles or kilometers — in Settings.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Which logging and spotting services does it support?<span class="fi"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">When a QSO completes, FT8AF can auto-upload to <strong>Cloudlog / Wavelog</strong> and the <strong>QRZ</strong> logbook, and it spots every decode you hear to <strong>PSKReporter</strong> so your station shows up on the propagation maps. You can also export ADIF. Each service is configured once in Settings and then runs in the background.</div></div>
+      </div>
+    </div>
+
     <div class="faq-cat-title">The project</div>
     <div class="faq-cats">
       <div class="faq-item">
         <button class="faq-q">How is this different from FT8CN?<span class="fi"></span></button>
-        <div class="faq-a"><div class="faq-a-inner">FT8AF is a fork of the excellent FT8CN that brings it forward: a full Jetpack Compose / Material 3 dark UI, an active QSO monitor with caller queue, Cloudlog and QRZ auto-logging, multi-language support (English, Greek, Spanish, Japanese, French, Russian, and Chinese — the original was Chinese-only), plus 58+ bug fixes across two "bug bash" passes. The core decoding heritage is FT8CN's — we modernized the experience around it.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">FT8AF is a fork of the excellent FT8CN that brings it forward: a full Jetpack Compose / Material 3 dark UI, an active QSO monitor with caller queue and smart hunting, <strong>FT4 and FT2</strong> modes alongside FT8, a world map with QSO paths, <strong>POTA activation</strong> mode, auto-logging to Cloudlog, QRZ, Wavelog and PSKReporter, <strong>multi-language support</strong> (the original was Chinese-only), plus dozens of bug fixes across multiple "bug bash" passes. The core decoding heritage is FT8CN's — we modernized and expanded the experience around it.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q">What languages does FT8AF support?<span class="fi"></span></button>
-        <div class="faq-a"><div class="faq-a-inner">FT8AF ships with seven languages: English (100%, the default), Greek (99%), Spanish (99%), Japanese (99%), French (99%), Russian (99%), and Chinese (99%). The app auto-detects your Android device locale and switches automatically. All translations are community-contributed — if you'd like to add or improve a language, pull requests are welcome on <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub</a>.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">FT8AF ships in <strong>16 languages</strong>: English (the default), Greek, Spanish, Japanese, French, Russian, Chinese, Italian, Polish, Korean, Dutch, Czech, Turkish, Indonesian, Ukrainian, and Arabic (right-to-left). The app auto-detects your Android device locale and switches automatically. All translations are community-contributed — if you'd like to add or improve a language, pull requests are welcome on <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub</a>.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q">Who makes FT8AF?<span class="fi"></span></button>

@@ -12,7 +12,7 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:url" content="https://ft8af.app/features" />
 <meta property="og:title" content="FT8AF — A full FT8 station, rebuilt for Android" />
-<meta property="og:description" content="Live band decoding, active QSO monitor, USB CAT control, Cloudlog & QRZ auto-logging, Material 3 dark — on a phone." />
+<meta property="og:description" content="FT8/FT4/FT2 decoding, active QSO monitor, world map with QSO paths, POTA activation, USB CAT for 75+ rigs, and auto-logging to Cloudlog, QRZ, Wavelog & PSKReporter." />
 <meta property="og:image" content="https://ft8af.app/assets/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -22,7 +22,7 @@
 <!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="FT8AF — A full FT8 station, rebuilt for Android" />
-<meta name="twitter:description" content="Live band decoding, active QSO monitor, USB CAT control, Cloudlog & QRZ auto-logging, Material 3 dark — on a phone." />
+<meta name="twitter:description" content="FT8/FT4/FT2 decoding, active QSO monitor, world map with QSO paths, POTA activation, USB CAT for 75+ rigs, and auto-logging to Cloudlog, QRZ, Wavelog & PSKReporter." />
 <meta name="twitter:image" content="https://ft8af.app/assets/og-image.png" />
 <meta name="twitter:image:alt" content="FT8AF — Work the world from your pocket. FT8 on Android." />
 
@@ -30,7 +30,7 @@
 <meta name="theme-color" content="#07090f" />
 <meta name="color-scheme" content="dark" />
 
-<meta name="description" content="Live band decoding and a continuous waterfall, an active QSO monitor with full auto-sequence, USB CAT radio control, automatic Cloudlog and QRZ logging, a Material 3 dark UI, and multi-language support in English, Greek, Spanish, Japanese, French, Russian, and Chinese." />
+<meta name="description" content="FT8, FT4 and FT2 decoding with a continuous waterfall, an active QSO monitor with smart hunting and needed-DX alerts, a world map with QSO paths, POTA activation mode, USB CAT control for 75+ rigs, automatic logging to Cloudlog, QRZ, Wavelog and PSKReporter, and multi-language support across 16 languages, including right-to-left Arabic." />
 <link rel="icon" type="image/svg+xml" href="/assets/icon.svg" />
 <link rel="preload" href="/assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
 <link rel="preload" href="/assets/fonts/geist-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
@@ -92,58 +92,115 @@
   <!-- 1 · Waterfall -->
   <section class="frow reveal">
     <div class="frow-visual">
-      <div class="viz">
-        <div class="viz-head"><span>20m · 14.074 MHz</span><span class="live">Live</span></div>
-        <div class="viz-body" style="padding:12px">
-          <div class="wf-axis"><span>0</span><span>500</span><span>1000</span><span>1500</span><span>2000</span><span>2500</span><span>3000</span></div>
-          <canvas data-spectrum data-h="48" style="width:100%;display:block;border-radius:8px 8px 0 0"></canvas>
-          <canvas data-waterfall data-h="240" style="width:100%;display:block;border-radius:0 0 8px 8px"></canvas>
-        </div>
-        <div class="wf-foot"><span>UTC 14:23:00</span><span>Decoded in 64 ms</span><span class="live" style="color:var(--signal)">● 14 signals</span></div>
-      </div>
+      <span class="shot-device"><img src="/assets/screens/app-waterfall.png" width="540" height="1200" loading="lazy" alt="FT8AF Waterfall tab: a full-band spectrogram with decoded callsigns stamped vertically on their signals, a TX-frequency marker, a UTC timestamp, and an active QSO state banner reading 'New state: NM · KE7WVV DM56 −4 dB'." /></span>
     </div>
     <div class="frow-copy">
       <div class="eyebrow">01 · Spectrum</div>
       <h2>Live band decoding &amp; waterfall</h2>
-      <p>Watch the whole 3&nbsp;kHz passband at once. The waterfall scrolls continuously with UTC timestamps drawn at every FT8 period boundary, so you can read propagation at a glance and pounce the instant a needed station appears.</p>
+      <p>Watch the whole 3&nbsp;kHz passband at once. The waterfall scrolls continuously with UTC timestamps drawn at every period boundary, so you can read propagation at a glance and pounce the instant a needed station appears.</p>
       <ul class="feat-points">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Continuous scroll with period-boundary time markers</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Configurable spectrum width &amp; zoom (Wide → 500&nbsp;Hz)</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Tap a signal to tune; TX marker stays aligned</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Taller spectrum strip, configurable width &amp; zoom (Wide → 500&nbsp;Hz)</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Tap a signal to tune; TX marker stays aligned; junk decodes filtered</li>
       </ul>
     </div>
   </section>
 
-  <!-- 2 · QSO monitor -->
+  <!-- 2 · Modes -->
   <section class="frow flip reveal">
     <div class="frow-visual">
       <div class="viz">
-        <div class="viz-head"><span>Active QSO · EA8DH</span><span class="live">Auto</span></div>
+        <div class="viz-head"><span>Operating mode</span><span class="live">FT8</span></div>
         <div class="viz-body">
-          <div class="qseq">
-            <div class="qstep done"><span class="num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 12l5 5 11-12"/></svg></span><div><div class="ql">Send call</div><div class="qm"><span class="tx">TX</span> KD9XYZ EN52</div></div></div>
-            <div class="qstep done"><span class="num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 12l5 5 11-12"/></svg></span><div><div class="ql">Report sent</div><div class="qm"><span class="rx">RX</span> KD9XYZ EA8DH −12</div></div></div>
-            <div class="qstep active"><span class="num">3</span><div><div class="ql">Roger report</div><div class="qm"><span class="tx">TX</span> EA8DH KD9XYZ R−09</div></div></div>
-            <div class="qstep pending"><span class="num">4</span><div><div class="ql">Confirm</div></div></div>
-            <div class="qstep pending"><span class="num">5</span><div><div class="ql">Logged</div></div></div>
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px">
+            <div style="background:rgba(255,175,94,0.07);border:1px solid var(--border-amber);border-radius:12px;padding:13px 11px">
+              <div style="font-family:var(--font-mono);font-size:15px;font-weight:600;color:var(--accent)">FT8</div>
+              <div style="font-size:11px;color:var(--text-muted);margin-top:5px">15 s slot</div>
+              <div style="font-family:var(--font-mono);font-size:10.5px;color:var(--text-faint);margin-top:2px">to −24 dB</div>
+            </div>
+            <div style="background:var(--bg-app);border:1px solid var(--border-strong);border-radius:12px;padding:13px 11px">
+              <div style="font-family:var(--font-mono);font-size:15px;font-weight:600;color:var(--text)">FT4</div>
+              <div style="font-size:11px;color:var(--text-muted);margin-top:5px">7.5 s slot</div>
+              <div style="font-family:var(--font-mono);font-size:10.5px;color:var(--text-faint);margin-top:2px">contest pace</div>
+            </div>
+            <div style="background:var(--bg-app);border:1px solid var(--border-strong);border-radius:12px;padding:13px 11px">
+              <div style="font-family:var(--font-mono);font-size:15px;font-weight:600;color:var(--text)">FT2</div>
+              <div style="font-size:11px;color:var(--text-muted);margin-top:5px">faster still</div>
+              <div style="font-family:var(--font-mono);font-size:10.5px;color:var(--signal);margin-top:2px">experimental</div>
+            </div>
+          </div>
+          <div style="margin-top:12px;display:flex;align-items:center;gap:9px;background:var(--bg-app);border:1px solid var(--border);border-radius:10px;padding:10px 12px">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--signal)" stroke-width="1.7" style="width:18px;height:18px;flex-shrink:0"><path d="M3 11l18-5-5 18-4-8-9-5z"/></svg>
+            <span style="font-size:12.5px;color:var(--text-muted)">Fox &amp; Hound DXpedition mode for chasing the big ones</span>
           </div>
         </div>
       </div>
     </div>
     <div class="frow-copy">
-      <div class="eyebrow cyan">02 · Operating</div>
-      <h2>Active QSO monitor &amp; auto-sequence</h2>
-      <p>A collapsible panel sits right above the TX strip and tracks your current contact through every step of the FT8 exchange. A caller queue keeps you locked on your target instead of bouncing to whoever's loudest.</p>
+      <div class="eyebrow cyan">02 · Modes</div>
+      <h2>Three modes, one app</h2>
+      <p>FT8AF started as FT8-only and now decodes and transmits <strong>FT8, FT4 and FT2</strong> — each with the correct slot timing and band plan. Switch modes in a tap, and chase DXpeditions with Fox &amp; Hound support.</p>
       <ul class="feat-points">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Full auto-sequence: call → report → roger → 73 → log</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Caller queue so you stay on the station you want</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>CQ / Stop toggle and TX1 / TX2 slot picker on the strip</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>FT8 (15 s) and the faster FT4 (7.5 s) for contests &amp; pileups</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Experimental FT2 mode with its own canonical frequencies</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Fox &amp; Hound (DXpedition) operating for FT8</li>
       </ul>
     </div>
   </section>
 
-  <!-- 3 · USB CAT -->
+  <!-- 3 · QSO monitor & hunting -->
   <section class="frow reveal">
+    <div class="frow-visual">
+      <span class="shot-device"><img src="/assets/screens/app-decode.png" width="540" height="1200" loading="lazy" alt="FT8AF Decode tab: a live list of decoded stations — K7LNY, KF0X, KF6MIX, AK7LV, ND9M — each with grid square, distance, signal-strength bars, SNR in dB, time since heard, US state and a NEW DXCC pill, with Hunt / Call CQ / TX1 controls and the listening TX strip on 10.136 MHz / 30m." /></span>
+    </div>
+    <div class="frow-copy">
+      <div class="eyebrow">03 · Operating</div>
+      <h2>QSO monitor, hunting &amp; alerts</h2>
+      <p>A collapsible panel tracks your current contact through every step of the exchange — call → report → roger → 73 → log. A caller queue keeps you locked on your target, and smart hunting works the band so you don't have to babysit it.</p>
+      <ul class="feat-points">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Hunt mode &amp; Auto-CQ — chain calls without re-tapping</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Needed-DX alerts: sound + notification for a new DXCC or state</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Directional-CQ awareness, callsign blocklist &amp; decode filters</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4 · Map -->
+  <section class="frow flip reveal">
+    <div class="frow-visual">
+      <span class="shot-device"><img src="/assets/screens/app-map.png" width="540" height="1200" loading="lazy" alt="FT8AF Map tab: a world map plotting the stations being heard as markers, with grid square EM28, a station count, and PSK / standard / azimuthal projection toggles." /></span>
+    </div>
+    <div class="frow-copy">
+      <div class="eyebrow cyan">04 · Map</div>
+      <h2>World map &amp; QSO paths</h2>
+      <p>A dedicated map tab plots the stations you're hearing and draws the great-circle path to whoever you're working — with the distance, the DX location, and US state borders so you can see exactly where your signal is landing.</p>
+      <ul class="feat-points">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Distance &amp; DX location right in the QSO panel</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Path map with US state borders drawn in</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Choose your units — miles or kilometers</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 5 · POTA -->
+  <section class="frow reveal">
+    <div class="frow-visual">
+      <span class="shot-device"><img src="/assets/screens/app-pota.png" width="540" height="1200" loading="lazy" alt="FT8AF POTA tab during a live two-park (two-fer) activation of US-1469 and US-4567: a green '14 QSOs — valid activation' counter, elapsed time, Self-spot and End-activation buttons, a US map with contact paths radiating from the activator, and a contact list with QRZ avatars and a park-to-park (P2P) pill." /></span>
+    </div>
+    <div class="frow-copy">
+      <div class="eyebrow">05 · Activations</div>
+      <h2>POTA activation mode</h2>
+      <p>Take FT8AF to the park. Activation mode runs your whole outing — a live, growing contact list with hunter callsigns and grids, a contact map, and park-to-park detection — then uploads your log straight to POTA when you're done.</p>
+      <ul class="feat-points">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Two-fer / multi-park activations and P2P pills</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Activation map, QRZ avatars &amp; tap-through history</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Resume after closing the app, and upload in-app to POTA</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 6 · USB CAT -->
+  <section class="frow flip reveal">
     <div class="frow-visual">
       <div class="viz">
         <div class="viz-head"><span>USB CAT + Audio</span><span class="live">Connected</span></div>
@@ -159,175 +216,96 @@
             </div>
             <div class="usb-node">
               <div class="ic" style="color:var(--signal)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="8" cy="12" r="2.4"/><path d="M14 10h5M14 14h5"/></svg></div>
-              <div class="nl"><b>Your rig</b>IC-7300 · FT-891</div>
+              <div class="nl"><b>Your rig</b>75+ models</div>
             </div>
           </div>
           <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;font-family:var(--font-mono);font-size:11px">
             <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:9px"><div style="color:var(--text-faint);font-size:9px;text-transform:uppercase;letter-spacing:.06em">Mode</div><div style="color:var(--text);margin-top:3px">DATA-USB</div></div>
-            <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:9px"><div style="color:var(--text-faint);font-size:9px;text-transform:uppercase;letter-spacing:.06em">BW</div><div style="color:var(--text);margin-top:3px">3000 Hz</div></div>
-            <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:9px"><div style="color:var(--text-faint);font-size:9px;text-transform:uppercase;letter-spacing:.06em">PTT</div><div style="color:var(--status-confirmed);margin-top:3px">CAT</div></div>
+            <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:9px"><div style="color:var(--text-faint);font-size:9px;text-transform:uppercase;letter-spacing:.06em">ALC</div><div style="color:var(--status-confirmed);margin-top:3px">Auto</div></div>
+            <div style="background:var(--bg-app);border:1px solid var(--border);border-radius:8px;padding:9px"><div style="color:var(--text-faint);font-size:9px;text-transform:uppercase;letter-spacing:.06em">SWR</div><div style="color:var(--status-confirmed);margin-top:3px">OK</div></div>
           </div>
         </div>
       </div>
     </div>
     <div class="frow-copy">
-      <div class="eyebrow">03 · Hardware</div>
-      <h2>USB CAT radio control</h2>
-      <p>Plug your rig straight into your phone with a single USB-C cable. FT8AF handles CAT frequency control, USB audio, and PTT — with a pile of reliability fixes for auto-connect races, multi-port handling, and serial control.</p>
+      <div class="eyebrow cyan">06 · Hardware</div>
+      <h2>USB CAT for 75+ radios</h2>
+      <p>Plug your rig straight into your phone with a single USB-C cable. FT8AF handles CAT frequency control, USB audio, and PTT across 75+ rig models — Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 and more — with a pile of auto-connect reliability fixes.</p>
       <ul class="feat-points">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Rig model, control mode &amp; audio device pickers</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>FT-891 correctly set to 3000&nbsp;Hz in DATA-USB</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>TX volume mapped to the hardware volume buttons</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>New rigs added: Yaesu FT-710, Kenwood TS-440, Lab599 Discovery TX-500</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>ALC auto-leveling and an SWR-triggered TX halt to protect your finals</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Real-time TX volume — adjust drive live, mid-transmission</li>
       </ul>
     </div>
   </section>
 
-  <!-- 4 · Logging -->
-  <section class="frow flip reveal">
+  <!-- 7 · Logging -->
+  <section class="frow reveal">
     <div class="frow-visual">
-      <div class="viz">
-        <div class="viz-head"><span>Logbook · auto-upload</span><span class="live">Synced</span></div>
-        <div class="viz-body" style="padding:6px 16px 12px">
-          <div class="logrow">
-            <span class="spill" style="color:var(--status-confirmed);background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.22)"><span class="d" style="background:var(--status-confirmed)"></span>QRZ</span>
-            <div><div class="lc">DL7VEE <span style="color:var(--text-faint);font-weight:400;font-size:12px">JO62</span></div><div class="ld">Germany · 20m · FT8</div></div>
-            <div class="lt">14:18<br />−18 / −09</div>
-          </div>
-          <div class="logrow">
-            <span class="spill" style="color:var(--signal);background:rgba(92,214,232,.1);border:1px solid rgba(92,214,232,.22)"><span class="d" style="background:var(--signal)"></span>Cloud</span>
-            <div><div class="lc">W3LPL <span style="color:var(--text-faint);font-weight:400;font-size:12px">FM19</span></div><div class="ld">Maryland · 20m · FT8</div></div>
-            <div class="lt">14:02<br />−06 / −11</div>
-          </div>
-          <div class="logrow">
-            <span class="spill" style="color:var(--status-confirmed);background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.22)"><span class="d" style="background:var(--status-confirmed)"></span>QRZ</span>
-            <div><div class="lc">JA3YBK <span style="color:var(--text-faint);font-weight:400;font-size:12px">PM74</span></div><div class="ld">Japan · 15m · FT8</div></div>
-            <div class="lt">13:45<br />−12 / −15</div>
-          </div>
-        </div>
-      </div>
+      <span class="shot-device"><img src="/assets/screens/app-logbook.png" width="540" height="1200" loading="lazy" alt="FT8AF Logbook tab: a Stats view showing 27 QSOs, 13 DXCC entities, 11 CQ zones and 13 ITU zones, a band-distribution donut chart spanning 30m, 20m, 40m, 17m and 15m, and award progress bars for DXCC Mixed (13/340) and VUCC grid squares (28/100)." /></span>
     </div>
     <div class="frow-copy">
-      <div class="eyebrow cyan">04 · Logging</div>
-      <h2>Cloudlog &amp; QRZ auto-logging</h2>
-      <p>Configure your log services once and forget them. The moment a QSO completes, FT8AF pushes it straight to Cloudlog and QRZ — no exporting ADIF files, no copying callsigns by hand at the end of the night.</p>
+      <div class="eyebrow">07 · Logging</div>
+      <h2>Logs everywhere, automatically</h2>
+      <p>Configure your log services once and forget them. The moment a QSO completes, FT8AF pushes it straight to Cloudlog, QRZ and Wavelog — and every signal you decode is spotted to PSKReporter so the propagation maps light up with your station.</p>
       <ul class="feat-points">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Cloudlog configuration dialog with automatic upload</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>QRZ automatic log upload</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Every contact captured with both SNR reports</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Automatic upload to Cloudlog / Wavelog and QRZ logbook</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>PSKReporter spotting of every decode you hear</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Station-ID picker plus ADIF export, both SNR reports captured</li>
       </ul>
     </div>
   </section>
 
-  <!-- 5 · Material 3 -->
+  <!-- 8 · Material 3 -->
   <section class="frow flip reveal">
     <div class="frow-visual">
-      <div class="phone" style="--pw:280px;--ph:570px">
-        <div class="phone-screen">
-          <div class="phone-statusbar">
-            <span>9:41</span><span class="cam"></span>
-            <span class="sb-right">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 17h3v4H2zM7 13h3v8H7zM12 9h3v12h-3zM17 5h3v16h-3z"/></svg>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="18" height="10" rx="2.5"/><rect x="4" y="9" width="12" height="6" rx="1" fill="currentColor"/><path d="M22 10v4"/></svg>
-            </span>
-          </div>
-          <div class="phone-body">
-            <div class="app-topbar">
-              <div><h1>Waterfall</h1><div class="sub"><span>2.5 kHz</span><span style="color:var(--text-dim)">·</span><span>14 signals</span></div></div>
-              <div class="icon-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1l2.1-2.1M17 7l2.1-2.1"/></svg></div>
-            </div>
-            <div class="chips">
-              <span class="chip active">Wide</span><span class="chip">1.5 kHz</span><span class="chip">500 Hz</span>
-            </div>
-            <div style="margin:0 10px 12px;background:var(--bg-surface);border:1px solid var(--border);border-radius:14px;overflow:hidden">
-              <div class="wf-axis"><span>0</span><span>1k</span><span>2k</span><span>3k</span></div>
-              <div style="padding:0 8px 8px">
-                <canvas data-spectrum data-h="40" style="width:100%;display:block;border-radius:6px 6px 0 0"></canvas>
-                <canvas data-waterfall data-h="230" style="width:100%;display:block;border-radius:0 0 6px 6px"></canvas>
-              </div>
-            </div>
-            <div class="tx-strip"><span class="live"><b>LISTENING</b><span style="color:var(--text-faint)">·</span>20m</span><span class="freq"><b>14.074</b></span></div>
-            <div class="tabbar">
-              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3.5 6h17M3.5 12h12M3.5 18h17"/></svg>Decode</span>
-              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18"/></svg>Map</span>
-              <span class="tabbtn active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V9M9 19V5M14 19V11M19 19V7"/></svg>Waterfall</span>
-              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/></svg>Log</span>
-              <span class="tabbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>Setup</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <span class="shot-device"><img src="/assets/screens/app-settings.png" width="540" height="1200" loading="lazy" alt="FT8AF Settings tab: an operator-identity card for K1AF in grid EM28 with a QRZ profile photo, antenna (ATAS 120) and power (70 W), a GPS auto-grid toggle, and drill-down categories for Radio &amp; Audio, Transmission, Time Sync, Decode &amp; Filters, Logging &amp; Awards, Advanced and About." /></span>
     </div>
     <div class="frow-copy">
-      <div class="eyebrow cyan">05 · Interface</div>
+      <div class="eyebrow cyan">08 · Interface</div>
       <h2>Material 3 dark UI</h2>
-      <p>The whole interface is a fresh Jetpack Compose rebuild on a Material 3 dark theme — high-contrast, legible at a glance in bright sun or a dark shack, and laid out for thumbs, with a compact density mode for tablets.</p>
+      <p>The whole interface is a fresh Jetpack Compose rebuild on a Material 3 dark theme — high-contrast, legible at a glance in bright sun or a dark shack, and laid out for thumbs. Settings are organized into clean drill-down categories, and a compact decode mode tightens things up on smaller screens.</p>
       <ul class="feat-points">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Jetpack Compose, Material 3, dark by default</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Drill-down Settings, configurable decode highlights &amp; compact mode</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Operator card with your QRZ photo, antenna &amp; power</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Status-coded decodes: new, needed, worked, confirmed</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Field-ready contrast and tap targets</li>
       </ul>
     </div>
   </section>
 
-  <!-- 6 · Languages -->
+  <!-- 9 · Languages -->
   <section class="frow reveal">
     <div class="frow-visual">
       <div class="viz">
-        <div class="viz-head"><span>Localization</span><span class="live">7 Languages</span></div>
+        <div class="viz-head"><span>Localization</span><span class="live">16 Languages</span></div>
         <div class="viz-body">
           <div class="lang-grid">
-            <div class="lang-card">
-              <div class="lang-native">English</div>
-              <div class="lang-code">en</div>
-              <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
-              <div class="lang-pct">100%</div>
-            </div>
-            <div class="lang-card">
-              <div class="lang-native">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;&#940;</div>
-              <div class="lang-code">el</div>
-              <div class="lang-bar"><div class="lang-fill" style="width:99%"></div></div>
-              <div class="lang-pct">99%</div>
-            </div>
-            <div class="lang-card">
-              <div class="lang-native">Espa&ntilde;ol</div>
-              <div class="lang-code">es</div>
-              <div class="lang-bar"><div class="lang-fill" style="width:99%"></div></div>
-              <div class="lang-pct">99%</div>
-            </div>
-            <div class="lang-card">
-              <div class="lang-native">&#26085;&#26412;&#35486;</div>
-              <div class="lang-code">ja</div>
-              <div class="lang-bar"><div class="lang-fill" style="width:99%"></div></div>
-              <div class="lang-pct">99%</div>
-            </div>
-            <div class="lang-card">
-              <div class="lang-native">Fran&ccedil;ais</div>
-              <div class="lang-code">fr</div>
-              <div class="lang-bar"><div class="lang-fill" style="width:99%"></div></div>
-              <div class="lang-pct">99%</div>
-            </div>
-            <div class="lang-card">
-              <div class="lang-native">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</div>
-              <div class="lang-code">ru</div>
-              <div class="lang-bar"><div class="lang-fill" style="width:99%"></div></div>
-              <div class="lang-pct">99%</div>
-            </div>
-            <div class="lang-card">
-              <div class="lang-native">&#20013;&#25991;</div>
-              <div class="lang-code">zh</div>
-              <div class="lang-bar"><div class="lang-fill" style="width:99%"></div></div>
-              <div class="lang-pct">99%</div>
-            </div>
+            <div class="lang-card"><span class="lang-native">English</span><span class="lang-code">en</span></div>
+            <div class="lang-card"><span class="lang-native">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;&#940;</span><span class="lang-code">el</span></div>
+            <div class="lang-card"><span class="lang-native">Espa&ntilde;ol</span><span class="lang-code">es</span></div>
+            <div class="lang-card"><span class="lang-native">&#26085;&#26412;&#35486;</span><span class="lang-code">ja</span></div>
+            <div class="lang-card"><span class="lang-native">Fran&ccedil;ais</span><span class="lang-code">fr</span></div>
+            <div class="lang-card"><span class="lang-native">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</span><span class="lang-code">ru</span></div>
+            <div class="lang-card"><span class="lang-native">&#20013;&#25991;</span><span class="lang-code">zh</span></div>
+            <div class="lang-card"><span class="lang-native">Italiano</span><span class="lang-code">it</span></div>
+            <div class="lang-card"><span class="lang-native">Polski</span><span class="lang-code">pl</span></div>
+            <div class="lang-card"><span class="lang-native">&#54620;&#44397;&#50612;</span><span class="lang-code">ko</span></div>
+            <div class="lang-card"><span class="lang-native">Nederlands</span><span class="lang-code">nl</span></div>
+            <div class="lang-card"><span class="lang-native">&#268;e&#353;tina</span><span class="lang-code">cs</span></div>
+            <div class="lang-card"><span class="lang-native">T&uuml;rk&ccedil;e</span><span class="lang-code">tr</span></div>
+            <div class="lang-card"><span class="lang-native">Bahasa Indonesia</span><span class="lang-code">id</span></div>
+            <div class="lang-card"><span class="lang-native">&#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072;</span><span class="lang-code">uk</span></div>
+            <div class="lang-card"><span class="lang-native" lang="ar" dir="rtl">&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</span><span class="lang-code">ar</span></div>
           </div>
         </div>
       </div>
     </div>
     <div class="frow-copy">
-      <div class="eyebrow">06 &middot; Languages</div>
-      <h2>7 languages, 99% translated</h2>
-      <p>FT8CN was Chinese-only. FT8AF ships with seven languages and near-complete translations, all contributed by the community. The app auto-detects your Android device locale and switches instantly — no settings to dig through.</p>
+      <div class="eyebrow">09 &middot; Languages</div>
+      <h2>Localized in 16 languages</h2>
+      <p>FT8CN was Chinese-only. FT8AF now ships in sixteen languages — all contributed by the community — and auto-switches to your Android device's locale, with right-to-left layout for Arabic.</p>
       <ul class="feat-points">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Community-contributed translations for each language</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Community-contributed translations, including right-to-left Arabic</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>Android auto-locale detection — no manual switching</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l5 5 11-12"/></svg>More languages welcome — PRs open on GitHub</li>
       </ul>
@@ -348,7 +326,7 @@
       <div class="mini cyan reveal" data-delay="60"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><h4>UTC waterfall stamps</h4><p>Timestamps drawn at FT8 period boundaries so you can read timing instantly.</p></div></div>
       <div class="mini reveal" data-delay="120"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M16 8a5 5 0 0 1 0 8"/></svg><div><h4>Hardware TX volume</h4><p>Set transmit level with the phone's physical volume buttons, mid-QSO.</p></div></div>
       <div class="mini cyan reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 7h10M7 7l3-3M7 7l3 3M17 17H7M17 17l-3-3M17 17l-3 3"/></svg><div><h4>TX1 / TX2 slot toggle</h4><p>Pick your transmit period directly, right from the TX strip.</p></div></div>
-      <div class="mini reveal" data-delay="60"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg><div><h4>Android 12+ clean</h4><p>Lint errors and lifecycle bugs resolved for modern Android releases.</p></div></div>
+      <div class="mini reveal" data-delay="60"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><div><h4>GPS time &amp; grid sync</h4><p>Auto time-sync and grid from GPS, plus a manual time correction for offline ops.</p></div></div>
       <div class="mini cyan reveal" data-delay="120"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="2"/><path d="M5.5 5.5a9 9 0 0 0 0 13M18.5 5.5a9 9 0 0 1 0 13"/></svg><div><h4>TX marker alignment</h4><p>Transmit frequency cursor stays locked to your actual TX audio.</p></div></div>
     </div>
   </div>

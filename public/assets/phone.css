@@ -62,6 +62,9 @@
 
 .phone-body { flex: 1; position: relative; z-index: 1; overflow: hidden; display: flex; flex-direction: column; }
 
+/* real screenshot filling the device frame (capture already has its own status bar) */
+.phone-shot { position: absolute; inset: 0; z-index: 2; width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
+
 /* ───── App top bar ───── */
 .app-topbar {
   display: flex; align-items: flex-start; justify-content: space-between;
