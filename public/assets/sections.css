@@ -318,15 +318,13 @@
 .faq-cat-title { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin: 40px 0 4px; }
 .faq-cat-title:first-child { margin-top: 0; }
 
-/* ───── Language grid viz ───── */
-.lang-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+/* ───── Language chips viz ───── */
+.lang-grid { display: flex; flex-wrap: wrap; gap: 7px; }
 .lang-card {
   background: var(--bg-app); border: 1px solid var(--border);
-  border-radius: 10px; padding: 14px 16px;
-  display: flex; flex-direction: column; gap: 4px;
+  border-radius: 99px; padding: 6px 12px;
+  display: inline-flex; align-items: baseline; gap: 7px;
 }
-.lang-native { font-size: 16px; font-weight: 600; color: var(--text); letter-spacing: -0.01em; }
-.lang-code { font-family: var(--font-mono); font-size: 11px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.06em; }
-.lang-bar { height: 4px; border-radius: 2px; background: var(--bg-surface-2); margin-top: 6px; overflow: hidden; }
-.lang-fill { height: 100%; border-radius: 2px; background: var(--accent); }
-.lang-pct { font-family: var(--font-mono); font-size: 11px; color: var(--accent); font-weight: 600; margin-top: 2px; }
+/* plaintext base direction so Arabic etc. render right-to-left correctly */
+.lang-native { font-size: 13px; font-weight: 600; color: var(--text); unicode-bidi: plaintext; }
+.lang-code { font-family: var(--font-mono); font-size: 10px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.05em; }
