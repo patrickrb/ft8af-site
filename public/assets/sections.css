@@ -249,18 +249,15 @@
 .mini p { font-size: 13px; color: var(--text-muted); margin: 0; line-height: 1.45; }
 @media (max-width: 860px) { .mini-grid { grid-template-columns: 1fr; } }
 
-/* ───── Device screenshot gallery ───── */
-.shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px 22px; }
-.shot { display: flex; flex-direction: column; align-items: center; text-align: center; }
-.shot img {
-  width: 100%; max-width: 244px; aspect-ratio: 9 / 20;
-  border-radius: 26px; border: 1px solid var(--border-strong);
-  background: var(--bg-deep); box-shadow: var(--shadow-lift); display: block;
+/* ───── Real device screenshot (feature rows) ───── */
+.shot-device {
+  display: block; width: 100%; max-width: 280px; margin: 0 auto;
+  border-radius: 30px; overflow: hidden;
+  border: 1px solid var(--border-strong);
+  background: #05070b; box-shadow: var(--shadow-lift);
 }
-.shot h4 { margin: 18px 0 5px; font-size: 15px; letter-spacing: -0.01em; }
-.shot p { margin: 0; font-size: 13px; color: var(--text-muted); line-height: 1.45; max-width: 32ch; }
-@media (max-width: 860px) { .shots { grid-template-columns: repeat(2, 1fr); gap: 26px 18px; } }
-@media (max-width: 520px) { .shots { grid-template-columns: 1fr; } .shot img { max-width: 280px; } }
+/* width:100% + height:auto keeps the capture's true aspect ratio — never stretched */
+.shot-device img { display: block; width: 100%; height: auto; }
 
 /* ───── Install methods / steps ───── */
 .method-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
