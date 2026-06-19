@@ -1,0 +1,779 @@
+{
+  "common": {
+    "nav": {
+      "home": "Ana sayfa",
+      "features": "Özellikler",
+      "download": "İndir",
+      "wiki": "Wiki",
+      "faq": "SSS",
+      "github": "GitHub",
+      "star": "Yıldız",
+      "getFree": "Ücretsiz edin",
+      "menu": "Menü"
+    },
+    "langLabel": "Dil",
+    "ogImageAlt": "FT8AF — Dünyayı cebinizden çalışın. Android'de FT8.",
+    "btn": {
+      "downloadFt8af": "FT8AF'yi indir",
+      "starGithub": "GitHub'da yıldız ver",
+      "joinDiscord": "Discord'a katıl"
+    },
+    "footer": {
+      "tagline": "Android'de FT8, modernleştirildi. Gerçek havada kullanım için yapılmış, FT8CN'nin topluluk çatallaması.",
+      "product": "Ürün",
+      "project": "Proje",
+      "operators": "Operatörler",
+      "community": "Topluluk",
+      "bottom": "© 2026 FT8AF · GPL-3.0 · BG7YOZ &amp; N0BOY'un omuzlarında",
+      "links": {
+        "googlePlay": "Google Play",
+        "repo": "GitHub deposu",
+        "releases": "Sürümler",
+        "reportBug": "Hata bildir",
+        "originalFt8cn": "Orijinal FT8CN",
+        "k1af": "Patrick · K1AF",
+        "n0rc": "Reid · N0RC",
+        "discord": "Discord"
+      }
+    }
+  },
+
+  "index": {
+    "meta": {
+      "title": "FT8AF — Android için FT8",
+      "description": "FT8AF, FT8, FT4 ve FT2'yi Android telefonunuzda veya tabletinizde yerel olarak çalıştırır. Bandı çözün, radyonuzu USB CAT üzerinden sürün, QSO yollarını haritalandırın, POTA için parkları aktive edin ve dünyayı her yerden çalışın. Ücretsiz ve açık kaynak.",
+      "ogTitle": "FT8AF — Dünyayı cebinizden çalışın",
+      "ogDescription": "Android'de yerel FT8. Bandı çözün, radyonuzu USB CAT üzerinden sürün ve tam otomatik diziyi çalıştırın. Ücretsiz ve açık kaynak."
+    },
+    "appDescription": "FT8AF, FT8, FT4 ve FT2'yi Android'de yerel olarak çalıştırır. Canlı çözümleme ve şelale, 75+ telsiz için USB CAT denetimi, otomatik dizili QSO monitörü, QSO yollarıyla dünya haritası, POTA aktivasyon modu, Cloudlog, QRZ, Wavelog ve PSKReporter'a otomatik kayıt, aranan DX uyarıları, 16 dilli arayüz, koyu Material 3.",
+    "hero": {
+      "eyebrow": "FT8 · Yerel Android",
+      "title": "Dünyayı<br />cebinizden çalışın.",
+      "lede": "FT8AF bandı çözer, radyonuzu USB CAT üzerinden sürer ve tam\n        otomatik diziyi çalıştırır — hepsi Android telefonunuzda veya tabletinizde yerel olarak. Dizüstü yok. Ses\n        kartı karmaşası yok. Yalnızca telsiziniz ve bir USB-C kablosu.",
+      "ctaGithub": "GitHub'da ücretsiz edin",
+      "ctaPlay": "Google Play'de $3.50",
+      "pillFree": "Ücretsiz ve açık kaynak",
+      "pillFork": "FT8CN çatallaması",
+      "deviceAlt": "Android'de FT8AF Çözümleme sekmesi: çözümlenmiş istasyonların canlı listesi — K7LNY, KF0X, KF6MIX, AK7LV, ND9M — her biri lokatör, mesafe, sinyal gücü çubukları, dB cinsinden SNR, son duyulmadan bu yana geçen süre, ABD eyaleti ve NEW DXCC etiketiyle; Hunt / Call CQ / TX1 denetimleri ve 10.136 MHz / 30m üzerinde dinleyen TX şeridiyle."
+    },
+    "trust": {
+      "modes": "Modlar<br />FT8 · FT4 · FT2",
+      "rigs": "Telsiz modelleri<br />USB CAT üzerinden",
+      "pota": "Aktivasyon modu<br />yerleşik",
+      "map": "Dünya haritası<br />+ QSO yolları",
+      "langs": "Diller<br />yerleşik"
+    },
+    "features": {
+      "eyebrow": "Hava için yapıldı",
+      "title": "Bir bandı çalışmak için gereken<br />her şey — bir telefonda.",
+      "cta": "Tüm özellikleri keşfedin",
+      "cards": [
+        { "title": "FT8, FT4 &amp; FT2 çözümleme", "body": "Her periyotta UTC zaman damgalarıyla sürekli kayan bir şelale, dokunarak ayarlama etiketleri ve milisaniyelerde çözümleme — artık üç modda." },
+        { "title": "Dünya haritası &amp; QSO yolları", "body": "Yerleşik bir harita sekmesi her çözümlemeyi işaretler ve kişinize giden büyük daire yolunu çizer — mesafe, DX konumu ve ABD eyalet sınırlarıyla." },
+        { "title": "Aktif QSO monitörü &amp; avlanma", "body": "Bir kişiyi tam otomatik dizi boyunca takip edin; çağrı kuyruğu, Hunt modu, Auto-CQ, yönlü CQ farkındalığı ve aranan DX uyarılarıyla." },
+        { "title": "POTA aktivasyon modu", "body": "Bir park aktivasyonunu baştan sona yürütün — canlı kişi listesi, two-fer / çoklu park desteği, bir aktivasyon haritası ve POTA'ya doğrudan yükleme." },
+        { "title": "75+ telsiz için USB CAT", "body": "Telsizinizi tek bir USB-C kablosuyla sürün — CAT, ses, otomatik ALC seviyeleme ve SWR koruması — 75+ Icom, Yaesu, Kenwood, Xiegu ve daha fazlasında." },
+        { "title": "Her yerde, otomatik kayıt", "body": "Bir QSO tamamlanır tamamlanmaz Cloudlog, QRZ ve Wavelog'a yüklenir — ve duyduğunuz her çözümleme PSKReporter'a bildirilir." },
+        { "title": "Çok dilli arayüz", "body": "On altı dil — İngilizce ve İspanyolca'dan Korece, Ukraynaca ve sağdan sola Arapça'ya — topluluk katkıları memnuniyetle karşılanır." }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "FT8AF'yi edinin",
+      "title": "Sonsuza dek ücretsiz.<br />Ya da onu beslemek için $3.50.",
+      "lede": "Her iki yolla da aynı uygulama. Play Store sürümü yalnızca güncellemeleri otomatik yapar — ve bir sonraki yol kenarı hata ayıklama seansına katkıda bulunur.",
+      "free": {
+        "tag": "Açık kaynak",
+        "title": "GitHub'dan ücretsiz",
+        "body": "GPL lisanslı ve açıkça geliştirilen tam uygulama. APK'yı alın ya da kendiniz derleyin.",
+        "li": [
+          "Her özellik, sınırsız",
+          "En son APK'yı yandan yükleyin",
+          "Gradle ile kaynaktan derleyin",
+          "Kodu okuyun, çatallayın &amp; katkıda bulunun"
+        ],
+        "cta": "GitHub'da görüntüle"
+      },
+      "paid": {
+        "flag": "Projeyi destekler",
+        "tag": "Google Play",
+        "per": "tek seferlik",
+        "title": "Projeyi destekleyin",
+        "body": "Aynı uygulama, Play Store üzerinden teslim edilir — parmağınızı kıpırdatmadan güncel kalsın diye.",
+        "li": [
+          "Arka planda otomatik güncellemeler",
+          "Tek dokunuşla kurulum, yandan yükleme yok",
+          "Play Protect doğrulamalı derleme",
+          "Geliştirmeyi doğrudan finanse eder"
+        ],
+        "cta": "Google Play'de edin"
+      },
+      "note": "Dahili test kanalı · önce test kullanıcısı listesine katılmanız gerekebilir.",
+      "noteLink": "SSS'de daha fazlası →"
+    },
+    "story": {
+      "eyebrow": "Yoldan 73",
+      "quote": "FT8AF'nin çoğu Hamvention'a gidip dönerken I-70'te 70&nbsp;mph hızla içe doğarak kodlandı —\n      dizüstü yolcu koltuğunda, telsiz arkada, Claude döngüde.",
+      "quoteMuted": "En iyi hata ayıklamaların bazıları otoyol hızında olur."
+    },
+    "cta": {
+      "eyebrow": "Döngüde kalın",
+      "title": "Derleme notları &amp;<br />yeni özellik duyurularını alın.",
+      "lede": "Düşük hacim. Sürüm notları, saha raporları ve ara sıra \"FT8-891'inizde çöken şeyi düzelttik\". İstediğiniz zaman aboneliği bırakın.",
+      "emailLabel": "E-posta adresi",
+      "emailPlaceholder": "siz@cagriiniz.radio",
+      "submit": "Beni haberdar et",
+      "or": "veya",
+      "starRepo": "★ depoya yıldız ver",
+      "joinDiscord": "Discord'a katıl",
+      "done": "Listedesiniz."
+    }
+  },
+
+  "features": {
+    "meta": {
+      "title": "FT8AF — Özellikler",
+      "description": "Sürekli şelaleyle FT8, FT4 ve FT2 çözümleme, akıllı avlanma ve aranan DX uyarılarıyla aktif QSO monitörü, QSO yollarıyla dünya haritası, POTA aktivasyon modu, 75+ telsiz için USB CAT denetimi, Cloudlog, QRZ, Wavelog ve PSKReporter'a otomatik kayıt ve sağdan sola Arapça dahil 16 dilde çok dilli destek.",
+      "ogTitle": "FT8AF — Android için yeniden inşa edilmiş tam bir FT8 istasyonu",
+      "ogDescription": "FT8/FT4/FT2 çözümleme, aktif QSO monitörü, QSO yollarıyla dünya haritası, POTA aktivasyonu, 75+ telsiz için USB CAT ve Cloudlog, QRZ, Wavelog & PSKReporter'a otomatik kayıt."
+    },
+    "hero": {
+      "eyebrow": "Özellik seti",
+      "title": "Tam bir FT8 istasyonu,<br />Android için yeniden inşa edildi.",
+      "lede": "Çalışma döngüsünün her parçası — çözümle, hedefle, gönder, kaydet — hızlı bir Jetpack Compose arayüzünde yeniden yapıldı ve iki hata avı turunda sertleştirildi. İşte içinde olanlar."
+    },
+    "rows": {
+      "spectrum": {
+        "eyebrow": "01 · Spektrum",
+        "title": "Canlı bant çözümleme &amp; şelale",
+        "body": "Tüm 3&nbsp;kHz geçiş bandını bir kerede izleyin. Şelale, her periyot sınırında çizilen UTC zaman damgalarıyla sürekli kayar, böylece yayılımı bir bakışta okur ve aranan bir istasyon belirir belirmez atılırsınız.",
+        "points": [
+          "Her periyotta zaman işaretleyicileriyle sürekli kaydırma",
+          "Daha yüksek spektrum şeridi, ayarlanabilir genişlik &amp; yakınlaştırma (Geniş → 500&nbsp;Hz)",
+          "Ayarlamak için bir sinyale dokunun; TX işaretçisi hizalı kalır; çöp çözümlemeler filtrelenir"
+        ],
+        "alt": "FT8AF Şelale sekmesi: çözümlenmiş çağrı işaretleri sinyalleri üzerinde dikey olarak basılı tam bant spektrogramı, bir TX frekans işaretçisi, bir UTC zaman damgası ve 'New state: NM · KE7WVV DM56 −4 dB' yazan aktif QSO durum afişi."
+      },
+      "modes": {
+        "eyebrow": "02 · Modlar",
+        "title": "Üç mod, tek uygulama",
+        "body": "FT8AF yalnızca FT8 olarak başladı ve artık <strong>FT8, FT4 ve FT2</strong>'yi çözümleyip gönderiyor — her biri doğru slot zamanlaması ve bant planıyla. Modları tek dokunuşla değiştirin ve Fox &amp; Hound desteğiyle DXpedisyonları kovalayın.",
+        "points": [
+          "Yarışmalar &amp; pile-up'lar için FT8 (15 s) ve daha hızlı FT4 (7.5 s)",
+          "Kendi standart frekanslarına sahip deneysel FT2 modu",
+          "FT8 için Fox &amp; Hound (DXpedisyon) çalışması"
+        ]
+      },
+      "qso": {
+        "eyebrow": "03 · Çalışma",
+        "title": "QSO monitörü, avlanma &amp; uyarılar",
+        "body": "Daraltılabilir bir panel mevcut kişinizi alışverişin her adımında izler — çağrı → rapor → roger → 73 → kayıt. Bir çağrı kuyruğu sizi hedefinize kilitli tutar ve akıllı avlanma bandı sizin yerinize çalışır, böylece onu bekleyip durmazsınız.",
+        "points": [
+          "Hunt modu &amp; Auto-CQ — yeniden dokunmadan çağrıları zincirleyin",
+          "Aranan DX uyarıları: yeni bir DXCC veya eyalet için ses + bildirim",
+          "Yönlü CQ farkındalığı, çağrı işareti engelleme listesi &amp; çözümleme filtreleri"
+        ],
+        "alt": "FT8AF Çözümleme sekmesi: çözümlenmiş istasyonların canlı listesi — K7LNY, KF0X, KF6MIX, AK7LV, ND9M — her biri lokatör, mesafe, sinyal gücü çubukları, dB cinsinden SNR, son duyulmadan bu yana geçen süre, ABD eyaleti ve NEW DXCC etiketiyle; Hunt / Call CQ / TX1 denetimleri ve 10.136 MHz / 30m üzerinde dinleyen TX şeridiyle."
+      },
+      "map": {
+        "eyebrow": "04 · Harita",
+        "title": "Dünya haritası &amp; QSO yolları",
+        "body": "Özel bir harita sekmesi duyduğunuz istasyonları işaretler ve çalıştığınız kişiye giden büyük daire yolunu çizer — mesafe, DX konumu ve ABD eyalet sınırlarıyla, böylece sinyalinizin tam olarak nereye düştüğünü görürsünüz.",
+        "points": [
+          "QSO panelinde doğrudan mesafe &amp; DX konumu",
+          "ABD eyalet sınırları çizilmiş yol haritası",
+          "Birimlerinizi seçin — mil veya kilometre"
+        ],
+        "alt": "FT8AF Harita sekmesi: duyulan istasyonları işaretçi olarak gösteren bir dünya haritası, EM28 lokatörü, bir istasyon sayısı ve PSK / standart / azimutal projeksiyon geçişleriyle."
+      },
+      "pota": {
+        "eyebrow": "05 · Aktivasyonlar",
+        "title": "POTA aktivasyon modu",
+        "body": "FT8AF'yi parka götürün. Aktivasyon modu tüm çıkışınızı yürütür — avcı çağrı işaretleri ve lokatörleriyle canlı, büyüyen bir kişi listesi, bir kişi haritası ve park-park algılama — ve bitirdiğinizde kaydınızı doğrudan POTA'ya yükler.",
+        "points": [
+          "Two-fer / çoklu park aktivasyonları ve P2P etiketleri",
+          "Aktivasyon haritası, QRZ avatarları &amp; dokunarak gezilebilir geçmiş",
+          "Uygulamayı kapattıktan sonra devam eder ve uygulama içinden POTA'ya yükler"
+        ],
+        "alt": "Canlı bir iki park (two-fer) US-1469 ve US-4567 aktivasyonu sırasında FT8AF POTA sekmesi: yeşil bir '14 QSOs — valid activation' sayacı, geçen süre, Self-spot ve End-activation düğmeleri, aktivatörden yayılan kişi yollarıyla bir ABD haritası ve QRZ avatarları ile park-park (P2P) etiketi olan bir kişi listesi."
+      },
+      "usb": {
+        "eyebrow": "06 · Donanım",
+        "title": "75+ radyo için USB CAT",
+        "body": "Telsizinizi tek bir USB-C kablosuyla doğrudan telefonunuza bağlayın. FT8AF, CAT frekans denetimini, USB sesi ve PTT'yi 75+ telsiz modelinde yönetir — Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 ve daha fazlası — bir yığın otomatik bağlanma güvenilirliği düzeltmesiyle.",
+        "points": [
+          "Eklenen yeni telsizler: Yaesu FT-710, Kenwood TS-440, Lab599 Discovery TX-500",
+          "Çıkış katlarınızı korumak için otomatik ALC seviyeleme ve SWR tetikli TX durdurma",
+          "Gerçek zamanlı TX ses düzeyi — sürüşü canlı olarak, gönderim sırasında ayarlayın"
+        ]
+      },
+      "logging": {
+        "eyebrow": "07 · Kayıt",
+        "title": "Her yerde, otomatik kayıt",
+        "body": "Kayıt hizmetlerinizi bir kez yapılandırın ve unutun. Bir QSO tamamlanır tamamlanmaz, FT8AF onu doğrudan Cloudlog, QRZ ve Wavelog'a gönderir — ve çözümlediğiniz her sinyal PSKReporter'a bildirilir, böylece yayılım haritaları istasyonunuzla aydınlanır.",
+        "points": [
+          "Cloudlog / Wavelog ve QRZ kayıt defterine otomatik yükleme",
+          "Duyduğunuz her çözümlemenin PSKReporter'a bildirilmesi",
+          "İstasyon kimliği seçici artı ADIF dışa aktarma, her iki SNR raporu yakalanır"
+        ],
+        "alt": "FT8AF Kayıt defteri sekmesi: 27 QSO, 13 DXCC varlığı, 11 CQ bölgesi ve 13 ITU bölgesi gösteren bir İstatistik görünümü, 30m, 20m, 40m, 17m ve 15m'yi kapsayan bir bant dağılımı halka grafiği ve DXCC Mixed (13/340) ile VUCC lokatörleri (28/100) için diploma ilerleme çubukları."
+      },
+      "material": {
+        "eyebrow": "08 · Arayüz",
+        "title": "Material 3 koyu arayüz",
+        "body": "Tüm arayüz, koyu bir Material 3 teması üzerinde yepyeni bir Jetpack Compose yeniden inşasıdır — yüksek kontrastlı, parlak güneşte veya karanlık bir shack'te bir bakışta okunabilir ve başparmaklar için tasarlanmış. Ayarlar temiz, açılır kategorilerde düzenlenmiştir ve kompakt bir çözümleme modu küçük ekranlarda işleri sıkılaştırır.",
+        "points": [
+          "Açılır Ayarlar, ayarlanabilir çözümleme vurguları &amp; kompakt mod",
+          "QRZ fotoğrafınız, anteniniz &amp; gücünüzle operatör kartı",
+          "Durum kodlu çözümlemeler: yeni, aranan, çalışılan, onaylanan"
+        ],
+        "alt": "FT8AF Ayarlar sekmesi: EM28 lokatöründeki K1AF için QRZ profil fotoğrafı, anten (ATAS 120) ve güç (70 W) içeren bir operatör kimlik kartı, bir GPS otomatik lokatör geçişi ve Radio &amp; Audio, Transmission, Time Sync, Decode &amp; Filters, Logging &amp; Awards, Advanced ve About için açılır kategoriler."
+      },
+      "languages": {
+        "eyebrow": "09 · Diller",
+        "title": "16 dilde yerelleştirildi",
+        "body": "FT8CN yalnızca Çince'ydi. FT8AF artık on altı dilde geliyor — hepsi toplulukça katkıda bulunuldu — ve Android cihazınızın diline otomatik geçer, Arapça için sağdan sola düzenle.",
+        "points": [
+          "Sağdan sola Arapça dahil, toplulukça katkıda bulunulan çeviriler",
+          "Android otomatik dil algılama — elle geçiş yok",
+          "Daha fazla dil memnuniyetle karşılanır — PR'ler GitHub'da açık"
+        ]
+      }
+    },
+    "viz": {
+      "modes": {
+        "head": "Çalışma modu",
+        "ft8slot": "15 s slot",
+        "ft4slot": "7.5 s slot",
+        "ft4note": "yarışma temposu",
+        "ft2slot": "daha da hızlı",
+        "ft2note": "deneysel",
+        "foxhound": "Büyükleri kovalamak için Fox &amp; Hound DXpedisyon modu"
+      },
+      "usb": {
+        "head": "USB CAT + Ses",
+        "connected": "Bağlandı",
+        "yourRig": "Telsiziniz",
+        "rigCount": "75+ model"
+      },
+      "languages": {
+        "head": "Yerelleştirme",
+        "count": "16 dil"
+      }
+    },
+    "stability": {
+      "eyebrow": "Ve gösterişsiz zaferler",
+      "title": "Hakkında asla düşünmeyeceğiniz<br />58+ düzeltme.",
+      "lede": "İki tam \"bug bash\" turu, sizinle temiz bir QSO arasına giren çökmelerin, sızıntıların ve yaşam döngüsü gremlinlerinin peşine düştü.",
+      "cards": [
+        { "h4": "Çökme &amp; sızıntı düzeltmeleri", "p": "NPE çökmeleri, kaynak sızıntıları ve iş parçacığı yarışları uygulama genelinde avlandı." },
+        { "h4": "UTC şelale damgaları", "p": "FT8 periyot sınırlarında çizilen zaman damgaları, böylece zamanlamayı anında okursunuz." },
+        { "h4": "Donanım TX ses düzeyi", "p": "Gönderim düzeyini telefonun fiziksel ses düğmeleriyle, QSO ortasında ayarlayın." },
+        { "h4": "TX1 / TX2 slot geçişi", "p": "Gönderim periyodunuzu doğrudan, TX şeridinden seçin." },
+        { "h4": "GPS zaman &amp; lokatör senkronizasyonu", "p": "GPS'ten otomatik zaman ve lokatör senkronizasyonu, artı çevrimdışı çalışma için elle zaman düzeltmesi." },
+        { "h4": "TX işaretçi hizalama", "p": "Gönderim frekansı imleci gerçek TX sesinize kilitli kalır." }
+      ]
+    },
+    "cta": {
+      "title": "Bir istasyonu cebinize<br />koymaya hazır mısınız?"
+    }
+  },
+
+  "download": {
+    "meta": {
+      "title": "FT8AF — İndir",
+      "description": "FT8AF'yi GitHub'dan ücretsiz edinin — APK'yı yandan yükleyin veya kaynaktan derleyin — ya da otomatik güncellemelerle Google Play'de $3.50 karşılığında projeyi destekleyin.",
+      "ogTitle": "FT8AF — Android telefonunuza FT8 alın",
+      "ogDescription": "GitHub'dan ücretsiz APK ya da otomatik güncellemeler için Google Play'de $3.50. Aynı uygulama, her özellik. USB-OTG yeteneğine sahip her Android'de çalışır."
+    },
+    "hero": {
+      "eyebrow": "İndir",
+      "title": "FT8AF'yi telefonunuza alın.",
+      "lede": "GitHub'dan ücretsiz ve açık kaynak, ya da güncellemeleri otomatik yapmak ve geliştirmeye katkıda bulunmak için Google Play'de $3.50. Aynı uygulama, her özellik, her iki yolla da."
+    },
+    "free": {
+      "tag": "Açık kaynak",
+      "title": "GitHub'dan ücretsiz",
+      "body": "Tam uygulama, GPL-3.0 lisanslı. İmzalı APK'yı yandan yükleyin veya kendiniz derleyin.",
+      "li": [
+        "Her özellik, sınır veya hesap yok",
+        "Releases sayfasında imzalı sürüm APK'sı",
+        "Gradle ile kaynaktan derleyin",
+        "Kodu inceleyin, çatallayın &amp; katkıda bulunun",
+        "Elle güncellemeler (yeni derlemeleri siz çekersiniz)"
+      ],
+      "cta": "APK'yı indir"
+    },
+    "paid": {
+      "flag": "Projeyi destekler",
+      "tag": "Google Play",
+      "per": "tek seferlik",
+      "title": "Projeyi destekleyin",
+      "body": "Aynı uygulama, her zaman güncel kalsın diye Play Store üzerinden teslim edilir.",
+      "li": [
+        "Arka planda otomatik güncellemeler",
+        "Tek dokunuşla kurulum — yandan yükleme adımı yok",
+        "Play Protect doğrulamalı derleme",
+        "Teknik olmayan birinin telefonuna kolayca kurulur",
+        "Süregelen geliştirmeyi doğrudan finanse eder"
+      ],
+      "cta": "Google Play'de edin"
+    },
+    "callout": {
+      "title": "Dikkat: Play Store sürümü dahili bir test kanalında",
+      "body": "Google Play bağlantısı kurulum yapmadan önce test kullanıcısı listesine eklenmeniz gerekebilir. Açılmazsa, bu arada GitHub'dan ücretsiz APK'yı alın — aynı uygulamadır."
+    },
+    "methods": {
+      "eyebrow": "Nasıl kurulur",
+      "title": "İçeri üç yol."
+    },
+    "method": {
+      "sideload": {
+        "title": "APK'yı yandan yükle",
+        "sub": "En hızlı · ücretsiz",
+        "steps": [
+          "GitHub'da <strong>Releases</strong>'i açın ve en son <code style=\"font-family:var(--font-mono)\">.apk</code>'yı indirin.",
+          "Dosyaya dokunun; Android sorarsa \"bu kaynaktan yükle\"ye izin verin.",
+          "FT8AF'yi açın, USB &amp; mikrofon izinlerini verin ve telsizinizi seçin."
+        ],
+        "cta": "Releases'i aç"
+      },
+      "build": {
+        "title": "Kaynaktan derle",
+        "sub": "Kurcalayanlar için",
+        "codeComment": "# klonla &amp; derle",
+        "cta": "Depoyu görüntüle"
+      },
+      "play": {
+        "title": "Google Play",
+        "sub": "$3.50 · otomatik güncellemeler",
+        "steps": [
+          "Play Store kaydını açın (istenirse test kullanıcısı listesine katılın).",
+          "$3.50 karşılığında bir kez satın alın ve <strong>Yükle</strong>'ye dokunun.",
+          "Güncellemeler kendiliğinden gelir — başka bir şey yapmaya gerek yok."
+        ],
+        "cta": "Google Play'de aç"
+      }
+    },
+    "req": {
+      "eyebrow": "Başlamadan önce",
+      "title": "Neye ihtiyacınız var.",
+      "cards": [
+        { "k": "Cihaz", "v": "Android 8+", "d": "Telefon veya tablet, USB-OTG yetenekli" },
+        { "k": "Kablo", "v": "USB-C → telsiz", "d": "Eski telefonlar için OTG adaptörü" },
+        { "k": "Radyo", "v": "CAT yetenekli HF telsiz", "d": "75+ model — Icom, Yaesu, Kenwood, Xiegu &amp; daha fazlası" },
+        { "k": "Modlar", "v": "FT8 · FT4 · FT2", "d": "160m – 6m, tüm alt bantlar" }
+      ]
+    },
+    "reqCallout": {
+      "title": "Eldeki telsiz yok mu? Yine de keşfedebilirsiniz.",
+      "body": "FT8AF telefonun mikrofonundan çözümler, böylece CAT denetimini kablolamadan önce bandı izleyebilir ve arayüzü öğrenebilirsiniz. Desteklenen radyolar ve kablolama için <a href=\"/faq\">SSS</a>'ye bakın."
+    },
+    "cta": {
+      "title": "Yolunuzu seçin. Dünyayı çalışın.",
+      "lede": "GitHub'da ücretsiz, ya da kendini güncel tutması için $3.50. Her iki yolla da tüm uygulamayı alırsınız.",
+      "freeApk": "Ücretsiz APK",
+      "playBtn": "Google Play'de $3.50"
+    }
+  },
+
+  "faq": {
+    "meta": {
+      "title": "FT8AF — SSS",
+      "description": "FT8AF hakkında sık sorulan sorular: fiyatlandırma, Google Play test kanalı, desteklenen radyolar, FT4 ve FT2 modları, POTA aktivasyonu, kayıt ve bildirim hizmetleri, FT8CN ile ilişki ve katkıda bulunma.",
+      "ogTitle": "FT8AF — Sık sorulan sorular",
+      "ogDescription": "Fiyatlandırma, Google Play test kanalı, desteklenen radyolar, FT4/FT2 modları, POTA, kayıt hizmetleri, FT8CN ile ilişkisi ve katkıda bulunma."
+    },
+    "hero": {
+      "eyebrow": "SSS",
+      "title": "Sorular, yanıtlandı.",
+      "lede": "Fiyatlandırma, Play Store test kanalı, radyolar ve kablolama ve tüm bunların FT8CN ile ilişkisi. Hâlâ takıldınız mı? <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--signal)\">GitHub'da bir konu açın</a>."
+    },
+    "cats": {
+      "getting": "Edinme",
+      "radios": "Radyolar &amp; kurulum",
+      "modes": "Modlar, haritalar &amp; POTA",
+      "project": "Proje"
+    },
+    "items": {
+      "free": {
+        "q": "FT8AF gerçekten ücretsiz mi?",
+        "a": "Evet — tamamen. FT8AF, GPL-3.0 lisansı altında açık kaynaktır. İmzalı APK'yı GitHub Releases sayfasından indirebilir veya kaynaktan kendiniz derleyebilirsiniz; her özellik kilitsiz ve hesap gerekmez. Google Play'deki $3.50 seçeneği aynı uygulamadır; özellikler için değil, otomatik güncellemeler ve geliştirmeyi desteklemek için ödüyorsunuz."
+      },
+      "paid": {
+        "q": "Peki Google Play'deki $3.50 bana ne kazandırır?",
+        "a": "Kolaylık ve iyi karma. Play Store sürümü arka planda kendini otomatik günceller, \"bilinmeyen kaynaklara izin ver\" adımları olmadan tek dokunuşla kurulur ve Play Protect doğrulamalıdır — bu da onu uğraşmak istemediğiniz bir telefon için kolay seçim yapar. Satın alma ayrıca süregelen geliştirmeyi doğrudan finanse eder. Uygulamanın kendisi ücretsiz GitHub derlemesiyle aynıdır."
+      },
+      "playLink": {
+        "q": "Google Play bağlantısı kurmama izin vermiyor. Neden?",
+        "a": "Play Store kaydı şu anda bir <strong>dahili test kanalında</strong>, bu yüzden Google kurmanıza izin vermeden önce test kullanıcısı listesine eklenmeniz gerekebilir. Bağlantı henüz sizde çalışmıyorsa, bunun yerine ücretsiz APK'yı <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">GitHub Releases sayfasından</a> indirin — tam olarak aynı uygulamadır."
+      },
+      "install": {
+        "q": "APK'yı güvenli şekilde nasıl kurarım?",
+        "a": "En son <code>.apk</code>'yı GitHub Releases'ten indirin, dokunun ve Android'in gösterdiği tek seferlik \"bu kaynaktan yükle\" istemini onaylayın. Ardından FT8AF'yi açın ve USB ile mikrofon izinlerini verin. Tam adım adım yönergeler <a href=\"/download\">İndir sayfasında</a>."
+      },
+      "radios": {
+        "q": "Hangi radyolar destekleniyor?",
+        "a": "Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 ve daha fazlasında <strong>75'ten fazla telsiz modeli</strong> — Ayarlar'daki bir listeden denetim modu ve ses aygıtıyla birlikte seçilir. Icom IC-7300 ve Yaesu FT-891 gibi popüler telsizler iyi desteklenir ve son eklenenler arasında <strong>Yaesu FT-710</strong>, <strong>Kenwood TS-440</strong> ve <strong>Lab599 Discovery TX-500</strong> bulunur. FT8AF ayrıca radyonuzu korumak için otomatik ALC seviyeleme ve SWR tetikli TX durdurma ekler. Telsiziniz listede yoksa, <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\">bir konu açın</a> ve bize bildirin."
+      },
+      "cable": {
+        "q": "Hangi kabloya ihtiyacım var?",
+        "a": "Telefonunuzdan telsizin USB bağlantı noktasına tek bir USB bağlantısı, çoğu modern radyoda hem CAT denetimini hem de sesi yönetir. Daha yeni telefonlar doğrudan USB-C kablosuyla bağlanır; eski telefonlar bir USB-OTG adaptörüne ihtiyaç duyar. Cihazınız USB ana bilgisayar (OTG) modunu desteklemelidir."
+      },
+      "noRadio": {
+        "q": "Radyo olmadan deneyebilir miyim?",
+        "a": "Evet. FT8AF telefonun mikrofonundan çözümleyebilir, böylece CAT denetimini kablolamadan önce onu bir hoparlöre tutabilir veya yalnızca arayüzü keşfedip şelaleyi izleyebilirsiniz. Önce yerleşimi öğrenmenin iyi bir yolu."
+      },
+      "bands": {
+        "q": "Hangi bantlar çalışıyor?",
+        "a": "160m'den 6m'ye kadar tüm standart FT8 alt bantları yerleşiktir, tek dokunuşla geçiş yapılır. Şelale tüm ses geçiş bandını kapsar, böylece segmentteki her şeyi bir kerede görür ve çalışırsınız."
+      },
+      "modes": {
+        "q": "FT8AF, FT4 ve FT2'yi destekliyor mu?",
+        "a": "Evet. FT8AF yalnızca FT8 olarak başladı ve artık <strong>FT8, FT4 ve deneysel FT2</strong>'yi çözümleyip gönderiyor; her biri doğru slot zamanlaması ve bant planıyla — tek dokunuşla geçilebilir. Ayrıca bir pile-up'ta nadir istasyonları kovalamak için Fox &amp; Hound (DXpedisyon) çalışması var."
+      },
+      "pota": {
+        "q": "Onunla POTA aktivasyonları yapabilir miyim?",
+        "a": "Evet — özel bir <strong>POTA aktivasyon modu</strong> var. Avcı çağrı işaretleri ve lokatörleriyle canlı bir kişi listesi tutar, bir aktivasyon haritası gösterir, park-park (P2P) kişileri algılar, çoklu park (two-fer) aktivasyonlarını destekler, uygulamayı kapatırsanız devam eder ve bitirdiğinizde kaydınızı doğrudan POTA'ya yükler."
+      },
+      "map": {
+        "q": "Harita var mı?",
+        "a": "Var. Özel bir harita sekmesi duyduğunuz istasyonları işaretler ve çalıştığınız kişiye giden büyük daire yolunu çizer; mesafe, DX konumu ve ABD eyalet sınırlarıyla. Birimlerinizi — mil veya kilometre — Ayarlar'da seçin."
+      },
+      "logging": {
+        "q": "Hangi kayıt ve bildirim hizmetlerini destekliyor?",
+        "a": "Bir QSO tamamlandığında FT8AF onu <strong>Cloudlog / Wavelog</strong> ve <strong>QRZ</strong> kayıt defterine otomatik yükleyebilir ve duyduğunuz her çözümlemeyi <strong>PSKReporter</strong>'a bildirir, böylece istasyonunuz yayılım haritalarında görünür. ADIF de dışa aktarabilirsiniz. Her hizmet Ayarlar'da bir kez yapılandırılır ve sonra arka planda çalışır."
+      },
+      "ft8cn": {
+        "q": "Bunun FT8CN'den farkı ne?",
+        "a": "FT8AF, mükemmel FT8CN'nin onu ileri taşıyan bir çatallamasıdır: tam Jetpack Compose / Material 3 koyu arayüz, çağrı kuyruğu ve akıllı avlanmayla aktif bir QSO monitörü, FT8'in yanında <strong>FT4 ve FT2</strong> modları, QSO yollarıyla dünya haritası, <strong>POTA aktivasyon</strong> modu, Cloudlog, QRZ, Wavelog ve PSKReporter'a otomatik kayıt, <strong>çok dilli destek</strong> (orijinal yalnızca Çince'ydi), artı birden çok \"bug bash\" turunda onlarca hata düzeltmesi. Çekirdek çözümleme mirası FT8CN'ninkidir — biz çevresindeki deneyimi modernleştirdik ve genişlettik."
+      },
+      "languages": {
+        "q": "FT8AF hangi dilleri destekliyor?",
+        "a": "FT8AF <strong>16 dilde</strong> geliyor: İngilizce (varsayılan), Yunanca, İspanyolca, Japonca, Fransızca, Rusça, Çince, İtalyanca, Lehçe, Korece, Felemenkçe, Çekçe, Türkçe, Endonezce, Ukraynaca ve Arapça (sağdan sola). Uygulama Android cihazınızın dilini otomatik algılar ve kendiliğinden geçer. Tüm çeviriler toplulukça katkıda bulunulmuştur — bir dil eklemek veya iyileştirmek isterseniz, çekme istekleri <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHub'da</a> memnuniyetle karşılanır."
+      },
+      "who": {
+        "q": "FT8AF'yi kim yapıyor?",
+        "a": "<a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">Patrick Burns (K1AF)</a> ve <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">Reid (N0RC)</a> tarafından geliştiriliyor — çoğu, meşhur olduğu üzere, Hamvention yolunda I-70'te içe doğarak kodlandı. <strong>BG7YOZ</strong>'a, FT8CN'nin orijinal yazarına ve orijinal depoyu barındıran <strong>N0BOY</strong>'a büyük teşekkürler. Bunların hiçbiri onlar olmadan var olmaz."
+      },
+      "contribute": {
+        "q": "Katkıda bulunabilir veya hata bildirebilir miyim?",
+        "a": "Lütfen yapın. Kod <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHub'da</a> yaşıyor — hatalar veya özellik fikirleri için bir konu açın, bir çekme isteği gönderin ya da takip etmek için depoya yıldız verin. Gerçek havada kullanımdan saha raporları özellikle memnuniyetle karşılanır."
+      },
+      "updates": {
+        "q": "Güncelleme almaya devam edecek mi?",
+        "a": "Plan bu. Geliştirme aktif ve sürüyor. Yeni derlemeleri otomatik almanın en hızlı yolu Google Play sürümü; aksi halde Releases sayfasını veya depoyu izleyin. Bir şey çıktığında dürtülmek mi istiyorsunuz? Ana sayfada <a href=\"/#pricing\">güncelleme listesine katılın</a>."
+      }
+    },
+    "cta": {
+      "title": "Hâlâ meraklı mısınız? Sadece deneyin.",
+      "ask": "GitHub'da sorun"
+    }
+  },
+
+  "wiki": {
+    "meta": {
+      "title": "FT8AF — Wiki & yardım",
+      "description": "FT8AF wiki'si: uygulamayı ilk başlatmadan kayıtlı bir QSO'ya kadar kullanmaya yönelik uygulamalı bir kılavuz, ayrıca hata ayıklama günlüğünü çekme ve yararlı bir hata raporu sunma yönergeleri.",
+      "ogTitle": "FT8AF — Wiki & yardım",
+      "ogDescription": "FT8AF'yi kullanmayı öğrenin: ilk bağlantı, çözümleme, gönderim, kayıt — ayrıca hata ayıklama günlüğünü nasıl çekeceğiniz ve hata bildireceğiniz."
+    },
+    "hero": {
+      "eyebrow": "Wiki &amp; yardım",
+      "title": "Havaya çıkın,<br />ya da bize günlüğü verin.",
+      "lede": "İki kısa kılavuz. Biri sizi FT8AF'yi ilk başlatmadan kayıtlı bir QSO'ya kadar kullanmada yönlendirir. Diğeri bir hata ayıklama günlüğünü nasıl yakalayacağınızı ve gerçekten harekete geçebileceğimiz bir hata raporunu nasıl sunacağınızı gösterir."
+    },
+    "cards": {
+      "using": {
+        "eyebrow": "01 · FT8AF'yi kullanma",
+        "title": "Uygulamayı nasıl çalıştırırsınız",
+        "body": "Telsizinizi takın, çağrı işaretinizi ayarlayın, bir bant seçin, segmenti çözümleyin, sonra otomatik dizili bir QSO yürütün ve kendini kaydedişini izleyin. Adım adım, ekran görüntüleriyle.",
+        "li": [
+          "İlk başlatma &amp; izinler",
+          "USB CAT &amp; ses kurulumu",
+          "Çözümleme, çağrı ve QSO monitörü",
+          "Cloudlog &amp; QRZ otomatik kaydı"
+        ],
+        "cta": "Kılavuzu aç"
+      },
+      "bug": {
+        "eyebrow": "02 · Hata mı buldunuz?",
+        "title": "Bize hata ayıklama günlüğünü verin",
+        "body": "FT8AF her çalıştığında yapılandırılmış bir olay günlüğü yazar. Telefonunuzdan iki dokunuşla çekin, bir GitHub konusuna ekleyin ve genellikle neyin yanlış gittiğini tam olarak belirleyebiliriz — tahmin etmek yerine.",
+        "li": [
+          "<code>debug.log</code> nerede bulunur",
+          "Dosyalar, Drive veya e-posta ile paylaşın",
+          "Konuya neler eklenmeli",
+          "Telefon yok mu? Sorun değil."
+        ],
+        "cta": "Hata bildir"
+      }
+    },
+    "callout": {
+      "title": "Bu wiki kasıtlı olarak kısa.",
+      "body": "Buradaki bir şey uygulamada gördüğünüzle uyuşmuyorsa, bu bir belge hatasıdır — bir konu açın, düzeltelim. Soru-cevap tarzı yanıtlar için (fiyatlandırma, desteklenen radyolar, FT8CN ilişkisi) <a href=\"/faq\">SSS</a>'ye gidin."
+    },
+    "cta": {
+      "title": "Wiki'nin kapsamadığı bir yerde mi takıldınız?",
+      "lede": "Gerçek havada kullanımdan saha raporları aldığımız en yararlı şeydir. Bir konu açın, ne olduğunu anlatın, varsa bir günlük ekleyin.",
+      "openIssue": "Konu aç",
+      "browseFaq": "SSS'ye göz at"
+    }
+  },
+
+  "wikiUsing": {
+    "meta": {
+      "title": "FT8AF — Uygulamayı kullanma",
+      "description": "FT8AF'nin uygulamalı bir gezintisi: ilk başlatma ve izinler, USB CAT ve ses kurulumu, bandı çözümleme, istasyonları çağırma, otomatik dizili QSO ve Cloudlog ile QRZ'ye otomatik kayıt.",
+      "ogTitle": "FT8AF — Uygulamayı kullanma",
+      "ogDescription": "Uygulamalı bir gezinti: ilk başlatma, USB CAT kurulumu, bandı çözümleme, çağrı, otomatik dizili QSO ve otomatik kayıt."
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / FT8AF'yi kullanma",
+      "title": "İlk başlatmadan<br />kayıtlı bir QSO'ya.",
+      "lede": "FT8'i herhangi bir yerde çalıştırdıysanız — WSJT-X, JTDX, FT8CN — bunun çoğu size tanıdık gelecek. Harita yalnızca tek el için yeniden düzenlenmiş. İlk seferde baştan sona okuyun; ihtiyaç duyduğunuzda bir bölüme geri dönün."
+    },
+    "toc": {
+      "title": "Bu sayfada",
+      "items": [
+        "Kurulum &amp; ilk başlatma",
+        "Çağrı işaretinizi &amp; lokatörünüzü ayarlayın",
+        "Radyonuzu bağlayın",
+        "Bandı çözümleyin",
+        "Şelaleyi okuyun",
+        "Bir istasyonu çağırın",
+        "Otomatik diziyi yürütün",
+        "Kayıt &amp; yüklemeler",
+        "Saha ipuçları"
+      ]
+    },
+    "s1": {
+      "h": "Kurulum &amp; ilk başlatma",
+      "p1": "FT8AF'yi <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">GitHub sürümler sayfasından</a> ücretsiz APK olarak ya da <a href=\"https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af\" target=\"_blank\" rel=\"noopener\">Google Play</a>'den $3.50 karşılığında alın — uygulamalar aynıdır. Tam kurulum yönergeleri <a href=\"/download\">İndir</a> sayfasında.",
+      "p2": "FT8AF'yi ilk açtığınızda, Android iki izin isteyecek:",
+      "ul": [
+        "<strong>USB aygıt erişimi</strong> — CAT denetimi ve telsiz sesi için gerekli. Kabloyu yeniden taktığınızda uygulamanın kendiliğinden yeniden bağlanmasını istiyorsanız <em>Her zaman</em>'ı seçin.",
+        "<strong>Mikrofon</strong> — kablolu bir radyo yerine telefonun mikrofonundan çözümlemek isterseniz gerekli. Yalnızca USB kullanıyorsanız reddedebilirsiniz."
+      ]
+    },
+    "s2": {
+      "h": "Çağrı işaretinizi &amp; lokatörünüzü ayarlayın",
+      "p1": "<span class=\"tap\">Settings</span> sekmesini açın ve üstteki operatör kartını doldurun. Bu iki alan uygulamanın gönderdiği her şeyi yönetir, bu yüzden anahtara basmadan önce doğru ayarlamak iyi olur.",
+      "cap": "<b>Settings → Operator.</b> Düzenlemek için herhangi bir satıra dokunun. Konum izni verirseniz lokatör GPS'ten doldurmayı önerir.",
+      "dl": [
+        { "dt": "Çağrı işareti", "dd": "Lisanslı çağrı işaretiniz. Mobil veya portatif çalışıyorsanız portatif göstergeleri eğik çizgiyle ekleyin (örn. <code>K1AF/M</code>)." },
+        { "dt": "Lokatör", "dd": "4 veya 6 karakterli Maidenhead lokatörü (örn. <code>FN42</code> veya <code>FN42hk</code>). Konum verilirse FT8AF onu GPS'ten doldurmayı önerir." },
+        { "dt": "Ses frekansı", "dd": "Hz cinsinden, 3 kHz FT8 segmenti içindeki gönderim ses frekansınız. <code>1500</code> makul bir başlangıç varsayılanıdır." },
+        { "dt": "TX gecikmesi", "dd": "Uygulamanın PTT'den sonra tonları göndermeden önce beklediği milisaniye. <code>400</code> çoğu CAT denetimli telsizde çalışır." }
+      ]
+    },
+    "s3": {
+      "h": "Radyonuzu bağlayın",
+      "p1": "FT8AF telsizinizle tek bir USB-C bağlantısı üzerinden konuşur — hem CAT (frekans, PTT) hem de ses (RX, TX) aynı kablodan gider. Modern Android telefonlar doğrudan USB-C ile bağlanır; eski cihazlar bir USB-OTG adaptörüne ihtiyaç duyar. Telefonunuz USB ana bilgisayar modunu desteklemelidir.",
+      "cap": "<b>Settings → Radio.</b> Tek bir USB-C kablosu CAT denetimini, sesi ve PTT'yi taşır.",
+      "steps": [
+        "<strong>Takın.</strong> Telefonunuzu telsizin USB bağlantı noktasına bağlayın. Android aygıtla konuşmak için izin isteyecek — kabul edin ve uygulamanın daha sonra yeniden bağlanabilmesi için <em>Her zaman</em>'ı işaretleyin.",
+        "<strong>Telsizinizi seçin.</strong> <span class=\"tap\">Settings → Radio</span>'da <em>Rig model</em> seçiciyi açın ve alıcı-vericinizi seçin (IC-7300, FT-891, IC-705 vb.). FT8AF, DATA-USB'de FT-891'i 3000&nbsp;Hz bant genişliğine zorlayan bir düzeltme içerir — bunu kendiniz ayarlamanız gerekmez.",
+        "<strong>Denetim modunu CAT'e ayarlayın.</strong> <em>Control</em> altında <strong>CAT</strong>'i seçin. (Kurulumunuz gerektiriyorsa VOX, RTS ve DTR mevcut, ama USB üzerinden modern bir HF telsizle istediğiniz şey CAT'tir.)",
+        "<strong>CI-V / baud hızını onaylayın.</strong> Varsayılanlar genellikle uyuşur — Icom telsizler varsayılan olarak <code>115200</code>'de <code>A4</code> kullanır; Yaesu'nun kendi kuralları vardır. CAT bağlanmazsa, ilk bakılacak yer burasıdır.",
+        "<strong>Bir bant seçin.</strong> 160m–6m FT8 segmentleri arasında geçmek için <span class=\"tap\">Decode</span> sekmesindeki bant çipine dokunun veya <em>Settings → Radio → Frequency</em>'den özel bir frekans girin."
+      ],
+      "callout": {
+        "h": "Telsiz yok mu? Yine de keşfedebilirsiniz.",
+        "p": "Mikrofon iznini verirseniz, FT8AF telefonun mikrofonundan sesi çözümler — onu FT8'de etkin herhangi bir radyoya bağlı bir hoparlöre tutun ve aynı çözümleme listesini göreceksiniz. CAT'i kablolamadan önce arayüzü öğrenmek için yararlı."
+      }
+    },
+    "s4": {
+      "h": "Bandı çözümleyin",
+      "p1": "<span class=\"tap\">Decode</span> sekmesi çalışma zamanınızın çoğunu geçireceğiniz yerdir. Her 15 saniyede bir, FT8 periyot sınırında, uygulama son ses slotunu işler ve yeni çözümlemeleri listeye düşürür. İstasyonlar durum etiketleri alır — <em>New DXCC</em>, <em>Needed</em>, <em>Worked</em>, <em>Confirmed</em> — böylece bant size neyi kovalayacağınızı bir bakışta söyler.",
+      "alt": "Android'de FT8AF Decode sekmesi — K7LNY, KF0X, KF6MIX, AK7LV ve ND9M için çözümlenmiş satırları gösteren Material 3 koyu arayüz; her biri lokatör, mesafe, sinyal gücü çubukları, dB cinsinden SNR, son duyulmadan bu yana geçen süre, ABD eyaleti ve NEW DXCC etiketiyle; 10.136 MHz / 30m üzerinde dinleyen TX şeridinin üstünde.",
+      "cap": "<b>Decode sekmesi.</b> Her satır çözümlenmiş bir istasyondur. O istasyonu QSO hedefiniz yapmak için bir satıra dokunun. Filtrelemek için üstteki çipleri kullanın — <em>All</em>, <em>CQ Calls</em>, <em>CQ POTA</em>, <em>New DXCC</em>, <em>Needed</em>.",
+      "p2": "Her satır size şunu söyler:",
+      "dl": [
+        { "dt": "SNR / dB", "dd": "Sinyal-gürültü oranı. Kabaca <code>−24</code> (zar zor çözümlenir) ile <code>+15</code> (çok güçlü) arası değerler." },
+        { "dt": "Audio Hz", "dd": "Sinyalin 3 kHz segmenti içinde nerede durduğu. Bunu TX ses frekansınız yapmak için şelaledeki bir satıra veya sinyale dokunun." },
+        { "dt": "Mesafe", "dd": "Lokatörü bilindiğinde, lokatörünüzden çözümlenmiş istasyona büyük daire mesafesi." },
+        { "dt": "Durum etiketi", "dd": "<span class=\"mono\">New DXCC</span> = hiç çalışmadığınız varlık. <span class=\"mono\">Needed</span> = bu bant/modda gerekli. <span class=\"mono\">Worked</span> = QSO tamamlandı ama henüz onaylanmadı." },
+        { "dt": "↳ Size", "dd": "Bir istasyon size doğrudan yanıt verdiğinde camgöbeği ile vurgulanır. Bunu kendi QSO'larınız sırasında göreceksiniz." }
+      ]
+    },
+    "s5": {
+      "h": "Şelaleyi okuyun",
+      "p1": "<span class=\"tap\">Waterfall</span> sekmesi tüm 3 kHz FT8 geçiş bandını zaman içinde gösterir. Daha yeni ses üstte, daha eski altta — ince bir çizgi her FT8 periyot sınırını yanına çizilen bir UTC zaman damgasıyla işaretler, böylece zamanlamayı bir bakışta okursunuz.",
+      "cap": "<b>Şelale.</b> Dikey çizgiler sinyallerdir; TX ses frekansınızı o slota ayarlamak için birine dokunun. Genişlik çipleri (Wide / 1.5 kHz / 500 Hz) yoğun bir segmente yakınlaşmanızı sağlar.",
+      "p2": "<strong>Dokunarak ayarlama.</strong> TX ses frekansınızı o slota ayarlamak için şelalede görünen herhangi bir sinyale dokunun. TX işaretçisi, FT8AF'deki hizalama düzeltmesi sayesinde gerçek TX sesinize kilitli kalır."
+    },
+    "s6": {
+      "h": "Bir istasyonu çağırın",
+      "p1": "Bir QSO'ya girmenin iki yolu var:",
+      "steps": [
+        "<strong>Bir CQ'ya yanıt verin.</strong> Çözümleme listesinde bir <code>CQ</code> satırına dokunun veya o istasyonun sinyaline şelalede dokunun. FT8AF bir yanıtı kuyruğa alır ve bir sonraki TX slotunu bekler.",
+        "<strong>Kendiniz CQ çağırın.</strong> Ekranın altındaki TX şeridindeki <span class=\"tap\">CQ</span> düğmesine basın. Hangi 15 saniyelik slotta gönderim yapmak istediğinizi seçmek için TX1 / TX2 geçişini kullanın — genellikle boş olanı."
+      ],
+      "p2": "TX şeridinin üstündeki <strong>Active QSO monitor</strong> panelini izleyin. Kimi çalıştığınızı ve otomatik dizinin hangi adımında olduğunuzu takip eder. CQ'nuza birden çok istasyon yanıt verirse, <strong>çağrı kuyruğu</strong> diğerlerini sırada tutar — en gürültülüye atlamak yerine mevcut QSO'yu bitirirsiniz."
+    },
+    "s7": {
+      "h": "Otomatik diziyi yürütün",
+      "p1": "Bir hedef seçtiğinizde FT8AF standart FT8 alışverişini otomatik olarak yürütür. Panelin şunları geçtiğini göreceksiniz:",
+      "cap": "<b>Active QSO monitor.</b> Alışveriş ilerledikçe adımlar işaretlenir. Etkin bir kişi olmadığında panel tek bir satıra daralır.",
+      "p2": "QSO'nun ortasında bırakmanız gerekirse, TX şeridindeki <span class=\"tap\">Stop</span>'a dokunun — uygulama kuyruğu boşaltır ve dinlemeye geri döner. TX1 / TX2 slot geçişi, hedefinizi kaybetmeden gönderim periyotlarını değiştirmenizi sağlar."
+    },
+    "s8": {
+      "h": "Kayıt &amp; yüklemeler",
+      "p1": "Tamamlanan her QSO cihazdaki <span class=\"tap\">Logbook</span> sekmesine yazılır. Yükleme hizmetlerini yapılandırdıysanız, kişi kapanır kapanmaz onlara da uçar — ADIF dışa aktarma yok, gecenin sonunda elle çağrı işareti kopyalamak yok.",
+      "cap": "<b>Logbook.</b> Rozetler her yüklemeyi hangi hizmetlerin kabul ettiğini gösterir. Başarısız yüklemeler başarılı olana kadar yeniden deneme göstergesiyle görünür kalır.",
+      "cloudlog": "<em>Settings → Cloudlog</em>'u açın, Cloudlog URL'nizi ve API anahtarınızı yapıştırın ve hizmeti açın. Yeni QSO'lar otomatik yüklenir. Bir kişi yüklenemezse, yeniden deneme göstergesiyle kayıt defterinde kalır.",
+      "qrz": "<em>Settings → QRZ</em>'i açın, QRZ Logbook API anahtarınızla oturum açın ve yüklemeleri açın. Cloudlog ile aynı otomatik davranış.",
+      "both": "İkisini aynı anda kullanabilirsiniz — çoğu operatör bunu yapar, Cloudlog ana günlük ve QRZ görünürlük için."
+    },
+    "s9": {
+      "h": "Saha ipuçları",
+      "ul": [
+        "Her seanstan önce <strong>saatinizi ağdan ayarlayın</strong>. FT8 doğru zamanlama gerektirir — Android'in otomatik saati genellikle yeterlidir; sinyalsiz bir yerdeyseniz GPS veya NTP'den senkronize edin.",
+        "QSO ortasında TX sürüş düzeyini ayarlamak için <strong>donanım ses düğmelerini kullanın</strong>. FT8AF onları TX ses düzeyine eşler, böylece gönderim sırasında ekrandaki kaydırıcıyla uğraşmanız gerekmez.",
+        "Koşullar yoğun olduğunda <strong>QSO monitörünü izleyin</strong>. Çağrı kuyruğu klasik \"iki istasyon ikisi de onlara döndüğünüzü sanıyor\" karmaşasını önler.",
+        "Açılımları görsel olarak fark etmek için <strong><span class=\"tap\">Map</span> sekmesini kullanın</strong> — CQ çağıranlar bir megafon işaretçisi alır, böylece çözümleme listesini taramadan hangi yolların geldiğini görürsünüz.",
+        "Yeni bir sürüm çıktığında dürtülmek istiyorsanız <strong>GitHub deposuna yıldız verin</strong>. Ya da Play Store sürümünü alın, güncellemeler kendiliğinden olur."
+      ],
+      "callout": {
+        "h": "Bir şey düzgün davranmıyor mu?",
+        "p": "Bir sonraki sayfayı okuyun: karşılaştığınız şeyi gerçekten düzeltebilmemiz için hata ayıklama günlüğünü yakalamada size yol gösterir. <a href=\"/wiki/bug-reports\">Hata bildirme →</a>"
+      }
+    },
+    "pager": {
+      "prevLabel": "← Geri",
+      "prevTitle": "Wiki dizini",
+      "nextLabel": "Sonraki →",
+      "nextTitle": "Hata bildirme"
+    }
+  },
+
+  "wikiBug": {
+    "meta": {
+      "title": "FT8AF — Hata bildirme",
+      "description": "FT8AF'nin hata ayıklama günlüğünü Android cihazınızda nasıl bulacağınız, GitHub veya e-posta ile geliştiricilerle nasıl paylaşacağınız ve gerçekten bir düzeltmeye götüren bir hata raporunu nasıl yazacağınız.",
+      "ogTitle": "FT8AF — Hata bildirme",
+      "ogDescription": "FT8AF'nin hata ayıklama günlüğünü telefonunuzdan nasıl çekeceğiniz ve GitHub'da yararlı bir konuyu nasıl açacağınız. Kopyalanabilir bir konu şablonu içerir."
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / Hata bildirme",
+      "title": "Bize günlüğü verin,<br />ve onu düzeltebiliriz.",
+      "lede": "FT8AF her çalıştığında yapılandırılmış bir olay günlüğü yazar — CAT seri trafiği, USB takma olayları, otomatik bağlanma denemeleri, bant değişiklikleri. Çoğu saha hatası oraya iner. Telefonunuzdan çekin, bir GitHub konusuna bırakın, tamam."
+    },
+    "toc": {
+      "title": "Bu sayfada",
+      "items": [
+        "Günlükte neler var",
+        "Hata ayıklama modunu açın",
+        "Debug'ı açın &amp; paylaşın",
+        "Yedek: Dosyalar uygulaması",
+        "Yedek: ADB",
+        "Konuyu yazın",
+        "Konu şablonu",
+        "Uygulama çöktüyse",
+        "Gizlilik"
+      ]
+    },
+    "s1": {
+      "h": "Günlükte neler var",
+      "p1": "FT8AF, uygulama veri dizininde <code>debug.log</code> adlı dönen bir metin dosyası tutar. Şunun gibi şeyleri yakalar:",
+      "ul": [
+        "USB takma / çıkarma olayları ve hangi CAT aygıtının eşleştiği",
+        "Otomatik bağlanma denemeleri ve varsa başarısızlıklar",
+        "Telsize gönderilen ve telsizden alınan CAT seri çerçeveleri",
+        "Bant ve frekans değişiklikleri",
+        "Uygulama başlayıp durduğunda yaşam döngüsü olayları"
+      ],
+      "p2": "Düz metindir, okunması güvenlidir ve parola veya yükleme API anahtarı içermez. Paylaşmadan önce gözden geçirmek isterseniz aşağıdaki <a href=\"#privacy\">gizlilik</a> bölümüne bakın."
+    },
+    "s2": {
+      "h": "Hata ayıklama modunu açın",
+      "p1": "Günlüğü çekmenin en kolay yolu, uygulama içi bir hata ayıklama ekranı kullanır — bilgisayar yok, dosya yöneticisi yok, Android-data klasörü izinleri yok. Ekran varsayılan olarak gizlidir ve onu Android'in geliştirici seçenekleri gibi açarsınız: sürüm bloğuna yedi kez dokunarak.",
+      "steps": [
+        "FT8AF'de <span class=\"tap\">Settings</span> sekmesini açın.",
+        "En alta kaydırın — <strong>ABOUT</strong> bölümü.",
+        "<strong>FAQ &amp; Support</strong>'a dokunun. About iletişim kutusu açılır, uygulama sürümünü ve \"FT8, made easy.\" ile başlayan bir açıklamayı gösterir.",
+        "O açıklama metnine <strong>arka arkaya yedi kez</strong> dokunun. Yedinci dokunuştan sonra hata ayıklama modu açılır ve başlatmalar arasında kalıcı olur.",
+        "About iletişim kutusunu kapatın. ABOUT bölümünde, <em>FAQ &amp; Support</em>'un hemen altında artık yeni bir <span class=\"tap\">Debug</span> satırı görünür."
+      ],
+      "cap": "<b>Açtıktan sonra</b> — Debug satırı ABOUT bölümünde görünür. Hata ayıklama modu açıldıktan sonra, yeniden kapatana kadar açık kalır (kapatmak için açıklamaya yedi kez daha dokunun)."
+    },
+    "s3": {
+      "h": "Debug'ı açın &amp; paylaşın",
+      "p1": "Yeni <span class=\"tap\">Debug</span> satırına dokunun. Tam ekran bir günlük görüntüleyici açılır, <code>debug.log</code>'un son birkaç yüz satırını canlı gösterir — her birkaç saniyede bir yenilenir ve otomatik olarak en alta kayar.",
+      "cap": "<b>Debug ekranı.</b> <code>debug.log</code> zaten ekli olarak Android'in paylaşım sayfasını açmak için <strong>Share</strong>'a dokunun. Gmail, Outlook, Drive, Dosyalar — onu göndermek istediğiniz neyse onu seçin.",
+      "p2": "Üst araç çubuğundan:",
+      "dl": [
+        { "dt": "Share", "dd": "<code>debug.log</code>'u bir metin dosyası olarak ekli (konu satırı \"FT8AF debug.log\") Android'in paylaşım sayfasını açar. Bize doğrudan e-postayla göndermek için Gmail'i veya ekleri işleyen herhangi bir uygulamayı seçin — Drive, Outlook, Slack, Signal, Telegram, sistem Dosyalar uygulaması, hepsi çalışır." },
+        { "dt": "Clear", "dd": "Mevcut günlüğü siler. Bir hatayı yeniden oluşturmadan önce temiz başlamak isterseniz yararlı — sadece Clear'a basın, iletişim kutusundan çıkın, sorunu yeniden oluşturun, geri gelin ve paylaşın. Daha kısa günlük, ilgili olayları görmemizi kolaylaştırır." },
+        { "dt": "Logcat: ON / OFF", "dd": "ON iken görüntüleyici, uygulamanın kendi işleminden son <code>logcat</code> çıktısını da ekler — bir çökme veya ses hatası <code>debug.log</code>'da tam yakalanmadığında yararlı. Logcat kuyruğu Share'a dokunduğunuzda sizinle gider." }
+      ],
+      "callout": {
+        "h": "Doğrudan bize gönderin.",
+        "p": "Paylaşım sayfası belirdiğinde, e-posta uygulamanızı seçin ve onu konu üzerinde çalışan kişiye gönderin — operatörler <a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">K1AF</a> ve <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">N0RC</a> (adresler QRZ'de). Daha da iyisi: önce bir GitHub konusu açın, sonra günlüğü istediğiniz e-posta veya bulut sürücü kısayoluyla paylaşın ve bağlantıyı ya da eki konu dizisine yapıştırın, böylece herkese açık kalır."
+      }
+    },
+    "s4": {
+      "h": "Yedek: Dosyalar uygulaması",
+      "p1": "Bir nedenle uygulama içi Debug ekranına ulaşamazsanız — eski derleme, açma işe yaramadı, sadece dosya yöneticisini tercih ediyorsunuz — günlük dosyası diskte de şurada yaşar:",
+      "steps": [
+        "Telefonunuzda <strong>Dosyalar</strong> (veya <strong>Dosyalarım</strong>) uygulamasını açın.",
+        "<strong>Dahili depolama → Android → data</strong>'ya gidin. Bazı cihazlarda Android bu klasörü varsayılan olarak gizler; üç nokta menüsüne dokunun ve <em>Gizli dosyaları göster</em> veya <em>Sistem klasörleri</em>'ni etkinleştirin.",
+        "<code>com.bg7yoz.ft8cn</code> adlı klasörü, sonra <code>files</code>'ı açın. İçinde <code>debug.log</code>'u görmelisiniz.",
+        "<code>debug.log</code>'a uzun basın ve <strong>Paylaş</strong>'a dokunun."
+      ],
+      "callout": {
+        "h": "Android 11+, Dosyalar'da <code>/Android/data</code>'yı engelleyebilir.",
+        "p": "Yeni bir Android'de data klasöründe <code>com.bg7yoz.ft8cn</code>'i göremiyorsanız, Play Store'dan <strong>Material Files</strong> veya <strong>Solid Explorer</strong> gibi üçüncü taraf bir dosya yöneticisi kurun — ikisi de uygulama veri klasörlerini okuyabilir. Ya da daha kolayı: yukarıdaki uygulama içi Debug ekranını kullanın, bu durumu tamamen atlar."
+      }
+    },
+    "s5": {
+      "h": "Yedek: ADB",
+      "p1": "Bir bilgisayarı ve Android'in <code>adb</code> aracı olan geliştiriciler için:",
+      "steps": [
+        "Telefonunuzda <strong>Geliştirici seçenekleri → USB hata ayıklama</strong>'yı etkinleştirin.",
+        "Telefonu bilgisayara USB ile bağlayın, hata ayıklama yetkilendirme istemini kabul edin.",
+        "Bir terminalden telefonun görünür olduğunu doğrulayın:",
+        "Günlüğü çekin:"
+      ],
+      "steps3b": "Çok cihazlı kurulumlarda telefonu açıkça <code>-s &lt;serial&gt;</code> ile hedefleyin."
+    },
+    "s6": {
+      "h": "Konuyu yazın",
+      "p1": "Yararlı bir hata raporu küçüktür — üç ya da dört kısa paragraf yeterlidir. Her zaman işe yarayan desen:",
+      "steps": [
+        "<strong>Ne yaptınız?</strong> \"FT-891'imi taktım, 20m'de CQ'ya dokundum.\" Sırayla somut eylemler. Uygulamayı anlatmaya gerek yok — sadece neye dokunduğunuz.",
+        "<strong>Ne olmasını beklediniz?</strong> \"Telsizin anahtarlanmasını ve uygulamanın 14.074'te ton göndermeye başlamasını bekledim.\"",
+        "<strong>Gerçekte ne oldu?</strong> \"TX şeridi LISTENING'de kaldı. PTT yok, ton yok.\" Ekranda bir şey belirdiyse — hata bildirimi, donmuş arayüz, garip şelale — onu anlatın. Bir ekran görüntüsü altın değerinde.",
+        "<strong>Ne sıklıkta?</strong> Her seferinde mi? Yalnızca telefon uyuduktan sonra mı? Yalnızca 6m'de mi? Belirleyebildiğiniz her şey aramayı daraltır.",
+        "<strong>Günlüğü ekleyin.</strong> Sorunu yeniden oluşturduktan hemen sonra <code>debug.log</code>'u çekin — en yeni satırlar en yararlısıdır."
+      ]
+    },
+    "s7": {
+      "h": "Konu şablonu",
+      "p1": "Bunu yeni bir konuya kopyalayın ve boşlukları doldurun:"
+    },
+    "s8": {
+      "h": "Uygulama çöktüyse",
+      "p1": "FT8AF tamamen çöktüğünde, Android ayrı bir çökme raporu tutar. Bakılacak iki yer:",
+      "ul0": "Onu <strong>Google Play</strong>'den aldıysanız, bir kez anonim çökme raporlamayı açın, biz yığın izini otomatik göreceğiz. Hiçbir şey yapmanız gerekmez — ama konuya \"X cihazından &lt;saat&gt; civarında bir çökme raporu gönderdim\" eklemek eşleştirmemize yardımcı olur.",
+      "ul1": "ADB'niz varsa, canlı sistem günlüğü genellikle çökme izini olduktan hemen sonra içerir:",
+      "ul1b": "<code>debug.log</code>'a ek olarak <code>logcat.txt</code>'yi de ekleyin."
+    },
+    "s9": {
+      "h": "Gizlilik",
+      "p1": "Hata ayıklama günlüğü yalnızca metindir. Uygulamanın çalışma olaylarını yakalar, kişisel verilerinizi değil. Şunun gibi satırlar göreceksiniz:",
+      "p2": "Orada <em>olmayan</em>: Cloudlog veya QRZ API anahtarları, hesap parolalarınız, fotoğraflar, kişiler veya konum. Çağrı işaretiniz ve lokatörünüz orada <em>vardır</em>, çünkü istasyonunuzu tanımlarlar — ama bunlar zaten lisanslı radyo amatörleri için herkese açık bilgidir.",
+      "p3": "Göndermeden önce gözden geçirmek veya sansürlemek isterseniz, dosya düz UTF-8 metnidir. Herhangi bir metin düzenleyici onu açar.",
+      "callout": {
+        "h": "Vakit ayırdığınız için teşekkürler.",
+        "p": "Gerçek saha raporları — \"bu telsiz, bu kablo, bu bant, işte olan buydu\" — bu çatallamanın daha iyi olma şeklidir. İki bug-bash turu ve 58+ düzeltme, tam da sunmak üzere olduğunuz gibi raporlarla başladı. 73."
+      }
+    },
+    "pager": {
+      "prevLabel": "← Önceki",
+      "prevTitle": "FT8AF'yi kullanma",
+      "nextLabel": "Aç →",
+      "nextTitle": "GitHub'da yeni konu"
+    }
+  }
+}

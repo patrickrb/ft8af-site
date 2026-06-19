@@ -1,0 +1,780 @@
+{
+  "common": {
+    "nav": {
+      "home": "首页",
+      "features": "功能",
+      "download": "下载",
+      "wiki": "Wiki",
+      "faq": "常见问题",
+      "github": "GitHub",
+      "star": "星标",
+      "getFree": "免费获取",
+      "menu": "菜单"
+    },
+    "langLabel": "语言",
+    "ogImageAlt": "FT8AF — 把世界装进口袋。Android 上的 FT8。",
+    "btn": {
+      "downloadFt8af": "下载 FT8AF",
+      "starGithub": "在 GitHub 加星",
+      "joinDiscord": "加入 Discord"
+    },
+    "footer": {
+      "tagline": "现代化的 Android FT8。FT8CN 的社区分支，为真正的空中操作而打造。",
+      "product": "产品",
+      "project": "项目",
+      "operators": "操作员",
+      "community": "社区",
+      "bottom": "© 2026 FT8AF · GPL-3.0 · 站在 BG7YOZ &amp; N0BOY 的肩膀上",
+      "links": {
+        "googlePlay": "Google Play",
+        "repo": "GitHub 仓库",
+        "releases": "发布版本",
+        "reportBug": "报告问题",
+        "originalFt8cn": "原版 FT8CN",
+        "k1af": "Patrick · K1AF",
+        "n0rc": "Reid · N0RC",
+        "discord": "Discord"
+      }
+    }
+  },
+
+  "index": {
+    "meta": {
+      "title": "FT8AF — Android 上的 FT8",
+      "description": "FT8AF 在你的 Android 手机或平板上原生运行 FT8、FT4 和 FT2。解码波段、通过 USB CAT 控制电台、绘制 QSO 路径、为 POTA 激活公园，随时随地连通世界。免费且开源。",
+      "ogTitle": "FT8AF — 把世界装进口袋",
+      "ogDescription": "Android 上的原生 FT8。解码波段、通过 USB CAT 控制电台、运行完整的自动序列。免费且开源。"
+    },
+    "appDescription": "FT8AF 在 Android 上原生运行 FT8、FT4 和 FT2。实时解码与瀑布图、支持 75+ 电台的 USB CAT 控制、自动序列的 QSO 监视、带 QSO 路径的世界地图、POTA 激活模式、自动记录到 Cloudlog、QRZ、Wavelog 和 PSKReporter、所需 DX 提醒、16 种语言界面、Material 3 暗色主题。",
+    "hero": {
+      "eyebrow": "FT8 · 原生 Android",
+      "title": "把世界<br />装进口袋。",
+      "lede": "FT8AF 解码波段、通过 USB CAT 控制电台，并运行完整的\n        自动序列 —— 全部在你的 Android 手机或平板上原生运行。无需笔记本电脑。无需\n        纠缠的声卡接线。只要你的电台和一根 USB-C 线。",
+      "ctaGithub": "在 GitHub 免费获取",
+      "ctaPlay": "在 Google Play $3.50",
+      "pillFree": "免费且开源",
+      "pillFork": "FT8CN 的分支",
+      "deviceAlt": "Android 上的 FT8AF 解码标签页：实时显示已解码电台的列表 —— K7LNY、KF0X、KF6MIX、AK7LV、ND9M —— 每个都带有网格定位、距离、信号强度条、以 dB 表示的 SNR、距上次收到的时间、美国州名和 NEW DXCC 标记，并带有 Hunt / Call CQ / TX1 控件以及在 10.136 MHz / 30m 上侦听的 TX 条。"
+    },
+    "trust": {
+      "modes": "模式<br />FT8 · FT4 · FT2",
+      "rigs": "电台型号<br />通过 USB CAT",
+      "pota": "激活模式<br />内置",
+      "map": "世界地图<br />+ QSO 路径",
+      "langs": "语言<br />内置"
+    },
+    "features": {
+      "eyebrow": "为空中而生",
+      "title": "运行一个波段所需的<br />一切 —— 在一部手机上。",
+      "cta": "探索全部功能",
+      "cards": [
+        { "title": "FT8、FT4 &amp; FT2 解码", "body": "连续滚动的瀑布图，每个周期都带有 UTC 时间戳、点击即可调谐的标签，以及毫秒级解码 —— 如今覆盖三种模式。" },
+        { "title": "世界地图 &amp; QSO 路径", "body": "内置地图标签页绘制每一次解码，并画出通向对方的大圆路径 —— 带有距离、DX 位置和美国州界。" },
+        { "title": "活跃 QSO 监视 &amp; 追猎", "body": "通过完整的自动序列追踪一次通联，带有呼叫队列、Hunt 模式、Auto-CQ、定向 CQ 识别和所需 DX 提醒。" },
+        { "title": "POTA 激活模式", "body": "从头到尾完成一次公园激活 —— 实时联络列表、two-fer / 多公园支持、激活地图，以及直接上传到 POTA。" },
+        { "title": "支持 75+ 电台的 USB CAT", "body": "用一根 USB-C 线控制你的电台 —— CAT、音频、自动 ALC 调平和 SWR 保护 —— 覆盖 75+ Icom、Yaesu、Kenwood、Xiegu 等。" },
+        { "title": "随处自动记录", "body": "一次 QSO 完成的瞬间，便上传到 Cloudlog、QRZ 和 Wavelog —— 你听到的每一次解码都会上报到 PSKReporter。" },
+        { "title": "多语言界面", "body": "十六种语言 —— 从英语、西班牙语到韩语、乌克兰语和从右到左的阿拉伯语 —— 欢迎社区贡献。" }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "获取 FT8AF",
+      "title": "永久免费。<br />或 $3.50 喂养它。",
+      "lede": "无论哪种方式都是同一个应用。Play Store 版本只是让更新自动化 —— 并为下一次路上的调试出一份力。",
+      "free": {
+        "tag": "开源",
+        "title": "从 GitHub 免费获取",
+        "body": "完整的应用，采用 GPL 许可并公开开发。获取 APK 或自行构建。",
+        "li": [
+          "每项功能，毫无限制",
+          "旁加载最新的 APK",
+          "用 Gradle 从源码构建",
+          "阅读、Fork &amp; 为代码做贡献"
+        ],
+        "cta": "在 GitHub 查看"
+      },
+      "paid": {
+        "flag": "支持本项目",
+        "tag": "Google Play",
+        "per": "一次性",
+        "title": "支持本项目",
+        "body": "完全相同的应用，通过 Play Store 交付 —— 让它保持最新而你无需动一根手指。",
+        "li": [
+          "后台自动更新",
+          "一键安装，无需旁加载",
+          "经 Play Protect 验证的构建",
+          "直接资助开发"
+        ],
+        "cta": "在 Google Play 获取"
+      },
+      "note": "内部测试轨道 · 你可能需要先加入测试者名单。",
+      "noteLink": "更多内容见常见问题 →"
+    },
+    "story": {
+      "eyebrow": "来自路上的 73",
+      "quote": "FT8AF 的大部分是在往返 Hamvention 的路上，以 70&nbsp;英里/小时在 I-70 上凭感觉写出来的 ——\n      笔记本电脑放在副驾，电台在后座，Claude 在循环里。",
+      "quoteMuted": "一些最好的调试就发生在高速公路的速度上。"
+    },
+    "cta": {
+      "eyebrow": "保持关注",
+      "title": "获取构建说明 &amp;<br />新功能发布消息。",
+      "lede": "数量不多。发布说明、现场报告，以及偶尔一句「我们修好了让你的 FT-891 崩溃的那个问题」。随时可退订。",
+      "emailLabel": "电子邮件地址",
+      "emailPlaceholder": "you@callsign.radio",
+      "submit": "通知我",
+      "or": "或",
+      "starRepo": "★ 给仓库加星",
+      "joinDiscord": "加入 Discord",
+      "done": "你已在名单上。"
+    }
+  },
+
+  "features": {
+    "meta": {
+      "title": "FT8AF — 功能",
+      "description": "带连续瀑布图的 FT8、FT4 和 FT2 解码，带智能追猎和所需 DX 提醒的活跃 QSO 监视，带 QSO 路径的世界地图，POTA 激活模式，支持 75+ 电台的 USB CAT 控制，自动记录到 Cloudlog、QRZ、Wavelog 和 PSKReporter，以及覆盖 16 种语言（含从右到左的阿拉伯语）的多语言支持。",
+      "ogTitle": "FT8AF —— 为 Android 重建的完整 FT8 电台",
+      "ogDescription": "FT8/FT4/FT2 解码、活跃 QSO 监视、带 QSO 路径的世界地图、POTA 激活、支持 75+ 电台的 USB CAT，以及自动记录到 Cloudlog、QRZ、Wavelog & PSKReporter。"
+    },
+    "hero": {
+      "eyebrow": "功能集",
+      "title": "一座完整的 FT8 电台，<br />为 Android 重建。",
+      "lede": "操作循环的每个环节 —— 解码、瞄准、发射、记录 —— 都在快速的 Jetpack Compose 界面中重做，并经过两轮捉虫加固。这就是其中的内容。"
+    },
+    "rows": {
+      "spectrum": {
+        "eyebrow": "01 · 频谱",
+        "title": "实时波段解码 &amp; 瀑布图",
+        "body": "一次性观察整个 3&nbsp;kHz 通带。瀑布图连续滚动，在每个周期边界绘制 UTC 时间戳，让你一眼读出传播，并在所需电台出现的瞬间扑上去。",
+        "points": [
+          "连续滚动，每个周期都有时间标记",
+          "更高的频谱条，可配置宽度 &amp; 缩放（Wide → 500&nbsp;Hz）",
+          "点击信号即可调谐；TX 标记保持对齐；垃圾解码被过滤"
+        ],
+        "alt": "FT8AF 的 Waterfall 标签页：一幅全波段频谱图，已解码的呼号竖直地印在各自的信号上，带有 TX 频率标记、UTC 时间戳，以及显示 'New state: NM · KE7WVV DM56 −4 dB' 的活跃 QSO 状态横幅。"
+      },
+      "modes": {
+        "eyebrow": "02 · 模式",
+        "title": "三种模式，一个应用",
+        "body": "FT8AF 起初只支持 FT8，如今可解码并发射 <strong>FT8、FT4 和 FT2</strong> —— 每种都有正确的时隙时序和波段计划。一点即可切换模式，并以 Fox &amp; Hound 支持追逐 DX 探险。",
+        "points": [
+          "用于竞赛 &amp; 扎堆的 FT8（15 秒）和更快的 FT4（7.5 秒）",
+          "拥有自身规范频率的实验性 FT2 模式",
+          "用于 FT8 的 Fox &amp; Hound（DX 探险）操作"
+        ],
+        "alt": "FT8AF 的解码标签页：实时显示已解码电台的列表 —— K7LNY、KF0X、KF6MIX、AK7LV、ND9M —— 每个都带有网格定位、距离、信号强度条、以 dB 表示的 SNR、距上次收到的时间、美国州名和 NEW DXCC 标记，并带有 Hunt / Call CQ / TX1 控件以及在 10.136 MHz / 30m 上侦听的 TX 条。"
+      },
+      "qso": {
+        "eyebrow": "03 · 操作",
+        "title": "QSO 监视、追猎 &amp; 提醒",
+        "body": "一个可折叠的面板在交换的每一步追踪你当前的通联 —— 呼叫 → 报告 → roger → 73 → 记录。呼叫队列让你锁定目标，智能追猎为你运行波段，让你无需守着它。",
+        "points": [
+          "Hunt 模式 &amp; Auto-CQ —— 无需重新点击即可串联呼叫",
+          "所需 DX 提醒：对新的 DXCC 或州发出声音 + 通知",
+          "定向 CQ 识别、呼号屏蔽列表 &amp; 解码过滤器"
+        ],
+        "alt": "FT8AF 的解码标签页：实时显示已解码电台的列表 —— K7LNY、KF0X、KF6MIX、AK7LV、ND9M —— 每个都带有网格定位、距离、信号强度条、以 dB 表示的 SNR、距上次收到的时间、美国州名和 NEW DXCC 标记，并带有 Hunt / Call CQ / TX1 控件以及在 10.136 MHz / 30m 上侦听的 TX 条。"
+      },
+      "map": {
+        "eyebrow": "04 · 地图",
+        "title": "世界地图 &amp; QSO 路径",
+        "body": "专门的地图标签页绘制你正在听到的电台，并画出通向你正在通联对象的大圆路径 —— 带有距离、DX 位置和美国州界，让你看清自己的信号究竟落在哪里。",
+        "points": [
+          "距离 &amp; DX 位置直接显示在 QSO 面板中",
+          "绘有美国州界的路径地图",
+          "选择你的单位 —— 英里或千米"
+        ],
+        "alt": "FT8AF 的 Map 标签页：一幅世界地图，将听到的电台绘制为标记，带有网格定位 EM28、电台计数，以及 PSK / 标准 / 方位投影切换。"
+      },
+      "pota": {
+        "eyebrow": "05 · 激活",
+        "title": "POTA 激活模式",
+        "body": "把 FT8AF 带到公园。激活模式运行你的整次外出 —— 一份带有猎人呼号和网格、实时增长的联络列表，一张联络地图，以及公园对公园的检测 —— 然后在你完成时将日志直接上传到 POTA。",
+        "points": [
+          "two-fer / 多公园激活与 P2P 标记",
+          "激活地图、QRZ 头像 &amp; 可点击穿透的历史",
+          "关闭应用后可恢复，并在应用内上传到 POTA"
+        ],
+        "alt": "在对 US-1469 和 US-4567 的两公园（two-fer）实时激活期间的 FT8AF POTA 标签页：一个绿色的 '14 QSOs — valid activation' 计数器、已用时间、Self-spot 和 End-activation 按钮、一张从激活者向外辐射联络路径的美国地图，以及一份带有 QRZ 头像和公园对公园（P2P）标记的联络列表。"
+      },
+      "usb": {
+        "eyebrow": "06 · 硬件",
+        "title": "支持 75+ 电台的 USB CAT",
+        "body": "用一根 USB-C 线将电台直接接到手机。FT8AF 在 75+ 电台型号 —— Icom、Yaesu、Kenwood、Xiegu、Elecraft、FlexRadio、Lab599 等 —— 上处理 CAT 频率控制、USB 音频和 PTT，并带有一大批自动连接可靠性修复。",
+        "points": [
+          "新增电台：Yaesu FT-710、Kenwood TS-440、Lab599 Discovery TX-500",
+          "自动 ALC 调平和由 SWR 触发的 TX 停止，以保护你的末级",
+          "实时 TX 音量 —— 在发射途中实时调整激励"
+        ]
+      },
+      "logging": {
+        "eyebrow": "07 · 记录",
+        "title": "随处自动记录",
+        "body": "把你的日志服务配置一次，然后就可忘掉它们。一次 QSO 完成的瞬间，FT8AF 便将其直接推送到 Cloudlog、QRZ 和 Wavelog —— 你解码到的每个信号都会上报到 PSKReporter，让传播图随你的电台亮起来。",
+        "points": [
+          "自动上传到 Cloudlog / Wavelog 和 QRZ 日志本",
+          "将你听到的每次解码上报到 PSKReporter",
+          "电台 ID 选择器外加 ADIF 导出，两份 SNR 报告都被捕获"
+        ],
+        "alt": "FT8AF 的 Logbook 标签页：一个 Stats 视图显示 27 个 QSO、13 个 DXCC 实体、11 个 CQ 分区和 13 个 ITU 分区，一张覆盖 30m、20m、40m、17m 和 15m 的波段分布环形图，以及 DXCC Mixed（13/340）和 VUCC 网格（28/100）的奖状进度条。"
+      },
+      "material": {
+        "eyebrow": "08 · 界面",
+        "title": "Material 3 暗色界面",
+        "body": "整个界面是在 Material 3 暗色主题上以 Jetpack Compose 全新重建 —— 高对比度，在烈日下或昏暗的电台室里一眼可读，并为拇指而布局。设置被组织成清爽的下钻类别，紧凑解码模式在较小屏幕上把内容收紧。",
+        "points": [
+          "下钻式设置、可配置的解码高亮 &amp; 紧凑模式",
+          "带有你的 QRZ 照片、天线 &amp; 功率的操作员卡片",
+          "按状态编码的解码：新、所需、已通联、已确认"
+        ],
+        "alt": "FT8AF 的 Settings 标签页：一张位于网格 EM28 的 K1AF 操作员身份卡片，带有 QRZ 头像、天线（ATAS 120）和功率（70 W）、一个 GPS 自动网格开关，以及 Radio &amp; Audio、Transmission、Time Sync、Decode &amp; Filters、Logging &amp; Awards、Advanced 和 About 的下钻类别。"
+      },
+      "languages": {
+        "eyebrow": "09 · 语言",
+        "title": "本地化为 16 种语言",
+        "body": "FT8CN 曾只有中文。FT8AF 如今以十六种语言提供 —— 全部由社区贡献 —— 并自动切换到你 Android 设备的区域设置，对阿拉伯语采用从右到左的布局。",
+        "points": [
+          "由社区贡献的翻译，包括从右到左的阿拉伯语",
+          "Android 自动区域检测 —— 无需手动切换",
+          "欢迎更多语言 —— PR 在 GitHub 上开放"
+        ]
+      }
+    },
+    "viz": {
+      "modes": {
+        "head": "操作模式",
+        "ft8slot": "15 秒时隙",
+        "ft4slot": "7.5 秒时隙",
+        "ft4note": "竞赛节奏",
+        "ft2slot": "更快",
+        "ft2note": "实验性",
+        "foxhound": "用于追逐大鱼的 Fox &amp; Hound DX 探险模式"
+      },
+      "usb": {
+        "head": "USB CAT + 音频",
+        "connected": "已连接",
+        "yourRig": "你的电台",
+        "rigCount": "75+ 型号"
+      },
+      "languages": {
+        "head": "本地化",
+        "count": "16 种语言"
+      }
+    },
+    "stability": {
+      "eyebrow": "以及那些不起眼的胜利",
+      "title": "58+ 项你永远<br />无需操心的修复。",
+      "lede": "两轮完整的「捉虫」行动追查了横亘在你与一次干净 QSO 之间的崩溃、泄漏和生命周期小妖怪。",
+      "cards": [
+        { "h4": "崩溃 &amp; 泄漏修复", "p": "在整个应用中追查 NPE 崩溃、资源泄漏和线程竞态。" },
+        { "h4": "UTC 瀑布时间戳", "p": "在 FT8 周期边界绘制时间戳，让你即刻读出时序。" },
+        { "h4": "硬件 TX 音量", "p": "在 QSO 途中用手机的物理音量键设置发射电平。" },
+        { "h4": "TX1 / TX2 时隙切换", "p": "直接从 TX 条选择你的发射周期。" },
+        { "h4": "GPS 时间 &amp; 网格同步", "p": "从 GPS 自动同步时间和网格，外加用于离线操作的手动时间校正。" },
+        { "h4": "TX 标记对齐", "p": "发射频率光标保持锁定在你实际的 TX 音频上。" }
+      ]
+    },
+    "cta": {
+      "title": "准备好把一座电台<br />装进口袋了吗？"
+    }
+  },
+
+  "download": {
+    "meta": {
+      "title": "FT8AF — 下载",
+      "description": "从 GitHub 免费获取 FT8AF —— 旁加载 APK 或从源码构建 —— 或在 Google Play 以 $3.50 支持本项目并获得自动更新。",
+      "ogTitle": "FT8AF —— 把 FT8 装进你的 Android 手机",
+      "ogDescription": "从 GitHub 获取免费 APK，或在 Google Play 以 $3.50 获得自动更新。同一个应用，每项功能。可在任何支持 USB-OTG 的 Android 上运行。"
+    },
+    "hero": {
+      "eyebrow": "下载",
+      "title": "把 FT8AF 装进你的手机。",
+      "lede": "从 GitHub 免费且开源地获取，或在 Google Play 以 $3.50 让更新自动化并为开发出一份力。无论哪种方式都是同一个应用、每项功能。"
+    },
+    "free": {
+      "tag": "开源",
+      "title": "从 GitHub 免费获取",
+      "body": "完整的应用，采用 GPL-3.0 许可。旁加载已签名的 APK 或自行构建。",
+      "li": [
+        "每项功能，无限制也无账户",
+        "Releases 页面上的已签名发布 APK",
+        "用 Gradle 从源码构建",
+        "检视、Fork &amp; 为代码做贡献",
+        "手动更新（新构建由你自行获取）"
+      ],
+      "cta": "下载 APK"
+    },
+    "paid": {
+      "flag": "支持本项目",
+      "tag": "Google Play",
+      "per": "一次性",
+      "title": "支持本项目",
+      "body": "完全相同的应用，通过 Play Store 交付，因此始终保持最新。",
+      "li": [
+        "后台自动更新",
+        "一键安装 —— 无旁加载步骤",
+        "经 Play Protect 验证的构建",
+        "便于安装到不太懂技术的人的手机上",
+        "直接资助持续开发"
+      ],
+      "cta": "在 Google Play 获取"
+    },
+    "callout": {
+      "title": "请注意：Play Store 版本处于内部测试轨道",
+      "body": "在 Google Play 链接能安装之前，你可能需要被加入测试者名单。如果它无法打开，请暂时从 GitHub 获取免费 APK —— 是同一个应用。"
+    },
+    "methods": {
+      "eyebrow": "如何安装",
+      "title": "三条入门之路。"
+    },
+    "method": {
+      "sideload": {
+        "title": "旁加载 APK",
+        "sub": "最快 · 免费",
+        "steps": [
+          "在 GitHub 打开 <strong>Releases</strong> 并下载最新的 <code style=\"font-family:var(--font-mono)\">.apk</code>。",
+          "点击该文件；如果 Android 询问，允许「从此来源安装」。",
+          "打开 FT8AF，授予 USB &amp; 麦克风权限，并选择你的电台。"
+        ],
+        "cta": "打开 Releases"
+      },
+      "build": {
+        "title": "从源码构建",
+        "sub": "面向折腾者",
+        "codeComment": "# 克隆 &amp; 构建",
+        "cta": "查看仓库"
+      },
+      "play": {
+        "title": "Google Play",
+        "sub": "$3.50 · 自动更新",
+        "steps": [
+          "打开 Play Store 页面（如有提示，加入测试者名单）。",
+          "以 $3.50 一次性购买，并点击 <strong>安装</strong>。",
+          "更新会自动到来 —— 无需再做别的。"
+        ],
+        "cta": "在 Google Play 打开"
+      }
+    },
+    "req": {
+      "eyebrow": "开始之前",
+      "title": "你需要什么。",
+      "cards": [
+        { "k": "设备", "v": "Android 8+", "d": "手机或平板，支持 USB-OTG" },
+        { "k": "线缆", "v": "USB-C → 电台", "d": "较旧手机需 OTG 转接头" },
+        { "k": "电台", "v": "支持 CAT 的 HF 机", "d": "75+ 型号 —— Icom、Yaesu、Kenwood、Xiegu &amp; 更多" },
+        { "k": "模式", "v": "FT8 · FT4 · FT2", "d": "160m – 6m，全部子波段" }
+      ]
+    },
+    "reqCallout": {
+      "title": "手边没有电台？你仍然可以探索。",
+      "body": "FT8AF 可以从手机麦克风解码，因此你可以在接好 CAT 控制之前观察波段、熟悉界面。关于支持的电台和接线，请见 <a href=\"/faq\">常见问题</a>。"
+    },
+    "cta": {
+      "title": "选择你的路。连通世界。",
+      "lede": "在 GitHub 免费，或 $3.50 让它自我更新。无论哪种方式你都获得整个应用。",
+      "freeApk": "免费 APK",
+      "playBtn": "在 Google Play $3.50"
+    }
+  },
+
+  "faq": {
+    "meta": {
+      "title": "FT8AF — 常见问题",
+      "description": "关于 FT8AF 的常见问题：价格、Google Play 测试轨道、支持的电台、FT4 和 FT2 模式、POTA 激活、记录与上报服务、与 FT8CN 的关系，以及如何贡献。",
+      "ogTitle": "FT8AF — 常见问题",
+      "ogDescription": "价格、Google Play 测试轨道、支持的电台、FT4/FT2 模式、POTA、记录服务、与 FT8CN 的关系，以及如何贡献。"
+    },
+    "hero": {
+      "eyebrow": "常见问题",
+      "title": "问题，已解答。",
+      "lede": "价格、Play Store 测试轨道、电台与接线，以及这一切与 FT8CN 的关系。仍然卡住？ <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--signal)\">在 GitHub 上开一个 issue</a>。"
+    },
+    "cats": {
+      "getting": "如何获取",
+      "radios": "电台 &amp; 设置",
+      "modes": "模式、地图 &amp; POTA",
+      "project": "项目"
+    },
+    "items": {
+      "free": {
+        "q": "FT8AF 真的免费吗？",
+        "a": "是的 —— 完全免费。FT8AF 是 GPL-3.0 许可下的开源软件。你可以从 GitHub 的 Releases 页面下载已签名的 APK，或自己从源码构建，所有功能均已解锁且无需账户。Google Play 上 $3.50 的选项是同一个应用；你支付的是自动更新和对开发的支持，而非功能。"
+      },
+      "paid": {
+        "q": "那么 Google Play 上的 $3.50 能给我什么？",
+        "a": "便利与善意。Play Store 版本在后台自动更新，一键安装而无需「允许未知来源」的步骤，并经 Play Protect 验证 —— 对于你不想费心打理的手机，这是省事的选择。这次购买还直接资助持续开发。应用本身与免费的 GitHub 构建完全相同。"
+      },
+      "playLink": {
+        "q": "Google Play 链接不让我安装。为什么？",
+        "a": "Play Store 上的条目目前处于<strong>内部测试轨道</strong>，因此在 Google 允许你安装之前，你可能需要被加入测试者名单。如果链接对你尚不可用，请改从 <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">GitHub 的 Releases 页面</a> 下载免费 APK —— 是完全相同的应用。"
+      },
+      "install": {
+        "q": "如何安全地安装 APK？",
+        "a": "从 GitHub Releases 下载最新的 <code>.apk</code>，点击它，并批准 Android 显示的一次性「从此来源安装」提示。然后打开 FT8AF 并授予 USB 和麦克风权限。完整的分步说明在 <a href=\"/download\">下载页面</a>。"
+      },
+      "radios": {
+        "q": "支持哪些电台？",
+        "a": "覆盖 Icom、Yaesu、Kenwood、Xiegu、Elecraft、FlexRadio、Lab599 等的 <strong>75 多种电台型号</strong> —— 在设置中连同控制模式和音频设备一起从列表中选择。Icom IC-7300 和 Yaesu FT-891 等热门电台都受到良好支持，最近新增的包括 <strong>Yaesu FT-710</strong>、<strong>Kenwood TS-440</strong> 和 <strong>Lab599 Discovery TX-500</strong>。FT8AF 还加入了自动 ALC 调平和由 SWR 触发的 TX 停止以保护你的电台。如果你的电台未在列表中，请 <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\">开一个 issue</a> 告诉我们。"
+      },
+      "cable": {
+        "q": "我需要什么线缆？",
+        "a": "在大多数现代电台上，从手机到电台 USB 口的单条 USB 连接即可同时处理 CAT 控制和音频。较新的手机用 USB-C 线直接连接；较旧的手机需要 USB-OTG 转接头。你的设备必须支持 USB 主机（OTG）模式。"
+      },
+      "noRadio": {
+        "q": "没有电台能试用吗？",
+        "a": "可以。FT8AF 能从手机麦克风解码，所以你可以把它凑近扬声器，或在接好 CAT 控制之前先探索界面、观察瀑布图。这是先熟悉布局的好办法。"
+      },
+      "bands": {
+        "q": "哪些波段可用？",
+        "a": "从 160m 到 6m 的所有标准 FT8 子波段都已内置，一点即可切换。瀑布图覆盖整个音频通带，让你一次看到并操作该段内的全部内容。"
+      },
+      "modes": {
+        "q": "FT8AF 支持 FT4 和 FT2 吗？",
+        "a": "支持。FT8AF 起初只支持 FT8，如今可解码并发射 <strong>FT8、FT4 和实验性的 FT2</strong>，每种都有正确的时隙时序和波段计划 —— 一点即可切换。还有用于在扎堆中追逐稀有电台的 Fox &amp; Hound（DX 探险）操作。"
+      },
+      "pota": {
+        "q": "我能用它做 POTA 激活吗？",
+        "a": "可以 —— 有专门的 <strong>POTA 激活模式</strong>。它维护一份带有猎人呼号和网格的实时联络列表，显示激活地图，检测公园对公园（P2P）联络，支持多公园（two-fer）激活，应用被关闭后可恢复，并在你完成时将日志直接上传到 POTA。"
+      },
+      "map": {
+        "q": "有地图吗？",
+        "a": "有。专门的地图标签页绘制你正在听到的电台，并画出通向你正在通联对象的大圆路径，带有距离、DX 位置和美国州界。在设置中选择你的单位 —— 英里或千米。"
+      },
+      "logging": {
+        "q": "它支持哪些记录和上报服务？",
+        "a": "当一次 QSO 完成时，FT8AF 可以自动上传到 <strong>Cloudlog / Wavelog</strong> 和 <strong>QRZ</strong> 日志本，并把你听到的每次解码上报到 <strong>PSKReporter</strong>，让你的电台出现在传播图上。你也可以导出 ADIF。每项服务在设置中配置一次，之后便在后台运行。"
+      },
+      "ft8cn": {
+        "q": "这与 FT8CN 有何不同？",
+        "a": "FT8AF 是出色的 FT8CN 的一个分支，将其向前推进：完整的 Jetpack Compose / Material 3 暗色界面，带呼叫队列和智能追猎的活跃 QSO 监视，在 FT8 之外的 <strong>FT4 和 FT2</strong> 模式，带 QSO 路径的世界地图，<strong>POTA 激活</strong>模式，自动记录到 Cloudlog、QRZ、Wavelog 和 PSKReporter，<strong>多语言支持</strong>（原版只有中文），外加跨多轮「捉虫」的数十项错误修复。核心解码血统来自 FT8CN —— 我们将围绕它的体验现代化并加以扩展。"
+      },
+      "languages": {
+        "q": "FT8AF 支持哪些语言？",
+        "a": "FT8AF 以 <strong>16 种语言</strong>提供：英语（默认）、希腊语、西班牙语、日语、法语、俄语、中文、意大利语、波兰语、韩语、荷兰语、捷克语、土耳其语、印度尼西亚语、乌克兰语和阿拉伯语（从右到左）。应用会自动检测你 Android 设备的区域设置并自动切换。所有翻译均由社区贡献 —— 如果你想添加或改进某种语言，欢迎在 <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHub</a> 上提交拉取请求。"
+      },
+      "who": {
+        "q": "谁在做 FT8AF？",
+        "a": "由 <a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">Patrick Burns（K1AF）</a> 和 <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">Reid（N0RC）</a> 打造 —— 其中很大一部分，正如广为流传的那样，是在前往 Hamvention 的路上、于 I-70 上凭感觉写出来的。深深感谢 FT8CN 的原作者 <strong>BG7YOZ</strong>，以及托管原始仓库的 <strong>N0BOY</strong>。没有他们，这一切都不会存在。"
+      },
+      "contribute": {
+        "q": "我能贡献或报告问题吗？",
+        "a": "请务必。代码托管在 <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHub</a> —— 为错误或功能想法开 issue、提交拉取请求，或只是给仓库加星以便关注。来自真实空中操作的现场报告尤其受欢迎。"
+      },
+      "updates": {
+        "q": "它会继续获得更新吗？",
+        "a": "这正是计划。开发活跃且持续进行。自动获取新构建的最快方式是 Google Play 版本；否则请关注 Releases 页面或仓库。想在有新东西发布时收到提醒？请在首页 <a href=\"/#pricing\">加入更新名单</a>。"
+      }
+    },
+    "cta": {
+      "title": "还好奇？那就试试看。",
+      "ask": "在 GitHub 提问"
+    }
+  },
+
+  "wiki": {
+    "meta": {
+      "title": "FT8AF — Wiki & 帮助",
+      "description": "FT8AF 的 Wiki：从首次启动到记录一次 QSO 的实用使用指南，外加取出调试日志并提交一份有用的错误报告的说明。",
+      "ogTitle": "FT8AF — Wiki & 帮助",
+      "ogDescription": "学习使用 FT8AF：首次连接、解码、发射、记录 —— 外加如何取出调试日志并报告问题。"
+    },
+    "hero": {
+      "eyebrow": "Wiki &amp; 帮助",
+      "title": "上空中，<br />或者把日志给我们。",
+      "lede": "两份简短的指南。一份带你从首次启动到记录一次 QSO 地使用 FT8AF。另一份展示如何捕获调试日志，并提交一份我们真正能据以行动的错误报告。"
+    },
+    "cards": {
+      "using": {
+        "eyebrow": "01 · 使用 FT8AF",
+        "title": "如何操作应用",
+        "body": "接上你的电台、设置呼号、选择波段、解码该段，然后运行一次自动序列 QSO，看着它自我记录。一步一步，配有截图。",
+        "li": [
+          "首次启动 &amp; 权限",
+          "USB CAT &amp; 音频设置",
+          "解码、呼叫与 QSO 监视",
+          "Cloudlog &amp; QRZ 自动记录"
+        ],
+        "cta": "打开指南"
+      },
+      "bug": {
+        "eyebrow": "02 · 发现了问题？",
+        "title": "把调试日志给我们",
+        "body": "FT8AF 每次运行都会写出一份结构化的事件日志。两次点击就能从你的手机取出，附到 GitHub 的 issue 上，我们通常就能确定问题所在 —— 而不是猜测。",
+        "li": [
+          "在哪里找到 <code>debug.log</code>",
+          "通过 Files、Drive 或邮件分享",
+          "issue 中应包含什么",
+          "没有手机？没问题。"
+        ],
+        "cta": "报告问题"
+      }
+    },
+    "callout": {
+      "title": "这份 Wiki 刻意保持简短。",
+      "body": "如果这里的内容与你在应用中看到的不符，那就是文档错误 —— 开一个 issue，我们会修。需要问答式的回答（价格、支持的电台、与 FT8CN 的关系），请前往 <a href=\"/faq\">常见问题</a>。"
+    },
+    "cta": {
+      "title": "卡在了 Wiki 未涉及的地方？",
+      "lede": "来自真实空中操作的现场报告，是我们收到的最有用的东西。开一个 issue，告诉我们发生了什么，如果有日志就附上。",
+      "openIssue": "开一个 issue",
+      "browseFaq": "浏览常见问题"
+    }
+  },
+
+  "wikiUsing": {
+    "meta": {
+      "title": "FT8AF — 使用应用",
+      "description": "FT8AF 的实操演练：首次启动与权限、USB CAT 与音频设置、解码波段、呼叫电台、自动序列 QSO，以及自动记录到 Cloudlog 和 QRZ。",
+      "ogTitle": "FT8AF — 使用应用",
+      "ogDescription": "实操演练：首次启动、USB CAT 设置、解码波段、呼叫、自动序列 QSO，以及自动记录。"
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / 使用 FT8AF",
+      "title": "从首次启动<br />到记录一次 QSO。",
+      "lede": "如果你在任何地方操作过 FT8 —— WSJT-X、JTDX、FT8CN —— 这里的大部分会让你感到熟悉。地图只是为单手重新排布过。第一次请通读；需要时再回到某一节。"
+    },
+    "toc": {
+      "title": "本页内容",
+      "items": [
+        "安装 &amp; 首次启动",
+        "设置你的呼号 &amp; 网格",
+        "连接你的电台",
+        "解码波段",
+        "读懂瀑布图",
+        "呼叫一个电台",
+        "运行自动序列",
+        "记录 &amp; 上传",
+        "现场技巧"
+      ]
+    },
+    "s1": {
+      "h": "安装 &amp; 首次启动",
+      "p1": "从 <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">GitHub 发布页面</a> 以免费 APK 获取 FT8AF，或在 <a href=\"https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af\" target=\"_blank\" rel=\"noopener\">Google Play</a> 以 $3.50 获取 —— 应用是相同的。完整的安装说明在 <a href=\"/download\">下载</a> 页面。",
+      "p2": "首次打开 FT8AF 时，Android 会请求两项权限：",
+      "ul": [
+        "<strong>USB 设备访问</strong> —— CAT 控制和电台音频所需。如果你希望应用在重新插线时自动重连，请选择 <em>始终</em>。",
+        "<strong>麦克风</strong> —— 如果你今后想用手机麦克风（而非有线电台）解码，则需要它。若只用 USB，可以拒绝。"
+      ]
+    },
+    "s2": {
+      "h": "设置你的呼号 &amp; 网格",
+      "p1": "打开 <span class=\"tap\">Settings</span> 标签页，填写顶部的操作员卡片。这两个字段左右着应用发射的一切，所以在按下 PTT 之前把它们设对很值得。",
+      "cap": "<b>Settings → Operator.</b> 点击任意一行进行编辑。如果你授予位置权限，网格会提议从 GPS 填入。",
+      "dl": [
+        { "dt": "呼号", "dd": "你的执照呼号。若移动或便携操作，用斜杠加上便携标识（例如 <code>K1AF/M</code>）。" },
+        { "dt": "网格", "dd": "4 位或 6 位的 Maidenhead 定位（例如 <code>FN42</code> 或 <code>FN42hk</code>）。若已授予位置权限，FT8AF 会提议从 GPS 填入。" },
+        { "dt": "音频频率", "dd": "在 3 kHz FT8 段内、以 Hz 计的发射音频频率。<code>1500</code> 是一个合理的起始默认值。" },
+        { "dt": "TX 延迟", "dd": "应用在 PTT 之后、发送音调之前等待的毫秒数。<code>400</code> 适用于大多数 CAT 控制的电台。" }
+      ]
+    },
+    "s3": {
+      "h": "连接你的电台",
+      "p1": "FT8AF 通过单条 USB-C 连接与你的电台通信 —— CAT（频率、PTT）和音频（RX、TX）都走同一根线。现代 Android 手机用 USB-C 直接连接；较旧的设备需要 USB-OTG 转接头。你的手机必须支持 USB 主机模式。",
+      "cap": "<b>Settings → Radio.</b> 一根 USB-C 线承载 CAT 控制、音频和 PTT。",
+      "steps": [
+        "<strong>插上。</strong> 将手机连到电台的 USB 口。Android 会请求与该设备通信的权限 —— 接受，并勾选 <em>始终</em>，以便应用日后能重连。",
+        "<strong>选择你的电台。</strong> 在 <span class=\"tap\">Settings → Radio</span> 中打开 <em>Rig model</em> 选择器，选择你的收发机（IC-7300、FT-891、IC-705 等）。FT8AF 包含一项修复，会在 DATA-USB 下将 FT-891 强制为 3000&nbsp;Hz 带宽 —— 你无需自行设置。",
+        "<strong>将控制模式设为 CAT。</strong> 在 <em>Control</em> 下选择 <strong>CAT</strong>。（如果你的配置需要，VOX、RTS 和 DTR 也可用，但通过 USB 使用现代 HF 电台时，CAT 才是你想要的。）",
+        "<strong>确认 CI-V / 波特率。</strong> 默认值通常匹配 —— Icom 电台默认在 <code>115200</code> 用 <code>A4</code>；Yaesu 电台有各自的约定。如果 CAT 连不上，这是第一处该查看的地方。",
+        "<strong>选择波段。</strong> 点击 <span class=\"tap\">Decode</span> 标签页上的波段芯片以在 160m–6m 的 FT8 段之间切换，或在 <em>Settings → Radio → Frequency</em> 中输入自定义频率。"
+      ],
+      "callout": {
+        "h": "没有电台？你仍然可以探索。",
+        "p": "如果你授予麦克风权限，FT8AF 会从手机麦克风解码音频 —— 把它凑近接到任何 FT8 活跃电台的扬声器，你就会看到相同的解码列表。这有助于在接好 CAT 之前熟悉界面。"
+      }
+    },
+    "s4": {
+      "h": "解码波段",
+      "p1": "<span class=\"tap\">Decode</span> 标签页是你大部分操作时间的去处。每 15 秒，在 FT8 周期边界，应用处理上一时隙的音频，并将新解码落入列表。电台会获得状态标记 —— <em>New DXCC</em>、<em>Needed</em>、<em>Worked</em>、<em>Confirmed</em> —— 让波段一眼告诉你该追什么。",
+      "alt": "Android 上的 FT8AF Decode 标签页 —— Material 3 暗色界面，显示 K7LNY、KF0X、KF6MIX、AK7LV 和 ND9M 的解码行，每行带有网格定位、距离、信号强度条、以 dB 表示的 SNR、距上次收到的时间、美国州名和 NEW DXCC 标记，位于 10.136 MHz / 30m 上侦听的 TX 条之上。",
+      "cap": "<b>Decode 标签页。</b> 每一行都是一个已解码的电台。点击一行可把该电台设为你的 QSO 目标。用顶部的芯片进行筛选 —— <em>All</em>、<em>CQ Calls</em>、<em>CQ POTA</em>、<em>New DXCC</em>、<em>Needed</em>。",
+      "p2": "每一行告诉你：",
+      "dl": [
+        { "dt": "SNR / dB", "dd": "信噪比。数值大约从 <code>−24</code>（勉强可解码）到 <code>+15</code>（非常强）。" },
+        { "dt": "Audio Hz", "dd": "信号在 3 kHz 段内的位置。点击瀑布图上的一行或信号，可把它设为你的 TX 音频频率。" },
+        { "dt": "距离", "dd": "已知对方网格时，从你的网格到该解码电台的大圆距离。" },
+        { "dt": "状态标记", "dd": "<span class=\"mono\">New DXCC</span> = 你从未通联过的实体。<span class=\"mono\">Needed</span> = 在此波段/模式上所需。<span class=\"mono\">Worked</span> = QSO 完成但尚未确认。" },
+        { "dt": "↳ 回你", "dd": "当一个电台直接回应你时，以青色高亮。你会在自己的 QSO 期间看到它。" }
+      ]
+    },
+    "s5": {
+      "h": "读懂瀑布图",
+      "p1": "<span class=\"tap\">Waterfall</span> 标签页随时间显示完整的 3 kHz FT8 通带。较新的音频在顶部，较旧的在底部 —— 一条细线标出每个 FT8 周期边界，旁边绘有 UTC 时间戳，让你一眼读出时序。",
+      "cap": "<b>瀑布图。</b> 竖直的条纹是信号；点击其一即可把你的 TX 音频频率设到该时隙。宽度芯片（Wide / 1.5 kHz / 500 Hz）让你放大繁忙的段。",
+      "p2": "<strong>点击即调谐。</strong> 点击瀑布图上任何可见的信号，把你的 TX 音频频率设到该时隙。多亏 FT8AF 的对齐修复，TX 标记会保持锁定在你实际的 TX 音频上。"
+    },
+    "s6": {
+      "h": "呼叫一个电台",
+      "p1": "进入一次 QSO 有两种方式：",
+      "steps": [
+        "<strong>回应一个 CQ。</strong> 点击解码列表中的 <code>CQ</code> 行，或点击瀑布图上该电台的信号。FT8AF 会把一次回应排入队列，并等待下一个 TX 时隙。",
+        "<strong>自己呼叫 CQ。</strong> 按下屏幕底部 TX 条上的 <span class=\"tap\">CQ</span> 按钮。用 TX1 / TX2 切换来选择你想在哪个 15 秒时隙发射 —— 一般是空着的那个。"
+      ],
+      "p2": "留意 TX 条上方的 <strong>Active QSO monitor</strong> 面板。它追踪你正在通联谁，以及你处于自动序列的哪一步。如果有多个电台回应你的 CQ，<strong>呼叫队列</strong> 会把其他人排好 —— 你会完成当前 QSO，而不是跳到最响亮的那个。"
+    },
+    "s7": {
+      "h": "运行自动序列",
+      "p1": "一旦你选定目标，FT8AF 便自动处理标准的 FT8 交换。你会看到面板逐步推进：",
+      "cap": "<b>Active QSO monitor.</b> 随着交换推进，各步骤被勾选。当没有活跃通联时，面板折叠为一行。",
+      "p2": "如果你需要在 QSO 途中放弃，点击 TX 条上的 <span class=\"tap\">Stop</span> —— 应用会清空队列并回到侦听。TX1 / TX2 时隙切换让你在不丢失目标的情况下翻转发射周期。"
+    },
+    "s8": {
+      "h": "记录 &amp; 上传",
+      "p1": "每一次完成的 QSO 都会写入设备上的 <span class=\"tap\">Logbook</span> 标签页。如果你配置了上传服务，它也会在通联结束的瞬间飞向它们 —— 无需 ADIF 导出，也无需在夜晚结束时手抄呼号。",
+      "cap": "<b>Logbook.</b> 徽章显示每次上传被哪些服务接受。失败的上传会带着重试指示保持可见，直到成功。",
+      "cloudlog": "打开 <em>Settings → Cloudlog</em>，粘贴你的 Cloudlog URL 和 API 密钥，并开启该服务。新的 QSO 会自动上传。如果某次通联上传失败，它会带着重试指示留在日志本中。",
+      "qrz": "打开 <em>Settings → QRZ</em>，用你的 QRZ Logbook API 密钥登录，并开启上传。与 Cloudlog 相同的自动行为。",
+      "both": "你可以同时使用两者 —— 大多数操作员都这么做，用 Cloudlog 作为主日志，用 QRZ 提升可见度。"
+    },
+    "s9": {
+      "h": "现场技巧",
+      "ul": [
+        "在每次开始前 <strong>从网络设置时钟</strong>。FT8 要求精确的时序 —— Android 的自动时间通常没问题；如果你身处没有信号的地方，请从 GPS 或 NTP 同步。",
+        "用 <strong>硬件音量键</strong> 在 QSO 途中设置 TX 激励电平。FT8AF 把它们映射到 TX 音量，让你在发射时无需摆弄屏幕上的滑块。",
+        "条件拥挤时 <strong>留意 QSO 监视</strong>。呼叫队列可避免「两个电台都以为你回的是它们」这一经典混乱。",
+        "用 <strong><span class=\"tap\">Map</span> 标签页</strong> 直观地发现开通 —— 呼叫 CQ 的人会获得一个喇叭标记，让你无需翻看解码列表就能看到哪些路径正在传入。",
+        "如果你希望在新版本发布时收到提醒，就 <strong>给 GitHub 仓库加星</strong>。或者获取 Play Store 版本，更新会自动进行。"
+      ],
+      "callout": {
+        "h": "有什么不对劲？",
+        "p": "请读下一页：它会带你捕获调试日志，好让我们真正修好你遇到的问题。<a href=\"/wiki/bug-reports\">报告问题 →</a>"
+      }
+    },
+    "pager": {
+      "prevLabel": "← 返回",
+      "prevTitle": "Wiki 索引",
+      "nextLabel": "下一步 →",
+      "nextTitle": "报告问题"
+    }
+  },
+
+  "wikiBug": {
+    "meta": {
+      "title": "FT8AF — 报告问题",
+      "description": "如何在你的 Android 设备上找到 FT8AF 的调试日志，通过 GitHub 或邮件与开发者分享，并写出一份真正能带来修复的错误报告。",
+      "ogTitle": "FT8AF — 报告问题",
+      "ogDescription": "如何从你的手机取出 FT8AF 的调试日志，并在 GitHub 上提交一个有用的 issue。含可复制的 issue 模板。"
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / 报告问题",
+      "title": "把日志给我们，<br />我们就能修好它。",
+      "lede": "FT8AF 每次运行都会写出一份结构化的事件日志 —— CAT 串口流量、USB 插入事件、自动连接尝试、波段切换。大多数现场问题都落在那里。从你的手机取出，丢进一个 GitHub issue，完成。"
+    },
+    "toc": {
+      "title": "本页内容",
+      "items": [
+        "日志里有什么",
+        "解锁调试模式",
+        "打开 Debug &amp; 分享",
+        "退路：Files 应用",
+        "退路：ADB",
+        "写 issue",
+        "issue 模板",
+        "如果应用崩溃了",
+        "隐私"
+      ]
+    },
+    "s1": {
+      "h": "日志里有什么",
+      "p1": "FT8AF 在其应用数据目录中维护一个名为 <code>debug.log</code> 的滚动文本文件。它会捕获如下内容：",
+      "ul": [
+        "USB 插入 / 拔出事件，以及哪个 CAT 设备匹配",
+        "自动连接尝试及任何失败",
+        "发往电台与从电台收到的 CAT 串口帧",
+        "波段与频率的切换",
+        "应用启动和停止时的生命周期事件"
+      ],
+      "p2": "它是纯文本，读起来安全，且不含密码或上传 API 密钥。如果你想在分享前浏览一下，请见下方的 <a href=\"#privacy\">隐私</a> 一节。"
+    },
+    "s2": {
+      "h": "解锁调试模式",
+      "p1": "取出日志最简单的方式是使用应用内的调试界面 —— 无需电脑、无需文件管理器、无需 Android-data 文件夹权限。该界面默认隐藏，你可以像 Android 的开发者选项那样解锁它：点击版本块七次。",
+      "steps": [
+        "在 FT8AF 中打开 <span class=\"tap\">Settings</span> 标签页。",
+        "滚动到最底部 —— <strong>ABOUT</strong> 部分。",
+        "点击 <strong>FAQ &amp; Support</strong>。About 对话框打开，显示应用版本和一段以 \"FT8, made easy.\" 开头的说明。",
+        "<strong>连续点击该说明文字七次</strong>。第七次点击后，调试模式打开，并在重启之间保持。",
+        "关闭 About 对话框。ABOUT 部分中、<em>FAQ &amp; Support</em> 的正下方，现在会出现一行新的 <span class=\"tap\">Debug</span>。"
+      ],
+      "cap": "<b>解锁之后</b> —— Debug 行出现在 ABOUT 部分。一旦调试模式打开，它就保持打开，直到你再次关闭它（再点击说明七次即可关闭）。"
+    },
+    "s3": {
+      "h": "打开 Debug &amp; 分享",
+      "p1": "点击新的 <span class=\"tap\">Debug</span> 行。一个全屏的日志查看器打开，实时尾随 <code>debug.log</code> 的最后几百行 —— 它每隔几秒刷新，并自动滚动到底部。",
+      "cap": "<b>Debug 界面。</b> 点击 <strong>Share</strong>，打开已附上 <code>debug.log</code> 的 Android 分享面板。选择 Gmail、Outlook、Drive、Files —— 你想用什么发送都行。",
+      "p2": "从顶部工具栏：",
+      "dl": [
+        { "dt": "Share", "dd": "打开 Android 分享面板，<code>debug.log</code> 作为文本文件附上（主题为 \"FT8AF debug.log\"）。选择 Gmail 直接邮件发给我们，或任何处理附件的应用 —— Drive、Outlook、Slack、Signal、Telegram、系统 Files 应用，都可以。" },
+        { "dt": "Clear", "dd": "删除当前日志。如果你想在复现问题前从干净的状态开始，这很有用 —— 只需按 Clear，退出对话框，复现问题，回来再 Share。更短的日志让我们更容易发现相关事件。" },
+        { "dt": "Logcat: ON / OFF", "dd": "当为 ON 时，查看器还会附上应用自身进程的近期 <code>logcat</code> 输出 —— 当崩溃或音频问题未被 <code>debug.log</code> 完全捕获时很有用。点击 Share 时，logcat 尾部会一并带上。" }
+      ],
+      "callout": {
+        "h": "直接发给我们。",
+        "p": "当分享面板出现时，选择你的邮件应用，并发给正在处理该 issue 的人 —— 操作员是 <a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">K1AF</a> 和 <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">N0RC</a>（地址在 QRZ）。更好的做法是：先开一个 GitHub issue，然后用你喜欢的任意邮件或云盘快捷方式分享日志，并把链接或附件贴到 issue 线程里，让它保持公开。"
+      }
+    },
+    "s4": {
+      "h": "退路：Files 应用",
+      "p1": "如果出于某种原因你无法进入应用内的 Debug 界面 —— 旧构建、解锁没生效、你只是更想用文件管理器 —— 日志文件也存在于磁盘上的：",
+      "steps": [
+        "在你的手机上打开 <strong>Files</strong>（或 <strong>我的文件</strong>）应用。",
+        "导航到 <strong>内部存储 → Android → data</strong>。在某些设备上，Android 默认隐藏此文件夹；点击三点菜单并启用 <em>显示隐藏文件</em> 或 <em>系统文件夹</em>。",
+        "打开名为 <code>com.bg7yoz.ft8cn</code> 的文件夹，然后 <code>files</code>。你应该会在里面看到 <code>debug.log</code>。",
+        "长按 <code>debug.log</code> 并点击 <strong>分享</strong>。"
+      ],
+      "callout": {
+        "h": "Android 11+ 可能在 Files 中屏蔽 <code>/Android/data</code>。",
+        "p": "如果在较新的 Android 上你在 data 文件夹里看不到 <code>com.bg7yoz.ft8cn</code>，请从 Play Store 安装第三方文件管理器，例如 <strong>Material Files</strong> 或 <strong>Solid Explorer</strong> —— 两者都能读取应用数据文件夹。或者更简单：使用上面应用内的 Debug 界面，它会完全绕开这个问题。"
+      }
+    },
+    "s5": {
+      "h": "退路：ADB",
+      "p1": "面向拥有电脑和 Android <code>adb</code> 工具的开发者：",
+      "steps": [
+        "在你的手机上启用 <strong>开发者选项 → USB 调试</strong>。",
+        "用 USB 把手机连到电脑，接受调试授权提示。",
+        "在终端中，确认手机可见：",
+        "拉取日志："
+      ],
+      "steps3b": "在多设备的环境中，用 <code>-s &lt;serial&gt;</code> 明确指定手机。"
+    },
+    "s6": {
+      "h": "写 issue",
+      "p1": "一份有用的错误报告很短 —— 三四个简短段落足矣。屡试不爽的模式：",
+      "steps": [
+        "<strong>你做了什么？</strong> 「插上我的 FT-891，在 20m 点了 CQ。」按顺序的具体操作。无需描述应用 —— 只说你点了什么。",
+        "<strong>你期望发生什么？</strong> 「我期望电台键控，应用开始在 14.074 发送音调。」",
+        "<strong>实际发生了什么？</strong> 「TX 条停在 LISTENING。没有 PTT，没有音调。」如果屏幕上出现了什么 —— 错误提示、卡住的界面、奇怪的瀑布图 —— 请描述它。一张截图价值千金。",
+        "<strong>多频繁？</strong> 每次？只在手机休眠后？只在 6m？你能锁定的任何信息都会缩小搜索范围。",
+        "<strong>附上日志。</strong> 在复现问题后立即取出 <code>debug.log</code> —— 最新的几行最有用。"
+      ]
+    },
+    "s7": {
+      "h": "issue 模板",
+      "p1": "把这个复制到一个新的 issue 中，并填空："
+    },
+    "s8": {
+      "h": "如果应用崩溃了",
+      "p1": "当 FT8AF 彻底崩溃时，Android 会保留一份单独的崩溃报告。有两处可查看：",
+      "ul0": "如果你是从 <strong>Google Play</strong> 获取的，请一次性选择加入匿名崩溃报告，我们就会自动看到堆栈跟踪。你无需做什么 —— 但在 issue 中加上「我刚在 &lt;时间&gt; 左右从设备 X 发送了一份崩溃报告」能帮我们对上号。",
+      "ul1": "如果你能用 ADB，实时系统日志通常会在崩溃发生后立即包含其跟踪：",
+      "ul1b": "除 <code>debug.log</code> 外，再附上 <code>logcat.txt</code>。"
+    },
+    "s9": {
+      "h": "隐私",
+      "p1": "调试日志只是文本。它捕获应用的运行事件，而非你的个人数据。你会看到如下的行：",
+      "p2": "其中 <em>没有</em> 的：Cloudlog 或 QRZ 的 API 密钥、你的账户密码、照片、联系人或位置。你的呼号和网格 <em>在</em> 其中，因为它们标识你的电台 —— 但对持照业余无线电爱好者而言，这些本就是公开信息。",
+      "p3": "如果你想在发送前浏览或涂去，文件是纯 UTF-8 文本。任何文本编辑器都能打开它。",
+      "callout": {
+        "h": "谢谢你抽出时间。",
+        "p": "真实的现场报告 —— 「这台电台、这根线、这个波段，发生了这样的事」 —— 正是这个分支变得更好的方式。两轮捉虫和 58+ 项修复，正是从你即将提交的这类报告开始的。73。"
+      }
+    },
+    "pager": {
+      "prevLabel": "← 上一篇",
+      "prevTitle": "使用 FT8AF",
+      "nextLabel": "打开 →",
+      "nextTitle": "在 GitHub 新建 issue"
+    }
+  }
+}

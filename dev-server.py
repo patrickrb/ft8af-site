@@ -27,6 +27,13 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         candidate = os.path.join(ROOT, path.lstrip('/') + '.html')
         if os.path.isfile(candidate):
             self.path = path + '.html' + query
+            return None
+
+        # Subdirectory index: /es or /es/ -> /es/index.html (locale home pages).
+        dir_path = path.rstrip('/')
+        index_candidate = os.path.join(ROOT, dir_path.lstrip('/'), 'index.html')
+        if dir_path and os.path.isfile(index_candidate):
+            self.path = dir_path + '/index.html' + query
         return None
 
     def _send_redirect(self, location):

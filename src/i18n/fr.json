@@ -1,0 +1,779 @@
+{
+  "common": {
+    "nav": {
+      "home": "Accueil",
+      "features": "Fonctions",
+      "download": "Télécharger",
+      "wiki": "Wiki",
+      "faq": "FAQ",
+      "github": "GitHub",
+      "star": "Étoile",
+      "getFree": "Obtenez-la gratuitement",
+      "menu": "Menu"
+    },
+    "langLabel": "Langue",
+    "ogImageAlt": "FT8AF — Travaillez le monde depuis votre poche. FT8 sur Android.",
+    "btn": {
+      "downloadFt8af": "Télécharger FT8AF",
+      "starGithub": "Mettez une étoile sur GitHub",
+      "joinDiscord": "Rejoindre le Discord"
+    },
+    "footer": {
+      "tagline": "FT8 sur Android, modernisé. Un fork communautaire de FT8CN, conçu pour une vraie utilisation sur l'air.",
+      "product": "Produit",
+      "project": "Projet",
+      "operators": "Opérateurs",
+      "community": "Communauté",
+      "bottom": "© 2026 FT8AF · GPL-3.0 · Sur les épaules de BG7YOZ &amp; N0BOY",
+      "links": {
+        "googlePlay": "Google Play",
+        "repo": "Dépôt GitHub",
+        "releases": "Versions",
+        "reportBug": "Signaler un bug",
+        "originalFt8cn": "FT8CN original",
+        "k1af": "Patrick · K1AF",
+        "n0rc": "Reid · N0RC",
+        "discord": "Discord"
+      }
+    }
+  },
+
+  "index": {
+    "meta": {
+      "title": "FT8AF — FT8 pour Android",
+      "description": "FT8AF exécute FT8, FT4 et FT2 nativement sur votre téléphone ou tablette Android. Décodez la bande, pilotez votre radio en USB CAT, tracez les chemins de QSO, activez des parcs pour le POTA et travaillez le monde de partout. Gratuit et open source.",
+      "ogTitle": "FT8AF — Travaillez le monde depuis votre poche",
+      "ogDescription": "FT8 natif sur Android. Décodez la bande, pilotez votre radio en USB CAT et exécutez la séquence automatique complète. Gratuit et open source."
+    },
+    "appDescription": "FT8AF exécute FT8, FT4 et FT2 nativement sur Android. Décodage et waterfall en direct, pilotage USB CAT pour plus de 75 postes, moniteur de QSO en séquence automatique, carte mondiale avec chemins de QSO, mode d'activation POTA, journalisation automatique vers Cloudlog, QRZ, Wavelog et PSKReporter, alertes DX recherché, interface en 16 langues, Material 3 sombre.",
+    "hero": {
+      "eyebrow": "FT8 · Android natif",
+      "title": "Travaillez le monde<br />depuis votre poche.",
+      "lede": "FT8AF décode la bande, pilote votre radio en USB CAT et exécute la\n        séquence automatique complète — le tout nativement sur votre téléphone ou tablette Android. Pas de portable. Pas de\n        nœud de carte son. Juste votre poste et un câble USB-C.",
+      "ctaGithub": "Obtenez-la gratuitement sur GitHub",
+      "ctaPlay": "$3.50 sur Google Play",
+      "pillFree": "Gratuit et open source",
+      "pillFork": "Fork de FT8CN",
+      "deviceAlt": "Onglet de décodage de FT8AF sur Android : une liste en direct de stations décodées — K7LNY, KF0X, KF6MIX, AK7LV, ND9M — chacune avec son locator, sa distance, ses barres de force de signal, son SNR en dB, le temps depuis la dernière écoute, l'état des États-Unis et une étiquette NEW DXCC, avec les commandes Hunt / Call CQ / TX1 et le bandeau TX en écoute sur 10.136 MHz / 30m."
+    },
+    "trust": {
+      "modes": "Modes<br />FT8 · FT4 · FT2",
+      "rigs": "Modèles de poste<br />en USB CAT",
+      "pota": "Mode d'activation<br />intégré",
+      "map": "Carte mondiale<br />+ chemins de QSO",
+      "langs": "Langues<br />intégrées"
+    },
+    "features": {
+      "eyebrow": "Conçu pour l'air",
+      "title": "Tout ce qu'il faut pour<br />travailler une bande — sur un téléphone.",
+      "cta": "Explorez toutes les fonctions",
+      "cards": [
+        { "title": "Décodage FT8, FT4 &amp; FT2", "body": "Un waterfall à défilement continu avec horodatage UTC à chaque période, des étiquettes pour s'accorder d'un toucher et des décodages en millisecondes — désormais sur trois modes." },
+        { "title": "Carte mondiale &amp; chemins de QSO", "body": "Un onglet carte intégré trace chaque décodage et dessine le chemin orthodromique jusqu'à votre contact — avec la distance, la localisation du DX et les frontières des États américains." },
+        { "title": "Moniteur de QSO actif &amp; chasse", "body": "Suivez un contact tout au long de la séquence automatique, avec file d'appelants, mode Hunt, Auto-CQ, prise en compte du CQ directionnel et alertes DX recherché." },
+        { "title": "Mode d'activation POTA", "body": "Menez une activation de parc de bout en bout — liste de contacts en direct, prise en charge two-fer / multi-parc, carte d'activation et envoi direct vers le POTA." },
+        { "title": "USB CAT pour plus de 75 postes", "body": "Pilotez votre poste avec un seul câble USB-C — CAT, audio, nivellement ALC automatique et protection SWR — sur plus de 75 Icom, Yaesu, Kenwood, Xiegu et plus." },
+        { "title": "Des journaux partout, automatiquement", "body": "Dès qu'un QSO se termine, il est envoyé vers Cloudlog, QRZ et Wavelog — et chaque décodage que vous entendez est reporté à PSKReporter." },
+        { "title": "Interface multilingue", "body": "Seize langues — de l'anglais et l'espagnol au coréen, l'ukrainien et l'arabe de droite à gauche — avec les contributions de la communauté bienvenues." }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "Obtenez FT8AF",
+      "title": "Gratuit pour toujours.<br />Ou $3.50 pour la nourrir.",
+      "lede": "La même app, dans les deux cas. La version Play Store rend simplement les mises à jour automatiques — et contribue à la prochaine session de débogage sur la route.",
+      "free": {
+        "tag": "Open source",
+        "title": "Gratuit depuis GitHub",
+        "body": "L'app complète, sous licence GPL et développée au grand jour. Récupérez l'APK ou compilez-la vous-même.",
+        "li": [
+          "Toutes les fonctions, sans limites",
+          "Installez le dernier APK en sideload",
+          "Compilez depuis les sources avec Gradle",
+          "Lisez, forkez &amp; contribuez au code"
+        ],
+        "cta": "Voir sur GitHub"
+      },
+      "paid": {
+        "flag": "Soutient le projet",
+        "tag": "Google Play",
+        "per": "paiement unique",
+        "title": "Soutenez le projet",
+        "body": "App identique, livrée via le Play Store — pour qu'elle reste à jour sans que vous leviez le petit doigt.",
+        "li": [
+          "Mises à jour automatiques en arrière-plan",
+          "Installation en un toucher, sans sideload",
+          "Build vérifié par Play Protect",
+          "Finance directement le développement"
+        ],
+        "cta": "Obtenez-la sur Google Play"
+      },
+      "note": "Canal de test interne · vous devrez peut-être d'abord rejoindre la liste des testeurs.",
+      "noteLink": "Plus d'infos dans la FAQ →"
+    },
+    "story": {
+      "eyebrow": "73 depuis la route",
+      "quote": "L'essentiel de FT8AF a été codé au feeling sur l'I-70 à 70&nbsp;mph, en allant et revenant de Hamvention —\n      portable sur le siège passager, radio à l'arrière, Claude dans la boucle.",
+      "quoteMuted": "Certains des meilleurs débogages se font à la vitesse de l'autoroute."
+    },
+    "cta": {
+      "eyebrow": "Restez dans la boucle",
+      "title": "Recevez les notes de build &amp;<br />les nouveautés.",
+      "lede": "Faible volume. Notes de version, retours du terrain et l'occasionnel « on a corrigé ce qui plantait sur votre FT-891 ». Désabonnement à tout moment.",
+      "emailLabel": "Adresse e-mail",
+      "emailPlaceholder": "vous@indicatif.radio",
+      "submit": "Prévenez-moi",
+      "or": "ou",
+      "starRepo": "★ mettez une étoile au dépôt",
+      "joinDiscord": "rejoignez le Discord",
+      "done": "Vous êtes sur la liste."
+    }
+  },
+
+  "features": {
+    "meta": {
+      "title": "FT8AF — Fonctions",
+      "description": "Décodage FT8, FT4 et FT2 avec waterfall continu, moniteur de QSO actif avec chasse intelligente et alertes DX recherché, carte mondiale avec chemins de QSO, mode d'activation POTA, pilotage USB CAT pour plus de 75 postes, journalisation automatique vers Cloudlog, QRZ, Wavelog et PSKReporter, et prise en charge multilingue en 16 langues, dont l'arabe de droite à gauche.",
+      "ogTitle": "FT8AF — Une station FT8 complète, reconstruite pour Android",
+      "ogDescription": "Décodage FT8/FT4/FT2, moniteur de QSO actif, carte mondiale avec chemins de QSO, activation POTA, USB CAT pour plus de 75 postes et journalisation automatique vers Cloudlog, QRZ, Wavelog & PSKReporter."
+    },
+    "hero": {
+      "eyebrow": "L'ensemble des fonctions",
+      "title": "Une station FT8 complète,<br />reconstruite pour Android.",
+      "lede": "Chaque partie de la boucle d'opération — décoder, viser, émettre, journaliser — refaite dans une interface Jetpack Compose rapide et durcie sur deux passes de chasse aux bugs. Voici ce qu'il y a dedans."
+    },
+    "rows": {
+      "spectrum": {
+        "eyebrow": "01 · Spectre",
+        "title": "Décodage de bande en direct &amp; waterfall",
+        "body": "Observez toute la bande passante de 3&nbsp;kHz à la fois. Le waterfall défile en continu avec un horodatage UTC à chaque limite de période, pour lire la propagation d'un coup d'œil et bondir dès qu'une station recherchée apparaît.",
+        "points": [
+          "Défilement continu avec repères de temps à chaque période",
+          "Bande de spectre plus haute, largeur &amp; zoom configurables (Large → 500&nbsp;Hz)",
+          "Touchez un signal pour vous accorder ; le repère TX reste aligné ; décodages parasites filtrés"
+        ],
+        "alt": "Onglet Waterfall de FT8AF : un spectrogramme pleine bande avec les indicatifs décodés inscrits verticalement sur leurs signaux, un repère de fréquence TX, un horodatage UTC et un bandeau d'état de QSO actif affichant 'New state: NM · KE7WVV DM56 −4 dB'."
+      },
+      "modes": {
+        "eyebrow": "02 · Modes",
+        "title": "Trois modes, une app",
+        "body": "FT8AF a commencé en FT8 seul et décode et émet désormais en <strong>FT8, FT4 et FT2</strong> — chacun avec le bon timing de slot et le bon plan de bande. Changez de mode d'un toucher et chassez les DXpéditions avec la prise en charge Fox &amp; Hound.",
+        "points": [
+          "FT8 (15 s) et le plus rapide FT4 (7.5 s) pour les concours &amp; pile-ups",
+          "Mode expérimental FT2 avec ses propres fréquences canoniques",
+          "Opération Fox &amp; Hound (DXpédition) pour le FT8"
+        ]
+      },
+      "qso": {
+        "eyebrow": "03 · Opération",
+        "title": "Moniteur de QSO, chasse &amp; alertes",
+        "body": "Un panneau repliable suit votre contact en cours à chaque étape de l'échange — appel → report → roger → 73 → journal. Une file d'appelants vous garde verrouillé sur votre cible, et la chasse intelligente travaille la bande pour vous éviter de la surveiller.",
+        "points": [
+          "Mode Hunt &amp; Auto-CQ — enchaînez les appels sans re-toucher",
+          "Alertes DX recherché : son + notification pour un nouveau DXCC ou état",
+          "Prise en compte du CQ directionnel, liste de blocage d'indicatifs &amp; filtres de décodage"
+        ],
+        "alt": "Onglet de décodage de FT8AF : une liste en direct de stations décodées — K7LNY, KF0X, KF6MIX, AK7LV, ND9M — chacune avec son locator, sa distance, ses barres de force de signal, son SNR en dB, le temps depuis la dernière écoute, l'état des États-Unis et une étiquette NEW DXCC, avec les commandes Hunt / Call CQ / TX1 et le bandeau TX en écoute sur 10.136 MHz / 30m."
+      },
+      "map": {
+        "eyebrow": "04 · Carte",
+        "title": "Carte mondiale &amp; chemins de QSO",
+        "body": "Un onglet carte dédié trace les stations que vous entendez et dessine le chemin orthodromique jusqu'à votre correspondant — avec la distance, la localisation du DX et les frontières des États américains, pour voir exactement où atterrit votre signal.",
+        "points": [
+          "Distance &amp; localisation du DX directement dans le panneau de QSO",
+          "Carte des chemins avec les frontières des États américains tracées",
+          "Choisissez vos unités — miles ou kilomètres"
+        ],
+        "alt": "Onglet Map de FT8AF : une carte mondiale traçant comme repères les stations entendues, avec le locator EM28, un compteur de stations et des bascules de projection PSK / standard / azimutale."
+      },
+      "pota": {
+        "eyebrow": "05 · Activations",
+        "title": "Mode d'activation POTA",
+        "body": "Emmenez FT8AF au parc. Le mode d'activation gère toute votre sortie — une liste de contacts en direct et croissante avec indicatifs et locators des chasseurs, une carte de contacts et la détection parc à parc — puis envoie votre journal directement vers le POTA une fois terminé.",
+        "points": [
+          "Activations two-fer / multi-parc et étiquettes P2P",
+          "Carte d'activation, avatars QRZ &amp; historique navigable",
+          "Reprend après fermeture de l'app, et envoi vers le POTA dans l'app"
+        ],
+        "alt": "Onglet POTA de FT8AF pendant une activation en direct à deux parcs (two-fer) de US-1469 et US-4567 : un compteur vert '14 QSOs — valid activation', le temps écoulé, les boutons Self-spot et End-activation, une carte des États-Unis avec des chemins de contact rayonnant depuis l'activateur, et une liste de contacts avec avatars QRZ et une étiquette parc à parc (P2P)."
+      },
+      "usb": {
+        "eyebrow": "06 · Matériel",
+        "title": "USB CAT pour plus de 75 radios",
+        "body": "Branchez votre poste directement sur votre téléphone avec un seul câble USB-C. FT8AF gère le contrôle de fréquence CAT, l'audio USB et le PTT sur plus de 75 modèles — Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 et plus — avec un tas de correctifs de fiabilité de connexion automatique.",
+        "points": [
+          "Nouveaux postes ajoutés : Yaesu FT-710, Kenwood TS-440, Lab599 Discovery TX-500",
+          "Nivellement ALC automatique et coupure de TX déclenchée par le SWR pour protéger vos étages finaux",
+          "Volume TX en temps réel — ajustez le drive en direct, en pleine émission"
+        ]
+      },
+      "logging": {
+        "eyebrow": "07 · Journalisation",
+        "title": "Des journaux partout, automatiquement",
+        "body": "Configurez vos services de journal une fois et oubliez-les. Dès qu'un QSO se termine, FT8AF l'envoie directement vers Cloudlog, QRZ et Wavelog — et chaque signal que vous décodez est reporté à PSKReporter pour que les cartes de propagation s'illuminent de votre station.",
+        "points": [
+          "Envoi automatique vers Cloudlog / Wavelog et le carnet QRZ",
+          "Report PSKReporter de chaque décodage que vous entendez",
+          "Sélecteur d'ID de station plus export ADIF, les deux reports SNR capturés"
+        ],
+        "alt": "Onglet Logbook de FT8AF : une vue Stats montrant 27 QSOs, 13 entités DXCC, 11 zones CQ et 13 zones ITU, un graphique en anneau de répartition par bandes couvrant 30m, 20m, 40m, 17m et 15m, et des barres de progression de diplômes pour DXCC Mixed (13/340) et locators VUCC (28/100)."
+      },
+      "material": {
+        "eyebrow": "08 · Interface",
+        "title": "Interface sombre Material 3",
+        "body": "Toute l'interface est une reconstruction neuve en Jetpack Compose sur un thème sombre Material 3 — contrastée, lisible d'un coup d'œil en plein soleil ou dans un shack sombre, et pensée pour les pouces. Les réglages sont organisés en catégories nettes et déroulantes, et un mode de décodage compact resserre l'affichage sur les petits écrans.",
+        "points": [
+          "Réglages déroulants, surlignages de décodage configurables &amp; mode compact",
+          "Carte opérateur avec votre photo QRZ, antenne &amp; puissance",
+          "Décodages à code d'état : nouveau, recherché, travaillé, confirmé"
+        ],
+        "alt": "Onglet Settings de FT8AF : une carte d'identité opérateur pour K1AF dans le locator EM28 avec photo de profil QRZ, antenne (ATAS 120) et puissance (70 W), un interrupteur de locator automatique par GPS, et des catégories déroulantes pour Radio &amp; Audio, Transmission, Time Sync, Decode &amp; Filters, Logging &amp; Awards, Advanced et About."
+      },
+      "languages": {
+        "eyebrow": "09 · Langues",
+        "title": "Localisée en 16 langues",
+        "body": "FT8CN n'était qu'en chinois. FT8AF est désormais disponible en seize langues — toutes apportées par la communauté — et bascule automatiquement vers la langue de votre appareil Android, avec une disposition de droite à gauche pour l'arabe.",
+        "points": [
+          "Traductions apportées par la communauté, dont l'arabe de droite à gauche",
+          "Détection automatique de la langue d'Android — sans changement manuel",
+          "D'autres langues bienvenues — PR ouvertes sur GitHub"
+        ]
+      }
+    },
+    "viz": {
+      "modes": {
+        "head": "Mode d'opération",
+        "ft8slot": "slot de 15 s",
+        "ft4slot": "slot de 7.5 s",
+        "ft4note": "rythme de concours",
+        "ft2slot": "encore plus rapide",
+        "ft2note": "expérimental",
+        "foxhound": "Mode DXpédition Fox &amp; Hound pour chasser les gros"
+      },
+      "usb": {
+        "head": "USB CAT + Audio",
+        "connected": "Connecté",
+        "yourRig": "Votre poste",
+        "rigCount": "plus de 75 modèles"
+      },
+      "languages": {
+        "head": "Localisation",
+        "count": "16 langues"
+      }
+    },
+    "stability": {
+      "eyebrow": "Et les victoires sans gloire",
+      "title": "Plus de 58 correctifs auxquels vous<br />n'aurez jamais à penser.",
+      "lede": "Deux passes complètes de « bug bash » ont traqué les plantages, fuites et gremlins de cycle de vie qui s'interposent entre vous et un QSO propre.",
+      "cards": [
+        { "h4": "Correctifs de plantages &amp; fuites", "p": "Plantages NPE, fuites de ressources et courses de threads traqués dans toute l'app." },
+        { "h4": "Horodatage UTC du waterfall", "p": "Horodatages tracés aux limites de période FT8 pour lire le timing instantanément." },
+        { "h4": "Volume TX matériel", "p": "Réglez le niveau d'émission avec les boutons de volume physiques du téléphone, en plein QSO." },
+        { "h4": "Bascule de slot TX1 / TX2", "p": "Choisissez votre période d'émission directement, depuis le bandeau TX." },
+        { "h4": "Synchro heure &amp; locator par GPS", "p": "Synchro automatique de l'heure et du locator par GPS, plus une correction d'heure manuelle pour le hors-ligne." },
+        { "h4": "Alignement du repère TX", "p": "Le curseur de fréquence d'émission reste verrouillé sur votre audio TX réel." }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à mettre une station<br />dans votre poche ?"
+    }
+  },
+
+  "download": {
+    "meta": {
+      "title": "FT8AF — Télécharger",
+      "description": "Obtenez FT8AF gratuitement depuis GitHub — installez l'APK en sideload ou compilez depuis les sources — ou soutenez le projet pour $3.50 sur Google Play avec mises à jour automatiques.",
+      "ogTitle": "FT8AF — FT8 sur votre téléphone Android",
+      "ogDescription": "APK gratuit depuis GitHub, ou $3.50 sur Google Play pour les mises à jour automatiques. La même app, toutes les fonctions. Fonctionne sur tout Android compatible USB-OTG."
+    },
+    "hero": {
+      "eyebrow": "Télécharger",
+      "title": "Mettez FT8AF sur votre téléphone.",
+      "lede": "Gratuit et open source depuis GitHub, ou $3.50 sur Google Play pour rendre les mises à jour automatiques et contribuer au développement. La même app, toutes les fonctions, dans les deux cas."
+    },
+    "free": {
+      "tag": "Open source",
+      "title": "Gratuit depuis GitHub",
+      "body": "L'app complète, sous licence GPL-3.0. Installez l'APK signé en sideload ou compilez-le vous-même.",
+      "li": [
+        "Toutes les fonctions, sans limites ni comptes",
+        "APK de version signé sur la page Releases",
+        "Compilez depuis les sources avec Gradle",
+        "Inspectez, forkez &amp; contribuez au code",
+        "Mises à jour manuelles (vous récupérez les nouveaux builds)"
+      ],
+      "cta": "Télécharger l'APK"
+    },
+    "paid": {
+      "flag": "Soutient le projet",
+      "tag": "Google Play",
+      "per": "paiement unique",
+      "title": "Soutenez le projet",
+      "body": "L'app identique, livrée via le Play Store pour qu'elle reste toujours à jour.",
+      "li": [
+        "Mises à jour automatiques en arrière-plan",
+        "Installation en un toucher — sans étapes de sideload",
+        "Build vérifié par Play Protect",
+        "Facile à installer sur le téléphone d'un non-technicien",
+        "Finance directement le développement continu"
+      ],
+      "cta": "Obtenez-la sur Google Play"
+    },
+    "callout": {
+      "title": "Attention : la version Play Store est sur un canal de test interne",
+      "body": "Vous devrez peut-être être ajouté à la liste des testeurs avant que le lien Google Play permette l'installation. S'il ne s'ouvre pas, récupérez en attendant l'APK gratuit depuis GitHub — c'est la même app."
+    },
+    "methods": {
+      "eyebrow": "Comment installer",
+      "title": "Trois façons d'entrer."
+    },
+    "method": {
+      "sideload": {
+        "title": "Installer l'APK en sideload",
+        "sub": "Le plus rapide · gratuit",
+        "steps": [
+          "Ouvrez <strong>Releases</strong> sur GitHub et téléchargez le dernier <code style=\"font-family:var(--font-mono)\">.apk</code>.",
+          "Touchez le fichier ; autorisez « installer depuis cette source » si Android le demande.",
+          "Ouvrez FT8AF, accordez les permissions USB &amp; micro, et choisissez votre poste."
+        ],
+        "cta": "Ouvrir Releases"
+      },
+      "build": {
+        "title": "Compiler depuis les sources",
+        "sub": "Pour les bricoleurs",
+        "codeComment": "# cloner &amp; compiler",
+        "cta": "Voir le dépôt"
+      },
+      "play": {
+        "title": "Google Play",
+        "sub": "$3.50 · mises à jour auto",
+        "steps": [
+          "Ouvrez la fiche Play Store (rejoignez la liste des testeurs si demandé).",
+          "Achetez une fois pour $3.50 et touchez <strong>Installer</strong>.",
+          "Les mises à jour arrivent toutes seules — rien d'autre à faire."
+        ],
+        "cta": "Ouvrir sur Google Play"
+      }
+    },
+    "req": {
+      "eyebrow": "Avant de commencer",
+      "title": "Ce qu'il vous faut.",
+      "cards": [
+        { "k": "Appareil", "v": "Android 8+", "d": "Téléphone ou tablette, compatible USB-OTG" },
+        { "k": "Câble", "v": "USB-C → poste", "d": "Adaptateur OTG pour les téléphones plus anciens" },
+        { "k": "Radio", "v": "Poste HF compatible CAT", "d": "Plus de 75 modèles — Icom, Yaesu, Kenwood, Xiegu &amp; plus" },
+        { "k": "Modes", "v": "FT8 · FT4 · FT2", "d": "160m – 6m, toutes les sous-bandes" }
+      ]
+    },
+    "reqCallout": {
+      "title": "Pas de poste sous la main ? Vous pouvez quand même explorer.",
+      "body": "FT8AF décode depuis le micro du téléphone, vous pouvez donc observer la bande et apprendre l'interface avant de câbler le contrôle CAT. Voir la <a href=\"/faq\">FAQ</a> pour les radios compatibles et le câblage."
+    },
+    "cta": {
+      "title": "Choisissez votre voie. Travaillez le monde.",
+      "lede": "Gratuit sur GitHub, ou $3.50 pour qu'elle se mette à jour toute seule. Dans les deux cas vous avez l'app complète.",
+      "freeApk": "APK gratuit",
+      "playBtn": "$3.50 sur Google Play"
+    }
+  },
+
+  "faq": {
+    "meta": {
+      "title": "FT8AF — FAQ",
+      "description": "Foire aux questions sur FT8AF : tarifs, le canal de test Google Play, radios compatibles, modes FT4 et FT2, activation POTA, services de journalisation et de report, le lien avec FT8CN et comment contribuer.",
+      "ogTitle": "FT8AF — Foire aux questions",
+      "ogDescription": "Tarifs, le canal de test Google Play, radios compatibles, modes FT4/FT2, POTA, services de journalisation, lien avec FT8CN et comment contribuer."
+    },
+    "hero": {
+      "eyebrow": "FAQ",
+      "title": "Des questions, des réponses.",
+      "lede": "Tarifs, le canal de test du Play Store, radios et câblage, et comment tout cela se relie à FT8CN. Toujours bloqué ? <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--signal)\">Ouvrez un ticket sur GitHub</a>."
+    },
+    "cats": {
+      "getting": "L'obtenir",
+      "radios": "Radios &amp; installation",
+      "modes": "Modes, cartes &amp; POTA",
+      "project": "Le projet"
+    },
+    "items": {
+      "free": {
+        "q": "FT8AF est-elle vraiment gratuite ?",
+        "a": "Oui — totalement. FT8AF est open source sous licence GPL-3.0. Vous pouvez télécharger l'APK signé depuis la page Releases de GitHub ou la compiler vous-même depuis les sources, avec toutes les fonctions débloquées et sans compte requis. L'option $3.50 sur Google Play est la même app ; vous payez pour les mises à jour automatiques et pour soutenir le développement, pas pour des fonctions."
+      },
+      "paid": {
+        "q": "Alors qu'est-ce que les $3.50 sur Google Play m'apportent ?",
+        "a": "Du confort et du bon karma. La version Play Store se met à jour toute seule en arrière-plan, s'installe en un toucher sans étapes « autoriser les sources inconnues » et est vérifiée par Play Protect — ce qui en fait le choix facile pour un téléphone dont vous ne voulez pas vous occuper. L'achat finance aussi directement la poursuite du développement. L'app elle-même est identique à la version gratuite de GitHub."
+      },
+      "playLink": {
+        "q": "Le lien Google Play ne me laisse pas installer. Pourquoi ?",
+        "a": "La fiche Play Store est actuellement sur un <strong>canal de test interne</strong>, vous devrez donc peut-être être ajouté à la liste des testeurs avant que Google vous laisse l'installer. Si le lien ne fonctionne pas encore pour vous, téléchargez plutôt l'APK gratuit depuis la <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">page Releases de GitHub</a> — c'est exactement la même application."
+      },
+      "install": {
+        "q": "Comment installer l'APK en toute sécurité ?",
+        "a": "Téléchargez le dernier <code>.apk</code> depuis GitHub Releases, touchez-le et approuvez l'invite unique « installer depuis cette source » qu'Android affiche. Ouvrez ensuite FT8AF et accordez les permissions USB et micro. Les instructions complètes étape par étape sont sur la <a href=\"/download\">page Télécharger</a>."
+      },
+      "radios": {
+        "q": "Quelles radios sont prises en charge ?",
+        "a": "Plus de <strong>75 modèles de poste</strong> parmi Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 et plus — choisis dans une liste des Réglages avec le mode de contrôle et le périphérique audio. Des postes populaires comme l'Icom IC-7300 et le Yaesu FT-891 sont bien pris en charge, et les ajouts récents incluent le <strong>Yaesu FT-710</strong>, le <strong>Kenwood TS-440</strong> et le <strong>Lab599 Discovery TX-500</strong>. FT8AF ajoute aussi le nivellement ALC automatique et une coupure de TX déclenchée par le SWR pour protéger votre radio. Si votre poste n'est pas listé, <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\">ouvrez un ticket</a> et dites-le-nous."
+      },
+      "cable": {
+        "q": "De quel câble ai-je besoin ?",
+        "a": "Une seule connexion USB du téléphone au port USB du poste gère à la fois le contrôle CAT et l'audio sur la plupart des radios modernes. Les téléphones récents se connectent directement avec un câble USB-C ; les plus anciens nécessitent un adaptateur USB-OTG. Votre appareil doit prendre en charge le mode hôte USB (OTG)."
+      },
+      "noRadio": {
+        "q": "Puis-je l'essayer sans radio ?",
+        "a": "Oui. FT8AF peut décoder depuis le micro du téléphone, vous pouvez donc l'approcher d'un haut-parleur ou simplement explorer l'interface et observer le waterfall avant de câbler le contrôle CAT. Une bonne façon d'apprendre d'abord la disposition."
+      },
+      "bands": {
+        "q": "Quelles bandes fonctionnent ?",
+        "a": "Toutes les sous-bandes FT8 standard de 160m à 6m sont intégrées, avec un toucher pour changer. Le waterfall couvre toute la bande passante audio pour que vous voyiez et travailliez tout le segment d'un coup."
+      },
+      "modes": {
+        "q": "FT8AF prend-elle en charge FT4 et FT2 ?",
+        "a": "Oui. FT8AF a commencé en FT8 seul et décode et émet désormais en <strong>FT8, FT4 et le FT2 expérimental</strong>, chacun avec le bon timing de slot et le bon plan de bande — commutables d'un toucher. Il y a aussi l'opération Fox &amp; Hound (DXpédition) pour chasser les stations rares dans un pile-up."
+      },
+      "pota": {
+        "q": "Puis-je faire des activations POTA avec ?",
+        "a": "Oui — il y a un <strong>mode d'activation POTA</strong> dédié. Il tient une liste de contacts en direct avec indicatifs et locators des chasseurs, affiche une carte d'activation, détecte les contacts parc à parc (P2P), prend en charge les activations multi-parc (two-fer), reprend si vous fermez l'app, et envoie votre journal directement vers le POTA une fois terminé."
+      },
+      "map": {
+        "q": "Y a-t-il une carte ?",
+        "a": "Oui. Un onglet carte dédié trace les stations que vous entendez et dessine le chemin orthodromique jusqu'à votre correspondant, avec la distance, la localisation du DX et les frontières des États américains. Choisissez vos unités — miles ou kilomètres — dans les Réglages."
+      },
+      "logging": {
+        "q": "Quels services de journalisation et de report prend-elle en charge ?",
+        "a": "Quand un QSO se termine, FT8AF peut l'envoyer automatiquement vers <strong>Cloudlog / Wavelog</strong> et le carnet <strong>QRZ</strong>, et reporte chaque décodage que vous entendez à <strong>PSKReporter</strong> pour que votre station apparaisse sur les cartes de propagation. Vous pouvez aussi exporter en ADIF. Chaque service se configure une fois dans les Réglages puis tourne en arrière-plan."
+      },
+      "ft8cn": {
+        "q": "En quoi est-ce différent de FT8CN ?",
+        "a": "FT8AF est un fork de l'excellent FT8CN qui le fait avancer : une interface sombre complète Jetpack Compose / Material 3, un moniteur de QSO actif avec file d'appelants et chasse intelligente, les modes <strong>FT4 et FT2</strong> en plus du FT8, une carte mondiale avec chemins de QSO, le mode <strong>activation POTA</strong>, la journalisation automatique vers Cloudlog, QRZ, Wavelog et PSKReporter, la <strong>prise en charge multilingue</strong> (l'original n'était qu'en chinois), plus des dizaines de corrections de bugs sur plusieurs passes de « bug bash ». L'héritage de décodage central est celui de FT8CN — nous avons modernisé et élargi l'expérience autour."
+      },
+      "languages": {
+        "q": "Quelles langues FT8AF prend-elle en charge ?",
+        "a": "FT8AF est disponible en <strong>16 langues</strong> : anglais (par défaut), grec, espagnol, japonais, français, russe, chinois, italien, polonais, coréen, néerlandais, tchèque, turc, indonésien, ukrainien et arabe (de droite à gauche). L'app détecte automatiquement la langue de votre appareil Android et bascule toute seule. Toutes les traductions sont apportées par la communauté — si vous souhaitez ajouter ou améliorer une langue, les pull requests sont bienvenues sur <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHub</a>."
+      },
+      "who": {
+        "q": "Qui fait FT8AF ?",
+        "a": "Elle est développée par <a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">Patrick Burns (K1AF)</a> et <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">Reid (N0RC)</a> — en grande partie, fameusement, codée au feeling sur l'I-70 en route vers Hamvention. Un immense crédit à <strong>BG7YOZ</strong>, l'auteur original de FT8CN, et à <strong>N0BOY</strong>, qui héberge le dépôt original. Rien de tout cela n'existe sans eux."
+      },
+      "contribute": {
+        "q": "Puis-je contribuer ou signaler un bug ?",
+        "a": "Faites-le, je vous en prie. Le code vit sur <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHub</a> — ouvrez un ticket pour les bugs ou les idées de fonctions, envoyez une pull request, ou mettez simplement une étoile au dépôt pour suivre. Les retours du terrain d'une vraie utilisation sur l'air sont particulièrement bienvenus."
+      },
+      "updates": {
+        "q": "Continuera-t-elle de recevoir des mises à jour ?",
+        "a": "C'est le plan. Le développement est actif et continu. Le moyen le plus rapide de recevoir les nouveaux builds automatiquement est la version Google Play ; sinon, surveillez la page Releases ou le dépôt. Vous voulez un signal quand quelque chose sort ? <a href=\"/#pricing\">Rejoignez la liste de diffusion</a> sur la page d'accueil."
+      }
+    },
+    "cta": {
+      "title": "Toujours curieux ? Essayez-la, tout simplement.",
+      "ask": "Demander sur GitHub"
+    }
+  },
+
+  "wiki": {
+    "meta": {
+      "title": "FT8AF — Wiki & aide",
+      "description": "Le wiki de FT8AF : un guide pratique pour utiliser l'app du premier lancement jusqu'à un QSO journalisé, plus les instructions pour récupérer le journal de débogage et déposer un rapport de bug utile.",
+      "ogTitle": "FT8AF — Wiki & aide",
+      "ogDescription": "Apprenez à utiliser FT8AF : première connexion, décodage, émission, journalisation — plus comment récupérer le journal de débogage et signaler un bug."
+    },
+    "hero": {
+      "eyebrow": "Wiki &amp; aide",
+      "title": "Passez à l'antenne,<br />ou passez-nous le journal.",
+      "lede": "Deux guides courts. L'un vous accompagne dans l'utilisation de FT8AF du premier lancement jusqu'à un QSO journalisé. L'autre montre comment capturer un journal de débogage et déposer un rapport de bug sur lequel nous pouvons vraiment agir."
+    },
+    "cards": {
+      "using": {
+        "eyebrow": "01 · Utiliser FT8AF",
+        "title": "Comment piloter l'app",
+        "body": "Branchez votre poste, réglez votre indicatif, choisissez une bande, décodez le segment, puis menez un QSO en séquence automatique et regardez-le se journaliser tout seul. Étape par étape, avec captures.",
+        "li": [
+          "Premier lancement &amp; permissions",
+          "Configuration USB CAT &amp; audio",
+          "Décoder, appeler et le moniteur de QSO",
+          "Journalisation automatique Cloudlog &amp; QRZ"
+        ],
+        "cta": "Ouvrir le guide"
+      },
+      "bug": {
+        "eyebrow": "02 · Un bug ?",
+        "title": "Passez-nous le journal de débogage",
+        "body": "FT8AF écrit un journal d'événements structuré à chaque exécution. Récupérez-le sur votre téléphone en deux touchers, joignez-le à un ticket GitHub et nous pouvons généralement cibler ce qui a mal tourné — au lieu de deviner.",
+        "li": [
+          "Où trouver <code>debug.log</code>",
+          "Partagez-le via Fichiers, Drive ou e-mail",
+          "Quoi inclure dans le ticket",
+          "Pas de téléphone ? Pas de problème."
+        ],
+        "cta": "Signaler un bug"
+      }
+    },
+    "callout": {
+      "title": "Ce wiki est volontairement court.",
+      "body": "Si quelque chose ici ne correspond pas à ce que vous voyez dans l'app, c'est un bug de documentation — ouvrez un ticket et nous le corrigerons. Pour les réponses de type Q&amp;R (tarifs, radios compatibles, le lien avec FT8CN), filez vers la <a href=\"/faq\">FAQ</a>."
+    },
+    "cta": {
+      "title": "Bloqué quelque part que le wiki ne couvre pas ?",
+      "lede": "Les retours du terrain d'une vraie utilisation sur l'air sont la chose la plus utile que nous recevons. Ouvrez un ticket, dites-nous ce qui s'est passé, joignez un journal si vous en avez un.",
+      "openIssue": "Ouvrir un ticket",
+      "browseFaq": "Parcourir la FAQ"
+    }
+  },
+
+  "wikiUsing": {
+    "meta": {
+      "title": "FT8AF — Utiliser l'app",
+      "description": "Un parcours pratique de FT8AF : premier lancement et permissions, configuration USB CAT et audio, décodage de la bande, appel de stations, le QSO en séquence automatique et la journalisation automatique Cloudlog et QRZ.",
+      "ogTitle": "FT8AF — Utiliser l'app",
+      "ogDescription": "Un parcours pratique : premier lancement, configuration USB CAT, décodage de la bande, appel, le QSO en séquence automatique et la journalisation automatique."
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / Utiliser FT8AF",
+      "title": "Du premier lancement<br />à un QSO journalisé.",
+      "lede": "Si vous avez déjà fait du FT8 quelque part — WSJT-X, JTDX, FT8CN — l'essentiel vous semblera familier. La carte est juste réorganisée pour une main. Lisez-le d'une traite la première fois ; revenez à une section quand vous en avez besoin."
+    },
+    "toc": {
+      "title": "Sur cette page",
+      "items": [
+        "Installation &amp; premier lancement",
+        "Réglez votre indicatif &amp; locator",
+        "Connectez votre radio",
+        "Décodez la bande",
+        "Lisez le waterfall",
+        "Appelez une station",
+        "Menez la séquence automatique",
+        "Journalisation &amp; envois",
+        "Conseils de terrain"
+      ]
+    },
+    "s1": {
+      "h": "Installation &amp; premier lancement",
+      "p1": "Récupérez FT8AF depuis la <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">page releases de GitHub</a> en APK gratuit, ou depuis <a href=\"https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af\" target=\"_blank\" rel=\"noopener\">Google Play</a> pour $3.50 — les apps sont identiques. Les instructions complètes d'installation sont sur la page <a href=\"/download\">Télécharger</a>.",
+      "p2": "La première fois que vous ouvrez FT8AF, Android demande deux permissions :",
+      "ul": [
+        "<strong>Accès au périphérique USB</strong> — nécessaire pour le contrôle CAT et l'audio du poste. Choisissez <em>Toujours</em> si vous voulez que l'app se reconnecte seule quand vous rebranchez le câble.",
+        "<strong>Microphone</strong> — nécessaire si vous voulez un jour décoder depuis le micro du téléphone plutôt qu'une radio câblée. Vous pouvez le refuser si vous n'utilisez que l'USB."
+      ]
+    },
+    "s2": {
+      "h": "Réglez votre indicatif &amp; locator",
+      "p1": "Ouvrez l'onglet <span class=\"tap\">Settings</span> et remplissez la carte opérateur en haut. Ces deux champs régissent tout ce que l'app émet, alors mieux vaut les régler correctement avant de passer en émission.",
+      "cap": "<b>Settings → Operator.</b> Touchez n'importe quelle ligne pour modifier. Le locator proposera de se remplir depuis le GPS si vous accordez la localisation.",
+      "dl": [
+        { "dt": "Indicatif", "dd": "Votre indicatif licencié. Ajoutez les indicateurs portables avec une barre oblique (p. ex. <code>K1AF/M</code>) si vous opérez en mobile ou portable." },
+        { "dt": "Locator", "dd": "Locator Maidenhead à 4 ou 6 caractères (p. ex. <code>FN42</code> ou <code>FN42hk</code>). FT8AF proposera de le remplir depuis le GPS si la localisation est accordée." },
+        { "dt": "Fréquence audio", "dd": "Votre fréquence audio d'émission en Hz, dans le segment FT8 de 3 kHz. <code>1500</code> est une valeur de départ raisonnable." },
+        { "dt": "Délai TX", "dd": "Millisecondes que l'app attend après le PTT avant d'envoyer les tonalités. <code>400</code> convient à la plupart des postes pilotés en CAT." }
+      ]
+    },
+    "s3": {
+      "h": "Connectez votre radio",
+      "p1": "FT8AF parle à votre poste via une seule connexion USB-C — le CAT (fréquence, PTT) comme l'audio (RX, TX) passent par le même câble. Les téléphones Android modernes se connectent directement en USB-C ; les appareils plus anciens nécessitent un adaptateur USB-OTG. Votre téléphone doit prendre en charge le mode hôte USB.",
+      "cap": "<b>Settings → Radio.</b> Un seul câble USB-C porte le contrôle CAT, l'audio et le PTT.",
+      "steps": [
+        "<strong>Branchez.</strong> Connectez votre téléphone au port USB du poste. Android demandera la permission de communiquer avec l'appareil — acceptez-la et cochez <em>Toujours</em> pour que l'app puisse se reconnecter plus tard.",
+        "<strong>Choisissez votre poste.</strong> Dans <span class=\"tap\">Settings → Radio</span>, ouvrez le sélecteur <em>Rig model</em> et choisissez votre transceiver (IC-7300, FT-891, IC-705, etc.). FT8AF inclut un correctif qui force le FT-891 à 3000&nbsp;Hz de bande passante en DATA-USB — vous n'avez pas à le régler vous-même.",
+        "<strong>Mettez le mode de contrôle sur CAT.</strong> Sous <em>Control</em>, choisissez <strong>CAT</strong>. (VOX, RTS et DTR sont disponibles si votre montage en a besoin, mais CAT est ce qu'il vous faut avec un poste HF moderne en USB.)",
+        "<strong>Confirmez CI-V / débit en bauds.</strong> Les valeurs par défaut correspondent généralement — les postes Icom utilisent par défaut <code>A4</code> à <code>115200</code> ; les Yaesu ont leurs propres conventions. Si le CAT ne se connecte pas, c'est le premier endroit à vérifier.",
+        "<strong>Choisissez une bande.</strong> Touchez la pastille de bande dans l'onglet <span class=\"tap\">Decode</span> pour basculer entre les segments FT8 de 160m–6m, ou saisissez une fréquence personnalisée depuis <em>Settings → Radio → Frequency</em>."
+      ],
+      "callout": {
+        "h": "Pas de poste ? Vous pouvez quand même explorer.",
+        "p": "Si vous accordez la permission du micro, FT8AF décodera l'audio du micro du téléphone — approchez-le d'un haut-parleur branché à n'importe quelle radio active en FT8 et vous verrez la même liste de décodage. Utile pour apprendre l'interface avant de câbler le CAT."
+      }
+    },
+    "s4": {
+      "h": "Décodez la bande",
+      "p1": "L'onglet <span class=\"tap\">Decode</span> est là où vous passerez le plus clair de votre temps d'opération. Toutes les 15 secondes, à la limite de période FT8, l'app traite le dernier slot d'audio et dépose les nouveaux décodages dans la liste. Les stations reçoivent des étiquettes d'état — <em>New DXCC</em>, <em>Needed</em>, <em>Worked</em>, <em>Confirmed</em> — pour que la bande vous dise quoi chasser d'un coup d'œil.",
+      "alt": "Onglet Decode de FT8AF sur Android — interface sombre Material 3 montrant des lignes décodées pour K7LNY, KF0X, KF6MIX, AK7LV et ND9M, chacune avec locator, distance, barres de force de signal, SNR en dB, temps depuis la dernière écoute, état des États-Unis et une étiquette NEW DXCC, au-dessus du bandeau TX en écoute sur 10.136 MHz / 30m.",
+      "cap": "<b>Onglet Decode.</b> Chaque ligne est une station décodée. Touchez une ligne pour faire de cette station votre cible de QSO. Utilisez les pastilles du haut pour filtrer — <em>All</em>, <em>CQ Calls</em>, <em>CQ POTA</em>, <em>New DXCC</em>, <em>Needed</em>.",
+      "p2": "Chaque ligne vous indique :",
+      "dl": [
+        { "dt": "SNR / dB", "dd": "Rapport signal/bruit. Des valeurs d'environ <code>−24</code> (à peine décodable) à <code>+15</code> (très fort)." },
+        { "dt": "Audio Hz", "dd": "Où se situe le signal dans le segment de 3 kHz. Touchez une ligne ou un signal sur le waterfall pour en faire votre fréquence audio TX." },
+        { "dt": "Distance", "dd": "Distance orthodromique de votre locator à la station décodée, quand son locator est connu." },
+        { "dt": "Étiquette d'état", "dd": "<span class=\"mono\">New DXCC</span> = entité jamais travaillée. <span class=\"mono\">Needed</span> = nécessaire sur cette bande/mode. <span class=\"mono\">Worked</span> = QSO terminé mais pas encore confirmé." },
+        { "dt": "↳ Pour vous", "dd": "Surligné en cyan quand une station vous répond directement. Vous le verrez pendant vos propres QSOs." }
+      ]
+    },
+    "s5": {
+      "h": "Lisez le waterfall",
+      "p1": "L'onglet <span class=\"tap\">Waterfall</span> montre toute la bande passante FT8 de 3 kHz dans le temps. L'audio le plus récent est en haut, le plus ancien en bas — une fine ligne marque chaque limite de période FT8 avec un horodatage UTC dessiné à côté, pour lire le timing d'un coup d'œil.",
+      "cap": "<b>Waterfall.</b> Les traînées verticales sont des signaux ; touchez-en une pour régler votre fréquence audio TX sur ce slot. Les pastilles de largeur (Wide / 1.5 kHz / 500 Hz) permettent de zoomer sur un segment chargé.",
+      "p2": "<strong>S'accorder d'un toucher.</strong> Touchez n'importe quel signal visible dans le waterfall pour régler votre fréquence audio TX sur ce slot. Le repère TX reste verrouillé sur votre audio TX réel grâce au correctif d'alignement de FT8AF."
+    },
+    "s6": {
+      "h": "Appelez une station",
+      "p1": "Vous avez deux façons d'entrer dans un QSO :",
+      "steps": [
+        "<strong>Répondez à un CQ.</strong> Touchez une ligne <code>CQ</code> dans la liste de décodage, ou touchez le signal de cette station sur le waterfall. FT8AF met une réponse en file et attend le prochain slot TX.",
+        "<strong>Appelez CQ vous-même.</strong> Pressez le bouton <span class=\"tap\">CQ</span> sur le bandeau TX en bas de l'écran. Utilisez la bascule TX1 / TX2 pour choisir sur quel slot de 15 secondes émettre — le vide, en général."
+      ],
+      "p2": "Surveillez le panneau <strong>Active QSO monitor</strong> au-dessus du bandeau TX. Il suit qui vous travaillez et à quelle étape de la séquence automatique vous êtes. Si plusieurs stations répondent à votre CQ, la <strong>file d'appelants</strong> garde les autres en attente — vous finissez le QSO en cours au lieu de sauter vers la plus forte."
+    },
+    "s7": {
+      "h": "Menez la séquence automatique",
+      "p1": "FT8AF gère l'échange FT8 standard automatiquement une fois que vous avez sélectionné une cible. Vous verrez le panneau dérouler :",
+      "cap": "<b>Active QSO monitor.</b> Les étapes se cochent à mesure que l'échange progresse. Le panneau se réduit à une seule ligne quand il n'y a pas de contact actif.",
+      "p2": "Si vous devez abandonner en plein QSO, touchez <span class=\"tap\">Stop</span> sur le bandeau TX — l'app vide la file et revient à l'écoute. La bascule de slot TX1 / TX2 vous permet de changer de période d'émission sans perdre votre cible."
+    },
+    "s8": {
+      "h": "Journalisation &amp; envois",
+      "p1": "Chaque QSO terminé est écrit dans l'onglet <span class=\"tap\">Logbook</span> de l'appareil. Si vous avez configuré des services d'envoi, il vole aussi vers eux dès que le contact se ferme — pas d'export ADIF, pas de recopie d'indicatifs à la main en fin de soirée.",
+      "cap": "<b>Logbook.</b> Les badges montrent quels services ont accepté chaque envoi. Les envois échoués restent visibles avec un indicateur de nouvelle tentative jusqu'à réussir.",
+      "cloudlog": "Ouvrez <em>Settings → Cloudlog</em>, collez votre URL Cloudlog et votre clé API, et activez le service. Les nouveaux QSOs s'envoient automatiquement. Si un contact échoue à l'envoi, il reste dans le carnet avec un indicateur de nouvelle tentative.",
+      "qrz": "Ouvrez <em>Settings → QRZ</em>, connectez-vous avec votre clé API QRZ Logbook et activez les envois. Même comportement automatique que Cloudlog.",
+      "both": "Vous pouvez utiliser les deux à la fois — la plupart des opérateurs le font, avec Cloudlog comme journal principal et QRZ pour la visibilité."
+    },
+    "s9": {
+      "h": "Conseils de terrain",
+      "ul": [
+        "<strong>Réglez votre horloge depuis le réseau</strong> avant chaque session. Le FT8 exige un timing précis — l'heure automatique d'Android suffit généralement ; si vous êtes sans réseau, synchronisez par GPS ou NTP.",
+        "<strong>Utilisez les boutons de volume matériels</strong> pour régler le niveau de drive TX en plein QSO. FT8AF les mappe au volume TX pour vous éviter de bricoler le curseur à l'écran pendant l'émission.",
+        "<strong>Surveillez le moniteur de QSO</strong> quand les conditions sont chargées. La file d'appelants évite le classique « deux stations pensent toutes deux que vous leur avez répondu ».",
+        "<strong>Utilisez l'onglet <span class=\"tap\">Map</span></strong> pour repérer visuellement les ouvertures — ceux qui appellent CQ reçoivent un repère mégaphone, vous voyez ainsi quels chemins arrivent sans parcourir la liste de décodage.",
+        "<strong>Mettez une étoile au dépôt GitHub</strong> si vous voulez un signal quand une nouvelle version sort. Ou prenez la version Play Store et les mises à jour se font toutes seules."
+      ],
+      "callout": {
+        "h": "Quelque chose se comporte mal ?",
+        "p": "Lisez la page suivante : elle vous guide pour capturer le journal de débogage afin que nous puissions vraiment corriger ce que vous avez rencontré. <a href=\"/wiki/bug-reports\">Signaler un bug →</a>"
+      }
+    },
+    "pager": {
+      "prevLabel": "← Retour",
+      "prevTitle": "Index du wiki",
+      "nextLabel": "Suivant →",
+      "nextTitle": "Signaler un bug"
+    }
+  },
+
+  "wikiBug": {
+    "meta": {
+      "title": "FT8AF — Signaler un bug",
+      "description": "Comment localiser le journal de débogage de FT8AF sur votre appareil Android, le partager avec les développeurs via GitHub ou e-mail, et écrire un rapport de bug qui mène vraiment à un correctif.",
+      "ogTitle": "FT8AF — Signaler un bug",
+      "ogDescription": "Comment récupérer le journal de débogage de FT8AF sur votre téléphone et déposer un ticket utile sur GitHub. Inclut un modèle de ticket prêt à copier."
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / Signaler un bug",
+      "title": "Passez-nous le journal,<br />et on pourra le corriger.",
+      "lede": "FT8AF écrit un journal d'événements structuré à chaque exécution — trafic série CAT, événements de connexion USB, tentatives de connexion automatique, changements de bande. La plupart des bugs de terrain finissent là-dedans. Récupérez-le sur votre téléphone, déposez-le dans un ticket GitHub, c'est fait."
+    },
+    "toc": {
+      "title": "Sur cette page",
+      "items": [
+        "Ce qu'il y a dans le journal",
+        "Débloquez le mode débogage",
+        "Ouvrez Debug &amp; partagez",
+        "Solution de repli : app Fichiers",
+        "Solution de repli : ADB",
+        "Écrivez le ticket",
+        "Modèle de ticket",
+        "Si l'app a planté",
+        "Confidentialité"
+      ]
+    },
+    "s1": {
+      "h": "Ce qu'il y a dans le journal",
+      "p1": "FT8AF tient un fichier texte tournant nommé <code>debug.log</code> dans son répertoire de données d'app. Il capture des choses comme :",
+      "ul": [
+        "Événements de connexion / déconnexion USB et quel périphérique CAT a correspondu",
+        "Tentatives de connexion automatique et leurs échecs éventuels",
+        "Trames série CAT envoyées et reçues du poste",
+        "Changements de bande et de fréquence",
+        "Événements de cycle de vie au démarrage et à l'arrêt de l'app"
+      ],
+      "p2": "C'est du texte brut, sûr à lire, et il n'inclut ni mots de passe ni clés API d'envoi. Voir la section <a href=\"#privacy\">confidentialité</a> ci-dessous si vous voulez le survoler avant de le partager."
+    },
+    "s2": {
+      "h": "Débloquez le mode débogage",
+      "p1": "Le plus simple pour récupérer le journal utilise un écran de débogage dans l'app — sans ordinateur, sans gestionnaire de fichiers, sans permissions du dossier Android-data. L'écran est caché par défaut et vous le débloquez comme les options développeur d'Android : en touchant le bloc de version sept fois.",
+      "steps": [
+        "Ouvrez l'onglet <span class=\"tap\">Settings</span> dans FT8AF.",
+        "Descendez tout en bas — la section <strong>ABOUT</strong>.",
+        "Touchez <strong>FAQ &amp; Support</strong>. La boîte de dialogue About s'ouvre, montrant la version de l'app et une description commençant par \"FT8, made easy.\"",
+        "Touchez ce texte de description <strong>sept fois de suite</strong>. Après le septième toucher, le mode débogage s'active et persiste entre les lancements.",
+        "Fermez la boîte de dialogue About. Une nouvelle ligne <span class=\"tap\">Debug</span> apparaît maintenant dans la section ABOUT, juste sous <em>FAQ &amp; Support</em>."
+      ],
+      "cap": "<b>Après déblocage</b> — la ligne Debug apparaît dans la section ABOUT. Une fois le mode débogage activé, il reste actif jusqu'à ce que vous le désactiviez (touchez la description sept fois de plus pour l'éteindre)."
+    },
+    "s3": {
+      "h": "Ouvrez Debug &amp; partagez",
+      "p1": "Touchez la nouvelle ligne <span class=\"tap\">Debug</span>. Un visualiseur de journal plein écran s'ouvre, affichant en direct les dernières centaines de lignes de <code>debug.log</code> — il se rafraîchit toutes les deux secondes et défile automatiquement vers le bas.",
+      "cap": "<b>Écran Debug.</b> Touchez <strong>Share</strong> pour ouvrir le menu de partage d'Android avec <code>debug.log</code> déjà joint. Choisissez Gmail, Outlook, Drive, Fichiers — ce que vous voulez pour l'envoyer.",
+      "p2": "Depuis la barre d'outils du haut :",
+      "dl": [
+        { "dt": "Share", "dd": "Ouvre le menu de partage d'Android avec <code>debug.log</code> joint en fichier texte (objet \"FT8AF debug.log\"). Choisissez Gmail pour nous l'envoyer directement par e-mail, ou toute app qui gère les pièces jointes — Drive, Outlook, Slack, Signal, Telegram, l'app Fichiers du système, tout marche." },
+        { "dt": "Clear", "dd": "Supprime le journal actuel. Utile si vous voulez repartir de zéro avant de reproduire un bug — pressez simplement Clear, quittez la boîte de dialogue, reproduisez le problème, revenez et partagez. Le journal plus court facilite le repérage des événements pertinents." },
+        { "dt": "Logcat: ON / OFF", "dd": "Quand c'est ON, le visualiseur ajoute aussi la sortie <code>logcat</code> récente du propre processus de l'app — utile quand un plantage ou un bug audio n'est pas entièrement capturé dans <code>debug.log</code>. La queue logcat part avec quand vous touchez Share." }
+      ],
+      "callout": {
+        "h": "Envoyez-le-nous directement.",
+        "p": "Quand le menu de partage apparaît, choisissez votre app de messagerie et adressez-le à celui qui travaille le problème — les opérateurs sont <a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">K1AF</a> et <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">N0RC</a> (adresses sur QRZ). Encore mieux : ouvrez d'abord un ticket GitHub, puis partagez le journal via l'e-mail ou le raccourci cloud de votre choix et collez le lien ou la pièce jointe dans le fil du ticket pour qu'il reste public."
+      }
+    },
+    "s4": {
+      "h": "Solution de repli : app Fichiers",
+      "p1": "Si pour une raison quelconque vous ne pouvez pas atteindre l'écran Debug dans l'app — version ancienne, le déblocage n'a pas pris, vous préférez simplement le gestionnaire de fichiers — le fichier de journal vit aussi sur le disque à :",
+      "steps": [
+        "Ouvrez l'app <strong>Fichiers</strong> (ou <strong>Mes fichiers</strong>) sur votre téléphone.",
+        "Naviguez jusqu'à <strong>Stockage interne → Android → data</strong>. Sur certains appareils, Android cache ce dossier par défaut ; touchez le menu à trois points et activez <em>Afficher les fichiers cachés</em> ou <em>Dossiers système</em>.",
+        "Ouvrez le dossier nommé <code>com.bg7yoz.ft8cn</code>, puis <code>files</code>. Vous devriez voir <code>debug.log</code> à l'intérieur.",
+        "Appui long sur <code>debug.log</code> et touchez <strong>Partager</strong>."
+      ],
+      "callout": {
+        "h": "Android 11+ peut bloquer <code>/Android/data</code> dans Fichiers.",
+        "p": "Si vous ne voyez pas <code>com.bg7yoz.ft8cn</code> dans le dossier data sur un Android récent, installez un gestionnaire de fichiers tiers comme <strong>Material Files</strong> ou <strong>Solid Explorer</strong> depuis le Play Store — tous deux peuvent lire les dossiers de données d'app. Ou, plus simple : utilisez l'écran Debug dans l'app ci-dessus, qui contourne entièrement ce souci."
+      }
+    },
+    "s5": {
+      "h": "Solution de repli : ADB",
+      "p1": "Pour les développeurs avec un ordinateur et l'outil <code>adb</code> d'Android :",
+      "steps": [
+        "Sur votre téléphone, activez <strong>Options développeur → Débogage USB</strong>.",
+        "Branchez le téléphone à l'ordinateur en USB, acceptez l'invite d'autorisation de débogage.",
+        "Depuis un terminal, confirmez que le téléphone est visible :",
+        "Récupérez le journal :"
+      ],
+      "steps3b": "Sur les montages à plusieurs appareils, ciblez le téléphone explicitement avec <code>-s &lt;serial&gt;</code>."
+    },
+    "s6": {
+      "h": "Écrivez le ticket",
+      "p1": "Un bon rapport de bug est court — trois ou quatre courts paragraphes suffisent largement. Le schéma qui marche toujours :",
+      "steps": [
+        "<strong>Qu'avez-vous fait ?</strong> « J'ai branché mon FT-891, touché CQ sur 20m. » Des actions concrètes dans l'ordre. Pas besoin de décrire l'app — juste ce que vous avez touché.",
+        "<strong>Qu'attendiez-vous ?</strong> « Je m'attendais à ce que le poste passe en émission et que l'app commence à envoyer des tonalités sur 14.074. »",
+        "<strong>Que s'est-il réellement passé ?</strong> « Le bandeau TX est resté sur LISTENING. Pas de PTT, pas de tonalités. » Si quelque chose est apparu à l'écran — toast d'erreur, interface figée, waterfall bizarre — décrivez-le. Une capture vaut de l'or.",
+        "<strong>À quelle fréquence ?</strong> À chaque fois ? Seulement après la mise en veille du téléphone ? Seulement sur 6m ? Tout ce que vous pouvez cerner réduit la recherche.",
+        "<strong>Joignez le journal.</strong> Récupérez <code>debug.log</code> juste après avoir reproduit le problème — les lignes les plus récentes sont les plus utiles."
+      ]
+    },
+    "s7": {
+      "h": "Modèle de ticket",
+      "p1": "Copiez ceci dans un nouveau ticket et remplissez les blancs :"
+    },
+    "s8": {
+      "h": "Si l'app a planté",
+      "p1": "Quand FT8AF plante d'un coup, Android conserve un rapport de plantage à part. Deux endroits où regarder :",
+      "ul0": "Si vous l'avez eue par <strong>Google Play</strong>, activez une fois le rapport de plantage anonyme et nous verrons la trace de pile automatiquement. Vous n'avez rien à faire — mais ajouter « Je viens d'envoyer un rapport de plantage depuis l'appareil X vers &lt;heure&gt; » au ticket nous aide à le rapprocher.",
+      "ul1": "Si vous avez ADB disponible, le journal système en direct contient généralement la trace du plantage juste après qu'il survient :",
+      "ul1b": "Joignez <code>logcat.txt</code> en plus de <code>debug.log</code>."
+    },
+    "s9": {
+      "h": "Confidentialité",
+      "p1": "Le journal de débogage n'est que du texte. Il capture les événements d'opération de l'app, pas vos données personnelles. Vous verrez des lignes comme :",
+      "p2": "Ce qui n'y est <em>pas</em> : clés API Cloudlog ou QRZ, mots de passe de vos comptes, photos, contacts ou localisation. Votre indicatif et votre locator y <em>sont</em>, puisqu'ils identifient votre station — mais ce sont de toute façon des informations publiques pour les radioamateurs licenciés.",
+      "p3": "Si vous voulez survoler ou caviarder avant d'envoyer, le fichier est du texte brut UTF-8. N'importe quel éditeur de texte l'ouvrira.",
+      "callout": {
+        "h": "Merci d'avoir pris le temps.",
+        "p": "Les vrais retours du terrain — « ce poste, ce câble, cette bande, voici ce qui s'est passé » — sont la façon dont ce fork s'améliore. Deux passes de bug-bash et plus de 58 correctifs ont commencé par des rapports exactement comme celui que vous êtes sur le point de déposer. 73."
+      }
+    },
+    "pager": {
+      "prevLabel": "← Précédent",
+      "prevTitle": "Utiliser FT8AF",
+      "nextLabel": "Ouvrir →",
+      "nextTitle": "Nouveau ticket sur GitHub"
+    }
+  }
+}

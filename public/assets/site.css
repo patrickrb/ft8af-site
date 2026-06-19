@@ -50,9 +50,10 @@
   --status-worked: #5cd6e8;
   --status-confirmed: #4ade80;
 
-  /* Type */
-  --font-ui: 'Geist', -apple-system, system-ui, sans-serif;
-  --font-mono: 'Geist Mono', 'SF Mono', ui-monospace, monospace;
+  /* Type — Geist covers Latin; the system/Noto fallbacks render Greek, Cyrillic,
+     CJK, Arabic and the rest per-glyph so localized pages never show tofu. */
+  --font-ui: 'Geist', -apple-system, system-ui, 'Segoe UI', Roboto, 'Noto Sans', 'Noto Sans Arabic', 'Hiragino Sans', 'Noto Sans CJK SC', 'Noto Sans CJK JP', 'Noto Sans CJK KR', 'Microsoft YaHei', 'Malgun Gothic', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Geist Mono', 'SF Mono', ui-monospace, 'Cascadia Code', 'Noto Sans Mono', 'DejaVu Sans Mono', monospace;
 
   /* Radii */
   --r-sm: 8px;
@@ -331,3 +332,53 @@ html.js-reveal .reveal.in { opacity: 1; transform: none; }
   background: var(--bg-surface-2); border: 1px solid var(--border-strong);
   border-radius: 6px; padding: 2px 7px; color: var(--text);
 }
+
+/* ───── Language switcher ───── */
+.lang-switch { position: relative; }
+.lang-switch summary {
+  list-style: none; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 10px; border-radius: var(--r-sm);
+  background: rgba(148,163,184,0.06); border: 1px solid var(--border-strong);
+  color: var(--text-muted); font-family: var(--font-mono);
+  font-size: 12.5px; letter-spacing: 0.04em; line-height: 1;
+  transition: color 0.15s, background 0.15s;
+}
+.lang-switch summary::-webkit-details-marker { display: none; }
+.lang-switch summary:hover { color: var(--text); background: rgba(148,163,184,0.1); }
+.lang-switch[open] summary { color: var(--text); }
+.lang-switch summary svg { flex-shrink: 0; opacity: 0.8; }
+.lang-menu {
+  position: absolute; top: calc(100% + 8px); right: 0; z-index: 60;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 2px;
+  width: 320px; max-width: 78vw; max-height: 60vh; overflow: auto;
+  padding: 8px; border-radius: var(--r-md);
+  background: var(--bg-surface); border: 1px solid var(--border-strong);
+  box-shadow: var(--shadow-lift);
+}
+.lang-menu a {
+  padding: 9px 12px; border-radius: var(--r-sm);
+  color: var(--text-muted); font-size: 14px; line-height: 1.2;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.lang-menu a:hover { background: rgba(148,163,184,0.1); color: var(--text); }
+.lang-menu a[aria-current="true"] { color: var(--accent); background: rgba(255,175,94,0.08); }
+@media (max-width: 860px) {
+  .lang-cur { display: none; } /* globe-only on mobile to save header space */
+}
+
+/* ───── RTL (Arabic) ─────
+   Layout is mostly flex/grid and flips with dir=rtl automatically; these override
+   the handful of physical-direction properties that don't. */
+[dir="rtl"] .lang-menu { right: auto; left: 0; }
+[dir="rtl"] .price-flag { left: auto; right: 32px; }
+[dir="rtl"] .req { text-align: right; }
+[dir="rtl"] .faq-q { text-align: right; }
+[dir="rtl"] .logrow .lt { text-align: left; }
+[dir="rtl"] .wiki-body ul,
+[dir="rtl"] .wiki-body ol { padding-left: 0; padding-right: 22px; }
+[dir="rtl"] .wiki-steps li { padding-left: 0; padding-right: 44px; }
+[dir="rtl"] .wiki-steps li::before { left: auto; right: 0; }
+[dir="rtl"] .wiki-body h2 .step-num { margin-right: 0; margin-left: 14px; }
+[dir="rtl"] .wiki-pager a.pg-next { text-align: left; }
+[dir="rtl"] .wiki-pager a.pg-prev { text-align: right; }

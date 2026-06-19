@@ -1,0 +1,779 @@
+{
+  "common": {
+    "nav": {
+      "home": "Start",
+      "features": "Functies",
+      "download": "Downloaden",
+      "wiki": "Wiki",
+      "faq": "FAQ",
+      "github": "GitHub",
+      "star": "Ster",
+      "getFree": "Haal hem gratis",
+      "menu": "Menu"
+    },
+    "langLabel": "Taal",
+    "ogImageAlt": "FT8AF — Werk de wereld vanuit je broekzak. FT8 op Android.",
+    "btn": {
+      "downloadFt8af": "FT8AF downloaden",
+      "starGithub": "Geef een ster op GitHub",
+      "joinDiscord": "Word lid van de Discord"
+    },
+    "footer": {
+      "tagline": "FT8 op Android, gemoderniseerd. Een community-fork van FT8CN, gebouwd voor echt gebruik in de lucht.",
+      "product": "Product",
+      "project": "Project",
+      "operators": "Operators",
+      "community": "Community",
+      "bottom": "© 2026 FT8AF · GPL-3.0 · Op de schouders van BG7YOZ &amp; N0BOY",
+      "links": {
+        "googlePlay": "Google Play",
+        "repo": "GitHub-repo",
+        "releases": "Releases",
+        "reportBug": "Bug melden",
+        "originalFt8cn": "Originele FT8CN",
+        "k1af": "Patrick · K1AF",
+        "n0rc": "Reid · N0RC",
+        "discord": "Discord"
+      }
+    }
+  },
+
+  "index": {
+    "meta": {
+      "title": "FT8AF — FT8 voor Android",
+      "description": "FT8AF draait FT8, FT4 en FT2 native op je Android-telefoon of -tablet. Decodeer de band, stuur je radio aan via USB CAT, breng QSO-paden in kaart, activeer parken voor POTA en werk de wereld vanaf overal. Gratis en opensource.",
+      "ogTitle": "FT8AF — Werk de wereld vanuit je broekzak",
+      "ogDescription": "Native FT8 op Android. Decodeer de band, stuur je radio aan via USB CAT en draai de volledige automatische sequentie. Gratis en opensource."
+    },
+    "appDescription": "FT8AF draait FT8, FT4 en FT2 native op Android. Live decodering en waterfall, USB CAT-besturing voor 75+ sets, QSO-monitor met automatische sequentie, wereldkaart met QSO-paden, POTA-activatiemodus, automatisch loggen naar Cloudlog, QRZ, Wavelog en PSKReporter, gezochte-DX-meldingen, een interface in 16 talen, Material 3 donker.",
+    "hero": {
+      "eyebrow": "FT8 · Native Android",
+      "title": "Werk de wereld<br />vanuit je broekzak.",
+      "lede": "FT8AF decodeert de band, stuurt je radio aan via USB CAT en draait de volledige\n        automatische sequentie — allemaal native op je Android-telefoon of -tablet. Geen laptop. Geen\n        geknoei met geluidskaarten. Alleen je set en een USB-C-kabel.",
+      "ctaGithub": "Haal hem gratis op GitHub",
+      "ctaPlay": "$3.50 op Google Play",
+      "pillFree": "Gratis en opensource",
+      "pillFork": "Fork van FT8CN",
+      "deviceAlt": "FT8AF Decode-tabblad op Android: een live lijst van gedecodeerde stations — K7LNY, KF0X, KF6MIX, AK7LV, ND9M — elk met locator, afstand, signaalsterktebalken, SNR in dB, tijd sinds laatst gehoord, Amerikaanse staat en een NEW DXCC-label, met de knoppen Hunt / Call CQ / TX1 en de luisterende TX-balk op 10.136 MHz / 30m."
+    },
+    "trust": {
+      "modes": "Modes<br />FT8 · FT4 · FT2",
+      "rigs": "Setmodellen<br />via USB CAT",
+      "pota": "Activatiemodus<br />ingebouwd",
+      "map": "Wereldkaart<br />+ QSO-paden",
+      "langs": "Talen<br />ingebouwd"
+    },
+    "features": {
+      "eyebrow": "Gemaakt voor de lucht",
+      "title": "Alles wat je nodig hebt om<br />een band te werken — op een telefoon.",
+      "cta": "Verken alle functies",
+      "cards": [
+        { "title": "FT8-, FT4- &amp; FT2-decodering", "body": "Een continu scrollende waterfall met UTC-tijdstempels bij elke periode, tik-om-af-te-stemmen-labels en decoderingen in milliseconden — nu over drie modes." },
+        { "title": "Wereldkaart &amp; QSO-paden", "body": "Een ingebouwd kaart-tabblad zet elke decodering uit en tekent het groot-cirkel-pad naar je contact — met afstand, DX-locatie en grenzen van Amerikaanse staten." },
+        { "title": "Actieve QSO-monitor &amp; jacht", "body": "Volg een contact door de volledige automatische sequentie, met een bellerswachtrij, Hunt-modus, Auto-CQ, herkenning van gerichte CQ en gezochte-DX-meldingen." },
+        { "title": "POTA-activatiemodus", "body": "Voer een parkactivatie van begin tot eind uit — live contactlijst, two-fer / multi-park-ondersteuning, een activatiekaart en directe upload naar POTA." },
+        { "title": "USB CAT voor 75+ sets", "body": "Stuur je set aan met één USB-C-kabel — CAT, audio, automatische ALC-nivellering en SWR-bescherming — over 75+ Icom, Yaesu, Kenwood, Xiegu en meer." },
+        { "title": "Overal logs, automatisch", "body": "Het moment dat een QSO afrondt, wordt hij geüpload naar Cloudlog, QRZ en Wavelog — en elke decodering die je hoort wordt gespot naar PSKReporter." },
+        { "title": "Meertalige interface", "body": "Zestien talen — van Engels en Spaans tot Koreaans, Oekraïens en rechts-naar-links Arabisch — met community-bijdragen welkom." }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "Haal FT8AF",
+      "title": "Voor altijd gratis.<br />Of $3.50 om hem te voeden.",
+      "lede": "Dezelfde app, hoe dan ook. De Play Store-versie maakt updates alleen automatisch — en draagt bij aan de volgende debug-sessie onderweg.",
+      "free": {
+        "tag": "Opensource",
+        "title": "Gratis van GitHub",
+        "body": "De volledige app, GPL-gelicentieerd en in de open ontwikkeld. Pak de APK of bouw hem zelf.",
+        "li": [
+          "Elke functie, zonder limieten",
+          "Sideload de nieuwste APK",
+          "Bouw uit broncode met Gradle",
+          "Lees, fork &amp; draag bij aan de code"
+        ],
+        "cta": "Bekijk op GitHub"
+      },
+      "paid": {
+        "flag": "Steunt het project",
+        "tag": "Google Play",
+        "per": "eenmalig",
+        "title": "Steun het project",
+        "body": "Identieke app, geleverd via de Play Store — zodat hij actueel blijft zonder dat je een vinger uitsteekt.",
+        "li": [
+          "Automatische updates op de achtergrond",
+          "Installatie met één tik, geen sideloaden",
+          "Door Play Protect geverifieerde build",
+          "Financiert direct de ontwikkeling"
+        ],
+        "cta": "Haal hem op Google Play"
+      },
+      "note": "Interne testtrack · je moet je misschien eerst aanmelden bij de testerslijst.",
+      "noteLink": "Meer in de FAQ →"
+    },
+    "story": {
+      "eyebrow": "73 vanaf de weg",
+      "quote": "Het grootste deel van FT8AF werd op gevoel geprogrammeerd op de I-70 bij 70&nbsp;mph, op weg naar en van Hamvention —\n      laptop op de passagiersstoel, radio achterin, Claude in de loop.",
+      "quoteMuted": "Sommige van de beste debugsessies gebeuren op snelwegsnelheid."
+    },
+    "cta": {
+      "eyebrow": "Blijf op de hoogte",
+      "title": "Krijg buildnotities &amp;<br />nieuwe-functie-drops.",
+      "lede": "Laag volume. Release-notities, veldverslagen en af en toe een \"we hebben gerepareerd wat op jouw FT-891 crashte\". Afmelden kan altijd.",
+      "emailLabel": "E-mailadres",
+      "emailPlaceholder": "jij@roepletters.radio",
+      "submit": "Houd me op de hoogte",
+      "or": "of",
+      "starRepo": "★ geef de repo een ster",
+      "joinDiscord": "word lid van de Discord",
+      "done": "Je staat op de lijst."
+    }
+  },
+
+  "features": {
+    "meta": {
+      "title": "FT8AF — Functies",
+      "description": "FT8-, FT4- en FT2-decodering met een continue waterfall, een actieve QSO-monitor met slimme jacht en gezochte-DX-meldingen, een wereldkaart met QSO-paden, POTA-activatiemodus, USB CAT-besturing voor 75+ sets, automatisch loggen naar Cloudlog, QRZ, Wavelog en PSKReporter, en meertalige ondersteuning in 16 talen, inclusief rechts-naar-links Arabisch.",
+      "ogTitle": "FT8AF — Een volledig FT8-station, herbouwd voor Android",
+      "ogDescription": "FT8/FT4/FT2-decodering, actieve QSO-monitor, wereldkaart met QSO-paden, POTA-activatie, USB CAT voor 75+ sets en automatisch loggen naar Cloudlog, QRZ, Wavelog & PSKReporter."
+    },
+    "hero": {
+      "eyebrow": "De functieset",
+      "title": "Een volledig FT8-station,<br />herbouwd voor Android.",
+      "lede": "Elk deel van de operationele lus — decoderen, richten, zenden, loggen — opnieuw gemaakt in een snelle Jetpack Compose-interface en gehard over twee bug-bash-rondes. Dit zit erin."
+    },
+    "rows": {
+      "spectrum": {
+        "eyebrow": "01 · Spectrum",
+        "title": "Live banddecodering &amp; waterfall",
+        "body": "Bekijk de hele 3&nbsp;kHz-doorlaatband tegelijk. De waterfall scrollt continu met UTC-tijdstempels bij elke periodegrens, zodat je de propagatie in één oogopslag leest en toeslaat zodra een gezocht station verschijnt.",
+        "points": [
+          "Continu scrollen met tijdmarkeringen bij elke periode",
+          "Hogere spectrumstrook, instelbare breedte &amp; zoom (Breed → 500&nbsp;Hz)",
+          "Tik op een signaal om af te stemmen; TX-markering blijft uitgelijnd; ruisdecoderingen gefilterd"
+        ],
+        "alt": "FT8AF Waterfall-tabblad: een spectrogram over de volledige band met gedecodeerde roepletters verticaal op hun signalen, een TX-frequentiemarkering, een UTC-tijdstempel en een actieve QSO-statusbanner met 'New state: NM · KE7WVV DM56 −4 dB'."
+      },
+      "modes": {
+        "eyebrow": "02 · Modes",
+        "title": "Drie modes, één app",
+        "body": "FT8AF begon als alleen FT8 en decodeert en zendt nu <strong>FT8, FT4 en FT2</strong> — elk met de juiste slot-timing en het juiste bandplan. Wissel van mode met één tik en jaag op DXpedities met Fox &amp; Hound-ondersteuning.",
+        "points": [
+          "FT8 (15 s) en het snellere FT4 (7.5 s) voor contesten &amp; pile-ups",
+          "Experimentele FT2-mode met eigen canonieke frequenties",
+          "Fox &amp; Hound (DXpeditie) bedrijf voor FT8"
+        ]
+      },
+      "qso": {
+        "eyebrow": "03 · Bedrijf",
+        "title": "QSO-monitor, jacht &amp; meldingen",
+        "body": "Een inklapbaar paneel volgt je huidige contact door elke stap van de uitwisseling — roep → rapport → roger → 73 → log. Een bellerswachtrij houdt je vergrendeld op je doel, en slimme jacht werkt de band zodat jij niet hoeft op te letten.",
+        "points": [
+          "Hunt-modus &amp; Auto-CQ — keten roepen aan elkaar zonder opnieuw te tikken",
+          "Gezochte-DX-meldingen: geluid + melding bij een nieuw DXCC of nieuwe staat",
+          "Herkenning van gerichte CQ, blokkeerlijst van roepletters &amp; decodeerfilters"
+        ],
+        "alt": "FT8AF Decode-tabblad: een live lijst van gedecodeerde stations — K7LNY, KF0X, KF6MIX, AK7LV, ND9M — elk met locator, afstand, signaalsterktebalken, SNR in dB, tijd sinds laatst gehoord, Amerikaanse staat en een NEW DXCC-label, met de knoppen Hunt / Call CQ / TX1 en de luisterende TX-balk op 10.136 MHz / 30m."
+      },
+      "map": {
+        "eyebrow": "04 · Kaart",
+        "title": "Wereldkaart &amp; QSO-paden",
+        "body": "Een speciaal kaart-tabblad zet de stations uit die je hoort en tekent het groot-cirkel-pad naar wie je werkt — met de afstand, de DX-locatie en grenzen van Amerikaanse staten, zodat je precies ziet waar je signaal landt.",
+        "points": [
+          "Afstand &amp; DX-locatie direct in het QSO-paneel",
+          "Padkaart met grenzen van Amerikaanse staten ingetekend",
+          "Kies je eenheden — mijlen of kilometers"
+        ],
+        "alt": "FT8AF Map-tabblad: een wereldkaart die de gehoorde stations als markeringen uitzet, met locator EM28, een stationsteller en projectieschakelaars PSK / standaard / azimutaal."
+      },
+      "pota": {
+        "eyebrow": "05 · Activaties",
+        "title": "POTA-activatiemodus",
+        "body": "Neem FT8AF mee naar het park. De activatiemodus regelt je hele uitje — een live, groeiende contactlijst met roepletters en locators van jagers, een contactkaart en park-tot-park-detectie — en uploadt daarna je log rechtstreeks naar POTA als je klaar bent.",
+        "points": [
+          "Two-fer / multi-park-activaties en P2P-labels",
+          "Activatiekaart, QRZ-avatars &amp; doorklikbare geschiedenis",
+          "Hervat na het sluiten van de app en upload naar POTA in de app"
+        ],
+        "alt": "FT8AF POTA-tabblad tijdens een live twee-park (two-fer) activatie van US-1469 en US-4567: een groene teller '14 QSOs — valid activation', verstreken tijd, knoppen Self-spot en End-activation, een kaart van de VS met contactpaden die uitstralen vanaf de activator, en een contactlijst met QRZ-avatars en een park-tot-park (P2P) label."
+      },
+      "usb": {
+        "eyebrow": "06 · Hardware",
+        "title": "USB CAT voor 75+ radio's",
+        "body": "Sluit je set rechtstreeks aan op je telefoon met één USB-C-kabel. FT8AF regelt CAT-frequentiebesturing, USB-audio en PTT over 75+ setmodellen — Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 en meer — met een stapel betrouwbaarheidsfixes voor automatisch verbinden.",
+        "points": [
+          "Nieuwe sets toegevoegd: Yaesu FT-710, Kenwood TS-440, Lab599 Discovery TX-500",
+          "Automatische ALC-nivellering en een door SWR getriggerde TX-stop om je eindtrappen te beschermen",
+          "Realtime TX-volume — stel het drive live bij, midden in het zenden"
+        ]
+      },
+      "logging": {
+        "eyebrow": "07 · Loggen",
+        "title": "Overal logs, automatisch",
+        "body": "Stel je logdiensten één keer in en vergeet ze. Op het moment dat een QSO afrondt, stuurt FT8AF hem rechtstreeks naar Cloudlog, QRZ en Wavelog — en elk signaal dat je decodeert wordt gespot naar PSKReporter zodat de propagatiekaarten oplichten met jouw station.",
+        "points": [
+          "Automatische upload naar Cloudlog / Wavelog en het QRZ-logboek",
+          "PSKReporter-spotten van elke decodering die je hoort",
+          "Stations-ID-kiezer plus ADIF-export, beide SNR-rapporten vastgelegd"
+        ],
+        "alt": "FT8AF Logbook-tabblad: een Stats-weergave met 27 QSO's, 13 DXCC-entiteiten, 11 CQ-zones en 13 ITU-zones, een donut-grafiek van bandverdeling over 30m, 20m, 40m, 17m en 15m, en voortgangsbalken voor diploma's voor DXCC Mixed (13/340) en VUCC-locators (28/100)."
+      },
+      "material": {
+        "eyebrow": "08 · Interface",
+        "title": "Material 3 donkere interface",
+        "body": "De hele interface is een verse Jetpack Compose-herbouw op een donker Material 3-thema — hoog contrast, in één oogopslag leesbaar in fel zonlicht of een donkere shack, en ontworpen voor duimen. Instellingen zijn georganiseerd in nette uitklapcategorieën, en een compacte decodeermodus trekt de boel strakker op kleinere schermen.",
+        "points": [
+          "Uitklapbare instellingen, instelbare decodeer-highlights &amp; compacte modus",
+          "Operatorkaart met je QRZ-foto, antenne &amp; vermogen",
+          "Statusgecodeerde decoderingen: nieuw, gezocht, gewerkt, bevestigd"
+        ],
+        "alt": "FT8AF Settings-tabblad: een operator-identiteitskaart voor K1AF in locator EM28 met een QRZ-profielfoto, antenne (ATAS 120) en vermogen (70 W), een GPS-auto-locator-schakelaar, en uitklapcategorieën voor Radio &amp; Audio, Transmission, Time Sync, Decode &amp; Filters, Logging &amp; Awards, Advanced en About."
+      },
+      "languages": {
+        "eyebrow": "09 · Talen",
+        "title": "Gelokaliseerd in 16 talen",
+        "body": "FT8CN was alleen in het Chinees. FT8AF komt nu in zestien talen — allemaal bijgedragen door de community — en schakelt automatisch naar de taal van je Android-toestel, met rechts-naar-links lay-out voor het Arabisch.",
+        "points": [
+          "Door de community bijgedragen vertalingen, inclusief rechts-naar-links Arabisch",
+          "Automatische taaldetectie van Android — geen handmatig wisselen",
+          "Meer talen welkom — PR's open op GitHub"
+        ]
+      }
+    },
+    "viz": {
+      "modes": {
+        "head": "Bedrijfsmode",
+        "ft8slot": "slot van 15 s",
+        "ft4slot": "slot van 7.5 s",
+        "ft4note": "contesttempo",
+        "ft2slot": "nog sneller",
+        "ft2note": "experimenteel",
+        "foxhound": "Fox &amp; Hound DXpeditiemodus om de grote jongens te jagen"
+      },
+      "usb": {
+        "head": "USB CAT + Audio",
+        "connected": "Verbonden",
+        "yourRig": "Jouw set",
+        "rigCount": "75+ modellen"
+      },
+      "languages": {
+        "head": "Lokalisatie",
+        "count": "16 talen"
+      }
+    },
+    "stability": {
+      "eyebrow": "En de roemloze overwinningen",
+      "title": "58+ fixes waar je nooit<br />over hoeft na te denken.",
+      "lede": "Twee volledige \"bug bash\"-rondes gingen achter de crashes, lekken en levenscyclus-gremlins aan die tussen jou en een schoon QSO in staan.",
+      "cards": [
+        { "h4": "Crash- &amp; lekfixes", "p": "NPE-crashes, resourcelekken en thread-races opgespoord door de hele app." },
+        { "h4": "UTC-waterfallstempels", "p": "Tijdstempels getekend op FT8-periodegrenzen zodat je de timing meteen leest." },
+        { "h4": "Hardware TX-volume", "p": "Stel het zendniveau in met de fysieke volumeknoppen van de telefoon, midden in een QSO." },
+        { "h4": "TX1 / TX2 slotschakelaar", "p": "Kies je zendperiode rechtstreeks, vanaf de TX-balk." },
+        { "h4": "GPS-tijd- &amp; locatorsync", "p": "Automatische tijdsync en locator via GPS, plus een handmatige tijdcorrectie voor offline gebruik." },
+        { "h4": "TX-markering uitlijning", "p": "De zendfrequentiecursor blijft vergrendeld op je werkelijke TX-audio." }
+      ]
+    },
+    "cta": {
+      "title": "Klaar om een station<br />in je broekzak te stoppen?"
+    }
+  },
+
+  "download": {
+    "meta": {
+      "title": "FT8AF — Downloaden",
+      "description": "Haal FT8AF gratis van GitHub — sideload de APK of bouw uit broncode — of steun het project voor $3.50 op Google Play met automatische updates.",
+      "ogTitle": "FT8AF — Krijg FT8 op je Android-telefoon",
+      "ogDescription": "Gratis APK van GitHub, of $3.50 op Google Play voor automatische updates. Dezelfde app, elke functie. Werkt op elke Android met USB-OTG."
+    },
+    "hero": {
+      "eyebrow": "Downloaden",
+      "title": "Krijg FT8AF op je telefoon.",
+      "lede": "Gratis en opensource van GitHub, of $3.50 op Google Play om updates automatisch te maken en bij te dragen aan de ontwikkeling. Dezelfde app, elke functie, hoe dan ook."
+    },
+    "free": {
+      "tag": "Opensource",
+      "title": "Gratis van GitHub",
+      "body": "De volledige app, GPL-3.0-gelicentieerd. Sideload de ondertekende APK of bouw hem zelf.",
+      "li": [
+        "Elke functie, geen limieten of accounts",
+        "Ondertekende release-APK op de Releases-pagina",
+        "Bouw uit broncode met Gradle",
+        "Inspecteer, fork &amp; draag bij aan de code",
+        "Handmatige updates (je haalt zelf nieuwe builds)"
+      ],
+      "cta": "Download de APK"
+    },
+    "paid": {
+      "flag": "Steunt het project",
+      "tag": "Google Play",
+      "per": "eenmalig",
+      "title": "Steun het project",
+      "body": "De identieke app, geleverd via de Play Store zodat hij altijd actueel blijft.",
+      "li": [
+        "Automatische updates op de achtergrond",
+        "Installatie met één tik — geen sideload-stappen",
+        "Door Play Protect geverifieerde build",
+        "Makkelijk te installeren op de telefoon van een leek",
+        "Financiert direct de doorlopende ontwikkeling"
+      ],
+      "cta": "Haal hem op Google Play"
+    },
+    "callout": {
+      "title": "Let op: de Play Store-versie staat op een interne testtrack",
+      "body": "Je moet misschien aan de testerslijst worden toegevoegd voordat de Google Play-link installeert. Als hij niet opent, pak dan ondertussen de gratis APK van GitHub — het is dezelfde app."
+    },
+    "methods": {
+      "eyebrow": "Hoe te installeren",
+      "title": "Drie manieren naar binnen."
+    },
+    "method": {
+      "sideload": {
+        "title": "Sideload de APK",
+        "sub": "Snelst · gratis",
+        "steps": [
+          "Open <strong>Releases</strong> op GitHub en download de nieuwste <code style=\"font-family:var(--font-mono)\">.apk</code>.",
+          "Tik op het bestand; sta \"installeren vanaf deze bron\" toe als Android dat vraagt.",
+          "Open FT8AF, verleen USB- &amp; microfoonrechten en kies je set."
+        ],
+        "cta": "Releases openen"
+      },
+      "build": {
+        "title": "Bouwen uit broncode",
+        "sub": "Voor de knutselaars",
+        "codeComment": "# klonen &amp; bouwen",
+        "cta": "Bekijk de repo"
+      },
+      "play": {
+        "title": "Google Play",
+        "sub": "$3.50 · automatische updates",
+        "steps": [
+          "Open de Play Store-vermelding (meld je aan bij de testerslijst indien gevraagd).",
+          "Koop één keer voor $3.50 en tik op <strong>Installeren</strong>.",
+          "Updates komen vanzelf — verder niets te doen."
+        ],
+        "cta": "Openen op Google Play"
+      }
+    },
+    "req": {
+      "eyebrow": "Voordat je begint",
+      "title": "Wat je nodig hebt.",
+      "cards": [
+        { "k": "Toestel", "v": "Android 8+", "d": "Telefoon of tablet, USB-OTG-geschikt" },
+        { "k": "Kabel", "v": "USB-C → set", "d": "OTG-adapter voor oudere telefoons" },
+        { "k": "Radio", "v": "CAT-geschikte HF-set", "d": "75+ modellen — Icom, Yaesu, Kenwood, Xiegu &amp; meer" },
+        { "k": "Modes", "v": "FT8 · FT4 · FT2", "d": "160m – 6m, alle subbanden" }
+      ]
+    },
+    "reqCallout": {
+      "title": "Geen set bij de hand? Je kunt nog steeds verkennen.",
+      "body": "FT8AF decodeert vanaf de microfoon van de telefoon, zodat je de band kunt bekijken en de interface kunt leren voordat je CAT-besturing bekabelt. Zie de <a href=\"/faq\">FAQ</a> voor ondersteunde radio's en bekabeling."
+    },
+    "cta": {
+      "title": "Kies je pad. Werk de wereld.",
+      "lede": "Gratis op GitHub, of $3.50 om hem zichzelf te laten bijwerken. Hoe dan ook krijg je de hele app.",
+      "freeApk": "Gratis APK",
+      "playBtn": "$3.50 op Google Play"
+    }
+  },
+
+  "faq": {
+    "meta": {
+      "title": "FT8AF — FAQ",
+      "description": "Veelgestelde vragen over FT8AF: prijzen, de Google Play-testtrack, ondersteunde radio's, FT4- en FT2-modes, POTA-activatie, log- en spotdiensten, de relatie met FT8CN en bijdragen.",
+      "ogTitle": "FT8AF — Veelgestelde vragen",
+      "ogDescription": "Prijzen, de Google Play-testtrack, ondersteunde radio's, FT4/FT2-modes, POTA, logdiensten, hoe dit zich verhoudt tot FT8CN en bijdragen."
+    },
+    "hero": {
+      "eyebrow": "FAQ",
+      "title": "Vragen, beantwoord.",
+      "lede": "Prijzen, de Play Store-testtrack, radio's en bekabeling, en hoe dit alles zich verhoudt tot FT8CN. Nog steeds vast? <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--signal)\">Open een issue op GitHub</a>."
+    },
+    "cats": {
+      "getting": "Hem krijgen",
+      "radios": "Radio's &amp; opzet",
+      "modes": "Modes, kaarten &amp; POTA",
+      "project": "Het project"
+    },
+    "items": {
+      "free": {
+        "q": "Is FT8AF echt gratis?",
+        "a": "Ja — volledig. FT8AF is opensource onder de GPL-3.0-licentie. Je kunt de ondertekende APK downloaden van de GitHub Releases-pagina of hem zelf uit broncode bouwen, met elke functie ontgrendeld en zonder account vereist. De $3.50-optie op Google Play is dezelfde app; je betaalt voor automatische updates en om de ontwikkeling te steunen, niet voor functies."
+      },
+      "paid": {
+        "q": "Wat krijg ik dan voor de $3.50 op Google Play?",
+        "a": "Gemak en goed karma. De Play Store-versie werkt zichzelf automatisch bij op de achtergrond, installeert met één tik zonder \"onbekende bronnen toestaan\"-stappen, en is door Play Protect geverifieerd — wat het de makkelijke keuze maakt voor een telefoon waar je geen omkijken naar wilt hebben. De aankoop financiert ook direct de voortgaande ontwikkeling. De app zelf is identiek aan de gratis GitHub-build."
+      },
+      "playLink": {
+        "q": "De Google Play-link laat me niet installeren. Waarom?",
+        "a": "De Play Store-vermelding staat momenteel op een <strong>interne testtrack</strong>, dus je moet misschien aan de testerslijst worden toegevoegd voordat Google je laat installeren. Als de link nog niet voor je werkt, download dan in plaats daarvan de gratis APK van de <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">GitHub Releases-pagina</a> — het is exact dezelfde applicatie."
+      },
+      "install": {
+        "q": "Hoe installeer ik de APK veilig?",
+        "a": "Download de nieuwste <code>.apk</code> van GitHub Releases, tik erop en keur de eenmalige \"installeren vanaf deze bron\"-prompt goed die Android toont. Open daarna FT8AF en verleen de USB- en microfoonrechten. Volledige stapsgewijze instructies staan op de <a href=\"/download\">Download-pagina</a>."
+      },
+      "radios": {
+        "q": "Welke radio's worden ondersteund?",
+        "a": "Meer dan <strong>75 setmodellen</strong> verspreid over Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 en meer — gekozen uit een lijst in Instellingen samen met de besturingsmode en het audioapparaat. Populaire sets als de Icom IC-7300 en Yaesu FT-891 worden goed ondersteund, en recente toevoegingen zijn de <strong>Yaesu FT-710</strong>, de <strong>Kenwood TS-440</strong> en de <strong>Lab599 Discovery TX-500</strong>. FT8AF voegt ook automatische ALC-nivellering en een door SWR getriggerde TX-stop toe om je radio te beschermen. Als je set er niet bij staat, <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\">open een issue</a> en laat het ons weten."
+      },
+      "cable": {
+        "q": "Welke kabel heb ik nodig?",
+        "a": "Eén USB-verbinding van je telefoon naar de USB-poort van de set regelt op de meeste moderne radio's zowel de CAT-besturing als de audio. Nieuwere telefoons verbinden direct met een USB-C-kabel; oudere telefoons hebben een USB-OTG-adapter nodig. Je toestel moet de USB-host-modus (OTG) ondersteunen."
+      },
+      "noRadio": {
+        "q": "Kan ik hem zonder radio proberen?",
+        "a": "Ja. FT8AF kan decoderen vanaf de microfoon van de telefoon, dus je kunt hem bij een luidspreker houden of gewoon de interface verkennen en de waterfall bekijken voordat je CAT-besturing bekabelt. Een goede manier om eerst de indeling te leren."
+      },
+      "bands": {
+        "q": "Welke banden werken?",
+        "a": "Alle standaard FT8-subbanden van 160m tot en met 6m zijn ingebouwd, met één tik om te wisselen. De waterfall dekt de volledige audiodoorlaatband zodat je alles in het segment tegelijk ziet en werkt."
+      },
+      "modes": {
+        "q": "Ondersteunt FT8AF FT4 en FT2?",
+        "a": "Ja. FT8AF begon als alleen FT8 en decodeert en zendt nu <strong>FT8, FT4 en het experimentele FT2</strong>, elk met de juiste slot-timing en het juiste bandplan — met één tik schakelbaar. Er is ook Fox &amp; Hound (DXpeditie) bedrijf om zeldzame stations in een pile-up te jagen."
+      },
+      "pota": {
+        "q": "Kan ik er POTA-activaties mee doen?",
+        "a": "Ja — er is een speciale <strong>POTA-activatiemodus</strong>. Hij houdt een live contactlijst bij met roepletters en locators van jagers, toont een activatiekaart, detecteert park-tot-park (P2P) contacten, ondersteunt multi-park (two-fer) activaties, hervat als je de app sluit, en uploadt je log rechtstreeks naar POTA als je klaar bent."
+      },
+      "map": {
+        "q": "Is er een kaart?",
+        "a": "Die is er. Een speciaal kaart-tabblad zet de stations uit die je hoort en tekent het groot-cirkel-pad naar wie je werkt, met de afstand, de DX-locatie en grenzen van Amerikaanse staten. Kies je eenheden — mijlen of kilometers — in Instellingen."
+      },
+      "logging": {
+        "q": "Welke log- en spotdiensten ondersteunt hij?",
+        "a": "Wanneer een QSO afrondt, kan FT8AF hem automatisch uploaden naar <strong>Cloudlog / Wavelog</strong> en het <strong>QRZ</strong>-logboek, en spot hij elke decodering die je hoort naar <strong>PSKReporter</strong> zodat je station verschijnt op de propagatiekaarten. Je kunt ook ADIF exporteren. Elke dienst wordt één keer ingesteld in Instellingen en draait daarna op de achtergrond."
+      },
+      "ft8cn": {
+        "q": "Hoe verschilt dit van FT8CN?",
+        "a": "FT8AF is een fork van het uitstekende FT8CN die het vooruit brengt: een volledige Jetpack Compose / Material 3 donkere interface, een actieve QSO-monitor met bellerswachtrij en slimme jacht, <strong>FT4- en FT2-modes</strong> naast FT8, een wereldkaart met QSO-paden, <strong>POTA-activatiemodus</strong>, automatisch loggen naar Cloudlog, QRZ, Wavelog en PSKReporter, <strong>meertalige ondersteuning</strong> (het origineel was alleen Chinees), plus tientallen bugfixes over meerdere \"bug bash\"-rondes. De kern-decodeererfenis is die van FT8CN — wij hebben de ervaring eromheen gemoderniseerd en uitgebreid."
+      },
+      "languages": {
+        "q": "Welke talen ondersteunt FT8AF?",
+        "a": "FT8AF komt in <strong>16 talen</strong>: Engels (standaard), Grieks, Spaans, Japans, Frans, Russisch, Chinees, Italiaans, Pools, Koreaans, Nederlands, Tsjechisch, Turks, Indonesisch, Oekraïens en Arabisch (rechts naar links). De app detecteert automatisch de taal van je Android-toestel en wisselt vanzelf. Alle vertalingen zijn door de community bijgedragen — als je een taal wilt toevoegen of verbeteren, zijn pull requests welkom op <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHub</a>."
+      },
+      "who": {
+        "q": "Wie maakt FT8AF?",
+        "a": "Het wordt gebouwd door <a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">Patrick Burns (K1AF)</a> en <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">Reid (N0RC)</a> — veel ervan, berucht, op gevoel geprogrammeerd op de I-70 onderweg naar Hamvention. Enorme dank aan <strong>BG7YOZ</strong>, de oorspronkelijke auteur van FT8CN, en <strong>N0BOY</strong>, die de originele repository host. Niets hiervan bestaat zonder hen."
+      },
+      "contribute": {
+        "q": "Kan ik bijdragen of een bug melden?",
+        "a": "Graag. De code staat op <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHub</a> — open een issue voor bugs of functie-ideeën, stuur een pull request, of geef de repo gewoon een ster om te volgen. Veldverslagen van echt gebruik in de lucht zijn bijzonder welkom."
+      },
+      "updates": {
+        "q": "Blijft hij updates krijgen?",
+        "a": "Dat is het plan. De ontwikkeling is actief en doorlopend. De snelste manier om automatisch nieuwe builds te krijgen is de Google Play-versie; anders houd de Releases-pagina of de repo in de gaten. Wil je een seintje als er iets uitkomt? <a href=\"/#pricing\">Meld je aan voor de updatelijst</a> op de homepage."
+      }
+    },
+    "cta": {
+      "title": "Nog nieuwsgierig? Probeer hem gewoon.",
+      "ask": "Vraag het op GitHub"
+    }
+  },
+
+  "wiki": {
+    "meta": {
+      "title": "FT8AF — Wiki & hulp",
+      "description": "De FT8AF-wiki: een praktische gids om de app te gebruiken vanaf de eerste start tot een gelogd QSO, plus instructies om het debuglog op te halen en een nuttig bugrapport in te dienen.",
+      "ogTitle": "FT8AF — Wiki & hulp",
+      "ogDescription": "Leer FT8AF gebruiken: eerste verbinding, decoderen, zenden, loggen — plus hoe je het debuglog ophaalt en een bug meldt."
+    },
+    "hero": {
+      "eyebrow": "Wiki &amp; hulp",
+      "title": "Ga de lucht in,<br />of geef ons het log.",
+      "lede": "Twee korte gidsen. De ene neemt je mee door het gebruik van FT8AF vanaf de eerste start tot een gelogd QSO. De andere laat zien hoe je een debuglog vastlegt en een bugrapport indient waar we echt iets mee kunnen."
+    },
+    "cards": {
+      "using": {
+        "eyebrow": "01 · FT8AF gebruiken",
+        "title": "Hoe je de app bedient",
+        "body": "Sluit je set aan, stel je roepletters in, kies een band, decodeer het segment, voer dan een automatische-sequentie-QSO uit en zie hem zichzelf loggen. Stap voor stap, met screenshots.",
+        "li": [
+          "Eerste start &amp; rechten",
+          "USB CAT- &amp; audio-opzet",
+          "Decoderen, roepen en de QSO-monitor",
+          "Cloudlog- &amp; QRZ-autologgen"
+        ],
+        "cta": "Open de gids"
+      },
+      "bug": {
+        "eyebrow": "02 · Een bug gevonden?",
+        "title": "Geef ons het debuglog",
+        "body": "FT8AF schrijft elke keer dat hij draait een gestructureerd gebeurtenislog. Haal het in twee tikken van je telefoon, voeg het toe aan een GitHub-issue en we kunnen meestal precies aanwijzen wat er misging — in plaats van gokken.",
+        "li": [
+          "Waar je <code>debug.log</code> vindt",
+          "Deel het via Bestanden, Drive of e-mail",
+          "Wat je in de issue moet zetten",
+          "Geen telefoon? Geen probleem."
+        ],
+        "cta": "Bug melden"
+      }
+    },
+    "callout": {
+      "title": "Deze wiki is bewust kort.",
+      "body": "Als iets hier niet overeenkomt met wat je in de app ziet, is dat een documentatiebug — open een issue en we fixen het. Voor vraag-en-antwoord-achtige antwoorden (prijzen, ondersteunde radio's, de FT8CN-relatie) ga naar de <a href=\"/faq\">FAQ</a>."
+    },
+    "cta": {
+      "title": "Ergens vast waar de wiki niets over zegt?",
+      "lede": "Veldverslagen van echt gebruik in de lucht zijn het nuttigste wat we krijgen. Open een issue, vertel ons wat er gebeurde, voeg een log toe als je er een hebt.",
+      "openIssue": "Open een issue",
+      "browseFaq": "Blader door de FAQ"
+    }
+  },
+
+  "wikiUsing": {
+    "meta": {
+      "title": "FT8AF — De app gebruiken",
+      "description": "Een praktische doorloop van FT8AF: eerste start en rechten, USB CAT- en audio-opzet, de band decoderen, stations roepen, het automatische-sequentie-QSO en automatisch loggen naar Cloudlog en QRZ.",
+      "ogTitle": "FT8AF — De app gebruiken",
+      "ogDescription": "Een praktische doorloop: eerste start, USB CAT-opzet, de band decoderen, roepen, het automatische-sequentie-QSO en automatisch loggen."
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / FT8AF gebruiken",
+      "title": "Van eerste start<br />tot een gelogd QSO.",
+      "lede": "Als je ergens FT8 hebt gedraaid — WSJT-X, JTDX, FT8CN — komt het meeste hiervan je bekend voor. De kaart is alleen heringedeeld voor één hand. Lees het de eerste keer in één keer door; kom terug naar een sectie wanneer je hem nodig hebt."
+    },
+    "toc": {
+      "title": "Op deze pagina",
+      "items": [
+        "Installatie &amp; eerste start",
+        "Stel je roepletters &amp; locator in",
+        "Verbind je radio",
+        "Decodeer de band",
+        "Lees de waterfall",
+        "Roep een station",
+        "Voer de automatische sequentie uit",
+        "Loggen &amp; uploads",
+        "Veldtips"
+      ]
+    },
+    "s1": {
+      "h": "Installatie &amp; eerste start",
+      "p1": "Haal FT8AF van de <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">GitHub releases-pagina</a> als gratis APK, of van <a href=\"https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af\" target=\"_blank\" rel=\"noopener\">Google Play</a> voor $3.50 — de apps zijn identiek. Volledige installatie-instructies staan op de <a href=\"/download\">Download</a>-pagina.",
+      "p2": "De eerste keer dat je FT8AF opent, vraagt Android om twee rechten:",
+      "ul": [
+        "<strong>USB-apparaattoegang</strong> — nodig voor CAT-besturing en setaudio. Kies <em>Altijd</em> als je wilt dat de app automatisch opnieuw verbindt als je de kabel herinsteekt.",
+        "<strong>Microfoon</strong> — nodig als je ooit wilt decoderen vanaf de microfoon van de telefoon in plaats van een bekabelde radio. Je kunt dit weigeren als je alleen USB gebruikt."
+      ]
+    },
+    "s2": {
+      "h": "Stel je roepletters &amp; locator in",
+      "p1": "Open het tabblad <span class=\"tap\">Settings</span> en vul de operatorkaart bovenaan in. Deze twee velden sturen alles aan wat de app uitzendt, dus het loont om ze goed te zetten voordat je zendt.",
+      "cap": "<b>Settings → Operator.</b> Tik op een willekeurige rij om te bewerken. De locator biedt aan zichzelf in te vullen vanaf GPS als je locatie verleent.",
+      "dl": [
+        { "dt": "Roepletters", "dd": "Je gelicentieerde roepletters. Voeg portable-aanduidingen toe met een schuine streep (bijv. <code>K1AF/M</code>) als je mobiel of portable werkt." },
+        { "dt": "Locator", "dd": "Maidenhead-locator van 4 of 6 tekens (bijv. <code>FN42</code> of <code>FN42hk</code>). FT8AF biedt aan hem in te vullen vanaf GPS als locatie is verleend." },
+        { "dt": "Audiofrequentie", "dd": "Je zend-audiofrequentie in Hz, binnen het 3 kHz FT8-segment. <code>1500</code> is een verstandige startwaarde." },
+        { "dt": "TX-vertraging", "dd": "Milliseconden die de app wacht na PTT voordat hij tonen verzendt. <code>400</code> werkt voor de meeste CAT-bestuurde sets." }
+      ]
+    },
+    "s3": {
+      "h": "Verbind je radio",
+      "p1": "FT8AF praat met je set via één USB-C-verbinding — zowel CAT (frequentie, PTT) als audio (RX, TX) gaan over dezelfde kabel. Moderne Android-telefoons verbinden direct met USB-C; oudere toestellen hebben een USB-OTG-adapter nodig. Je telefoon moet de USB-host-modus ondersteunen.",
+      "cap": "<b>Settings → Radio.</b> Eén USB-C-kabel draagt CAT-besturing, audio en PTT.",
+      "steps": [
+        "<strong>Insteken.</strong> Sluit je telefoon aan op de USB-poort van de set. Android vraagt toestemming om met het apparaat te praten — accepteer het en vink <em>Altijd</em> aan zodat de app later opnieuw kan verbinden.",
+        "<strong>Kies je set.</strong> In <span class=\"tap\">Settings → Radio</span>, open de <em>Rig model</em>-kiezer en kies je transceiver (IC-7300, FT-891, IC-705, enz.). FT8AF bevat een fix die de FT-891 forceert naar 3000&nbsp;Hz bandbreedte in DATA-USB — dat hoef je niet zelf in te stellen.",
+        "<strong>Zet de besturingsmode op CAT.</strong> Kies onder <em>Control</em> voor <strong>CAT</strong>. (VOX, RTS en DTR zijn beschikbaar als je opstelling ze nodig heeft, maar CAT is wat je wilt met een moderne HF-set via USB.)",
+        "<strong>Bevestig CI-V / baudrate.</strong> De standaardwaarden komen meestal overeen — Icom-sets gebruiken standaard <code>A4</code> bij <code>115200</code>; Yaesu-sets hebben hun eigen conventies. Als CAT niet verbindt, is dit de eerste plek om te kijken.",
+        "<strong>Kies een band.</strong> Tik op de band-chip in het tabblad <span class=\"tap\">Decode</span> om te wisselen tussen de 160m–6m FT8-segmenten, of voer een aangepaste frequentie in via <em>Settings → Radio → Frequency</em>."
+      ],
+      "callout": {
+        "h": "Geen set? Je kunt nog steeds verkennen.",
+        "p": "Als je het microfoonrecht verleent, decodeert FT8AF de audio van de microfoon van de telefoon — houd hem bij een luidspreker die aan een FT8-actieve radio hangt en je ziet dezelfde decodeerlijst. Handig om de interface te leren voordat je CAT bekabelt."
+      }
+    },
+    "s4": {
+      "h": "Decodeer de band",
+      "p1": "Het tabblad <span class=\"tap\">Decode</span> is waar je de meeste van je bedrijfstijd doorbrengt. Elke 15 seconden, op de FT8-periodegrens, verwerkt de app het laatste slot audio en laat de nieuwe decoderingen in de lijst vallen. Stations krijgen statuslabels — <em>New DXCC</em>, <em>Needed</em>, <em>Worked</em>, <em>Confirmed</em> — zodat de band je in één oogopslag vertelt wat je moet jagen.",
+      "alt": "FT8AF Decode-tabblad op Android — Material 3 donkere interface met gedecodeerde rijen voor K7LNY, KF0X, KF6MIX, AK7LV en ND9M, elk met locator, afstand, signaalsterktebalken, SNR in dB, tijd sinds laatst gehoord, Amerikaanse staat en een NEW DXCC-label, boven de luisterende TX-balk op 10.136 MHz / 30m.",
+      "cap": "<b>Decode-tabblad.</b> Elke rij is een gedecodeerd station. Tik op een rij om dat station je QSO-doel te maken. Gebruik de chips bovenaan om te filteren — <em>All</em>, <em>CQ Calls</em>, <em>CQ POTA</em>, <em>New DXCC</em>, <em>Needed</em>.",
+      "p2": "Elke rij vertelt je:",
+      "dl": [
+        { "dt": "SNR / dB", "dd": "Signaal-ruisverhouding. Waarden van ruwweg <code>−24</code> (nauwelijks decodeerbaar) tot <code>+15</code> (zeer sterk)." },
+        { "dt": "Audio Hz", "dd": "Waar het signaal zich binnen het 3 kHz-segment bevindt. Tik op een rij of signaal in de waterfall om dit je TX-audiofrequentie te maken." },
+        { "dt": "Afstand", "dd": "Groot-cirkel-afstand van jouw locator tot het gedecodeerde station, wanneer hun locator bekend is." },
+        { "dt": "Statuslabel", "dd": "<span class=\"mono\">New DXCC</span> = entiteit die je nooit hebt gewerkt. <span class=\"mono\">Needed</span> = nodig op deze band/mode. <span class=\"mono\">Worked</span> = QSO afgerond maar nog niet bevestigd." },
+        { "dt": "↳ Naar jou", "dd": "Gemarkeerd in cyaan wanneer een station je direct antwoordt. Je ziet dit tijdens je eigen QSO's." }
+      ]
+    },
+    "s5": {
+      "h": "Lees de waterfall",
+      "p1": "Het tabblad <span class=\"tap\">Waterfall</span> toont de volledige 3 kHz FT8-doorlaatband in de tijd. De nieuwste audio staat bovenaan, de oudste onderaan — een dunne lijn markeert elke FT8-periodegrens met een UTC-tijdstempel ernaast getekend, zodat je de timing in één oogopslag leest.",
+      "cap": "<b>Waterfall.</b> Verticale strepen zijn signalen; tik op één om je TX-audiofrequentie op dat slot te zetten. Breedte-chips (Wide / 1.5 kHz / 500 Hz) laten je inzoomen op een druk segment.",
+      "p2": "<strong>Tik-om-af-te-stemmen.</strong> Tik op een zichtbaar signaal in de waterfall om je TX-audiofrequentie op dat slot te zetten. De TX-markering blijft vergrendeld op je werkelijke TX-audio dankzij de uitlijnfix in FT8AF."
+    },
+    "s6": {
+      "h": "Roep een station",
+      "p1": "Je hebt twee manieren om een QSO in te gaan:",
+      "steps": [
+        "<strong>Antwoord op een CQ.</strong> Tik op een <code>CQ</code>-rij in de decodeerlijst, of tik op het signaal van dat station in de waterfall. FT8AF zet een antwoord in de wachtrij en wacht op het volgende TX-slot.",
+        "<strong>Roep zelf CQ.</strong> Druk op de <span class=\"tap\">CQ</span>-knop op de TX-balk onderaan het scherm. Gebruik de TX1 / TX2-schakelaar om te kiezen op welk slot van 15 seconden je wilt zenden — meestal het lege."
+      ],
+      "p2": "Houd het paneel <strong>Active QSO monitor</strong> boven de TX-balk in de gaten. Het volgt wie je werkt en bij welke stap van de automatische sequentie je bent. Als meerdere stations op je CQ terugkomen, houdt de <strong>bellerswachtrij</strong> de anderen in de rij — je maakt het huidige QSO af in plaats van naar de luidste te springen."
+    },
+    "s7": {
+      "h": "Voer de automatische sequentie uit",
+      "p1": "FT8AF handelt de standaard FT8-uitwisseling automatisch af zodra je een doel hebt geselecteerd. Je ziet het paneel doorlopen:",
+      "cap": "<b>Active QSO monitor.</b> Stappen worden afgevinkt naarmate de uitwisseling vordert. Het paneel klapt in tot één regel wanneer er geen actief contact is.",
+      "p2": "Als je midden in een QSO moet stoppen, tik op <span class=\"tap\">Stop</span> op de TX-balk — de app leegt de wachtrij en gaat terug naar luisteren. Met de TX1 / TX2-slotschakelaar wissel je van zendperiode zonder je doel te verliezen."
+    },
+    "s8": {
+      "h": "Loggen &amp; uploads",
+      "p1": "Elk afgerond QSO wordt naar het <span class=\"tap\">Logbook</span>-tabblad op het toestel geschreven. Als je uploaddiensten hebt geconfigureerd, vliegt hij ook naar ze toe op het moment dat het contact sluit — geen ADIF-export, geen roepletters met de hand overschrijven aan het eind van de avond.",
+      "cap": "<b>Logbook.</b> Badges tonen welke diensten elke upload accepteerden. Mislukte uploads blijven zichtbaar met een herhaalindicator tot ze slagen.",
+      "cloudlog": "Open <em>Settings → Cloudlog</em>, plak je Cloudlog-URL en API-sleutel, en schakel de dienst in. Nieuwe QSO's uploaden automatisch. Als een contact niet uploadt, blijft hij in het logboek met een herhaalindicator.",
+      "qrz": "Open <em>Settings → QRZ</em>, log in met je QRZ Logbook API-sleutel en schakel uploads in. Hetzelfde automatische gedrag als Cloudlog.",
+      "both": "Je kunt beide tegelijk gebruiken — de meeste operators doen dat, met Cloudlog als hoofdlog en QRZ voor zichtbaarheid."
+    },
+    "s9": {
+      "h": "Veldtips",
+      "ul": [
+        "<strong>Zet je klok vanaf het netwerk</strong> voor elke sessie. FT8 eist nauwkeurige timing — de automatische tijd van Android is meestal prima; ben je ergens zonder bereik, synchroniseer dan via GPS of NTP.",
+        "<strong>Gebruik de hardware-volumeknoppen</strong> om het TX-driveniveau midden in een QSO in te stellen. FT8AF koppelt ze aan het TX-volume zodat je niet hoeft te prutsen met de schuifregelaar op het scherm tijdens het zenden.",
+        "<strong>Houd de QSO-monitor in de gaten</strong> als het druk is. De bellerswachtrij voorkomt de klassieke chaos van \"twee stations denken allebei dat je op hen terugkwam\".",
+        "<strong>Gebruik het tabblad <span class=\"tap\">Map</span></strong> om openingen visueel te spotten — CQ-roepers krijgen een megafoonmarkering, zodat je ziet welke paden binnenkomen zonder de decodeerlijst af te scrollen.",
+        "<strong>Geef de GitHub-repo een ster</strong> als je een seintje wilt wanneer een nieuwe release verschijnt. Of pak de Play Store-versie en updates gebeuren vanzelf."
+      ],
+      "callout": {
+        "h": "Iets gedraagt zich niet?",
+        "p": "Lees de volgende pagina: die loodst je door het vastleggen van het debuglog zodat we echt kunnen repareren wat je tegenkwam. <a href=\"/wiki/bug-reports\">Een bug melden →</a>"
+      }
+    },
+    "pager": {
+      "prevLabel": "← Terug",
+      "prevTitle": "Wiki-index",
+      "nextLabel": "Volgende →",
+      "nextTitle": "Een bug melden"
+    }
+  },
+
+  "wikiBug": {
+    "meta": {
+      "title": "FT8AF — Een bug melden",
+      "description": "Hoe je het debuglog van FT8AF op je Android-toestel vindt, het deelt met de ontwikkelaars via GitHub of e-mail, en een bugrapport schrijft dat echt tot een fix leidt.",
+      "ogTitle": "FT8AF — Een bug melden",
+      "ogDescription": "Hoe je het debuglog van FT8AF van je telefoon haalt en een nuttige issue op GitHub indient. Bevat een kant-en-klare issue-sjabloon."
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / Een bug melden",
+      "title": "Geef ons het log,<br />en we kunnen het fixen.",
+      "lede": "FT8AF schrijft elke keer dat hij draait een gestructureerd gebeurtenislog — CAT-serieel verkeer, USB-insteekgebeurtenissen, automatische verbindingspogingen, bandwissels. De meeste veldbugs belanden daarin. Haal het van je telefoon, gooi het in een GitHub-issue, klaar."
+    },
+    "toc": {
+      "title": "Op deze pagina",
+      "items": [
+        "Wat er in het log staat",
+        "Ontgrendel de debugmodus",
+        "Open Debug &amp; deel",
+        "Terugval: Bestanden-app",
+        "Terugval: ADB",
+        "Schrijf de issue",
+        "Issue-sjabloon",
+        "Als de app crashte",
+        "Privacy"
+      ]
+    },
+    "s1": {
+      "h": "Wat er in het log staat",
+      "p1": "FT8AF houdt een roterend tekstbestand genaamd <code>debug.log</code> bij in zijn app-datamap. Het legt dingen vast als:",
+      "ul": [
+        "USB-insteek- / uittrekgebeurtenissen en welk CAT-apparaat overeenkwam",
+        "Automatische verbindingspogingen en eventuele mislukkingen",
+        "CAT-seriële frames verzonden naar en ontvangen van de set",
+        "Band- en frequentiewissels",
+        "Levenscyclusgebeurtenissen bij het starten en stoppen van de app"
+      ],
+      "p2": "Het is platte tekst, veilig om te lezen, en bevat geen wachtwoorden of upload-API-sleutels. Zie de <a href=\"#privacy\">privacy</a>-sectie hieronder als je het wilt doornemen voor je het deelt."
+    },
+    "s2": {
+      "h": "Ontgrendel de debugmodus",
+      "p1": "De makkelijkste manier om het log te halen gebruikt een in-app debugscherm — geen computer, geen bestandsbeheerder, geen rechten op de Android-data-map. Het scherm is standaard verborgen en je ontgrendelt het net als de ontwikkelaarsopties van Android: tik zeven keer op het versieblok.",
+      "steps": [
+        "Open het tabblad <span class=\"tap\">Settings</span> in FT8AF.",
+        "Scroll naar de onderkant — de sectie <strong>ABOUT</strong>.",
+        "Tik op <strong>FAQ &amp; Support</strong>. De About-dialoog opent en toont de app-versie en een beschrijving die begint met \"FT8, made easy.\"",
+        "Tik <strong>zeven keer achter elkaar</strong> op die beschrijvingstekst. Na de zevende tik schakelt de debugmodus aan en blijft hij behouden tussen starts.",
+        "Sluit de About-dialoog. Er verschijnt nu een nieuwe <span class=\"tap\">Debug</span>-rij in de ABOUT-sectie, vlak onder <em>FAQ &amp; Support</em>."
+      ],
+      "cap": "<b>Na het ontgrendelen</b> — de Debug-rij verschijnt in de ABOUT-sectie. Zodra de debugmodus aan is, blijft hij aan tot je hem weer uitzet (tik nog zeven keer op de beschrijving om hem uit te schakelen)."
+    },
+    "s3": {
+      "h": "Open Debug &amp; deel",
+      "p1": "Tik op de nieuwe <span class=\"tap\">Debug</span>-rij. Een schermvullende logviewer opent en toont live de laatste paar honderd regels van <code>debug.log</code> — hij ververst elke paar seconden en scrollt automatisch naar de onderkant.",
+      "cap": "<b>Debugscherm.</b> Tik op <strong>Share</strong> om het deelmenu van Android te openen met <code>debug.log</code> al bijgevoegd. Kies Gmail, Outlook, Drive, Bestanden — wat je ook wilt om het te verzenden.",
+      "p2": "Vanaf de bovenste werkbalk:",
+      "dl": [
+        { "dt": "Share", "dd": "Opent het deelmenu van Android met <code>debug.log</code> bijgevoegd als tekstbestand (onderwerp \"FT8AF debug.log\"). Kies Gmail om het ons direct te mailen, of een app die bijlagen aankan — Drive, Outlook, Slack, Signal, Telegram, de systeem-app Bestanden, allemaal werken ze." },
+        { "dt": "Clear", "dd": "Verwijdert het huidige log. Handig als je opnieuw wilt beginnen voor je een bug reproduceert — druk gewoon op Clear, verlaat de dialoog, reproduceer het probleem, kom terug en deel. Het kortere log maakt het makkelijker voor ons om de relevante gebeurtenissen te zien." },
+        { "dt": "Logcat: ON / OFF", "dd": "Wanneer ON, voegt de viewer ook recente <code>logcat</code>-uitvoer van het eigen proces van de app toe — handig wanneer een crash of audiobug niet volledig in <code>debug.log</code> is vastgelegd. De logcat-staart gaat mee wanneer je op Share tikt." }
+      ],
+      "callout": {
+        "h": "Stuur het direct naar ons.",
+        "p": "Wanneer het deelmenu verschijnt, kies je mail-app en richt het aan wie aan de issue werkt — de operators zijn <a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">K1AF</a> en <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">N0RC</a> (adressen op QRZ). Nog beter: open eerst een GitHub-issue, deel dan het log via de e-mail of cloud-snelkoppeling die je wilt en plak de link of bijlage in de issue-thread zodat het openbaar blijft."
+      }
+    },
+    "s4": {
+      "h": "Terugval: Bestanden-app",
+      "p1": "Als je om een of andere reden niet bij het in-app Debugscherm kunt komen — oude build, het ontgrendelen lukte niet, je gebruikt liever de bestandsbeheerder — staat het logbestand ook op schijf in:",
+      "steps": [
+        "Open de app <strong>Bestanden</strong> (of <strong>Mijn bestanden</strong>) op je telefoon.",
+        "Navigeer naar <strong>Interne opslag → Android → data</strong>. Op sommige toestellen verbergt Android deze map standaard; tik op het menu met drie puntjes en schakel <em>Verborgen bestanden tonen</em> of <em>Systeemmappen</em> in.",
+        "Open de map genaamd <code>com.bg7yoz.ft8cn</code>, dan <code>files</code>. Je zou <code>debug.log</code> erin moeten zien.",
+        "Houd <code>debug.log</code> ingedrukt en tik op <strong>Delen</strong>."
+      ],
+      "callout": {
+        "h": "Android 11+ kan <code>/Android/data</code> in Bestanden blokkeren.",
+        "p": "Als je <code>com.bg7yoz.ft8cn</code> niet in de data-map ziet op een recente Android, installeer dan een externe bestandsbeheerder als <strong>Material Files</strong> of <strong>Solid Explorer</strong> uit de Play Store — beide kunnen app-datamappen lezen. Of, makkelijker: gebruik het in-app Debugscherm hierboven, dat dit helemaal omzeilt."
+      }
+    },
+    "s5": {
+      "h": "Terugval: ADB",
+      "p1": "Voor ontwikkelaars met een computer en Androids <code>adb</code>-tool:",
+      "steps": [
+        "Schakel op je telefoon <strong>Ontwikkelaarsopties → USB-foutopsporing</strong> in.",
+        "Sluit de telefoon via USB aan op je computer, accepteer de foutopsporingsautorisatieprompt.",
+        "Bevestig vanuit een terminal dat de telefoon zichtbaar is:",
+        "Haal het log op:"
+      ],
+      "steps3b": "Bij opstellingen met meerdere apparaten, richt je expliciet op de telefoon met <code>-s &lt;serial&gt;</code>."
+    },
+    "s6": {
+      "h": "Schrijf de issue",
+      "p1": "Een nuttig bugrapport is klein — drie of vier korte alinea's zijn genoeg. Het patroon dat altijd werkt:",
+      "steps": [
+        "<strong>Wat deed je?</strong> \"Mijn FT-891 ingestoken, CQ getikt op 20m.\" Concrete acties op volgorde. Geen noodzaak om de app te beschrijven — alleen wat je tikte.",
+        "<strong>Wat verwachtte je dat er zou gebeuren?</strong> \"Ik verwachtte dat de set zou zenden en de app tonen zou gaan verzenden op 14.074.\"",
+        "<strong>Wat gebeurde er werkelijk?</strong> \"De TX-balk bleef op LISTENING. Geen PTT, geen tonen.\" Als er iets op het scherm verscheen — foutmelding, bevroren interface, rare waterfall — beschrijf het. Een screenshot is goud waard.",
+        "<strong>Hoe vaak?</strong> Elke keer? Alleen nadat de telefoon in slaap ging? Alleen op 6m? Alles wat je kunt vastpinnen versmalt de zoektocht.",
+        "<strong>Voeg het log toe.</strong> Haal <code>debug.log</code> direct na het reproduceren van het probleem — de meest recente regels zijn het nuttigst."
+      ]
+    },
+    "s7": {
+      "h": "Issue-sjabloon",
+      "p1": "Kopieer dit naar een nieuwe issue en vul de gaten in:"
+    },
+    "s8": {
+      "h": "Als de app crashte",
+      "p1": "Wanneer FT8AF helemaal crasht, houdt Android een apart crashrapport bij. Twee plekken om te kijken:",
+      "ul0": "Als je hem van <strong>Google Play</strong> kreeg, kies dan één keer voor anonieme crashrapportage en wij zien de stack trace automatisch. Je hoeft niets te doen — maar het toevoegen van \"Ik heb net een crashrapport verzonden vanaf toestel X rond &lt;tijd&gt;\" aan de issue helpt ons het te koppelen.",
+      "ul1": "Als je ADB beschikbaar hebt, bevat het live systeemlog meestal de crash trace vlak nadat hij gebeurt:",
+      "ul1b": "Voeg <code>logcat.txt</code> toe naast <code>debug.log</code>."
+    },
+    "s9": {
+      "h": "Privacy",
+      "p1": "Het debuglog is gewoon tekst. Het legt de bedrijfsgebeurtenissen van de app vast, niet je persoonlijke gegevens. Je ziet regels als:",
+      "p2": "Wat er <em>niet</em> in staat: Cloudlog- of QRZ-API-sleutels, je accountwachtwoorden, foto's, contacten of locatie. Je roepletters en locator staan er <em>wel</em> in, omdat die je station identificeren — maar dat is toch openbare informatie voor gelicentieerde zendamateurs.",
+      "p3": "Als je het wilt doornemen of redigeren voor je het verstuurt, het bestand is platte UTF-8-tekst. Elke teksteditor opent het.",
+      "callout": {
+        "h": "Bedankt voor de moeite.",
+        "p": "Echte veldverslagen — \"deze set, deze kabel, deze band, dit is wat er gebeurde\" — zijn hoe deze fork beter wordt. Twee bug-bash-rondes en 58+ fixes begonnen met rapporten precies zoals dat wat jij op het punt staat in te dienen. 73."
+      }
+    },
+    "pager": {
+      "prevLabel": "← Vorige",
+      "prevTitle": "FT8AF gebruiken",
+      "nextLabel": "Openen →",
+      "nextTitle": "Nieuwe issue op GitHub"
+    }
+  }
+}

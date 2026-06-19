@@ -3,3 +3,27 @@
 node_modules/
 __pycache__/
 *.pyc
+
+# Generated HTML — built from src/ by `node build.mjs`. Static assets in
+# public/assets/ are committed; everything else under public/ is a build artifact.
+/public/*.html
+/public/sitemap.xml
+/public/el/
+/public/es/
+/public/ja/
+/public/fr/
+/public/ru/
+/public/zh/
+/public/it/
+/public/pl/
+/public/ko/
+/public/nl/
+/public/cs/
+/public/tr/
+/public/id/
+/public/uk/
+/public/ar/
+/public/wiki/
+
+# Local parity-check snapshot
+/.orig-snapshot/
