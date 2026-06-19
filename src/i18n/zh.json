@@ -161,8 +161,7 @@
           "用于竞赛 &amp; 扎堆的 FT8（15 秒）和更快的 FT4（7.5 秒）",
           "拥有自身规范频率的实验性 FT2 模式",
           "用于 FT8 的 Fox &amp; Hound（DX 探险）操作"
-        ],
-        "alt": "FT8AF 的解码标签页：实时显示已解码电台的列表 —— K7LNY、KF0X、KF6MIX、AK7LV、ND9M —— 每个都带有网格定位、距离、信号强度条、以 dB 表示的 SNR、距上次收到的时间、美国州名和 NEW DXCC 标记，并带有 Hunt / Call CQ / TX1 控件以及在 10.136 MHz / 30m 上侦听的 TX 条。"
+        ]
       },
       "qso": {
         "eyebrow": "03 · 操作",

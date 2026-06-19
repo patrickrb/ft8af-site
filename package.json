@@ -4,6 +4,7 @@
   "type": "module",
   "description": "Static-site generator for ft8af.app — renders localized HTML from templates + message catalogs.",
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node build.mjs",
+    "check:i18n": "node .github/scripts/check-i18n.mjs"
   }
 }

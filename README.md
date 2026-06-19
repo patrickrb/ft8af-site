@@ -35,6 +35,11 @@ public/**/*.html     # GENERATED — git-ignored, do not edit by hand
 - Edit English in `src/i18n/en.json`, then mirror the change into the other catalogs.
 - Any key missing from a locale catalog **falls back to English**, so a partial
   translation still renders a complete page.
+- Check coverage with `npm run check:i18n` (also runs in CI). It compares every
+  catalog to `en.json` and **fails on structural drift** — keys a locale has that
+  `en.json` doesn't, or string-vs-object shape mismatches — while only *warning* about
+  missing/verbatim strings (those fall back to English). Add `--strict` (or
+  `--min <pct>`) to also gate on translation coverage.
 - Values may contain inline HTML (`<a>`, `<strong>`, `<code>`); they are emitted raw, so
   keep them valid HTML fragments.
 - Internal links are written English-style (`/features`) in templates and rewritten to the
