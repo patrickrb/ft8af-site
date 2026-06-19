@@ -9,5 +9,8 @@
   },
   "dependencies": {
     "@vercel/functions": "^3.7.1"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

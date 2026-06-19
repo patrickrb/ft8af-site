@@ -9,7 +9,7 @@
 //
 // No dependencies — run with `node build.mjs`.
 
-import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -19,9 +19,6 @@ import { PAGES } from './src/pages/_registry.mjs';
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const OUT = join(ROOT, 'public');
 const I18N = join(ROOT, 'src', 'i18n');
-
-const LOCALE_CODES = LOCALES.map((l) => l.code);
-const LOCALE_SET = new Set(LOCALE_CODES);
 
 // ───────────────────────── catalogs ─────────────────────────
 

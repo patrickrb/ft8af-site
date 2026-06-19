@@ -65,8 +65,8 @@ Deep links (`/features`, `/es`, …) are never redirected. The redirect is per-v
 (`Cache-Control: no-store`, `Vary: Accept-Language, Cookie`), so the static `/` and
 `/<locale>` pages stay fully cacheable. The picker always wins — choosing English at
 `/` sets `locale=en` and stops the redirect — so there's an escape hatch from any
-auto-detected language. Keep the `LOCALES` list in `middleware.js` in sync with
-`src/data/site.mjs`.
+auto-detected language. The middleware derives its locale list from
+`src/data/site.mjs`, so there's nothing to keep in sync.
 
 ## Deploy
 

@@ -32,11 +32,13 @@ const minCoverage = minArg >= 0 ? Number(argv[minArg + 1]) : strict ? 100 : 0;
 // ───────────────────────── helpers ─────────────────────────
 
 // Flatten a nested catalog into a Map of dotted leaf paths → value. Arrays are
-// treated as leaves (the catalogs only use strings, but this keeps us honest).
+// descended by index (points.0, cards.1.title, …) so the comparison operates on
+// the actual string leaves — and a locale that drops or adds an array item shows
+// up as a missing/extra key rather than being hidden behind an opaque array.
 function flatten(obj, prefix = '', out = new Map()) {
   for (const [k, v] of Object.entries(obj)) {
     const key = prefix ? `${prefix}.${k}` : k;
-    if (v && typeof v === 'object' && !Array.isArray(v)) flatten(v, key, out);
+    if (v && typeof v === 'object') flatten(v, key, out); // objects AND arrays
     else out.set(key, v);
   }
   return out;

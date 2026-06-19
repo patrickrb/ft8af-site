@@ -10,11 +10,11 @@
 // Deep links (/features, /es, /es/features, …) are intentionally left untouched.
 
 import { next } from '@vercel/functions';
+import { LOCALES } from './src/data/site.mjs';
 
-// Locale codes that have a build. `en` lives at the site root; the rest under /<code>.
-// Keep this in sync with LOCALES in src/data/site.mjs.
-const LOCALES = ['en', 'el', 'es', 'ja', 'fr', 'ru', 'zh', 'it', 'pl', 'ko', 'nl', 'cs', 'tr', 'id', 'uk', 'ar'];
-const SUPPORTED = new Set(LOCALES);
+// Locale codes that have a build, derived from the single source of truth so the
+// two can't drift. `en` lives at the site root; the rest under /<code>.
+const SUPPORTED = new Set(LOCALES.map((l) => l.code));
 
 export default function middleware(request) {
   const url = new URL(request.url);

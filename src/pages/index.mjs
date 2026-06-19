@@ -81,7 +81,7 @@ function jsonld(t) {
 const LOCALE_INLANG = {
   en: 'en-US', el: 'el-GR', es: 'es-ES', ja: 'ja-JP', fr: 'fr-FR', ru: 'ru-RU',
   zh: 'zh-CN', it: 'it-IT', pl: 'pl-PL', ko: 'ko-KR', nl: 'nl-NL', cs: 'cs-CZ',
-  tr: 'tr-TR', id: 'id-ID', uk: 'uk-UA', ar: 'ar-AR',
+  tr: 'tr-TR', id: 'id-ID', uk: 'uk-UA', ar: 'ar',
 };
 
 export default {
