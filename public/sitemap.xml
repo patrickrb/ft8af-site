@@ -1,45 +1,2243 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ft8af.app/</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/el</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/fr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/zh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/pl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/nl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/cs</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/tr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/id</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/uk</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/" />
   </url>
   <url>
     <loc>https://ft8af.app/features</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/el/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/es/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ja/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/fr/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ru/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/zh/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/it/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/pl/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ko/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/nl/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/cs/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/tr/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/id/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/uk/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ar/features</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
   </url>
   <url>
     <loc>https://ft8af.app/download</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
   </url>
   <url>
-    <loc>https://ft8af.app/wiki</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://ft8af.app/el/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
   </url>
   <url>
-    <loc>https://ft8af.app/wiki/using</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://ft8af.app/es/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
   </url>
   <url>
-    <loc>https://ft8af.app/wiki/bug-reports</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://ft8af.app/ja/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/fr/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ru/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/zh/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/it/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/pl/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ko/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/nl/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/cs/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/tr/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/id/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/uk/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ar/download</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/download" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/download" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/download" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/download" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/download" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/download" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/download" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/download" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/download" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/download" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/download" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/download" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/download" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/download" />
   </url>
   <url>
     <loc>https://ft8af.app/faq</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/el/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/es/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ja/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/fr/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ru/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/zh/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/it/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/pl/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ko/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/nl/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/cs/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/tr/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/id/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/uk/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ar/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/faq" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/faq" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/faq" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/faq" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/faq" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/faq" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/faq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/faq" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/el/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/es/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ja/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/fr/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ru/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/zh/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/it/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/pl/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ko/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/nl/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/cs/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/tr/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/id/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/uk/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ar/wiki</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/el/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/es/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ja/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/fr/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ru/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/zh/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/it/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/pl/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ko/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/nl/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/cs/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/tr/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/id/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/uk/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ar/wiki/using</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/using" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/using" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/el/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/es/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ja/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/fr/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ru/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/zh/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/it/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/pl/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ko/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/nl/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/cs/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/tr/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/id/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/uk/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
+  </url>
+  <url>
+    <loc>https://ft8af.app/ar/wiki/bug-reports</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ft8af.app/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://ft8af.app/el/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ft8af.app/es/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://ft8af.app/it/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://ft8af.app/id/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/wiki/bug-reports" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ft8af.app/wiki/bug-reports" />
   </url>
 </urlset>

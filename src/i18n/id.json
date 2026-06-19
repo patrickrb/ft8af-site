@@ -1,0 +1,779 @@
+{
+  "common": {
+    "nav": {
+      "home": "Beranda",
+      "features": "Fitur",
+      "download": "Unduh",
+      "wiki": "Wiki",
+      "faq": "FAQ",
+      "github": "GitHub",
+      "star": "Bintang",
+      "getFree": "Dapatkan gratis",
+      "menu": "Menu"
+    },
+    "langLabel": "Bahasa",
+    "ogImageAlt": "FT8AF — Kerjakan dunia dari saku Anda. FT8 di Android.",
+    "btn": {
+      "downloadFt8af": "Unduh FT8AF",
+      "starGithub": "Beri bintang di GitHub",
+      "joinDiscord": "Gabung Discord"
+    },
+    "footer": {
+      "tagline": "FT8 di Android, dimodernkan. Fork komunitas dari FT8CN, dibuat untuk penggunaan nyata di udara.",
+      "product": "Produk",
+      "project": "Proyek",
+      "operators": "Operator",
+      "community": "Komunitas",
+      "bottom": "© 2026 FT8AF · GPL-3.0 · Di atas bahu BG7YOZ &amp; N0BOY",
+      "links": {
+        "googlePlay": "Google Play",
+        "repo": "Repositori GitHub",
+        "releases": "Rilis",
+        "reportBug": "Laporkan bug",
+        "originalFt8cn": "FT8CN asli",
+        "k1af": "Patrick · K1AF",
+        "n0rc": "Reid · N0RC",
+        "discord": "Discord"
+      }
+    }
+  },
+
+  "index": {
+    "meta": {
+      "title": "FT8AF — FT8 untuk Android",
+      "description": "FT8AF menjalankan FT8, FT4, dan FT2 secara native di ponsel atau tablet Android Anda. Dekode band, kendalikan radio lewat USB CAT, petakan jalur QSO, aktivasi taman untuk POTA, dan kerjakan dunia dari mana saja. Gratis dan sumber terbuka.",
+      "ogTitle": "FT8AF — Kerjakan dunia dari saku Anda",
+      "ogDescription": "FT8 native di Android. Dekode band, kendalikan radio lewat USB CAT, dan jalankan urutan otomatis penuh. Gratis dan sumber terbuka."
+    },
+    "appDescription": "FT8AF menjalankan FT8, FT4, dan FT2 secara native di Android. Dekode dan waterfall langsung, kendali USB CAT untuk 75+ radio, monitor QSO urutan otomatis, peta dunia dengan jalur QSO, mode aktivasi POTA, pencatatan otomatis ke Cloudlog, QRZ, Wavelog, dan PSKReporter, peringatan DX yang dicari, antarmuka 16 bahasa, Material 3 gelap.",
+    "hero": {
+      "eyebrow": "FT8 · Android native",
+      "title": "Kerjakan dunia<br />dari saku Anda.",
+      "lede": "FT8AF mendekode band, mengendalikan radio lewat USB CAT, dan menjalankan\n        urutan otomatis penuh — semuanya secara native di ponsel atau tablet Android Anda. Tanpa laptop. Tanpa\n        kerumitan kartu suara. Hanya radio Anda dan kabel USB-C.",
+      "ctaGithub": "Dapatkan gratis di GitHub",
+      "ctaPlay": "$3.50 di Google Play",
+      "pillFree": "Gratis dan sumber terbuka",
+      "pillFork": "Fork dari FT8CN",
+      "deviceAlt": "Tab Dekode FT8AF di Android: daftar langsung stasiun yang didekode — K7LNY, KF0X, KF6MIX, AK7LV, ND9M — masing-masing dengan lokator, jarak, batang kekuatan sinyal, SNR dalam dB, waktu sejak terakhir terdengar, negara bagian AS, dan label NEW DXCC, dengan kontrol Hunt / Call CQ / TX1 dan strip TX yang sedang mendengarkan di 10.136 MHz / 30m."
+    },
+    "trust": {
+      "modes": "Mode<br />FT8 · FT4 · FT2",
+      "rigs": "Model radio<br />lewat USB CAT",
+      "pota": "Mode aktivasi<br />bawaan",
+      "map": "Peta dunia<br />+ jalur QSO",
+      "langs": "Bahasa<br />bawaan"
+    },
+    "features": {
+      "eyebrow": "Dibuat untuk udara",
+      "title": "Semua yang Anda butuhkan untuk<br />mengerjakan band — di ponsel.",
+      "cta": "Jelajahi semua fitur",
+      "cards": [
+        { "title": "Dekode FT8, FT4 &amp; FT2", "body": "Waterfall yang bergulir terus-menerus dengan stempel waktu UTC di setiap periode, label ketuk-untuk-menala, dan dekode dalam milidetik — kini di tiga mode." },
+        { "title": "Peta dunia &amp; jalur QSO", "body": "Tab peta bawaan memplot setiap dekode dan menggambar jalur lingkaran besar ke kontak Anda — dengan jarak, lokasi DX, dan batas negara bagian AS." },
+        { "title": "Monitor QSO aktif &amp; perburuan", "body": "Lacak kontak melalui seluruh urutan otomatis, dengan antrean pemanggil, mode Hunt, Auto-CQ, kesadaran CQ terarah, dan peringatan DX yang dicari." },
+        { "title": "Mode aktivasi POTA", "body": "Jalankan aktivasi taman dari awal hingga akhir — daftar kontak langsung, dukungan two-fer / multi-taman, peta aktivasi, dan unggah langsung ke POTA." },
+        { "title": "USB CAT untuk 75+ radio", "body": "Kendalikan radio Anda dengan satu kabel USB-C — CAT, audio, perataan ALC otomatis, dan proteksi SWR — di 75+ Icom, Yaesu, Kenwood, Xiegu, dan lainnya." },
+        { "title": "Log di mana saja, otomatis", "body": "Begitu sebuah QSO selesai, ia diunggah ke Cloudlog, QRZ, dan Wavelog — dan setiap dekode yang Anda dengar dilaporkan ke PSKReporter." },
+        { "title": "Antarmuka multibahasa", "body": "Enam belas bahasa — dari Inggris dan Spanyol hingga Korea, Ukraina, dan Arab kanan-ke-kiri — dengan kontribusi komunitas yang disambut." }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "Dapatkan FT8AF",
+      "title": "Gratis selamanya.<br />Atau $3.50 untuk memberinya makan.",
+      "lede": "Aplikasi yang sama, dengan cara apa pun. Versi Play Store hanya membuat pembaruan otomatis — dan ikut menyumbang untuk sesi debugging perjalanan berikutnya.",
+      "free": {
+        "tag": "Sumber terbuka",
+        "title": "Gratis dari GitHub",
+        "body": "Aplikasi lengkap, berlisensi GPL dan dikembangkan secara terbuka. Ambil APK-nya atau bangun sendiri.",
+        "li": [
+          "Setiap fitur, tanpa batas",
+          "Sideload APK terbaru",
+          "Bangun dari sumber dengan Gradle",
+          "Baca, fork &amp; berkontribusi pada kode"
+        ],
+        "cta": "Lihat di GitHub"
+      },
+      "paid": {
+        "flag": "Mendukung proyek",
+        "tag": "Google Play",
+        "per": "sekali bayar",
+        "title": "Dukung proyek",
+        "body": "Aplikasi identik, dikirim melalui Play Store — agar tetap mutakhir tanpa Anda menggerakkan jari.",
+        "li": [
+          "Pembaruan otomatis di latar belakang",
+          "Pasang sekali ketuk, tanpa sideload",
+          "Build terverifikasi Play Protect",
+          "Mendanai pengembangan secara langsung"
+        ],
+        "cta": "Dapatkan di Google Play"
+      },
+      "note": "Jalur uji internal · Anda mungkin perlu bergabung dengan daftar penguji lebih dahulu.",
+      "noteLink": "Selengkapnya di FAQ →"
+    },
+    "story": {
+      "eyebrow": "73 dari jalan",
+      "quote": "Sebagian besar FT8AF dikodekan secara intuitif di I-70 pada 70&nbsp;mph, dalam perjalanan ke dan dari Hamvention —\n      laptop di kursi penumpang, radio di belakang, Claude dalam putaran.",
+      "quoteMuted": "Sebagian debugging terbaik terjadi pada kecepatan tol."
+    },
+    "cta": {
+      "eyebrow": "Tetap terhubung",
+      "title": "Dapatkan catatan build &amp;<br />kabar fitur baru.",
+      "lede": "Volume rendah. Catatan rilis, laporan lapangan, dan sesekali \"kami memperbaiki hal yang membuat FT-891 Anda crash\". Berhenti berlangganan kapan saja.",
+      "emailLabel": "Alamat email",
+      "emailPlaceholder": "anda@callsign.radio",
+      "submit": "Beri tahu saya",
+      "or": "atau",
+      "starRepo": "★ beri bintang repo",
+      "joinDiscord": "gabung Discord",
+      "done": "Anda ada di daftar."
+    }
+  },
+
+  "features": {
+    "meta": {
+      "title": "FT8AF — Fitur",
+      "description": "Dekode FT8, FT4, dan FT2 dengan waterfall berkelanjutan, monitor QSO aktif dengan perburuan cerdas dan peringatan DX yang dicari, peta dunia dengan jalur QSO, mode aktivasi POTA, kendali USB CAT untuk 75+ radio, pencatatan otomatis ke Cloudlog, QRZ, Wavelog, dan PSKReporter, serta dukungan multibahasa dalam 16 bahasa, termasuk Arab kanan-ke-kiri.",
+      "ogTitle": "FT8AF — Stasiun FT8 lengkap, dibangun ulang untuk Android",
+      "ogDescription": "Dekode FT8/FT4/FT2, monitor QSO aktif, peta dunia dengan jalur QSO, aktivasi POTA, USB CAT untuk 75+ radio, dan pencatatan otomatis ke Cloudlog, QRZ, Wavelog & PSKReporter."
+    },
+    "hero": {
+      "eyebrow": "Rangkaian fitur",
+      "title": "Stasiun FT8 lengkap,<br />dibangun ulang untuk Android.",
+      "lede": "Setiap bagian dari putaran operasi — dekode, bidik, pancarkan, catat — dikerjakan ulang dalam antarmuka Jetpack Compose yang cepat dan diperkuat lewat dua putaran perburuan bug. Inilah isinya."
+    },
+    "rows": {
+      "spectrum": {
+        "eyebrow": "01 · Spektrum",
+        "title": "Dekode band langsung &amp; waterfall",
+        "body": "Amati seluruh passband 3&nbsp;kHz sekaligus. Waterfall bergulir terus-menerus dengan stempel waktu UTC di setiap batas periode, sehingga Anda membaca propagasi dalam sekejap dan menerkam begitu stasiun yang dicari muncul.",
+        "points": [
+          "Gulir berkelanjutan dengan penanda waktu di setiap periode",
+          "Strip spektrum lebih tinggi, lebar &amp; zoom yang dapat diatur (Lebar → 500&nbsp;Hz)",
+          "Ketuk sinyal untuk menala; penanda TX tetap selaras; dekode sampah disaring"
+        ],
+        "alt": "Tab Waterfall FT8AF: spektrogram band penuh dengan callsign terdekode tercetak vertikal pada sinyalnya, penanda frekuensi TX, stempel waktu UTC, dan spanduk status QSO aktif bertuliskan 'New state: NM · KE7WVV DM56 −4 dB'."
+      },
+      "modes": {
+        "eyebrow": "02 · Mode",
+        "title": "Tiga mode, satu aplikasi",
+        "body": "FT8AF awalnya hanya FT8 dan kini mendekode serta memancarkan <strong>FT8, FT4, dan FT2</strong> — masing-masing dengan pewaktuan slot dan rencana band yang tepat. Ganti mode sekali ketuk, dan kejar DXpedisi dengan dukungan Fox &amp; Hound.",
+        "points": [
+          "FT8 (15 s) dan FT4 yang lebih cepat (7.5 s) untuk kontes &amp; pile-up",
+          "Mode eksperimental FT2 dengan frekuensi kanoniknya sendiri",
+          "Operasi Fox &amp; Hound (DXpedisi) untuk FT8"
+        ]
+      },
+      "qso": {
+        "eyebrow": "03 · Operasi",
+        "title": "Monitor QSO, perburuan &amp; peringatan",
+        "body": "Panel yang dapat dilipat melacak kontak Anda saat ini di setiap langkah pertukaran — panggil → laporan → roger → 73 → catat. Antrean pemanggil membuat Anda terkunci pada target, dan perburuan cerdas mengerjakan band sehingga Anda tak perlu menungguinya.",
+        "points": [
+          "Mode Hunt &amp; Auto-CQ — rangkai panggilan tanpa mengetuk ulang",
+          "Peringatan DX yang dicari: suara + notifikasi untuk DXCC atau negara bagian baru",
+          "Kesadaran CQ terarah, daftar blokir callsign &amp; filter dekode"
+        ],
+        "alt": "Tab Dekode FT8AF: daftar langsung stasiun yang didekode — K7LNY, KF0X, KF6MIX, AK7LV, ND9M — masing-masing dengan lokator, jarak, batang kekuatan sinyal, SNR dalam dB, waktu sejak terakhir terdengar, negara bagian AS, dan label NEW DXCC, dengan kontrol Hunt / Call CQ / TX1 dan strip TX yang sedang mendengarkan di 10.136 MHz / 30m."
+      },
+      "map": {
+        "eyebrow": "04 · Peta",
+        "title": "Peta dunia &amp; jalur QSO",
+        "body": "Tab peta khusus memplot stasiun yang Anda dengar dan menggambar jalur lingkaran besar ke siapa pun yang Anda kerjakan — dengan jarak, lokasi DX, dan batas negara bagian AS sehingga Anda melihat persis di mana sinyal Anda mendarat.",
+        "points": [
+          "Jarak &amp; lokasi DX langsung di panel QSO",
+          "Peta jalur dengan batas negara bagian AS tergambar",
+          "Pilih satuan Anda — mil atau kilometer"
+        ],
+        "alt": "Tab Map FT8AF: peta dunia memplot stasiun yang terdengar sebagai penanda, dengan lokator EM28, jumlah stasiun, dan saklar proyeksi PSK / standar / azimutal."
+      },
+      "pota": {
+        "eyebrow": "05 · Aktivasi",
+        "title": "Mode aktivasi POTA",
+        "body": "Bawa FT8AF ke taman. Mode aktivasi menjalankan seluruh perjalanan Anda — daftar kontak langsung yang terus bertambah dengan callsign dan lokator pemburu, peta kontak, dan deteksi taman-ke-taman — lalu mengunggah log Anda langsung ke POTA saat selesai.",
+        "points": [
+          "Aktivasi two-fer / multi-taman dan label P2P",
+          "Peta aktivasi, avatar QRZ &amp; riwayat yang dapat diketuk",
+          "Lanjut setelah menutup aplikasi, dan unggah ke POTA di dalam aplikasi"
+        ],
+        "alt": "Tab POTA FT8AF selama aktivasi langsung dua taman (two-fer) US-1469 dan US-4567: penghitung hijau '14 QSOs — valid activation', waktu berlalu, tombol Self-spot dan End-activation, peta AS dengan jalur kontak memancar dari aktivator, dan daftar kontak dengan avatar QRZ dan label taman-ke-taman (P2P)."
+      },
+      "usb": {
+        "eyebrow": "06 · Perangkat keras",
+        "title": "USB CAT untuk 75+ radio",
+        "body": "Colokkan radio Anda langsung ke ponsel dengan satu kabel USB-C. FT8AF menangani kendali frekuensi CAT, audio USB, dan PTT di 75+ model radio — Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599, dan lainnya — dengan setumpuk perbaikan keandalan koneksi otomatis.",
+        "points": [
+          "Radio baru ditambahkan: Yaesu FT-710, Kenwood TS-440, Lab599 Discovery TX-500",
+          "Perataan ALC otomatis dan penghentian TX yang dipicu SWR untuk melindungi tingkat akhir Anda",
+          "Volume TX waktu nyata — sesuaikan drive secara langsung, di tengah pemancaran"
+        ]
+      },
+      "logging": {
+        "eyebrow": "07 · Pencatatan",
+        "title": "Log di mana saja, otomatis",
+        "body": "Konfigurasikan layanan log Anda sekali dan lupakan. Saat sebuah QSO selesai, FT8AF mengirimnya langsung ke Cloudlog, QRZ, dan Wavelog — dan setiap sinyal yang Anda dekode dilaporkan ke PSKReporter sehingga peta propagasi menyala dengan stasiun Anda.",
+        "points": [
+          "Unggah otomatis ke Cloudlog / Wavelog dan logbook QRZ",
+          "Pelaporan PSKReporter atas setiap dekode yang Anda dengar",
+          "Pemilih ID stasiun plus ekspor ADIF, kedua laporan SNR tertangkap"
+        ],
+        "alt": "Tab Logbook FT8AF: tampilan Stats menampilkan 27 QSO, 13 entitas DXCC, 11 zona CQ dan 13 zona ITU, grafik donat distribusi band yang mencakup 30m, 20m, 40m, 17m, dan 15m, serta batang kemajuan award untuk DXCC Mixed (13/340) dan lokator VUCC (28/100)."
+      },
+      "material": {
+        "eyebrow": "08 · Antarmuka",
+        "title": "Antarmuka gelap Material 3",
+        "body": "Seluruh antarmuka adalah pembangunan ulang baru di Jetpack Compose dengan tema gelap Material 3 — kontras tinggi, terbaca sekejap di bawah matahari terik atau shack gelap, dan ditata untuk ibu jari. Pengaturan tersusun dalam kategori menurun yang rapi, dan mode dekode ringkas merapatkan tampilan di layar lebih kecil.",
+        "points": [
+          "Pengaturan menurun, sorotan dekode yang dapat diatur &amp; mode ringkas",
+          "Kartu operator dengan foto QRZ, antena &amp; daya Anda",
+          "Dekode berkode status: baru, dicari, dikerjakan, dikonfirmasi"
+        ],
+        "alt": "Tab Settings FT8AF: kartu identitas operator untuk K1AF di lokator EM28 dengan foto profil QRZ, antena (ATAS 120) dan daya (70 W), saklar lokator otomatis GPS, serta kategori menurun untuk Radio &amp; Audio, Transmission, Time Sync, Decode &amp; Filters, Logging &amp; Awards, Advanced, dan About."
+      },
+      "languages": {
+        "eyebrow": "09 · Bahasa",
+        "title": "Dilokalkan dalam 16 bahasa",
+        "body": "FT8CN hanya berbahasa Tionghoa. FT8AF kini hadir dalam enam belas bahasa — semuanya disumbang komunitas — dan beralih otomatis ke bahasa perangkat Android Anda, dengan tata letak kanan-ke-kiri untuk bahasa Arab.",
+        "points": [
+          "Terjemahan sumbangan komunitas, termasuk Arab kanan-ke-kiri",
+          "Deteksi bahasa otomatis Android — tanpa pengalihan manual",
+          "Bahasa lain disambut — PR terbuka di GitHub"
+        ]
+      }
+    },
+    "viz": {
+      "modes": {
+        "head": "Mode operasi",
+        "ft8slot": "slot 15 s",
+        "ft4slot": "slot 7.5 s",
+        "ft4note": "tempo kontes",
+        "ft2slot": "lebih cepat lagi",
+        "ft2note": "eksperimental",
+        "foxhound": "Mode DXpedisi Fox &amp; Hound untuk mengejar yang besar"
+      },
+      "usb": {
+        "head": "USB CAT + Audio",
+        "connected": "Terhubung",
+        "yourRig": "Radio Anda",
+        "rigCount": "75+ model"
+      },
+      "languages": {
+        "head": "Lokalisasi",
+        "count": "16 bahasa"
+      }
+    },
+    "stability": {
+      "eyebrow": "Dan kemenangan yang tak megah",
+      "title": "58+ perbaikan yang tak perlu<br />Anda pikirkan.",
+      "lede": "Dua putaran penuh \"bug bash\" mengejar crash, kebocoran, dan gremlin siklus hidup yang menghalangi Anda dari QSO yang bersih.",
+      "cards": [
+        { "h4": "Perbaikan crash &amp; kebocoran", "p": "Crash NPE, kebocoran sumber daya, dan balapan thread diburu di seluruh aplikasi." },
+        { "h4": "Stempel UTC waterfall", "p": "Stempel waktu digambar di batas periode FT8 sehingga Anda membaca pewaktuan seketika." },
+        { "h4": "Volume TX perangkat keras", "p": "Atur tingkat pancaran dengan tombol volume fisik ponsel, di tengah QSO." },
+        { "h4": "Saklar slot TX1 / TX2", "p": "Pilih periode pancaran Anda langsung, dari strip TX." },
+        { "h4": "Sinkronisasi waktu &amp; lokator GPS", "p": "Sinkronisasi waktu dan lokator otomatis dari GPS, plus koreksi waktu manual untuk operasi luring." },
+        { "h4": "Penyelarasan penanda TX", "p": "Kursor frekuensi pancaran tetap terkunci pada audio TX aktual Anda." }
+      ]
+    },
+    "cta": {
+      "title": "Siap menaruh sebuah stasiun<br />di saku Anda?"
+    }
+  },
+
+  "download": {
+    "meta": {
+      "title": "FT8AF — Unduh",
+      "description": "Dapatkan FT8AF gratis dari GitHub — sideload APK atau bangun dari sumber — atau dukung proyek seharga $3.50 di Google Play dengan pembaruan otomatis.",
+      "ogTitle": "FT8AF — Hadirkan FT8 di ponsel Android Anda",
+      "ogDescription": "APK gratis dari GitHub, atau $3.50 di Google Play untuk pembaruan otomatis. Aplikasi yang sama, setiap fitur. Bekerja di Android mana pun yang mendukung USB-OTG."
+    },
+    "hero": {
+      "eyebrow": "Unduh",
+      "title": "Hadirkan FT8AF di ponsel Anda.",
+      "lede": "Gratis dan sumber terbuka dari GitHub, atau $3.50 di Google Play untuk membuat pembaruan otomatis dan ikut menyumbang pengembangan. Aplikasi yang sama, setiap fitur, dengan cara apa pun."
+    },
+    "free": {
+      "tag": "Sumber terbuka",
+      "title": "Gratis dari GitHub",
+      "body": "Aplikasi lengkap, berlisensi GPL-3.0. Sideload APK bertanda tangan atau bangun sendiri.",
+      "li": [
+        "Setiap fitur, tanpa batas atau akun",
+        "APK rilis bertanda tangan di halaman Releases",
+        "Bangun dari sumber dengan Gradle",
+        "Periksa, fork &amp; berkontribusi pada kode",
+        "Pembaruan manual (Anda menarik build baru)"
+      ],
+      "cta": "Unduh APK"
+    },
+    "paid": {
+      "flag": "Mendukung proyek",
+      "tag": "Google Play",
+      "per": "sekali bayar",
+      "title": "Dukung proyek",
+      "body": "Aplikasi identik, dikirim melalui Play Store sehingga selalu tetap mutakhir.",
+      "li": [
+        "Pembaruan otomatis di latar belakang",
+        "Pasang sekali ketuk — tanpa langkah sideload",
+        "Build terverifikasi Play Protect",
+        "Mudah dipasang di ponsel orang awam",
+        "Mendanai pengembangan berkelanjutan secara langsung"
+      ],
+      "cta": "Dapatkan di Google Play"
+    },
+    "callout": {
+      "title": "Perhatian: versi Play Store ada di jalur uji internal",
+      "body": "Anda mungkin perlu ditambahkan ke daftar penguji sebelum tautan Google Play dapat memasang. Jika tak terbuka, ambil dulu APK gratis dari GitHub — itu aplikasi yang sama."
+    },
+    "methods": {
+      "eyebrow": "Cara memasang",
+      "title": "Tiga jalan masuk."
+    },
+    "method": {
+      "sideload": {
+        "title": "Sideload APK",
+        "sub": "Tercepat · gratis",
+        "steps": [
+          "Buka <strong>Releases</strong> di GitHub dan unduh <code style=\"font-family:var(--font-mono)\">.apk</code> terbaru.",
+          "Ketuk berkasnya; izinkan \"pasang dari sumber ini\" jika Android meminta.",
+          "Buka FT8AF, beri izin USB &amp; mikrofon, dan pilih radio Anda."
+        ],
+        "cta": "Buka Releases"
+      },
+      "build": {
+        "title": "Bangun dari sumber",
+        "sub": "Untuk para pengoprek",
+        "codeComment": "# klon &amp; bangun",
+        "cta": "Lihat repo"
+      },
+      "play": {
+        "title": "Google Play",
+        "sub": "$3.50 · pembaruan otomatis",
+        "steps": [
+          "Buka cantuman Play Store (gabung daftar penguji jika diminta).",
+          "Beli sekali seharga $3.50 dan ketuk <strong>Pasang</strong>.",
+          "Pembaruan datang sendiri — tak ada lagi yang harus dilakukan."
+        ],
+        "cta": "Buka di Google Play"
+      }
+    },
+    "req": {
+      "eyebrow": "Sebelum Anda mulai",
+      "title": "Yang Anda butuhkan.",
+      "cards": [
+        { "k": "Perangkat", "v": "Android 8+", "d": "Ponsel atau tablet, mendukung USB-OTG" },
+        { "k": "Kabel", "v": "USB-C → radio", "d": "Adaptor OTG untuk ponsel lama" },
+        { "k": "Radio", "v": "Radio HF dengan CAT", "d": "75+ model — Icom, Yaesu, Kenwood, Xiegu &amp; lainnya" },
+        { "k": "Mode", "v": "FT8 · FT4 · FT2", "d": "160m – 6m, semua sub-band" }
+      ]
+    },
+    "reqCallout": {
+      "title": "Tak ada radio di tangan? Anda tetap bisa menjelajah.",
+      "body": "FT8AF dapat mendekode dari mikrofon ponsel, sehingga Anda bisa mengamati band dan mempelajari antarmuka sebelum memasang kabel kendali CAT. Lihat <a href=\"/faq\">FAQ</a> untuk radio yang didukung dan pengabelan."
+    },
+    "cta": {
+      "title": "Pilih jalan Anda. Kerjakan dunia.",
+      "lede": "Gratis di GitHub, atau $3.50 agar memperbarui dirinya sendiri. Dengan cara apa pun Anda mendapat seluruh aplikasi.",
+      "freeApk": "APK gratis",
+      "playBtn": "$3.50 di Google Play"
+    }
+  },
+
+  "faq": {
+    "meta": {
+      "title": "FT8AF — FAQ",
+      "description": "Pertanyaan yang sering diajukan tentang FT8AF: harga, jalur uji Google Play, radio yang didukung, mode FT4 dan FT2, aktivasi POTA, layanan pencatatan dan pelaporan, hubungan dengan FT8CN, dan berkontribusi.",
+      "ogTitle": "FT8AF — Pertanyaan yang sering diajukan",
+      "ogDescription": "Harga, jalur uji Google Play, radio yang didukung, mode FT4/FT2, POTA, layanan pencatatan, kaitannya dengan FT8CN, dan berkontribusi."
+    },
+    "hero": {
+      "eyebrow": "FAQ",
+      "title": "Pertanyaan, terjawab.",
+      "lede": "Harga, jalur uji Play Store, radio dan pengabelan, dan bagaimana semua ini berkaitan dengan FT8CN. Masih terjebak? <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--signal)\">Buka isu di GitHub</a>."
+    },
+    "cats": {
+      "getting": "Mendapatkannya",
+      "radios": "Radio &amp; penyiapan",
+      "modes": "Mode, peta &amp; POTA",
+      "project": "Proyek"
+    },
+    "items": {
+      "free": {
+        "q": "Apakah FT8AF benar-benar gratis?",
+        "a": "Ya — sepenuhnya. FT8AF bersumber terbuka di bawah lisensi GPL-3.0. Anda bisa mengunduh APK bertanda tangan dari halaman Releases GitHub atau membangunnya sendiri dari sumber, dengan setiap fitur terbuka dan tanpa akun yang diperlukan. Opsi $3.50 di Google Play adalah aplikasi yang sama; Anda membayar untuk pembaruan otomatis dan mendukung pengembangan, bukan untuk fitur."
+      },
+      "paid": {
+        "q": "Lalu apa yang saya dapat dari $3.50 di Google Play?",
+        "a": "Kemudahan dan karma baik. Versi Play Store memperbarui dirinya otomatis di latar belakang, terpasang sekali ketuk tanpa langkah \"izinkan sumber tak dikenal\", dan terverifikasi Play Protect — yang menjadikannya pilihan mudah untuk ponsel yang tak ingin Anda repotkan. Pembelian juga mendanai pengembangan lanjutan secara langsung. Aplikasinya sendiri identik dengan build gratis GitHub."
+      },
+      "playLink": {
+        "q": "Tautan Google Play tak mengizinkan saya memasang. Mengapa?",
+        "a": "Cantuman Play Store saat ini ada di <strong>jalur uji internal</strong>, jadi Anda mungkin perlu ditambahkan ke daftar penguji sebelum Google mengizinkan Anda memasang. Jika tautan belum bekerja untuk Anda, unduh saja APK gratis dari <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">halaman Releases GitHub</a> — itu persis aplikasi yang sama."
+      },
+      "install": {
+        "q": "Bagaimana memasang APK dengan aman?",
+        "a": "Unduh <code>.apk</code> terbaru dari GitHub Releases, ketuk, dan setujui permintaan sekali pakai \"pasang dari sumber ini\" yang ditampilkan Android. Lalu buka FT8AF dan beri izin USB dan mikrofon. Petunjuk lengkap langkah demi langkah ada di <a href=\"/download\">halaman Unduh</a>."
+      },
+      "radios": {
+        "q": "Radio mana yang didukung?",
+        "a": "Lebih dari <strong>75 model radio</strong> di antara Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599, dan lainnya — dipilih dari daftar di Pengaturan bersama mode kendali dan perangkat audio. Radio populer seperti Icom IC-7300 dan Yaesu FT-891 didukung dengan baik, dan tambahan terbaru mencakup <strong>Yaesu FT-710</strong>, <strong>Kenwood TS-440</strong>, dan <strong>Lab599 Discovery TX-500</strong>. FT8AF juga menambahkan perataan ALC otomatis dan penghentian TX yang dipicu SWR untuk melindungi radio Anda. Jika radio Anda tak terdaftar, <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\">buka isu</a> dan beri tahu kami."
+      },
+      "cable": {
+        "q": "Kabel apa yang saya butuhkan?",
+        "a": "Satu koneksi USB dari ponsel ke port USB radio menangani baik kendali CAT maupun audio pada sebagian besar radio modern. Ponsel lebih baru terhubung langsung dengan kabel USB-C; ponsel lama membutuhkan adaptor USB-OTG. Perangkat Anda harus mendukung mode host USB (OTG)."
+      },
+      "noRadio": {
+        "q": "Bisakah saya mencoba tanpa radio?",
+        "a": "Ya. FT8AF bisa mendekode dari mikrofon ponsel, jadi Anda bisa mendekatkannya ke speaker atau sekadar menjelajahi antarmuka dan mengamati waterfall sebelum memasang kabel kendali CAT. Cara bagus untuk mempelajari tata letaknya lebih dulu."
+      },
+      "bands": {
+        "q": "Band mana yang berfungsi?",
+        "a": "Semua sub-band FT8 standar dari 160m hingga 6m sudah bawaan, dengan sekali ketuk untuk berganti. Waterfall mencakup seluruh passband audio sehingga Anda melihat dan mengerjakan semua dalam segmen sekaligus."
+      },
+      "modes": {
+        "q": "Apakah FT8AF mendukung FT4 dan FT2?",
+        "a": "Ya. FT8AF awalnya hanya FT8 dan kini mendekode serta memancarkan <strong>FT8, FT4, dan FT2 eksperimental</strong>, masing-masing dengan pewaktuan slot dan rencana band yang tepat — dapat diganti sekali ketuk. Ada juga operasi Fox &amp; Hound (DXpedisi) untuk mengejar stasiun langka dalam pile-up."
+      },
+      "pota": {
+        "q": "Bisakah saya menjalankan aktivasi POTA dengannya?",
+        "a": "Ya — ada <strong>mode aktivasi POTA</strong> khusus. Ia menyimpan daftar kontak langsung dengan callsign dan lokator pemburu, menampilkan peta aktivasi, mendeteksi kontak taman-ke-taman (P2P), mendukung aktivasi multi-taman (two-fer), melanjutkan jika Anda menutup aplikasi, dan mengunggah log Anda langsung ke POTA saat selesai."
+      },
+      "map": {
+        "q": "Apakah ada peta?",
+        "a": "Ada. Tab peta khusus memplot stasiun yang Anda dengar dan menggambar jalur lingkaran besar ke siapa pun yang Anda kerjakan, dengan jarak, lokasi DX, dan batas negara bagian AS. Pilih satuan Anda — mil atau kilometer — di Pengaturan."
+      },
+      "logging": {
+        "q": "Layanan pencatatan dan pelaporan mana yang didukung?",
+        "a": "Saat sebuah QSO selesai, FT8AF dapat mengunggahnya otomatis ke <strong>Cloudlog / Wavelog</strong> dan logbook <strong>QRZ</strong>, serta melaporkan setiap dekode yang Anda dengar ke <strong>PSKReporter</strong> sehingga stasiun Anda muncul di peta propagasi. Anda juga bisa mengekspor ADIF. Setiap layanan dikonfigurasi sekali di Pengaturan lalu berjalan di latar belakang."
+      },
+      "ft8cn": {
+        "q": "Apa bedanya ini dari FT8CN?",
+        "a": "FT8AF adalah fork dari FT8CN yang luar biasa yang membawanya maju: antarmuka gelap Jetpack Compose / Material 3 penuh, monitor QSO aktif dengan antrean pemanggil dan perburuan cerdas, mode <strong>FT4 dan FT2</strong> di samping FT8, peta dunia dengan jalur QSO, mode <strong>aktivasi POTA</strong>, pencatatan otomatis ke Cloudlog, QRZ, Wavelog, dan PSKReporter, <strong>dukungan multibahasa</strong> (aslinya hanya Tionghoa), plus puluhan perbaikan bug di beberapa putaran \"bug bash\". Warisan dekode intinya milik FT8CN — kami memodernkan dan memperluas pengalaman di sekitarnya."
+      },
+      "languages": {
+        "q": "Bahasa apa yang didukung FT8AF?",
+        "a": "FT8AF hadir dalam <strong>16 bahasa</strong>: Inggris (bawaan), Yunani, Spanyol, Jepang, Prancis, Rusia, Tionghoa, Italia, Polandia, Korea, Belanda, Ceko, Turki, Indonesia, Ukraina, dan Arab (kanan-ke-kiri). Aplikasi mendeteksi otomatis bahasa perangkat Android Anda dan beralih sendiri. Semua terjemahan disumbang komunitas — jika Anda ingin menambah atau memperbaiki sebuah bahasa, pull request disambut di <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHub</a>."
+      },
+      "who": {
+        "q": "Siapa yang membuat FT8AF?",
+        "a": "Dibuat oleh <a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">Patrick Burns (K1AF)</a> dan <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">Reid (N0RC)</a> — sebagian besar, secara terkenal, dikodekan intuitif di I-70 dalam perjalanan ke Hamvention. Penghargaan besar bagi <strong>BG7YOZ</strong>, penulis asli FT8CN, dan <strong>N0BOY</strong>, yang menghosting repositori asli. Tak satu pun dari ini ada tanpa mereka."
+      },
+      "contribute": {
+        "q": "Bisakah saya berkontribusi atau melaporkan bug?",
+        "a": "Silakan. Kode ada di <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHub</a> — buka isu untuk bug atau ide fitur, kirim pull request, atau cukup beri bintang repo untuk mengikuti. Laporan lapangan dari penggunaan nyata di udara sangat disambut."
+      },
+      "updates": {
+        "q": "Apakah akan terus mendapat pembaruan?",
+        "a": "Itu rencananya. Pengembangan aktif dan berkelanjutan. Cara tercepat mendapat build baru otomatis adalah versi Google Play; jika tidak, pantau halaman Releases atau repo. Ingin colekan saat sesuatu rilis? <a href=\"/#pricing\">Gabung daftar pembaruan</a> di halaman beranda."
+      }
+    },
+    "cta": {
+      "title": "Masih penasaran? Coba saja.",
+      "ask": "Tanya di GitHub"
+    }
+  },
+
+  "wiki": {
+    "meta": {
+      "title": "FT8AF — Wiki & bantuan",
+      "description": "Wiki FT8AF: panduan praktis menggunakan aplikasi dari peluncuran pertama hingga QSO yang tercatat, plus petunjuk mengambil log debug dan mengajukan laporan bug yang berguna.",
+      "ogTitle": "FT8AF — Wiki & bantuan",
+      "ogDescription": "Pelajari cara memakai FT8AF: koneksi pertama, dekode, pancar, catat — plus cara mengambil log debug dan melaporkan bug."
+    },
+    "hero": {
+      "eyebrow": "Wiki &amp; bantuan",
+      "title": "Mengudaralah,<br />atau beri kami log.",
+      "lede": "Dua panduan singkat. Satu memandu Anda menjalankan FT8AF dari peluncuran pertama hingga QSO yang tercatat. Satunya menunjukkan cara menangkap log debug dan mengajukan laporan bug yang benar-benar bisa kami tindaklanjuti."
+    },
+    "cards": {
+      "using": {
+        "eyebrow": "01 · Menggunakan FT8AF",
+        "title": "Cara mengoperasikan aplikasi",
+        "body": "Colokkan radio, atur callsign, pilih band, dekode segmen, lalu jalankan QSO urutan otomatis dan lihat ia mencatat dirinya sendiri. Langkah demi langkah, dengan tangkapan layar.",
+        "li": [
+          "Peluncuran pertama &amp; izin",
+          "Penyiapan USB CAT &amp; audio",
+          "Mendekode, memanggil, dan monitor QSO",
+          "Pencatatan otomatis Cloudlog &amp; QRZ"
+        ],
+        "cta": "Buka panduan"
+      },
+      "bug": {
+        "eyebrow": "02 · Menemukan bug?",
+        "title": "Beri kami log debug",
+        "body": "FT8AF menulis log peristiwa terstruktur setiap kali berjalan. Ambil dari ponsel Anda dengan dua ketukan, lampirkan ke isu GitHub, dan kami biasanya bisa menunjukkan apa yang salah — alih-alih menebak.",
+        "li": [
+          "Di mana menemukan <code>debug.log</code>",
+          "Bagikan lewat Files, Drive, atau email",
+          "Apa yang harus disertakan dalam isu",
+          "Tak ada ponsel? Tak masalah."
+        ],
+        "cta": "Laporkan bug"
+      }
+    },
+    "callout": {
+      "title": "Wiki ini sengaja singkat.",
+      "body": "Jika ada yang di sini tak cocok dengan yang Anda lihat di aplikasi, itu bug dokumentasi — buka isu dan kami akan memperbaikinya. Untuk jawaban gaya tanya-jawab (harga, radio yang didukung, hubungan FT8CN) menujulah ke <a href=\"/faq\">FAQ</a>."
+    },
+    "cta": {
+      "title": "Terjebak di tempat yang tak dibahas wiki?",
+      "lede": "Laporan lapangan dari penggunaan nyata di udara adalah hal paling berguna yang kami terima. Buka isu, ceritakan apa yang terjadi, lampirkan log jika Anda punya.",
+      "openIssue": "Buka isu",
+      "browseFaq": "Telusuri FAQ"
+    }
+  },
+
+  "wikiUsing": {
+    "meta": {
+      "title": "FT8AF — Menggunakan aplikasi",
+      "description": "Panduan langsung FT8AF: peluncuran pertama dan izin, penyiapan USB CAT dan audio, mendekode band, memanggil stasiun, QSO urutan otomatis, dan pencatatan otomatis ke Cloudlog dan QRZ.",
+      "ogTitle": "FT8AF — Menggunakan aplikasi",
+      "ogDescription": "Panduan langsung: peluncuran pertama, penyiapan USB CAT, mendekode band, memanggil, QSO urutan otomatis, dan pencatatan otomatis."
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / Menggunakan FT8AF",
+      "title": "Dari peluncuran pertama<br />ke QSO yang tercatat.",
+      "lede": "Jika Anda pernah mengoperasikan FT8 di mana pun — WSJT-X, JTDX, FT8CN — sebagian besar ini akan terasa akrab. Petanya hanya ditata ulang untuk satu tangan. Baca sampai tuntas pada kali pertama; kembali ke sebuah bagian saat Anda membutuhkannya."
+    },
+    "toc": {
+      "title": "Di halaman ini",
+      "items": [
+        "Pemasangan &amp; peluncuran pertama",
+        "Atur callsign &amp; lokator Anda",
+        "Hubungkan radio Anda",
+        "Dekode band",
+        "Baca waterfall",
+        "Panggil sebuah stasiun",
+        "Jalankan urutan otomatis",
+        "Pencatatan &amp; unggahan",
+        "Tips lapangan"
+      ]
+    },
+    "s1": {
+      "h": "Pemasangan &amp; peluncuran pertama",
+      "p1": "Ambil FT8AF dari <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">halaman rilis GitHub</a> sebagai APK gratis, atau dari <a href=\"https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af\" target=\"_blank\" rel=\"noopener\">Google Play</a> seharga $3.50 — aplikasinya identik. Petunjuk pemasangan lengkap ada di halaman <a href=\"/download\">Unduh</a>.",
+      "p2": "Saat pertama membuka FT8AF, Android akan meminta dua izin:",
+      "ul": [
+        "<strong>Akses perangkat USB</strong> — diperlukan untuk kendali CAT dan audio radio. Pilih <em>Selalu</em> jika Anda ingin aplikasi terhubung ulang sendiri saat mencolok kabel kembali.",
+        "<strong>Mikrofon</strong> — diperlukan jika suatu saat Anda ingin mendekode dari mikrofon ponsel alih-alih radio berkabel. Anda bisa menolaknya jika hanya memakai USB."
+      ]
+    },
+    "s2": {
+      "h": "Atur callsign &amp; lokator Anda",
+      "p1": "Buka tab <span class=\"tap\">Settings</span> dan isi kartu operator di bagian atas. Dua bidang ini mengatur segala yang dipancarkan aplikasi, jadi ada baiknya menyetelnya dengan benar sebelum mengudara.",
+      "cap": "<b>Settings → Operator.</b> Ketuk baris mana pun untuk menyunting. Lokator akan menawarkan pengisian dari GPS jika Anda memberi izin lokasi.",
+      "dl": [
+        { "dt": "Callsign", "dd": "Callsign berlisensi Anda. Tambahkan indikator portabel dengan garis miring (mis. <code>K1AF/M</code>) jika Anda beroperasi mobil atau portabel." },
+        { "dt": "Lokator", "dd": "Lokator Maidenhead 4 atau 6 karakter (mis. <code>FN42</code> atau <code>FN42hk</code>). FT8AF akan menawarkan pengisiannya dari GPS jika lokasi diberikan." },
+        { "dt": "Frekuensi audio", "dd": "Frekuensi audio pancar Anda dalam Hz, di dalam segmen FT8 3 kHz. <code>1500</code> adalah default awal yang masuk akal." },
+        { "dt": "Tunda TX", "dd": "Milidetik yang ditunggu aplikasi setelah PTT sebelum mengirim nada. <code>400</code> cocok untuk sebagian besar radio berkendali CAT." }
+      ]
+    },
+    "s3": {
+      "h": "Hubungkan radio Anda",
+      "p1": "FT8AF berbicara dengan radio lewat satu koneksi USB-C — baik CAT (frekuensi, PTT) maupun audio (RX, TX) lewat kabel yang sama. Ponsel Android modern terhubung langsung dengan USB-C; perangkat lama membutuhkan adaptor USB-OTG. Ponsel Anda harus mendukung mode host USB.",
+      "cap": "<b>Settings → Radio.</b> Satu kabel USB-C membawa kendali CAT, audio, dan PTT.",
+      "steps": [
+        "<strong>Colokkan.</strong> Hubungkan ponsel ke port USB radio. Android akan meminta izin untuk berbicara dengan perangkat — terima, dan centang <em>Selalu</em> agar aplikasi bisa terhubung ulang nanti.",
+        "<strong>Pilih radio Anda.</strong> Di <span class=\"tap\">Settings → Radio</span>, buka pemilih <em>Rig model</em> dan pilih transceiver Anda (IC-7300, FT-891, IC-705, dll.). FT8AF menyertakan perbaikan yang memaksa FT-891 ke lebar pita 3000&nbsp;Hz di DATA-USB — Anda tak perlu menyetelnya sendiri.",
+        "<strong>Atur mode kendali ke CAT.</strong> Di bawah <em>Control</em>, pilih <strong>CAT</strong>. (VOX, RTS, dan DTR tersedia jika penyiapan Anda membutuhkannya, tapi CAT-lah yang Anda inginkan dengan radio HF modern lewat USB.)",
+        "<strong>Konfirmasi CI-V / baud rate.</strong> Default biasanya cocok — radio Icom default ke <code>A4</code> pada <code>115200</code>; Yaesu punya konvensinya sendiri. Jika CAT tak terhubung, ini tempat pertama untuk diperiksa.",
+        "<strong>Pilih band.</strong> Ketuk chip band di tab <span class=\"tap\">Decode</span> untuk berganti antara segmen FT8 160m–6m, atau ketik frekuensi khusus dari <em>Settings → Radio → Frequency</em>."
+      ],
+      "callout": {
+        "h": "Tak ada radio? Anda tetap bisa menjelajah.",
+        "p": "Jika Anda memberi izin mikrofon, FT8AF akan mendekode audio dari mikrofon ponsel — dekatkan ke speaker yang terhubung ke radio mana pun yang aktif di FT8 dan Anda akan melihat daftar dekode yang sama. Berguna untuk mempelajari antarmuka sebelum memasang kabel CAT."
+      }
+    },
+    "s4": {
+      "h": "Dekode band",
+      "p1": "Tab <span class=\"tap\">Decode</span> adalah tempat Anda menghabiskan sebagian besar waktu operasi. Setiap 15 detik, pada batas periode FT8, aplikasi memproses slot audio terakhir dan menjatuhkan dekode baru ke daftar. Stasiun mendapat label status — <em>New DXCC</em>, <em>Needed</em>, <em>Worked</em>, <em>Confirmed</em> — sehingga band memberi tahu Anda apa yang harus dikejar dalam sekejap.",
+      "alt": "Tab Decode FT8AF di Android — antarmuka gelap Material 3 menampilkan baris terdekode untuk K7LNY, KF0X, KF6MIX, AK7LV, dan ND9M, masing-masing dengan lokator, jarak, batang kekuatan sinyal, SNR dalam dB, waktu sejak terakhir terdengar, negara bagian AS, dan label NEW DXCC, di atas strip TX yang sedang mendengarkan di 10.136 MHz / 30m.",
+      "cap": "<b>Tab Decode.</b> Setiap baris adalah stasiun terdekode. Ketuk baris untuk menjadikan stasiun itu target QSO Anda. Gunakan chip di bagian atas untuk menyaring — <em>All</em>, <em>CQ Calls</em>, <em>CQ POTA</em>, <em>New DXCC</em>, <em>Needed</em>.",
+      "p2": "Setiap baris memberi tahu Anda:",
+      "dl": [
+        { "dt": "SNR / dB", "dd": "Rasio sinyal-ke-derau. Nilai dari kira-kira <code>−24</code> (nyaris dapat didekode) hingga <code>+15</code> (sangat kuat)." },
+        { "dt": "Audio Hz", "dd": "Di mana sinyal berada dalam segmen 3 kHz. Ketuk baris atau sinyal di waterfall untuk menjadikannya frekuensi audio TX Anda." },
+        { "dt": "Jarak", "dd": "Jarak lingkaran besar dari lokator Anda ke stasiun terdekode, saat lokatornya diketahui." },
+        { "dt": "Label status", "dd": "<span class=\"mono\">New DXCC</span> = entitas yang belum pernah Anda kerjakan. <span class=\"mono\">Needed</span> = dibutuhkan di band/mode ini. <span class=\"mono\">Worked</span> = QSO selesai tapi belum dikonfirmasi." },
+        { "dt": "↳ Untuk Anda", "dd": "Disorot dengan warna sian saat sebuah stasiun menjawab Anda langsung. Anda akan melihat ini selama QSO Anda sendiri." }
+      ]
+    },
+    "s5": {
+      "h": "Baca waterfall",
+      "p1": "Tab <span class=\"tap\">Waterfall</span> menampilkan seluruh passband FT8 3 kHz sepanjang waktu. Audio lebih baru di atas, lebih lama di bawah — garis tipis menandai setiap batas periode FT8 dengan stempel waktu UTC tergambar di sampingnya, sehingga Anda membaca pewaktuan dalam sekejap.",
+      "cap": "<b>Waterfall.</b> Garis vertikal adalah sinyal; ketuk satu untuk menyetel frekuensi audio TX Anda ke slot itu. Chip lebar (Wide / 1.5 kHz / 500 Hz) memungkinkan Anda memperbesar segmen yang ramai.",
+      "p2": "<strong>Ketuk-untuk-menala.</strong> Ketuk sinyal mana pun yang terlihat di waterfall untuk menyetel frekuensi audio TX Anda ke slot itu. Penanda TX tetap terkunci pada audio TX aktual Anda berkat perbaikan penyelarasan di FT8AF."
+    },
+    "s6": {
+      "h": "Panggil sebuah stasiun",
+      "p1": "Anda punya dua cara masuk ke sebuah QSO:",
+      "steps": [
+        "<strong>Jawab sebuah CQ.</strong> Ketuk baris <code>CQ</code> di daftar dekode, atau ketuk sinyal stasiun itu di waterfall. FT8AF mengantrekan jawaban dan menunggu slot TX berikutnya.",
+        "<strong>Panggil CQ sendiri.</strong> Tekan tombol <span class=\"tap\">CQ</span> di strip TX di bagian bawah layar. Gunakan saklar TX1 / TX2 untuk memilih slot 15 detik mana yang ingin Anda pancarkan — biasanya yang kosong."
+      ],
+      "p2": "Pantau panel <strong>Active QSO monitor</strong> di atas strip TX. Ia melacak siapa yang Anda kerjakan dan di langkah mana dari urutan otomatis Anda berada. Jika beberapa stasiun menjawab CQ Anda, <strong>antrean pemanggil</strong> menjaga yang lain tetap berbaris — Anda menyelesaikan QSO saat ini alih-alih melompat ke yang paling keras."
+    },
+    "s7": {
+      "h": "Jalankan urutan otomatis",
+      "p1": "FT8AF menangani pertukaran FT8 standar secara otomatis begitu Anda memilih target. Anda akan melihat panel melangkah melalui:",
+      "cap": "<b>Active QSO monitor.</b> Langkah-langkah tercentang saat pertukaran berlangsung. Panel menciut menjadi satu baris saat tak ada kontak aktif.",
+      "p2": "Jika Anda perlu keluar di tengah QSO, ketuk <span class=\"tap\">Stop</span> di strip TX — aplikasi mengosongkan antrean dan kembali mendengarkan. Saklar slot TX1 / TX2 memungkinkan Anda membalik periode pancar tanpa kehilangan target."
+    },
+    "s8": {
+      "h": "Pencatatan &amp; unggahan",
+      "p1": "Setiap QSO yang selesai ditulis ke tab <span class=\"tap\">Logbook</span> di perangkat. Jika Anda telah mengonfigurasi layanan unggah, ia juga terbang ke sana begitu kontak menutup — tanpa ekspor ADIF, tanpa menyalin callsign dengan tangan di akhir malam.",
+      "cap": "<b>Logbook.</b> Lencana menunjukkan layanan mana yang menerima setiap unggahan. Unggahan yang gagal tetap terlihat dengan indikator coba lagi hingga berhasil.",
+      "cloudlog": "Buka <em>Settings → Cloudlog</em>, tempel URL Cloudlog dan kunci API Anda, lalu aktifkan layanan. QSO baru terunggah otomatis. Jika sebuah kontak gagal terunggah, ia tetap di logbook dengan indikator coba lagi.",
+      "qrz": "Buka <em>Settings → QRZ</em>, masuk dengan kunci API QRZ Logbook Anda, lalu aktifkan unggahan. Perilaku otomatis sama seperti Cloudlog.",
+      "both": "Anda bisa menjalankan keduanya sekaligus — sebagian besar operator melakukannya, dengan Cloudlog sebagai log utama dan QRZ untuk visibilitas."
+    },
+    "s9": {
+      "h": "Tips lapangan",
+      "ul": [
+        "<strong>Atur jam Anda dari jaringan</strong> sebelum setiap sesi. FT8 menuntut pewaktuan akurat — waktu otomatis Android biasanya cukup; jika Anda di tempat tanpa sinyal, sinkronkan dari GPS atau NTP.",
+        "<strong>Gunakan tombol volume perangkat keras</strong> untuk menyetel tingkat drive TX di tengah QSO. FT8AF memetakannya ke volume TX sehingga Anda tak perlu mengutak-atik penggeser di layar saat memancar.",
+        "<strong>Pantau monitor QSO</strong> saat kondisi ramai. Antrean pemanggil mencegah kekacauan klasik \"dua stasiun sama-sama mengira Anda menjawab mereka\".",
+        "<strong>Gunakan tab <span class=\"tap\">Map</span></strong> untuk mengamati pembukaan secara visual — pemanggil CQ mendapat penanda megafon, sehingga Anda melihat jalur mana yang masuk tanpa menyusuri daftar dekode.",
+        "<strong>Beri bintang repo GitHub</strong> jika Anda ingin colekan saat rilis baru muncul. Atau ambil versi Play Store dan pembaruan terjadi sendiri."
+      ],
+      "callout": {
+        "h": "Ada yang tak berperilaku semestinya?",
+        "p": "Baca halaman berikutnya: ia memandu Anda menangkap log debug agar kami benar-benar bisa memperbaiki apa yang Anda temui. <a href=\"/wiki/bug-reports\">Melaporkan bug →</a>"
+      }
+    },
+    "pager": {
+      "prevLabel": "← Kembali",
+      "prevTitle": "Indeks wiki",
+      "nextLabel": "Berikutnya →",
+      "nextTitle": "Melaporkan bug"
+    }
+  },
+
+  "wikiBug": {
+    "meta": {
+      "title": "FT8AF — Melaporkan bug",
+      "description": "Cara menemukan log debug FT8AF di perangkat Android Anda, membagikannya ke pengembang lewat GitHub atau email, dan menulis laporan bug yang benar-benar menuju perbaikan.",
+      "ogTitle": "FT8AF — Melaporkan bug",
+      "ogDescription": "Cara mengambil log debug FT8AF dari ponsel Anda dan mengajukan isu yang berguna di GitHub. Termasuk templat isu yang siap disalin."
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / Melaporkan bug",
+      "title": "Beri kami log,<br />dan kami bisa memperbaikinya.",
+      "lede": "FT8AF menulis log peristiwa terstruktur setiap kali berjalan — lalu lintas serial CAT, peristiwa pencolokan USB, percobaan koneksi otomatis, pergantian band. Sebagian besar bug lapangan mendarat di sana. Ambil dari ponsel Anda, jatuhkan ke isu GitHub, selesai."
+    },
+    "toc": {
+      "title": "Di halaman ini",
+      "items": [
+        "Apa isi log",
+        "Buka mode debug",
+        "Buka Debug &amp; bagikan",
+        "Cadangan: aplikasi Files",
+        "Cadangan: ADB",
+        "Tulis isu",
+        "Templat isu",
+        "Jika aplikasi crash",
+        "Privasi"
+      ]
+    },
+    "s1": {
+      "h": "Apa isi log",
+      "p1": "FT8AF memelihara berkas teks bergulir bernama <code>debug.log</code> di direktori data aplikasinya. Ia menangkap hal-hal seperti:",
+      "ul": [
+        "Peristiwa pencolokan / pencabutan USB dan perangkat CAT mana yang cocok",
+        "Percobaan koneksi otomatis dan kegagalan apa pun",
+        "Bingkai serial CAT yang dikirim ke dan diterima dari radio",
+        "Pergantian band dan frekuensi",
+        "Peristiwa siklus hidup saat aplikasi mulai dan berhenti"
+      ],
+      "p2": "Ini teks biasa, aman dibaca, dan tak menyertakan kata sandi atau kunci API unggah. Lihat bagian <a href=\"#privacy\">privasi</a> di bawah jika Anda ingin menelaahnya sebelum membagikan."
+    },
+    "s2": {
+      "h": "Buka mode debug",
+      "p1": "Cara termudah mengambil log memakai layar debug di dalam aplikasi — tanpa komputer, tanpa pengelola berkas, tanpa izin folder Android-data. Layar tersembunyi secara default dan Anda membukanya seperti opsi pengembang Android: ketuk blok versi tujuh kali.",
+      "steps": [
+        "Buka tab <span class=\"tap\">Settings</span> di FT8AF.",
+        "Gulir ke paling bawah — bagian <strong>ABOUT</strong>.",
+        "Ketuk <strong>FAQ &amp; Support</strong>. Dialog About terbuka, menampilkan versi aplikasi dan deskripsi yang dimulai dengan \"FT8, made easy.\"",
+        "Ketuk teks deskripsi itu <strong>tujuh kali berturut-turut</strong>. Setelah ketukan ketujuh, mode debug menyala dan bertahan antar peluncuran.",
+        "Tutup dialog About. Baris <span class=\"tap\">Debug</span> baru kini muncul di bagian ABOUT, tepat di bawah <em>FAQ &amp; Support</em>."
+      ],
+      "cap": "<b>Setelah membuka</b> — baris Debug muncul di bagian ABOUT. Setelah mode debug menyala, ia tetap menyala hingga Anda mematikannya lagi (ketuk deskripsi tujuh kali lagi untuk mematikannya)."
+    },
+    "s3": {
+      "h": "Buka Debug &amp; bagikan",
+      "p1": "Ketuk baris <span class=\"tap\">Debug</span> baru. Penampil log layar penuh terbuka, menampilkan beberapa ratus baris terakhir <code>debug.log</code> secara langsung — ia menyegarkan setiap beberapa detik dan menggulir otomatis ke bawah.",
+      "cap": "<b>Layar Debug.</b> Ketuk <strong>Share</strong> untuk membuka lembar berbagi Android dengan <code>debug.log</code> sudah terlampir. Pilih Gmail, Outlook, Drive, Files — apa pun yang Anda inginkan untuk mengirimnya.",
+      "p2": "Dari bilah alat atas:",
+      "dl": [
+        { "dt": "Share", "dd": "Membuka lembar berbagi Android dengan <code>debug.log</code> terlampir sebagai berkas teks (subjek \"FT8AF debug.log\"). Pilih Gmail untuk mengirimnya langsung ke kami lewat email, atau aplikasi apa pun yang menangani lampiran — Drive, Outlook, Slack, Signal, Telegram, aplikasi Files sistem, semuanya berfungsi." },
+        { "dt": "Clear", "dd": "Menghapus log saat ini. Berguna jika Anda ingin mulai bersih sebelum mereproduksi bug — cukup tekan Clear, keluar dari dialog, reproduksi masalahnya, kembali, dan bagikan. Log yang lebih pendek memudahkan kami menemukan peristiwa yang relevan." },
+        { "dt": "Logcat: ON / OFF", "dd": "Saat ON, penampil juga menambahkan keluaran <code>logcat</code> terbaru dari proses aplikasi sendiri — berguna saat crash atau bug audio tak sepenuhnya tertangkap di <code>debug.log</code>. Ekor logcat ikut serta saat Anda mengetuk Share." }
+      ],
+      "callout": {
+        "h": "Kirim langsung ke kami.",
+        "p": "Saat lembar berbagi muncul, pilih aplikasi email Anda dan tujukan ke siapa pun yang mengerjakan isu — operatornya adalah <a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">K1AF</a> dan <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">N0RC</a> (alamat di QRZ). Lebih baik lagi: buka dulu sebuah isu GitHub, lalu bagikan log lewat email atau pintasan cloud yang Anda suka dan tempel tautan atau lampirannya ke utas isu agar tetap publik."
+      }
+    },
+    "s4": {
+      "h": "Cadangan: aplikasi Files",
+      "p1": "Jika karena suatu alasan Anda tak bisa mencapai layar Debug di dalam aplikasi — build lama, pembukaan tak berhasil, Anda lebih suka pengelola berkas — berkas log juga ada di disk di:",
+      "steps": [
+        "Buka aplikasi <strong>Files</strong> (atau <strong>My Files</strong>) di ponsel Anda.",
+        "Navigasi ke <strong>Penyimpanan internal → Android → data</strong>. Di sebagian perangkat, Android menyembunyikan folder ini secara default; ketuk menu tiga titik dan aktifkan <em>Tampilkan berkas tersembunyi</em> atau <em>Folder sistem</em>.",
+        "Buka folder bernama <code>com.bg7yoz.ft8cn</code>, lalu <code>files</code>. Anda harusnya melihat <code>debug.log</code> di dalamnya.",
+        "Tekan lama <code>debug.log</code> dan ketuk <strong>Bagikan</strong>."
+      ],
+      "callout": {
+        "h": "Android 11+ mungkin memblokir <code>/Android/data</code> di Files.",
+        "p": "Jika Anda tak bisa melihat <code>com.bg7yoz.ft8cn</code> di folder data pada Android baru, pasang pengelola berkas pihak ketiga seperti <strong>Material Files</strong> atau <strong>Solid Explorer</strong> dari Play Store — keduanya bisa membaca folder data aplikasi. Atau, lebih mudah: gunakan layar Debug di dalam aplikasi di atas, yang sepenuhnya menghindari ini."
+      }
+    },
+    "s5": {
+      "h": "Cadangan: ADB",
+      "p1": "Untuk pengembang dengan komputer dan alat <code>adb</code> Android:",
+      "steps": [
+        "Di ponsel Anda, aktifkan <strong>Opsi pengembang → USB debugging</strong>.",
+        "Colokkan ponsel ke komputer dengan USB, terima permintaan otorisasi debug.",
+        "Dari terminal, pastikan ponsel terlihat:",
+        "Tarik log:"
+      ],
+      "steps3b": "Pada penyiapan banyak perangkat, targetkan ponsel secara eksplisit dengan <code>-s &lt;serial&gt;</code>."
+    },
+    "s6": {
+      "h": "Tulis isu",
+      "p1": "Laporan bug yang berguna itu kecil — tiga atau empat paragraf pendek sudah cukup. Pola yang selalu berhasil:",
+      "steps": [
+        "<strong>Apa yang Anda lakukan?</strong> \"Mencolok FT-891 saya, mengetuk CQ di 20m.\" Tindakan konkret secara berurutan. Tak perlu mendeskripsikan aplikasi — cukup apa yang Anda ketuk.",
+        "<strong>Apa yang Anda harapkan terjadi?</strong> \"Saya berharap radio mengudara dan aplikasi mulai mengirim nada di 14.074.\"",
+        "<strong>Apa yang sebenarnya terjadi?</strong> \"Strip TX tetap di LISTENING. Tanpa PTT, tanpa nada.\" Jika ada yang muncul di layar — toast galat, antarmuka beku, waterfall aneh — deskripsikan. Tangkapan layar sangat berharga.",
+        "<strong>Seberapa sering?</strong> Setiap kali? Hanya setelah ponsel tidur? Hanya di 6m? Apa pun yang bisa Anda pastikan mempersempit pencarian.",
+        "<strong>Lampirkan log.</strong> Ambil <code>debug.log</code> tepat setelah mereproduksi masalah — baris terbaru paling berguna."
+      ]
+    },
+    "s7": {
+      "h": "Templat isu",
+      "p1": "Salin ini ke isu baru dan isi bagian kosongnya:"
+    },
+    "s8": {
+      "h": "Jika aplikasi crash",
+      "p1": "Saat FT8AF crash total, Android menyimpan laporan crash terpisah. Dua tempat untuk dilihat:",
+      "ul0": "Jika Anda mendapatkannya dari <strong>Google Play</strong>, ikut sertakan diri sekali ke pelaporan crash anonim, dan kami akan melihat jejak tumpukan otomatis. Anda tak perlu melakukan apa-apa — tapi menambahkan \"Saya baru mengirim laporan crash dari perangkat X sekitar &lt;waktu&gt;\" ke isu membantu kami mencocokkannya.",
+      "ul1": "Jika Anda punya ADB, log sistem langsung biasanya berisi jejak crash tepat setelah terjadi:",
+      "ul1b": "Lampirkan <code>logcat.txt</code> selain <code>debug.log</code>."
+    },
+    "s9": {
+      "h": "Privasi",
+      "p1": "Log debug hanyalah teks. Ia menangkap peristiwa operasi aplikasi, bukan data pribadi Anda. Anda akan melihat baris seperti:",
+      "p2": "Yang <em>tak</em> ada di sana: kunci API Cloudlog atau QRZ, kata sandi akun Anda, foto, kontak, atau lokasi. Callsign dan lokator Anda <em>ada</em> di sana, karena keduanya mengenali stasiun Anda — tapi itu toh informasi publik bagi amatir berlisensi.",
+      "p3": "Jika Anda ingin menelaah atau menyunting sebelum mengirim, berkasnya teks biasa UTF-8. Editor teks apa pun akan membukanya.",
+      "callout": {
+        "h": "Terima kasih telah meluangkan waktu.",
+        "p": "Laporan lapangan yang nyata — \"radio ini, kabel ini, band ini, inilah yang terjadi\" — adalah cara fork ini menjadi lebih baik. Dua putaran bug-bash dan 58+ perbaikan dimulai dari laporan persis seperti yang akan Anda ajukan. 73."
+      }
+    },
+    "pager": {
+      "prevLabel": "← Sebelumnya",
+      "prevTitle": "Menggunakan FT8AF",
+      "nextLabel": "Buka →",
+      "nextTitle": "Isu baru di GitHub"
+    }
+  }
+}

@@ -34,7 +34,7 @@ def resolve(url: str) -> pathlib.Path | None:
         return pathlib.Path(".")  # pure fragment after strip
     if not path.startswith("/"):
         return None  # we don't use relative paths; flag as broken
-    rel = path.lstrip("/")
+    rel = path.lstrip("/").rstrip("/")
     if rel == "":
         return ROOT / "index.html"
     candidate = ROOT / rel
@@ -44,6 +44,10 @@ def resolve(url: str) -> pathlib.Path | None:
     with_html = candidate.with_suffix(candidate.suffix + ".html") if candidate.suffix else candidate.parent / (candidate.name + ".html")
     if with_html.is_file():
         return with_html
+    # locale home: /es -> public/es/index.html
+    index = candidate / "index.html"
+    if index.is_file():
+        return index
     return None
 
 

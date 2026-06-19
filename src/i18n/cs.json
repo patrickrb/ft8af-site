@@ -1,0 +1,779 @@
+{
+  "common": {
+    "nav": {
+      "home": "Domů",
+      "features": "Funkce",
+      "download": "Stáhnout",
+      "wiki": "Wiki",
+      "faq": "FAQ",
+      "github": "GitHub",
+      "star": "Hvězda",
+      "getFree": "Získejte ji zdarma",
+      "menu": "Menu"
+    },
+    "langLabel": "Jazyk",
+    "ogImageAlt": "FT8AF — Pracujte svět z kapsy. FT8 na Androidu.",
+    "btn": {
+      "downloadFt8af": "Stáhnout FT8AF",
+      "starGithub": "Dejte hvězdu na GitHubu",
+      "joinDiscord": "Připojte se na Discord"
+    },
+    "footer": {
+      "tagline": "FT8 na Androidu, modernizováno. Komunitní fork FT8CN, stavěný pro skutečný provoz v éteru.",
+      "product": "Produkt",
+      "project": "Projekt",
+      "operators": "Operátoři",
+      "community": "Komunita",
+      "bottom": "© 2026 FT8AF · GPL-3.0 · Na ramenou BG7YOZ &amp; N0BOY",
+      "links": {
+        "googlePlay": "Google Play",
+        "repo": "Repozitář GitHub",
+        "releases": "Vydání",
+        "reportBug": "Nahlásit chybu",
+        "originalFt8cn": "Původní FT8CN",
+        "k1af": "Patrick · K1AF",
+        "n0rc": "Reid · N0RC",
+        "discord": "Discord"
+      }
+    }
+  },
+
+  "index": {
+    "meta": {
+      "title": "FT8AF — FT8 pro Android",
+      "description": "FT8AF spouští FT8, FT4 a FT2 nativně na vašem telefonu nebo tabletu s Androidem. Dekódujte pásmo, řiďte rádio přes USB CAT, mapujte cesty QSO, aktivujte parky pro POTA a pracujte svět odkudkoli. Zdarma a open source.",
+      "ogTitle": "FT8AF — Pracujte svět z kapsy",
+      "ogDescription": "Nativní FT8 na Androidu. Dekódujte pásmo, řiďte rádio přes USB CAT a spusťte celou automatickou sekvenci. Zdarma a open source."
+    },
+    "appDescription": "FT8AF spouští FT8, FT4 a FT2 nativně na Androidu. Živé dekódování a vodopád, řízení USB CAT pro 75+ transceiverů, monitor QSO s automatickou sekvencí, mapa světa s cestami QSO, režim aktivace POTA, automatické logování do Cloudlog, QRZ, Wavelog a PSKReporter, upozornění na hledané DX, rozhraní v 16 jazycích, tmavý Material 3.",
+    "hero": {
+      "eyebrow": "FT8 · Nativní Android",
+      "title": "Pracujte svět<br />z kapsy.",
+      "lede": "FT8AF dekóduje pásmo, řídí rádio přes USB CAT a spouští celou\n        automatickou sekvenci — vše nativně na vašem telefonu nebo tabletu s Androidem. Žádný notebook. Žádná\n        spleť zvukových karet. Jen vaše rádio a kabel USB-C.",
+      "ctaGithub": "Získejte ji zdarma na GitHubu",
+      "ctaPlay": "$3.50 na Google Play",
+      "pillFree": "Zdarma a open source",
+      "pillFork": "Fork FT8CN",
+      "deviceAlt": "Karta dekódování FT8AF na Androidu: živý seznam dekódovaných stanic — K7LNY, KF0X, KF6MIX, AK7LV, ND9M — každá s lokátorem, vzdáleností, sloupci síly signálu, SNR v dB, časem od posledního poslechu, státem USA a štítkem NEW DXCC, s ovládáním Hunt / Call CQ / TX1 a poslouchajícím pruhem TX na 10.136 MHz / 30m."
+    },
+    "trust": {
+      "modes": "Režimy<br />FT8 · FT4 · FT2",
+      "rigs": "Modely transceiverů<br />přes USB CAT",
+      "pota": "Režim aktivace<br />vestavěný",
+      "map": "Mapa světa<br />+ cesty QSO",
+      "langs": "Jazyky<br />vestavěné"
+    },
+    "features": {
+      "eyebrow": "Stavěno pro éter",
+      "title": "Vše, co potřebujete<br />k provozu pásma — na telefonu.",
+      "cta": "Prozkoumejte všechny funkce",
+      "cards": [
+        { "title": "Dekódování FT8, FT4 &amp; FT2", "body": "Plynule rolující vodopád s časovými značkami UTC u každé periody, štítky pro naladění jedním klepnutím a dekódování v milisekundách — nyní napříč třemi režimy." },
+        { "title": "Mapa světa &amp; cesty QSO", "body": "Vestavěná karta mapy zanese každé dekódování a nakreslí ortodromickou cestu k vašemu kontaktu — se vzdáleností, polohou DX a hranicemi států USA." },
+        { "title": "Aktivní monitor QSO &amp; lov", "body": "Sledujte kontakt celou automatickou sekvencí, s frontou volajících, režimem Hunt, Auto-CQ, rozpoznáváním směrového CQ a upozorněními na hledané DX." },
+        { "title": "Režim aktivace POTA", "body": "Proveďte aktivaci parku od začátku do konce — živý seznam kontaktů, podpora two-fer / více parků, mapa aktivace a přímé nahrání do POTA." },
+        { "title": "USB CAT pro 75+ transceiverů", "body": "Řiďte rádio jediným kabelem USB-C — CAT, zvuk, automatické vyrovnávání ALC a ochrana PSV — napříč 75+ Icom, Yaesu, Kenwood, Xiegu a dalšími." },
+        { "title": "Logy všude, automaticky", "body": "Ve chvíli, kdy se QSO dokončí, nahraje se do Cloudlog, QRZ a Wavelog — a každé dekódování, které slyšíte, je hlášeno do PSKReporter." },
+        { "title": "Vícejazyčné rozhraní", "body": "Šestnáct jazyků — od angličtiny a španělštiny po korejštinu, ukrajinštinu a arabštinu zprava doleva — s vítanými příspěvky komunity." }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "Získejte FT8AF",
+      "title": "Zdarma navždy.<br />Nebo $3.50, abyste ji nakrmili.",
+      "lede": "Stejná aplikace, tak či tak. Verze z Play Store jen zautomatizuje aktualizace — a přispěje na další ladicí seanci na cestách.",
+      "free": {
+        "tag": "Open source",
+        "title": "Zdarma z GitHubu",
+        "body": "Plná aplikace, licencovaná pod GPL a vyvíjená otevřeně. Vezměte APK nebo si ji sestavte sami.",
+        "li": [
+          "Každá funkce, bez omezení",
+          "Nainstalujte nejnovější APK ze strany",
+          "Sestavte ze zdrojů pomocí Gradle",
+          "Čtěte, forkujte &amp; přispívejte do kódu"
+        ],
+        "cta": "Zobrazit na GitHubu"
+      },
+      "paid": {
+        "flag": "Podporuje projekt",
+        "tag": "Google Play",
+        "per": "jednorázově",
+        "title": "Podpořte projekt",
+        "body": "Totožná aplikace, doručovaná přes Play Store — aby zůstala aktuální, aniž byste hnuli prstem.",
+        "li": [
+          "Automatické aktualizace na pozadí",
+          "Instalace jedním klepnutím, bez bočního načítání",
+          "Sestavení ověřené Play Protectem",
+          "Přímo financuje vývoj"
+        ],
+        "cta": "Získejte ji na Google Play"
+      },
+      "note": "Interní testovací kanál · možná se nejprve budete muset přidat do seznamu testerů.",
+      "noteLink": "Více v FAQ →"
+    },
+    "story": {
+      "eyebrow": "73 z cesty",
+      "quote": "Většina FT8AF vznikla od oka na I-70 při 70&nbsp;mph, cestou na Hamvention a zpět —\n      notebook na sedadle spolujezdce, rádio vzadu, Claude ve smyčce.",
+      "quoteMuted": "Některé z nejlepších ladění se dějí dálniční rychlostí."
+    },
+    "cta": {
+      "eyebrow": "Zůstaňte ve smyčce",
+      "title": "Dostávejte poznámky k buildům &amp;<br />novinky o funkcích.",
+      "lede": "Nízký objem. Poznámky k vydáním, hlášení z terénu a občasné „opravili jsme to, co padalo na vašem FT-891“. Odhlásit se můžete kdykoli.",
+      "emailLabel": "E-mailová adresa",
+      "emailPlaceholder": "vy@znacka.radio",
+      "submit": "Dejte mi vědět",
+      "or": "nebo",
+      "starRepo": "★ dejte repozitáři hvězdu",
+      "joinDiscord": "připojte se na Discord",
+      "done": "Jste na seznamu."
+    }
+  },
+
+  "features": {
+    "meta": {
+      "title": "FT8AF — Funkce",
+      "description": "Dekódování FT8, FT4 a FT2 s plynulým vodopádem, aktivní monitor QSO s chytrým lovem a upozorněními na hledané DX, mapa světa s cestami QSO, režim aktivace POTA, řízení USB CAT pro 75+ transceiverů, automatické logování do Cloudlog, QRZ, Wavelog a PSKReporter a vícejazyčná podpora v 16 jazycích včetně arabštiny zprava doleva.",
+      "ogTitle": "FT8AF — Plnohodnotná stanice FT8, přestavěná pro Android",
+      "ogDescription": "Dekódování FT8/FT4/FT2, aktivní monitor QSO, mapa světa s cestami QSO, aktivace POTA, USB CAT pro 75+ transceiverů a automatické logování do Cloudlog, QRZ, Wavelog & PSKReporter."
+    },
+    "hero": {
+      "eyebrow": "Sada funkcí",
+      "title": "Plnohodnotná stanice FT8,<br />přestavěná pro Android.",
+      "lede": "Každá část provozní smyčky — dekódovat, zacílit, vysílat, logovat — předělaná v rychlém rozhraní Jetpack Compose a vyztužená dvěma průchody honu na chyby. Tady je, co je uvnitř."
+    },
+    "rows": {
+      "spectrum": {
+        "eyebrow": "01 · Spektrum",
+        "title": "Živé dekódování pásma &amp; vodopád",
+        "body": "Sledujte celé propustné pásmo 3&nbsp;kHz najednou. Vodopád roluje plynule s časovými značkami UTC na každé hranici periody, takže čtete šíření jediným pohledem a vrhnete se ve chvíli, kdy se objeví hledaná stanice.",
+        "points": [
+          "Plynulé rolování s časovými značkami u každé periody",
+          "Vyšší pruh spektra, konfigurovatelná šířka &amp; přiblížení (Široký → 500&nbsp;Hz)",
+          "Klepněte na signál pro naladění; značka TX zůstává zarovnaná; odpadová dekódování filtrována"
+        ],
+        "alt": "Karta Waterfall FT8AF: spektrogram celého pásma s dekódovanými značkami vepsanými svisle na jejich signálech, značkou frekvence TX, časovou značkou UTC a bannerem stavu aktivního QSO s nápisem 'New state: NM · KE7WVV DM56 −4 dB'."
+      },
+      "modes": {
+        "eyebrow": "02 · Režimy",
+        "title": "Tři režimy, jedna aplikace",
+        "body": "FT8AF začal jen jako FT8 a nyní dekóduje a vysílá <strong>FT8, FT4 a FT2</strong> — každý se správným časováním slotu a bandplánem. Přepínejte režimy jedním klepnutím a honěte DXpedice s podporou Fox &amp; Hound.",
+        "points": [
+          "FT8 (15 s) a rychlejší FT4 (7.5 s) pro závody &amp; pile-upy",
+          "Experimentální režim FT2 s vlastními kanonickými frekvencemi",
+          "Provoz Fox &amp; Hound (DXpedice) pro FT8"
+        ]
+      },
+      "qso": {
+        "eyebrow": "03 · Provoz",
+        "title": "Monitor QSO, lov &amp; upozornění",
+        "body": "Sbalovací panel sleduje váš aktuální kontakt každým krokem výměny — volání → report → roger → 73 → log. Fronta volajících vás drží zamčené na cíli a chytrý lov pracuje pásmo, takže ho nemusíte hlídat.",
+        "points": [
+          "Režim Hunt &amp; Auto-CQ — řetězte volání bez opětovného klepání",
+          "Upozornění na hledané DX: zvuk + notifikace u nového DXCC nebo státu",
+          "Rozpoznávání směrového CQ, seznam blokovaných značek &amp; filtry dekódování"
+        ],
+        "alt": "Karta dekódování FT8AF: živý seznam dekódovaných stanic — K7LNY, KF0X, KF6MIX, AK7LV, ND9M — každá s lokátorem, vzdáleností, sloupci síly signálu, SNR v dB, časem od posledního poslechu, státem USA a štítkem NEW DXCC, s ovládáním Hunt / Call CQ / TX1 a poslouchajícím pruhem TX na 10.136 MHz / 30m."
+      },
+      "map": {
+        "eyebrow": "04 · Mapa",
+        "title": "Mapa světa &amp; cesty QSO",
+        "body": "Vyhrazená karta mapy zanese stanice, které slyšíte, a nakreslí ortodromickou cestu k tomu, koho pracujete — se vzdáleností, polohou DX a hranicemi států USA, abyste přesně viděli, kde váš signál přistává.",
+        "points": [
+          "Vzdálenost &amp; poloha DX přímo v panelu QSO",
+          "Mapa cest s vykreslenými hranicemi států USA",
+          "Vyberte si jednotky — míle nebo kilometry"
+        ],
+        "alt": "Karta Map FT8AF: mapa světa zanášející slyšené stanice jako značky, s lokátorem EM28, počtem stanic a přepínači projekce PSK / standardní / azimutální."
+      },
+      "pota": {
+        "eyebrow": "05 · Aktivace",
+        "title": "Režim aktivace POTA",
+        "body": "Vezměte FT8AF do parku. Režim aktivace řídí celou vaši výpravu — živý a rostoucí seznam kontaktů se značkami a lokátory lovců, mapu kontaktů a detekci park-park — a pak nahraje váš log přímo do POTA, až skončíte.",
+        "points": [
+          "Aktivace two-fer / více parků a štítky P2P",
+          "Mapa aktivace, avatary QRZ &amp; proklikatelná historie",
+          "Pokračuje po zavření aplikace a nahrává do POTA v aplikaci"
+        ],
+        "alt": "Karta POTA FT8AF během živé aktivace dvou parků (two-fer) US-1469 a US-4567: zelený počítadlo '14 QSOs — valid activation', uplynulý čas, tlačítka Self-spot a End-activation, mapa USA s cestami kontaktů vyzařujícími od aktivátora a seznam kontaktů s avatary QRZ a štítkem park-park (P2P)."
+      },
+      "usb": {
+        "eyebrow": "06 · Hardware",
+        "title": "USB CAT pro 75+ rádií",
+        "body": "Připojte rádio přímo k telefonu jediným kabelem USB-C. FT8AF zvládá řízení frekvence CAT, USB zvuk a PTT napříč 75+ modely — Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 a dalšími — se spoustou oprav spolehlivosti automatického připojení.",
+        "points": [
+          "Přidaná nová rádia: Yaesu FT-710, Kenwood TS-440, Lab599 Discovery TX-500",
+          "Automatické vyrovnávání ALC a zastavení TX spouštěné PSV pro ochranu koncových stupňů",
+          "Hlasitost TX v reálném čase — upravujte buzení za běhu, uprostřed vysílání"
+        ]
+      },
+      "logging": {
+        "eyebrow": "07 · Logování",
+        "title": "Logy všude, automaticky",
+        "body": "Nastavte své logovací služby jednou a zapomeňte na ně. Ve chvíli, kdy se QSO dokončí, FT8AF ho pošle přímo do Cloudlog, QRZ a Wavelog — a každý signál, který dekódujete, je hlášen do PSKReporter, takže se mapy šíření rozzáří vaší stanicí.",
+        "points": [
+          "Automatické nahrávání do Cloudlog / Wavelog a deníku QRZ",
+          "Hlášení do PSKReporter každého dekódování, které slyšíte",
+          "Výběr ID stanice plus export ADIF, oba reporty SNR zachyceny"
+        ],
+        "alt": "Karta Logbook FT8AF: pohled Stats zobrazující 27 QSO, 13 entit DXCC, 11 zón CQ a 13 zón ITU, prstencový graf rozložení pásem pokrývající 30m, 20m, 40m, 17m a 15m a ukazatele pokroku diplomů pro DXCC Mixed (13/340) a lokátory VUCC (28/100)."
+      },
+      "material": {
+        "eyebrow": "08 · Rozhraní",
+        "title": "Tmavé rozhraní Material 3",
+        "body": "Celé rozhraní je čerstvá přestavba v Jetpack Compose na tmavém motivu Material 3 — vysoký kontrast, čitelné jediným pohledem na prudkém slunci i v tmavém shacku a uspořádané pro palce. Nastavení jsou organizována do čistých rozbalovacích kategorií a kompaktní režim dekódování utahuje věci na menších obrazovkách.",
+        "points": [
+          "Rozbalovací Nastavení, konfigurovatelná zvýraznění dekódování &amp; kompaktní režim",
+          "Karta operátora s vaší fotkou z QRZ, anténou &amp; výkonem",
+          "Dekódování s kódem stavu: nový, hledaný, pracovaný, potvrzený"
+        ],
+        "alt": "Karta Settings FT8AF: karta identity operátora pro K1AF v lokátoru EM28 s profilovou fotkou QRZ, anténou (ATAS 120) a výkonem (70 W), přepínačem auto-lokátoru z GPS a rozbalovacími kategoriemi Radio &amp; Audio, Transmission, Time Sync, Decode &amp; Filters, Logging &amp; Awards, Advanced a About."
+      },
+      "languages": {
+        "eyebrow": "09 · Jazyky",
+        "title": "Lokalizováno v 16 jazycích",
+        "body": "FT8CN byl jen čínsky. FT8AF nyní vychází v šestnácti jazycích — všechny přispěny komunitou — a automaticky se přepne na jazyk vašeho zařízení s Androidem, s rozložením zprava doleva pro arabštinu.",
+        "points": [
+          "Překlady přispěné komunitou, včetně arabštiny zprava doleva",
+          "Automatické rozpoznání jazyka Androidu — bez ručního přepínání",
+          "Další jazyky vítány — PR otevřené na GitHubu"
+        ]
+      }
+    },
+    "viz": {
+      "modes": {
+        "head": "Provozní režim",
+        "ft8slot": "slot 15 s",
+        "ft4slot": "slot 7.5 s",
+        "ft4note": "závodní tempo",
+        "ft2slot": "ještě rychleji",
+        "ft2note": "experimentální",
+        "foxhound": "Režim DXpedice Fox &amp; Hound pro lov velkých ryb"
+      },
+      "usb": {
+        "head": "USB CAT + Audio",
+        "connected": "Připojeno",
+        "yourRig": "Vaše rádio",
+        "rigCount": "75+ modelů"
+      },
+      "languages": {
+        "head": "Lokalizace",
+        "count": "16 jazyků"
+      }
+    },
+    "stability": {
+      "eyebrow": "A neokázalá vítězství",
+      "title": "58+ oprav, na které nikdy<br />nebudete muset myslet.",
+      "lede": "Dva úplné průchody „bug bash“ šly po pádech, únicích a gremlinech životního cyklu, kteří stojí mezi vámi a čistým QSO.",
+      "cards": [
+        { "h4": "Opravy pádů &amp; úniků", "p": "Pády NPE, úniky zdrojů a souběhy vláken vystopovány napříč celou aplikací." },
+        { "h4": "Značky UTC na vodopádu", "p": "Časové značky kreslené na hranicích period FT8, takže čtete časování okamžitě." },
+        { "h4": "Hardwarová hlasitost TX", "p": "Nastavte úroveň vysílání fyzickými tlačítky hlasitosti telefonu, uprostřed QSO." },
+        { "h4": "Přepínač slotů TX1 / TX2", "p": "Vyberte si vysílací periodu přímo, z pruhu TX." },
+        { "h4": "Synchronizace času &amp; lokátoru z GPS", "p": "Automatická synchronizace času a lokátoru z GPS plus ruční korekce času pro provoz offline." },
+        { "h4": "Zarovnání značky TX", "p": "Kurzor vysílací frekvence zůstává zamčen na vašem skutečném zvuku TX." }
+      ]
+    },
+    "cta": {
+      "title": "Připraveni dát stanici<br />do kapsy?"
+    }
+  },
+
+  "download": {
+    "meta": {
+      "title": "FT8AF — Stáhnout",
+      "description": "Získejte FT8AF zdarma z GitHubu — nainstalujte APK ze strany nebo sestavte ze zdrojů — nebo podpořte projekt za $3.50 na Google Play s automatickými aktualizacemi.",
+      "ogTitle": "FT8AF — Mějte FT8 na svém telefonu s Androidem",
+      "ogDescription": "APK zdarma z GitHubu nebo $3.50 na Google Play za automatické aktualizace. Stejná aplikace, každá funkce. Funguje na jakémkoli Androidu s podporou USB-OTG."
+    },
+    "hero": {
+      "eyebrow": "Stáhnout",
+      "title": "Mějte FT8AF ve svém telefonu.",
+      "lede": "Zdarma a open source z GitHubu, nebo $3.50 na Google Play, abyste zautomatizovali aktualizace a přispěli na vývoj. Stejná aplikace, každá funkce, tak či tak."
+    },
+    "free": {
+      "tag": "Open source",
+      "title": "Zdarma z GitHubu",
+      "body": "Kompletní aplikace, licencovaná pod GPL-3.0. Nainstalujte podepsané APK ze strany nebo si ho sestavte sami.",
+      "li": [
+        "Každá funkce, bez omezení i účtů",
+        "Podepsané APK vydání na stránce Releases",
+        "Sestavte ze zdrojů pomocí Gradle",
+        "Prohlížejte, forkujte &amp; přispívejte do kódu",
+        "Ruční aktualizace (nové buildy si stahujete sami)"
+      ],
+      "cta": "Stáhnout APK"
+    },
+    "paid": {
+      "flag": "Podporuje projekt",
+      "tag": "Google Play",
+      "per": "jednorázově",
+      "title": "Podpořte projekt",
+      "body": "Totožná aplikace, doručovaná přes Play Store, aby zůstávala vždy aktuální.",
+      "li": [
+        "Automatické aktualizace na pozadí",
+        "Instalace jedním klepnutím — bez kroků bočního načítání",
+        "Sestavení ověřené Play Protectem",
+        "Snadno nainstalovatelné na telefon laika",
+        "Přímo financuje průběžný vývoj"
+      ],
+      "cta": "Získejte ji na Google Play"
+    },
+    "callout": {
+      "title": "Pozor: verze z Play Store je na interním testovacím kanálu",
+      "body": "Možná budete muset být přidáni do seznamu testerů, než odkaz Google Play umožní instalaci. Pokud se neotevře, vezměte zatím zdarma APK z GitHubu — je to stejná aplikace."
+    },
+    "methods": {
+      "eyebrow": "Jak nainstalovat",
+      "title": "Tři cesty dovnitř."
+    },
+    "method": {
+      "sideload": {
+        "title": "Nainstalujte APK ze strany",
+        "sub": "Nejrychlejší · zdarma",
+        "steps": [
+          "Otevřete <strong>Releases</strong> na GitHubu a stáhněte nejnovější <code style=\"font-family:var(--font-mono)\">.apk</code>.",
+          "Klepněte na soubor; povolte „instalovat z tohoto zdroje“, pokud se Android zeptá.",
+          "Otevřete FT8AF, udělte oprávnění USB &amp; mikrofon a vyberte své rádio."
+        ],
+        "cta": "Otevřít Releases"
+      },
+      "build": {
+        "title": "Sestavit ze zdrojů",
+        "sub": "Pro kutily",
+        "codeComment": "# naklonovat &amp; sestavit",
+        "cta": "Zobrazit repozitář"
+      },
+      "play": {
+        "title": "Google Play",
+        "sub": "$3.50 · automatické aktualizace",
+        "steps": [
+          "Otevřete záznam v Play Store (přidejte se do seznamu testerů, pokud budete vyzváni).",
+          "Kupte jednou za $3.50 a klepněte na <strong>Nainstalovat</strong>.",
+          "Aktualizace přicházejí samy — nic dalšího na práci."
+        ],
+        "cta": "Otevřít na Google Play"
+      }
+    },
+    "req": {
+      "eyebrow": "Než začnete",
+      "title": "Co budete potřebovat.",
+      "cards": [
+        { "k": "Zařízení", "v": "Android 8+", "d": "Telefon nebo tablet, s podporou USB-OTG" },
+        { "k": "Kabel", "v": "USB-C → rádio", "d": "Adaptér OTG pro starší telefony" },
+        { "k": "Rádio", "v": "KV transceiver s CAT", "d": "75+ modelů — Icom, Yaesu, Kenwood, Xiegu &amp; další" },
+        { "k": "Režimy", "v": "FT8 · FT4 · FT2", "d": "160m – 6m, všechna subpásma" }
+      ]
+    },
+    "reqCallout": {
+      "title": "Nemáte rádio po ruce? Stejně můžete prozkoumávat.",
+      "body": "FT8AF dekóduje z mikrofonu telefonu, takže můžete sledovat pásmo a naučit se rozhraní, než zapojíte řízení CAT. Viz <a href=\"/faq\">FAQ</a> pro podporovaná rádia a kabeláž."
+    },
+    "cta": {
+      "title": "Zvolte svou cestu. Pracujte svět.",
+      "lede": "Zdarma na GitHubu, nebo $3.50, aby se aktualizovala sama. Tak či tak dostanete celou aplikaci.",
+      "freeApk": "APK zdarma",
+      "playBtn": "$3.50 na Google Play"
+    }
+  },
+
+  "faq": {
+    "meta": {
+      "title": "FT8AF — FAQ",
+      "description": "Často kladené otázky o FT8AF: ceny, testovací kanál Google Play, podporovaná rádia, režimy FT4 a FT2, aktivace POTA, logovací a hlásicí služby, vztah k FT8CN a přispívání.",
+      "ogTitle": "FT8AF — Často kladené otázky",
+      "ogDescription": "Ceny, testovací kanál Google Play, podporovaná rádia, režimy FT4/FT2, POTA, logovací služby, jak souvisí s FT8CN a přispívání."
+    },
+    "hero": {
+      "eyebrow": "FAQ",
+      "title": "Otázky, zodpovězené.",
+      "lede": "Ceny, testovací kanál Play Store, rádia a kabeláž a jak to vše souvisí s FT8CN. Pořád zaseknutí? <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--signal)\">Otevřete issue na GitHubu</a>."
+    },
+    "cats": {
+      "getting": "Získání",
+      "radios": "Rádia &amp; nastavení",
+      "modes": "Režimy, mapy &amp; POTA",
+      "project": "Projekt"
+    },
+    "items": {
+      "free": {
+        "q": "Je FT8AF opravdu zdarma?",
+        "a": "Ano — zcela. FT8AF je open source pod licencí GPL-3.0. Můžete stáhnout podepsané APK ze stránky Releases na GitHubu nebo si ho sestavit sami ze zdrojů, s každou funkcí odemčenou a bez nutnosti účtu. Možnost $3.50 na Google Play je stejná aplikace; platíte za automatické aktualizace a podporu vývoje, ne za funkce."
+      },
+      "paid": {
+        "q": "Co mi tedy dá $3.50 na Google Play?",
+        "a": "Pohodlí a dobrou karmu. Verze z Play Store se sama aktualizuje na pozadí, instaluje se jedním klepnutím bez kroků „povolit neznámé zdroje“ a je ověřená Play Protectem — což z ní dělá snadnou volbu pro telefon, se kterým se nechcete piplat. Nákup také přímo financuje další vývoj. Samotná aplikace je totožná s bezplatným buildem z GitHubu."
+      },
+      "playLink": {
+        "q": "Odkaz Google Play mi nedovolí nainstalovat. Proč?",
+        "a": "Záznam v Play Store je momentálně na <strong>interním testovacím kanálu</strong>, takže možná budete muset být přidáni do seznamu testerů, než vám Google dovolí instalaci. Pokud odkaz zatím nefunguje, stáhněte místo toho zdarma APK ze <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">stránky Releases na GitHubu</a> — je to přesně stejná aplikace."
+      },
+      "install": {
+        "q": "Jak nainstaluji APK bezpečně?",
+        "a": "Stáhněte nejnovější <code>.apk</code> z GitHub Releases, klepněte na něj a schvalte jednorázovou výzvu „instalovat z tohoto zdroje“, kterou Android zobrazí. Pak otevřete FT8AF a udělte oprávnění USB a mikrofon. Úplné podrobné pokyny jsou na <a href=\"/download\">stránce Stáhnout</a>."
+      },
+      "radios": {
+        "q": "Která rádia jsou podporována?",
+        "a": "Více než <strong>75 modelů transceiverů</strong> napříč Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 a dalšími — vybíraných ze seznamu v Nastavení spolu s režimem řízení a zvukovým zařízením. Populární rádia jako Icom IC-7300 a Yaesu FT-891 jsou dobře podporována a mezi nedávné přírůstky patří <strong>Yaesu FT-710</strong>, <strong>Kenwood TS-440</strong> a <strong>Lab599 Discovery TX-500</strong>. FT8AF také přidává automatické vyrovnávání ALC a zastavení TX spouštěné PSV na ochranu vašeho rádia. Pokud vaše rádio není uvedeno, <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\">otevřete issue</a> a dejte nám vědět."
+      },
+      "cable": {
+        "q": "Jaký kabel potřebuji?",
+        "a": "Jediné USB spojení z telefonu do USB portu rádia zvládá na většině moderních rádií jak řízení CAT, tak zvuk. Novější telefony se připojují přímo kabelem USB-C; starší potřebují adaptér USB-OTG. Vaše zařízení musí podporovat režim hostitele USB (OTG)."
+      },
+      "noRadio": {
+        "q": "Můžu to vyzkoušet bez rádia?",
+        "a": "Ano. FT8AF umí dekódovat z mikrofonu telefonu, takže ho můžete přiložit k reproduktoru nebo si prostě prozkoumat rozhraní a sledovat vodopád, než zapojíte řízení CAT. Dobrý způsob, jak se nejprve naučit rozložení."
+      },
+      "bands": {
+        "q": "Která pásma fungují?",
+        "a": "Všechna standardní subpásma FT8 od 160m po 6m jsou vestavěná, s jedním klepnutím na přepnutí. Vodopád pokrývá celé propustné zvukové pásmo, takže vidíte a pracujete celý segment najednou."
+      },
+      "modes": {
+        "q": "Podporuje FT8AF FT4 a FT2?",
+        "a": "Ano. FT8AF začal jen jako FT8 a nyní dekóduje a vysílá <strong>FT8, FT4 a experimentální FT2</strong>, každý se správným časováním slotu a bandplánem — přepínatelné jedním klepnutím. Je tu také provoz Fox &amp; Hound (DXpedice) pro lov vzácných stanic v pile-upu."
+      },
+      "pota": {
+        "q": "Můžu s ní dělat aktivace POTA?",
+        "a": "Ano — je tu vyhrazený <strong>režim aktivace POTA</strong>. Udržuje živý seznam kontaktů se značkami a lokátory lovců, zobrazuje mapu aktivace, detekuje kontakty park-park (P2P), podporuje aktivace více parků (two-fer), pokračuje, pokud aplikaci zavřete, a nahraje váš log přímo do POTA, až skončíte."
+      },
+      "map": {
+        "q": "Je tam mapa?",
+        "a": "Je. Vyhrazená karta mapy zanese stanice, které slyšíte, a nakreslí ortodromickou cestu k tomu, koho pracujete, se vzdáleností, polohou DX a hranicemi států USA. Vyberte si jednotky — míle nebo kilometry — v Nastavení."
+      },
+      "logging": {
+        "q": "Které logovací a hlásicí služby podporuje?",
+        "a": "Když se QSO dokončí, FT8AF ho může automaticky nahrát do <strong>Cloudlog / Wavelog</strong> a deníku <strong>QRZ</strong> a hlásí každé dekódování, které slyšíte, do <strong>PSKReporter</strong>, takže se vaše stanice objeví na mapách šíření. Můžete také exportovat ADIF. Každá služba se nastaví jednou v Nastavení a poté běží na pozadí."
+      },
+      "ft8cn": {
+        "q": "Čím se to liší od FT8CN?",
+        "a": "FT8AF je fork vynikajícího FT8CN, který ho posouvá vpřed: plné tmavé rozhraní Jetpack Compose / Material 3, aktivní monitor QSO s frontou volajících a chytrým lovem, režimy <strong>FT4 a FT2</strong> vedle FT8, mapa světa s cestami QSO, režim <strong>aktivace POTA</strong>, automatické logování do Cloudlog, QRZ, Wavelog a PSKReporter, <strong>vícejazyčná podpora</strong> (originál byl jen čínsky) plus desítky oprav chyb napříč několika průchody „bug bash“. Jádro dekódovacího dědictví je z FT8CN — my jsme modernizovali a rozšířili zážitek kolem něj."
+      },
+      "languages": {
+        "q": "Jaké jazyky FT8AF podporuje?",
+        "a": "FT8AF vychází v <strong>16 jazycích</strong>: angličtina (výchozí), řečtina, španělština, japonština, francouzština, ruština, čínština, italština, polština, korejština, nizozemština, čeština, turečtina, indonéština, ukrajinština a arabština (zprava doleva). Aplikace automaticky rozpozná jazyk vašeho zařízení s Androidem a přepne se sama. Všechny překlady jsou přispěny komunitou — pokud chcete přidat nebo vylepšit jazyk, pull requesty jsou vítány na <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHubu</a>."
+      },
+      "who": {
+        "q": "Kdo dělá FT8AF?",
+        "a": "Tvoří ji <a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">Patrick Burns (K1AF)</a> a <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">Reid (N0RC)</a> — velká část, jak je proslulé, vznikla od oka na I-70 cestou na Hamvention. Obrovský dík patří <strong>BG7YOZ</strong>, původnímu autorovi FT8CN, a <strong>N0BOY</strong>, který hostuje původní repozitář. Nic z toho neexistuje bez nich."
+      },
+      "contribute": {
+        "q": "Můžu přispět nebo nahlásit chybu?",
+        "a": "Prosím ano. Kód žije na <a href=\"https://github.com/patrickrb/FT8AF\" target=\"_blank\" rel=\"noopener\">GitHubu</a> — otevřete issue pro chyby nebo nápady na funkce, pošlete pull request, nebo prostě dejte repozitáři hvězdu, abyste sledovali dění. Hlášení z terénu ze skutečného provozu v éteru jsou obzvlášť vítaná."
+      },
+      "updates": {
+        "q": "Bude dál dostávat aktualizace?",
+        "a": "To je plán. Vývoj je aktivní a průběžný. Nejrychlejší způsob, jak automaticky dostávat nové buildy, je verze z Google Play; jinak sledujte stránku Releases nebo repozitář. Chcete šťouchnutí, až něco vyjde? <a href=\"/#pricing\">Přidejte se k seznamu aktualizací</a> na domovské stránce."
+      }
+    },
+    "cta": {
+      "title": "Pořád zvědaví? Prostě to zkuste.",
+      "ask": "Zeptejte se na GitHubu"
+    }
+  },
+
+  "wiki": {
+    "meta": {
+      "title": "FT8AF — Wiki a nápověda",
+      "description": "Wiki FT8AF: praktický průvodce používáním aplikace od prvního spuštění po zalogované QSO plus pokyny ke stažení ladicího logu a podání užitečného hlášení chyby.",
+      "ogTitle": "FT8AF — Wiki a nápověda",
+      "ogDescription": "Naučte se používat FT8AF: první připojení, dekódování, vysílání, logování — plus jak stáhnout ladicí log a nahlásit chybu."
+    },
+    "hero": {
+      "eyebrow": "Wiki &amp; nápověda",
+      "title": "Vyjděte do éteru,<br />nebo nám dejte log.",
+      "lede": "Dva krátké průvodci. Jeden vás provede používáním FT8AF od prvního spuštění po zalogované QSO. Druhý ukazuje, jak zachytit ladicí log a podat hlášení chyby, na které můžeme skutečně reagovat."
+    },
+    "cards": {
+      "using": {
+        "eyebrow": "01 · Používání FT8AF",
+        "title": "Jak aplikaci ovládat",
+        "body": "Zapojte rádio, nastavte značku, vyberte pásmo, dekódujte segment, pak proveďte QSO v automatické sekvenci a sledujte, jak se samo zaloguje. Krok za krokem, se snímky obrazovky.",
+        "li": [
+          "První spuštění &amp; oprávnění",
+          "Nastavení USB CAT &amp; zvuku",
+          "Dekódování, volání a monitor QSO",
+          "Automatické logování Cloudlog &amp; QRZ"
+        ],
+        "cta": "Otevřít průvodce"
+      },
+      "bug": {
+        "eyebrow": "02 · Našli jste chybu?",
+        "title": "Dejte nám ladicí log",
+        "body": "FT8AF při každém spuštění zapisuje strukturovaný log událostí. Stáhněte ho z telefonu dvěma klepnutími, přiložte ho k issue na GitHubu a obvykle dokážeme přesně určit, co se pokazilo — místo hádání.",
+        "li": [
+          "Kde najít <code>debug.log</code>",
+          "Sdílejte ho přes Soubory, Disk nebo e-mail",
+          "Co zahrnout do issue",
+          "Žádný telefon? Žádný problém."
+        ],
+        "cta": "Nahlásit chybu"
+      }
+    },
+    "callout": {
+      "title": "Tato wiki je záměrně krátká.",
+      "body": "Pokud něco tady neodpovídá tomu, co vidíte v aplikaci, je to chyba dokumentace — otevřete issue a my to opravíme. Pro odpovědi typu otázka-odpověď (ceny, podporovaná rádia, vztah k FT8CN) zamiřte do <a href=\"/faq\">FAQ</a>."
+    },
+    "cta": {
+      "title": "Zaseknutí někde, co wiki nepokrývá?",
+      "lede": "Hlášení z terénu ze skutečného provozu v éteru jsou to nejužitečnější, co dostáváme. Otevřete issue, řekněte nám, co se stalo, přiložte log, pokud nějaký máte.",
+      "openIssue": "Otevřít issue",
+      "browseFaq": "Procházet FAQ"
+    }
+  },
+
+  "wikiUsing": {
+    "meta": {
+      "title": "FT8AF — Používání aplikace",
+      "description": "Praktický průvodce FT8AF: první spuštění a oprávnění, nastavení USB CAT a zvuku, dekódování pásma, volání stanic, QSO v automatické sekvenci a automatické logování do Cloudlog a QRZ.",
+      "ogTitle": "FT8AF — Používání aplikace",
+      "ogDescription": "Praktický průvodce: první spuštění, nastavení USB CAT, dekódování pásma, volání, QSO v automatické sekvenci a automatické logování."
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / Používání FT8AF",
+      "title": "Od prvního spuštění<br />po zalogované QSO.",
+      "lede": "Pokud jste FT8 provozovali kdekoli — WSJT-X, JTDX, FT8CN — většina z tohoto vám bude povědomá. Mapa je jen přeuspořádaná pro jednu ruku. Přečtěte si to napoprvé od začátku do konce; vraťte se k sekci, až ji budete potřebovat."
+    },
+    "toc": {
+      "title": "Na této stránce",
+      "items": [
+        "Instalace &amp; první spuštění",
+        "Nastavte značku &amp; lokátor",
+        "Připojte rádio",
+        "Dekódujte pásmo",
+        "Čtěte vodopád",
+        "Zavolejte stanici",
+        "Proveďte automatickou sekvenci",
+        "Logování &amp; nahrávání",
+        "Tipy z terénu"
+      ]
+    },
+    "s1": {
+      "h": "Instalace &amp; první spuštění",
+      "p1": "Stáhněte FT8AF ze <a href=\"https://github.com/patrickrb/FT8AF/releases\" target=\"_blank\" rel=\"noopener\">stránky vydání na GitHubu</a> jako bezplatné APK, nebo z <a href=\"https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af\" target=\"_blank\" rel=\"noopener\">Google Play</a> za $3.50 — aplikace jsou totožné. Úplné pokyny k instalaci najdete na stránce <a href=\"/download\">Stáhnout</a>.",
+      "p2": "Při prvním otevření FT8AF si Android vyžádá dvě oprávnění:",
+      "ul": [
+        "<strong>Přístup k zařízení USB</strong> — potřebný pro řízení CAT a zvuk rádia. Zvolte <em>Vždy</em>, pokud chcete, aby se aplikace sama znovu připojila, když znovu zapojíte kabel.",
+        "<strong>Mikrofon</strong> — potřebný, pokud někdy budete chtít dekódovat z mikrofonu telefonu místo rádia po kabelu. Můžete ho zamítnout, pokud používáte jen USB."
+      ]
+    },
+    "s2": {
+      "h": "Nastavte značku &amp; lokátor",
+      "p1": "Otevřete kartu <span class=\"tap\">Settings</span> a vyplňte kartu operátora nahoře. Tato dvě pole řídí vše, co aplikace vysílá, takže se vyplatí je nastavit správně, než začnete vysílat.",
+      "cap": "<b>Settings → Operator.</b> Klepněte na libovolný řádek pro úpravu. Lokátor nabídne vyplnění z GPS, pokud udělíte polohu.",
+      "dl": [
+        { "dt": "Značka", "dd": "Vaše licencovaná značka. Připojte přenosné indikátory lomítkem (např. <code>K1AF/M</code>), pokud provozujete mobilně nebo přenosně." },
+        { "dt": "Lokátor", "dd": "Lokátor Maidenhead o 4 nebo 6 znacích (např. <code>FN42</code> nebo <code>FN42hk</code>). FT8AF nabídne jeho vyplnění z GPS, pokud je poloha udělena." },
+        { "dt": "Zvuková frekvence", "dd": "Vaše vysílací zvuková frekvence v Hz, uvnitř segmentu FT8 3 kHz. <code>1500</code> je rozumná výchozí hodnota." },
+        { "dt": "Zpoždění TX", "dd": "Milisekundy, které aplikace čeká po PTT před odesláním tónů. <code>400</code> funguje pro většinu rádií řízených CAT." }
+      ]
+    },
+    "s3": {
+      "h": "Připojte rádio",
+      "p1": "FT8AF komunikuje s rádiem přes jediné spojení USB-C — jak CAT (frekvence, PTT), tak zvuk (RX, TX) jdou stejným kabelem. Moderní telefony s Androidem se připojují přímo přes USB-C; starší zařízení potřebují adaptér USB-OTG. Váš telefon musí podporovat režim hostitele USB.",
+      "cap": "<b>Settings → Radio.</b> Jeden kabel USB-C nese řízení CAT, zvuk a PTT.",
+      "steps": [
+        "<strong>Zapojte.</strong> Připojte telefon do USB portu rádia. Android si vyžádá povolení ke komunikaci se zařízením — přijměte ho a zaškrtněte <em>Vždy</em>, aby se aplikace mohla později znovu připojit.",
+        "<strong>Vyberte rádio.</strong> V <span class=\"tap\">Settings → Radio</span> otevřete výběr <em>Rig model</em> a zvolte svůj transceiver (IC-7300, FT-891, IC-705 atd.). FT8AF obsahuje opravu, která vynutí na FT-891 šířku pásma 3000&nbsp;Hz v DATA-USB — nemusíte to nastavovat sami.",
+        "<strong>Nastavte režim řízení na CAT.</strong> Pod <em>Control</em> zvolte <strong>CAT</strong>. (VOX, RTS a DTR jsou k dispozici, pokud je vaše sestava potřebuje, ale CAT je to, co chcete s moderním KV rádiem přes USB.)",
+        "<strong>Potvrďte CI-V / přenosovou rychlost.</strong> Výchozí hodnoty obvykle sedí — rádia Icom používají ve výchozím stavu <code>A4</code> při <code>115200</code>; Yaesu mají vlastní konvence. Pokud se CAT nepřipojí, je to první místo ke kontrole.",
+        "<strong>Vyberte pásmo.</strong> Klepněte na čip pásma na kartě <span class=\"tap\">Decode</span> pro přepínání mezi segmenty FT8 160m–6m, nebo zadejte vlastní frekvenci v <em>Settings → Radio → Frequency</em>."
+      ],
+      "callout": {
+        "h": "Žádné rádio? Stejně můžete prozkoumávat.",
+        "p": "Pokud udělíte oprávnění mikrofonu, FT8AF dekóduje zvuk z mikrofonu telefonu — přiložte ho k reproduktoru zapojenému k jakémukoli rádiu aktivnímu na FT8 a uvidíte stejný seznam dekódování. Užitečné pro naučení rozhraní, než zapojíte CAT."
+      }
+    },
+    "s4": {
+      "h": "Dekódujte pásmo",
+      "p1": "Karta <span class=\"tap\">Decode</span> je místo, kde strávíte většinu svého provozního času. Každých 15 sekund, na hranici periody FT8, aplikace zpracuje poslední slot zvuku a vhodí nová dekódování do seznamu. Stanice dostávají štítky stavu — <em>New DXCC</em>, <em>Needed</em>, <em>Worked</em>, <em>Confirmed</em> — takže vám pásmo jediným pohledem řekne, co lovit.",
+      "alt": "Karta Decode FT8AF na Androidu — tmavé rozhraní Material 3 zobrazující dekódované řádky pro K7LNY, KF0X, KF6MIX, AK7LV a ND9M, každý s lokátorem, vzdáleností, sloupci síly signálu, SNR v dB, časem od posledního poslechu, státem USA a štítkem NEW DXCC, nad poslouchajícím pruhem TX na 10.136 MHz / 30m.",
+      "cap": "<b>Karta Decode.</b> Každý řádek je dekódovaná stanice. Klepněte na řádek, abyste tuto stanici učinili svým cílem QSO. Pomocí čipů nahoře filtrujte — <em>All</em>, <em>CQ Calls</em>, <em>CQ POTA</em>, <em>New DXCC</em>, <em>Needed</em>.",
+      "p2": "Každý řádek vám říká:",
+      "dl": [
+        { "dt": "SNR / dB", "dd": "Poměr signálu k šumu. Hodnoty od zhruba <code>−24</code> (sotva dekódovatelné) po <code>+15</code> (velmi silné)." },
+        { "dt": "Audio Hz", "dd": "Kde signál sedí uvnitř segmentu 3 kHz. Klepněte na řádek nebo signál na vodopádu, abyste to učinili svou zvukovou frekvencí TX." },
+        { "dt": "Vzdálenost", "dd": "Ortodromická vzdálenost z vašeho lokátoru k dekódované stanici, když je její lokátor znám." },
+        { "dt": "Štítek stavu", "dd": "<span class=\"mono\">New DXCC</span> = entita, kterou jste nikdy nepracovali. <span class=\"mono\">Needed</span> = potřebná na tomto pásmu/režimu. <span class=\"mono\">Worked</span> = QSO dokončeno, ale dosud nepotvrzeno." },
+        { "dt": "↳ Vám", "dd": "Zvýrazněno azurově, když vám stanice odpovídá přímo. Uvidíte to během vlastních QSO." }
+      ]
+    },
+    "s5": {
+      "h": "Čtěte vodopád",
+      "p1": "Karta <span class=\"tap\">Waterfall</span> zobrazuje celé propustné pásmo FT8 3 kHz v čase. Novější zvuk je nahoře, starší dole — tenká čára značí každou hranici periody FT8 s časovou značkou UTC nakreslenou vedle, takže čtete časování jediným pohledem.",
+      "cap": "<b>Vodopád.</b> Svislé pruhy jsou signály; klepněte na jeden, abyste nastavili svou zvukovou frekvenci TX na tento slot. Čipy šířky (Wide / 1.5 kHz / 500 Hz) vám umožní přiblížit přeplněný segment.",
+      "p2": "<strong>Naladění klepnutím.</strong> Klepněte na jakýkoli viditelný signál na vodopádu, abyste nastavili svou zvukovou frekvenci TX na tento slot. Značka TX zůstává zamčena na vašem skutečném zvuku TX díky opravě zarovnání v FT8AF."
+    },
+    "s6": {
+      "h": "Zavolejte stanici",
+      "p1": "Máte dva způsoby, jak vstoupit do QSO:",
+      "steps": [
+        "<strong>Odpovězte na CQ.</strong> Klepněte na řádek <code>CQ</code> v seznamu dekódování, nebo klepněte na signál té stanice na vodopádu. FT8AF zařadí odpověď do fronty a počká na další slot TX.",
+        "<strong>Zavolejte CQ sami.</strong> Stiskněte tlačítko <span class=\"tap\">CQ</span> na pruhu TX dole na obrazovce. Pomocí přepínače TX1 / TX2 vyberte, na kterém 15sekundovém slotu chcete vysílat — obvykle na prázdném."
+      ],
+      "p2": "Sledujte panel <strong>Active QSO monitor</strong> nad pruhem TX. Sleduje, koho pracujete a v jakém kroku automatické sekvence jste. Pokud na vaše CQ odpoví více stanic, <strong>fronta volajících</strong> drží ostatní v řadě — dokončíte aktuální QSO místo skákání k nejhlasitější."
+    },
+    "s7": {
+      "h": "Proveďte automatickou sekvenci",
+      "p1": "FT8AF zvládá standardní výměnu FT8 automaticky, jakmile vyberete cíl. Uvidíte, jak panel prochází:",
+      "cap": "<b>Active QSO monitor.</b> Kroky se odškrtávají, jak výměna postupuje. Panel se sbalí na jediný řádek, když není aktivní kontakt.",
+      "p2": "Pokud musíte uprostřed QSO odejít, klepněte na <span class=\"tap\">Stop</span> na pruhu TX — aplikace vyprázdní frontu a vrátí se k poslechu. Přepínač slotů TX1 / TX2 vám umožní přepnout vysílací periodu bez ztráty cíle."
+    },
+    "s8": {
+      "h": "Logování &amp; nahrávání",
+      "p1": "Každé dokončené QSO se zapíše do karty <span class=\"tap\">Logbook</span> v zařízení. Pokud jste nakonfigurovali nahrávací služby, letí také k nim ve chvíli, kdy se kontakt uzavře — žádný export ADIF, žádné ruční přepisování značek na konci noci.",
+      "cap": "<b>Logbook.</b> Odznaky ukazují, které služby přijaly každé nahrání. Neúspěšná nahrání zůstávají viditelná s indikátorem opakování, dokud se nepodaří.",
+      "cloudlog": "Otevřete <em>Settings → Cloudlog</em>, vložte svou URL Cloudlog a klíč API a zapněte službu. Nová QSO se nahrávají automaticky. Pokud se kontakt nepodaří nahrát, zůstává v deníku s indikátorem opakování.",
+      "qrz": "Otevřete <em>Settings → QRZ</em>, přihlaste se klíčem API QRZ Logbook a zapněte nahrávání. Stejné automatické chování jako Cloudlog.",
+      "both": "Můžete používat oba najednou — většina operátorů to dělá, s Cloudlog jako hlavním deníkem a QRZ pro viditelnost."
+    },
+    "s9": {
+      "h": "Tipy z terénu",
+      "ul": [
+        "<strong>Nastavte hodiny ze sítě</strong> před každou seancí. FT8 vyžaduje přesné časování — automatický čas Androidu obvykle stačí; pokud jste někde bez signálu, synchronizujte z GPS nebo NTP.",
+        "<strong>Použijte hardwarová tlačítka hlasitosti</strong> k nastavení úrovně buzení TX uprostřed QSO. FT8AF je mapuje na hlasitost TX, takže se během vysílání nemusíte piplat s posuvníkem na obrazovce.",
+        "<strong>Sledujte monitor QSO</strong>, když jsou podmínky přeplněné. Fronta volajících předchází klasickému zmatku „dvě stanice si obě myslí, že jste se vrátili k nim“.",
+        "<strong>Použijte kartu <span class=\"tap\">Map</span></strong> k vizuálnímu vyhledávání otevření — volající CQ dostanou značku megafonu, takže vidíte, které cesty přicházejí, bez procházení seznamu dekódování.",
+        "<strong>Dejte repozitáři GitHub hvězdu</strong>, pokud chcete šťouchnutí, až vyjde nové vydání. Nebo si vezměte verzi z Play Store a aktualizace se dějí samy."
+      ],
+      "callout": {
+        "h": "Něco se nechová správně?",
+        "p": "Přečtěte si další stránku: provede vás zachycením ladicího logu, abychom mohli skutečně opravit to, na co jste narazili. <a href=\"/wiki/bug-reports\">Nahlášení chyby →</a>"
+      }
+    },
+    "pager": {
+      "prevLabel": "← Zpět",
+      "prevTitle": "Index wiki",
+      "nextLabel": "Další →",
+      "nextTitle": "Nahlášení chyby"
+    }
+  },
+
+  "wikiBug": {
+    "meta": {
+      "title": "FT8AF — Nahlášení chyby",
+      "description": "Jak najít ladicí log FT8AF na vašem zařízení s Androidem, sdílet ho s vývojáři přes GitHub nebo e-mail a napsat hlášení chyby, které skutečně vede k opravě.",
+      "ogTitle": "FT8AF — Nahlášení chyby",
+      "ogDescription": "Jak stáhnout ladicí log FT8AF z telefonu a podat užitečnou issue na GitHubu. Obsahuje šablonu issue připravenou ke zkopírování."
+    },
+    "hero": {
+      "eyebrow": "<a href=\"/wiki\" style=\"color:inherit\">Wiki</a> / Nahlášení chyby",
+      "title": "Dejte nám log,<br />a my to opravíme.",
+      "lede": "FT8AF při každém spuštění zapisuje strukturovaný log událostí — sériový provoz CAT, události připojení USB, pokusy o automatické připojení, změny pásma. Většina chyb z terénu skončí tam. Stáhněte ho z telefonu, hoďte ho do issue na GitHubu, hotovo."
+    },
+    "toc": {
+      "title": "Na této stránce",
+      "items": [
+        "Co je v logu",
+        "Odemkněte režim ladění",
+        "Otevřete Debug &amp; sdílejte",
+        "Záloha: aplikace Soubory",
+        "Záloha: ADB",
+        "Napište issue",
+        "Šablona issue",
+        "Pokud aplikace spadla",
+        "Soukromí"
+      ]
+    },
+    "s1": {
+      "h": "Co je v logu",
+      "p1": "FT8AF udržuje rotující textový soubor zvaný <code>debug.log</code> ve svém adresáři dat aplikace. Zachytává věci jako:",
+      "ul": [
+        "Události připojení / odpojení USB a které zařízení CAT se shodovalo",
+        "Pokusy o automatické připojení a případná selhání",
+        "Sériové rámce CAT odeslané do rádia a přijaté z něj",
+        "Změny pásma a frekvence",
+        "Události životního cyklu při startu a zastavení aplikace"
+      ],
+      "p2": "Je to prostý text, bezpečný ke čtení, a neobsahuje hesla ani API klíče k nahrávání. Viz sekce <a href=\"#privacy\">soukromí</a> níže, pokud si ho chcete projít před sdílením."
+    },
+    "s2": {
+      "h": "Odemkněte režim ladění",
+      "p1": "Nejjednodušší způsob, jak stáhnout log, používá ladicí obrazovku v aplikaci — žádný počítač, žádný správce souborů, žádná oprávnění ke složce Android-data. Obrazovka je ve výchozím stavu skrytá a odemknete ji stejně jako vývojářské možnosti Androidu: klepnutím na blok verze sedmkrát.",
+      "steps": [
+        "Otevřete kartu <span class=\"tap\">Settings</span> v FT8AF.",
+        "Sjeďte úplně dolů — sekce <strong>ABOUT</strong>.",
+        "Klepněte na <strong>FAQ &amp; Support</strong>. Otevře se dialog About, který zobrazuje verzi aplikace a popis začínající \"FT8, made easy.\"",
+        "Klepněte na tento text popisu <strong>sedmkrát za sebou</strong>. Po sedmém klepnutí se režim ladění zapne a přetrvá mezi spuštěními.",
+        "Zavřete dialog About. V sekci ABOUT se nyní objeví nový řádek <span class=\"tap\">Debug</span>, hned pod <em>FAQ &amp; Support</em>."
+      ],
+      "cap": "<b>Po odemčení</b> — řádek Debug se objeví v sekci ABOUT. Jakmile je režim ladění zapnutý, zůstává zapnutý, dokud ho znovu nevypnete (klepněte na popis ještě sedmkrát, abyste ho vypnuli)."
+    },
+    "s3": {
+      "h": "Otevřete Debug &amp; sdílejte",
+      "p1": "Klepněte na nový řádek <span class=\"tap\">Debug</span>. Otevře se celoobrazovkový prohlížeč logu, který živě zobrazuje posledních pár set řádků <code>debug.log</code> — obnovuje se každých pár sekund a automaticky roluje dolů.",
+      "cap": "<b>Obrazovka Debug.</b> Klepněte na <strong>Share</strong>, abyste otevřeli nabídku sdílení Androidu s již přiloženým <code>debug.log</code>. Vyberte Gmail, Outlook, Disk, Soubory — cokoli, čím to chcete odeslat.",
+      "p2": "Z horního panelu nástrojů:",
+      "dl": [
+        { "dt": "Share", "dd": "Otevře nabídku sdílení Androidu s <code>debug.log</code> přiloženým jako textový soubor (předmět \"FT8AF debug.log\"). Vyberte Gmail, abyste nám ho poslali přímo e-mailem, nebo jakoukoli aplikaci, která zvládá přílohy — Disk, Outlook, Slack, Signal, Telegram, systémová aplikace Soubory, vše funguje." },
+        { "dt": "Clear", "dd": "Smaže aktuální log. Užitečné, pokud chcete začít načisto před reprodukcí chyby — prostě stiskněte Clear, opusťte dialog, reprodukujte problém, vraťte se a sdílejte. Kratší log nám usnadní vypozorovat relevantní události." },
+        { "dt": "Logcat: ON / OFF", "dd": "Když je ON, prohlížeč také připojí nedávný výstup <code>logcat</code> z vlastního procesu aplikace — užitečné, když pád nebo zvuková chyba není plně zachycena v <code>debug.log</code>. Ocas logcat jede s vámi, když klepnete na Share." }
+      ],
+      "callout": {
+        "h": "Pošlete to rovnou nám.",
+        "p": "Až se objeví nabídka sdílení, vyberte svou e-mailovou aplikaci a adresujte to tomu, kdo pracuje na issue — operátoři jsou <a href=\"https://www.qrz.com/db/K1AF\" target=\"_blank\" rel=\"noopener\">K1AF</a> a <a href=\"https://www.qrz.com/db/N0RC\" target=\"_blank\" rel=\"noopener\">N0RC</a> (adresy na QRZ). Ještě lépe: nejprve otevřete issue na GitHubu, pak sdílejte log přes e-mail nebo cloudovou zkratku dle libosti a vložte odkaz nebo přílohu do vlákna issue, aby zůstala veřejná."
+      }
+    },
+    "s4": {
+      "h": "Záloha: aplikace Soubory",
+      "p1": "Pokud se z nějakého důvodu nemůžete dostat k ladicí obrazovce Debug v aplikaci — starý build, odemčení neproběhlo, prostě byste raději použili správce souborů — soubor logu žije také na disku v:",
+      "steps": [
+        "Otevřete aplikaci <strong>Soubory</strong> (nebo <strong>Moje soubory</strong>) v telefonu.",
+        "Přejděte do <strong>Interní úložiště → Android → data</strong>. Na některých zařízeních Android tuto složku ve výchozím stavu skrývá; klepněte na nabídku se třemi tečkami a zapněte <em>Zobrazit skryté soubory</em> nebo <em>Systémové složky</em>.",
+        "Otevřete složku s názvem <code>com.bg7yoz.ft8cn</code>, pak <code>files</code>. Měli byste uvnitř vidět <code>debug.log</code>.",
+        "Podržte <code>debug.log</code> a klepněte na <strong>Sdílet</strong>."
+      ],
+      "callout": {
+        "h": "Android 11+ může blokovat <code>/Android/data</code> v Souborech.",
+        "p": "Pokud nevidíte <code>com.bg7yoz.ft8cn</code> ve složce data na novějším Androidu, nainstalujte správce souborů třetí strany jako <strong>Material Files</strong> nebo <strong>Solid Explorer</strong> z Play Store — oba umějí číst datové složky aplikací. Nebo, jednodušší: použijte ladicí obrazovku Debug v aplikaci výše, která to celé obejde."
+      }
+    },
+    "s5": {
+      "h": "Záloha: ADB",
+      "p1": "Pro vývojáře s počítačem a nástrojem <code>adb</code> Androidu:",
+      "steps": [
+        "V telefonu zapněte <strong>Možnosti pro vývojáře → Ladění USB</strong>.",
+        "Připojte telefon k počítači přes USB, přijměte výzvu k autorizaci ladění.",
+        "Z terminálu potvrďte, že je telefon viditelný:",
+        "Stáhněte log:"
+      ],
+      "steps3b": "U sestav s více zařízeními zamiřte na telefon výslovně pomocí <code>-s &lt;serial&gt;</code>."
+    },
+    "s6": {
+      "h": "Napište issue",
+      "p1": "Užitečné hlášení chyby je malé — tři nebo čtyři krátké odstavce stačí. Vzorec, který vždy funguje:",
+      "steps": [
+        "<strong>Co jste udělali?</strong> „Zapojil jsem svůj FT-891, klepl na CQ na 20m.“ Konkrétní akce v pořadí. Není třeba popisovat aplikaci — jen na co jste klepli.",
+        "<strong>Co jste očekávali, že se stane?</strong> „Čekal jsem, že rádio přejde na vysílání a aplikace začne posílat tóny na 14.074.“",
+        "<strong>Co se ve skutečnosti stalo?</strong> „Pruh TX zůstal na LISTENING. Žádné PTT, žádné tóny.“ Pokud se na obrazovce něco objevilo — chybový toast, zamrzlé rozhraní, divný vodopád — popište to. Snímek obrazovky je k nezaplacení.",
+        "<strong>Jak často?</strong> Pokaždé? Jen po uspání telefonu? Jen na 6m? Cokoli, co dokážete přesně určit, zúží hledání.",
+        "<strong>Přiložte log.</strong> Stáhněte <code>debug.log</code> hned po reprodukci problému — nejnovější řádky jsou nejužitečnější."
+      ]
+    },
+    "s7": {
+      "h": "Šablona issue",
+      "p1": "Zkopírujte toto do nové issue a vyplňte mezery:"
+    },
+    "s8": {
+      "h": "Pokud aplikace spadla",
+      "p1": "Když FT8AF spadne úplně, Android uchovává samostatné hlášení o pádu. Dvě místa, kam se podívat:",
+      "ul0": "Pokud jste ji dostali z <strong>Google Play</strong>, zapněte jednou anonymní hlášení o pádech a my uvidíme zásobníkový výpis automaticky. Nemusíte nic dělat — ale přidání „Právě jsem odeslal hlášení o pádu ze zařízení X kolem &lt;čas&gt;“ do issue nám pomůže to spárovat.",
+      "ul1": "Pokud máte k dispozici ADB, živý systémový log obvykle obsahuje zásobníkový výpis pádu hned po jeho vzniku:",
+      "ul1b": "Přiložte <code>logcat.txt</code> navíc k <code>debug.log</code>."
+    },
+    "s9": {
+      "h": "Soukromí",
+      "p1": "Ladicí log je jen text. Zachytává provozní události aplikace, ne vaše osobní data. Uvidíte řádky jako:",
+      "p2": "Co tam <em>není</em>: API klíče Cloudlog nebo QRZ, hesla k vašim účtům, fotky, kontakty ani poloha. Vaše značka a lokátor tam <em>jsou</em>, protože identifikují vaši stanici — ale to je stejně veřejná informace pro licencované radioamatéry.",
+      "p3": "Pokud si ho chcete projít nebo upravit před odesláním, soubor je prostý text UTF-8. Otevře ho jakýkoli textový editor.",
+      "callout": {
+        "h": "Díky, že jste si našli čas.",
+        "p": "Skutečná hlášení z terénu — „toto rádio, tento kabel, toto pásmo, tady je, co se stalo“ — jsou způsob, jakým se tento fork zlepšuje. Dva průchody bug-bash a 58+ oprav začalo hlášeními přesně jako to, které se chystáte podat. 73."
+      }
+    },
+    "pager": {
+      "prevLabel": "← Předchozí",
+      "prevTitle": "Používání FT8AF",
+      "nextLabel": "Otevřít →",
+      "nextTitle": "Nová issue na GitHubu"
+    }
+  }
+}

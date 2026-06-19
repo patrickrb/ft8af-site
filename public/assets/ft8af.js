@@ -200,8 +200,31 @@
     });
   }
 
+  // ───── Language preference ─────
+  // Remembers the visitor's locale in a cookie so the root-path middleware
+  // (middleware.js) routes them straight to it next time — and so an explicit
+  // pick (including English at "/") is honored instead of being overridden by
+  // Accept-Language. The cookie is read server-side, before the cache.
+  function initLocalePref() {
+    var YEAR = 60 * 60 * 24 * 365;
+    function remember(code) {
+      if (!code) return;
+      code = code.split('-')[0];
+      document.cookie = 'locale=' + code + ';path=/;max-age=' + YEAR + ';samesite=lax';
+    }
+    // The page we're on is, by definition, the locale the visitor is viewing —
+    // this also captures arrivals via a deep link (e.g. /ja shared by a friend).
+    remember(document.documentElement.getAttribute('lang'));
+    // Capture an explicit switch from the picker *before* the browser navigates,
+    // so choosing English at "/" isn't bounced straight back by the middleware.
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('.lang-switch a[lang]');
+      if (a) remember(a.getAttribute('lang'));
+    });
+  }
+
   function init() {
-    initNav(); initReveal(); initCanvases(); initFaq(); initForms(); initAnalytics();
+    initNav(); initReveal(); initCanvases(); initFaq(); initForms(); initAnalytics(); initLocalePref();
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);

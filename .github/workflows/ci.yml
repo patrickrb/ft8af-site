@@ -18,10 +18,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Build localized HTML
+        run: node build.mjs
+
       - name: Validate vercel.json
         run: |
           jq empty vercel.json
           echo "vercel.json is valid JSON"
+
+      - name: Validate i18n catalogs are valid JSON
+        run: for f in src/i18n/*.json; do jq empty "$f"; done; echo "all catalogs valid JSON"
+
+      - name: i18n coverage / structural check
+        run: node .github/scripts/check-i18n.mjs
 
       - name: JS syntax — public/assets/ft8af.js
         run: node --check public/assets/ft8af.js

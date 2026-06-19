@@ -10,6 +10,21 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="FT8AF" />
 <meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="el_GR" />
+<meta property="og:locale:alternate" content="es_ES" />
+<meta property="og:locale:alternate" content="ja_JP" />
+<meta property="og:locale:alternate" content="fr_FR" />
+<meta property="og:locale:alternate" content="ru_RU" />
+<meta property="og:locale:alternate" content="zh_CN" />
+<meta property="og:locale:alternate" content="it_IT" />
+<meta property="og:locale:alternate" content="pl_PL" />
+<meta property="og:locale:alternate" content="ko_KR" />
+<meta property="og:locale:alternate" content="nl_NL" />
+<meta property="og:locale:alternate" content="cs_CZ" />
+<meta property="og:locale:alternate" content="tr_TR" />
+<meta property="og:locale:alternate" content="id_ID" />
+<meta property="og:locale:alternate" content="uk_UA" />
+<meta property="og:locale:alternate" content="ar_AR" />
 <meta property="og:url" content="https://ft8af.app/features" />
 <meta property="og:title" content="FT8AF — A full FT8 station, rebuilt for Android" />
 <meta property="og:description" content="FT8/FT4/FT2 decoding, active QSO monitor, world map with QSO paths, POTA activation, USB CAT for 75+ rigs, and auto-logging to Cloudlog, QRZ, Wavelog & PSKReporter." />
@@ -31,6 +46,26 @@
 <meta name="color-scheme" content="dark" />
 
 <meta name="description" content="FT8, FT4 and FT2 decoding with a continuous waterfall, an active QSO monitor with smart hunting and needed-DX alerts, a world map with QSO paths, POTA activation mode, USB CAT control for 75+ rigs, automatic logging to Cloudlog, QRZ, Wavelog and PSKReporter, and multi-language support across 16 languages, including right-to-left Arabic." />
+
+<!-- Localized alternates -->
+<link rel="alternate" hreflang="en" href="https://ft8af.app/features" />
+<link rel="alternate" hreflang="el" href="https://ft8af.app/el/features" />
+<link rel="alternate" hreflang="es" href="https://ft8af.app/es/features" />
+<link rel="alternate" hreflang="ja" href="https://ft8af.app/ja/features" />
+<link rel="alternate" hreflang="fr" href="https://ft8af.app/fr/features" />
+<link rel="alternate" hreflang="ru" href="https://ft8af.app/ru/features" />
+<link rel="alternate" hreflang="zh" href="https://ft8af.app/zh/features" />
+<link rel="alternate" hreflang="it" href="https://ft8af.app/it/features" />
+<link rel="alternate" hreflang="pl" href="https://ft8af.app/pl/features" />
+<link rel="alternate" hreflang="ko" href="https://ft8af.app/ko/features" />
+<link rel="alternate" hreflang="nl" href="https://ft8af.app/nl/features" />
+<link rel="alternate" hreflang="cs" href="https://ft8af.app/cs/features" />
+<link rel="alternate" hreflang="tr" href="https://ft8af.app/tr/features" />
+<link rel="alternate" hreflang="id" href="https://ft8af.app/id/features" />
+<link rel="alternate" hreflang="uk" href="https://ft8af.app/uk/features" />
+<link rel="alternate" hreflang="ar" href="https://ft8af.app/ar/features" />
+<link rel="alternate" hreflang="x-default" href="https://ft8af.app/features" />
+
 <link rel="icon" type="image/svg+xml" href="/assets/icon.svg" />
 <link rel="preload" href="/assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
 <link rel="preload" href="/assets/fonts/geist-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
@@ -58,6 +93,30 @@
       <a href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">GitHub</a>
     </div>
     <div class="nav-cta">
+      <details class="lang-switch">
+    <summary aria-label="Language">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" width="17" height="17"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+      <span class="lang-cur">EN</span>
+    </summary>
+    <div class="lang-menu">
+      <a href="/features" lang="en" aria-current="true">English</a>
+      <a href="/el/features" lang="el">Ελληνικά</a>
+      <a href="/es/features" lang="es">Español</a>
+      <a href="/ja/features" lang="ja">日本語</a>
+      <a href="/fr/features" lang="fr">Français</a>
+      <a href="/ru/features" lang="ru">Русский</a>
+      <a href="/zh/features" lang="zh">中文</a>
+      <a href="/it/features" lang="it">Italiano</a>
+      <a href="/pl/features" lang="pl">Polski</a>
+      <a href="/ko/features" lang="ko">한국어</a>
+      <a href="/nl/features" lang="nl">Nederlands</a>
+      <a href="/cs/features" lang="cs">Čeština</a>
+      <a href="/tr/features" lang="tr">Türkçe</a>
+      <a href="/id/features" lang="id">Bahasa Indonesia</a>
+      <a href="/uk/features" lang="uk">Українська</a>
+      <a href="/ar/features" lang="ar" dir="rtl">العربية</a>
+    </div>
+  </details>
       <a class="btn btn-ghost btn-sm" href="https://github.com/patrickrb/FT8AF" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.48v-1.7c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.85.09-.66.35-1.12.63-1.37-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.4 9.4 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.48A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
         Star
@@ -301,7 +360,7 @@
       </div>
     </div>
     <div class="frow-copy">
-      <div class="eyebrow">09 &middot; Languages</div>
+      <div class="eyebrow">09 · Languages</div>
       <h2>Localized in 16 languages</h2>
       <p>FT8CN was Chinese-only. FT8AF now ships in sixteen languages — all contributed by the community — and auto-switches to your Android device's locale, with right-to-left layout for Arabic.</p>
       <ul class="feat-points">
