@@ -6,5 +6,8 @@
   "scripts": {
     "build": "node build.mjs",
     "check:i18n": "node .github/scripts/check-i18n.mjs"
+  },
+  "dependencies": {
+    "@vercel/functions": "^3.7.1"
   }
 }

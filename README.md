@@ -51,7 +51,26 @@ Brand `FT8AF`; callsigns (K1AF, N0RC, BG7YOZ, N0BOY); mode names FT8/FT4/FT2; ha
 (POTA, DXCC, QSO, CAT, SWR, ALC, PSKReporter, QRZ, Cloudlog, Wavelog, "73"); prices; the
 app screenshots and the inline UI mockups; shell commands and the GitHub issue template.
 
+## Language routing
+
+`middleware.js` is Vercel Routing Middleware that runs **only on `/`**, before the
+cache:
+
+1. If the visitor has a `locale` cookie (set client-side in `public/assets/ft8af.js`
+   whenever they view a page or use the picker), it's honored.
+2. Otherwise their `Accept-Language` is matched to the closest built locale.
+3. English is served in place at `/`; a non-English match gets a `307` to `/<locale>`.
+
+Deep links (`/features`, `/es`, …) are never redirected. The redirect is per-visitor
+(`Cache-Control: no-store`, `Vary: Accept-Language, Cookie`), so the static `/` and
+`/<locale>` pages stay fully cacheable. The picker always wins — choosing English at
+`/` sets `locale=en` and stops the redirect — so there's an escape hatch from any
+auto-detected language. Keep the `LOCALES` list in `middleware.js` in sync with
+`src/data/site.mjs`.
+
 ## Deploy
 
 Vercel runs `node build.mjs` (`buildCommand` in `vercel.json`) and serves `public/`.
+The Vercel project's **Root Directory** is the repo root (not `public/`) so the build
+command runs at the root. `middleware.js` deploys automatically.
 CI (`.github/workflows/ci.yml`) builds first, then validates JSON, links and HTML5.
