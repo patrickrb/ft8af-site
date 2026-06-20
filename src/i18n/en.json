@@ -21,6 +21,7 @@
     "footer": {
       "tagline": "FT8 on Android, modernized. A community fork of FT8CN, built for real on-the-air use.",
       "product": "Product",
+      "compareLink": "Compare FT8 apps",
       "project": "Project",
       "operators": "Operators",
       "community": "Community",
@@ -40,8 +41,8 @@
 
   "index": {
     "meta": {
-      "title": "FT8AF — FT8 for Android",
-      "description": "FT8AF runs FT8, FT4 and FT2 natively on your Android phone or tablet. Decode the band, drive your radio over USB CAT, map QSO paths, activate parks for POTA, and work the world from anywhere. Free and open source.",
+      "title": "FT8AF — The Native FT8 App for Android",
+      "description": "FT8AF is the native FT8 app for Android: run FT8, FT4 and FT2 on your phone or tablet, drive your radio over USB CAT, map QSO paths, activate parks for POTA, and work the world from anywhere. Free and open source.",
       "ogTitle": "FT8AF — Work the world from your pocket",
       "ogDescription": "Native FT8 on Android. Decode the band, drive your radio over USB CAT, and run the full auto-sequence. Free and open source."
     },
@@ -445,7 +446,7 @@
       },
       "ft8cn": {
         "q": "How is this different from FT8CN?",
-        "a": "FT8AF is a fork of the excellent FT8CN that brings it forward: a full Jetpack Compose / Material 3 dark UI, an active QSO monitor with caller queue and smart hunting, <strong>FT4 and FT2</strong> modes alongside FT8, a world map with QSO paths, <strong>POTA activation</strong> mode, auto-logging to Cloudlog, QRZ, Wavelog and PSKReporter, <strong>multi-language support</strong> (the original was Chinese-only), plus dozens of bug fixes across multiple \"bug bash\" passes. The core decoding heritage is FT8CN's — we modernized and expanded the experience around it."
+        "a": "FT8AF is a fork of the excellent FT8CN that brings it forward: a full Jetpack Compose / Material 3 dark UI, an active QSO monitor with caller queue and smart hunting, <strong>FT4 and FT2</strong> modes alongside FT8, a world map with QSO paths, <strong>POTA activation</strong> mode, auto-logging to Cloudlog, QRZ, Wavelog and PSKReporter, <strong>multi-language support</strong> (the original was Chinese-only), plus dozens of bug fixes across multiple \"bug bash\" passes. The core decoding heritage is FT8CN's — we modernized and expanded the experience around it. <a href=\"/ft8-app-for-android\">See how FT8AF compares to WSJT-X, JTDX and FT8CN →</a>"
       },
       "languages": {
         "q": "What languages does FT8AF support?",
@@ -774,6 +775,73 @@
       "prevTitle": "Using FT8AF",
       "nextLabel": "Open →",
       "nextTitle": "New issue on GitHub"
+    }
+  },
+
+  "compare": {
+    "meta": {
+      "title": "FT8 App for Android — FT8AF vs WSJT-X, JTDX & FT8CN",
+      "description": "Looking for the best FT8 app? FT8AF is a native Android FT8 app — USB CAT to 75+ rigs, FT8/FT4/FT2, a world map with QSO paths, POTA activation and auto-logging. See how it compares to WSJT-X, JTDX and FT8CN.",
+      "ogTitle": "The native FT8 app for Android",
+      "ogDescription": "How FT8AF compares to WSJT-X, JTDX and FT8CN — native Android FT8 with USB CAT, FT8/FT4/FT2, a world map, POTA mode and auto-logging."
+    },
+    "hero": {
+      "eyebrow": "FT8 apps, compared",
+      "title": "The native FT8 app<br />for Android.",
+      "lede": "There are a handful of good FT8 apps for amateur radio, and the right one depends on how you operate. Here's an honest look at how FT8AF compares to WSJT-X, JTDX and FT8CN — and when each is the better tool."
+    },
+    "intro": {
+      "p1": "On the desktop, <strong>WSJT-X</strong> is the reference FT8 software — the decoder everything else is measured against — and <strong>JTDX</strong> is a popular fork tuned for weak-signal DXing. Both are superb, free and open source. Both also assume a PC, a sound-card interface and CAT cabling on a desk.",
+      "p2": "If you'd rather leave the laptop at home, the FT8 app lives on your phone. <strong>FT8CN</strong> first brought native FT8 to Android over a single USB cable; <strong>FT8AF</strong> is a community fork that rebuilds it with a modern Material 3 interface, FT4 and FT2 modes, a world map, POTA activation, automatic logging and 16 languages. For a portable, PC-free station, it's the most complete FT8 app for Android."
+    },
+    "table": {
+      "caption": "FT8 app comparison — FT8AF vs FT8CN, WSJT-X and JTDX",
+      "feature": "Capability",
+      "cols": ["FT8AF", "FT8CN", "WSJT-X", "JTDX"],
+      "rows": [
+        { "label": "Platform", "cells": ["Android", "Android", "Win · macOS · Linux", "Win · macOS · Linux"] },
+        { "label": "Runs without a PC", "cells": ["yes", "yes", "no", "no"] },
+        { "label": "Connects to the rig", "cells": ["USB-C, in-app", "USB-C, in-app", "PC + CAT interface", "PC + CAT interface"] },
+        { "label": "USB CAT rig models", "cells": ["75+", "many", "via Hamlib", "via Hamlib"] },
+        { "label": "FT8", "cells": ["yes", "yes", "yes", "yes"] },
+        { "label": "FT4", "cells": ["yes", "no", "yes", "yes"] },
+        { "label": "FT2 (experimental)", "cells": ["yes", "no", "no", "no"] },
+        { "label": "Other modes (JT65, WSPR…)", "cells": ["no", "no", "yes", "yes"] },
+        { "label": "Live waterfall", "cells": ["yes", "yes", "yes", "yes"] },
+        { "label": "World map with QSO paths", "cells": ["yes", "no", "no", "no"] },
+        { "label": "POTA activation mode", "cells": ["yes", "no", "no", "no"] },
+        { "label": "Auto-logging (Cloudlog · QRZ · Wavelog)", "cells": ["yes", "partial", "via add-ons", "via add-ons"] },
+        { "label": "PSKReporter spotting", "cells": ["yes", "yes", "yes", "yes"] },
+        { "label": "UI languages", "cells": ["16", "Chinese · English", "Multiple", "Multiple"] },
+        { "label": "Price", "cells": ["Free / $3.50", "Free", "Free", "Free"] },
+        { "label": "Open source", "cells": ["yes", "yes", "yes", "yes"] }
+      ],
+      "legendYes": "Built in",
+      "legendNo": "Not available",
+      "legendPartial": "Partial / limited",
+      "footnote": "Comparison reflects typical default and built-in capabilities as of 2026. WSJT-X (by K1JT and the WSJT Development Group) is the reference FT8 implementation, and FT8AF is a respectful fork of BG7YOZ's FT8CN — credit for the core decoding heritage belongs to them. WSJT-X and JTDX cover many more modes than FT8/FT4 and pair with desktop loggers like JTAlert."
+    },
+    "choose": {
+      "eyebrow": "Which should you run?",
+      "title": "Pick the FT8 app that fits<br />how you operate.",
+      "cards": [
+        {
+          "h": "You operate from a desk with a PC",
+          "p": "Run <strong>WSJT-X</strong> or <strong>JTDX</strong>. They're the gold-standard desktop decoders, cover modes well beyond FT8, and pair with loggers like JTAlert. FT8AF isn't trying to replace them at the operating position."
+        },
+        {
+          "h": "You want a portable, PC-free station",
+          "p": "Run <strong>FT8AF</strong>. A phone, a USB-C cable and your rig is the whole setup — no laptop, no sound-card box. Ideal for POTA, SOTA, travel, or just operating from the couch."
+        },
+        {
+          "h": "You already use FT8CN",
+          "p": "FT8AF is FT8CN brought forward: a Material 3 dark UI, FT4 and FT2, a world map with QSO paths, POTA mode, auto-logging to Cloudlog/QRZ/Wavelog, and 16 languages instead of Chinese-only. Same single-cable simplicity."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Put a full FT8 station<br />in your pocket.",
+      "lede": "Free and open source on GitHub, or $3.50 on Google Play for automatic updates. The same native FT8 app for Android, either way."
     }
   }
 }

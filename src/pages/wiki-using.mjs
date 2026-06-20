@@ -13,6 +13,18 @@ export default {
   styles: ['site', 'sections', 'phone', 'wiki'],
   navActive: 'wiki',
   ogType: 'article',
+  jsonld(t, ctx) {
+    const base = 'https://ft8af.app' + (ctx.locale === 'en' ? '' : `/${ctx.locale}`);
+    return JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'FT8AF', item: base + '/' },
+        { '@type': 'ListItem', position: 2, name: t('common.nav.wiki'), item: base + '/wiki' },
+        { '@type': 'ListItem', position: 3, name: t('wikiBug.pager.prevTitle'), item: base + '/wiki/using' },
+      ],
+    }, null, 2);
+  },
   main(t) {
     const toc = TOC.map((id, i) => `          <li><a href="#${id}">${t(`wikiUsing.toc.items.${i}`)}</a></li>`).join('\n');
     const ul = (key, n) => [...Array(n)].map((_, i) => `          <li>${t(`${key}.${i}`)}</li>`).join('\n');

@@ -154,6 +154,7 @@ function footerPartial(t) {
       <div class="footer-col">
         <h4>${t('common.footer.product')}</h4>
         <a href="/features">${t('common.nav.features')}</a>
+        <a href="/ft8-app-for-android">${t('common.footer.compareLink')}</a>
         <a href="/download">${t('common.nav.download')}</a>
         <a href="/wiki">${t('common.nav.wiki')}</a>
         <a href="/faq">${t('common.nav.faq')}</a>
@@ -241,6 +242,7 @@ ${ogAlt}
 ${hreflang}
 
 <link rel="icon" type="image/svg+xml" href="/assets/icon.svg" />
+<link rel="manifest" href="/site.webmanifest" />
 ${ctx.latin ? `<link rel="preload" href="/assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
 <link rel="preload" href="/assets/fonts/geist-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />\n` : ''}${styles}
 <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>

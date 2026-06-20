@@ -1,0 +1,20 @@
+{
+  "name": "FT8AF — FT8 for Android",
+  "short_name": "FT8AF",
+  "description": "Native FT8, FT4 and FT2 on Android. USB CAT for 75+ rigs, world map, POTA activation and auto-logging. Free and open source.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#07090f",
+  "theme_color": "#07090f",
+  "lang": "en",
+  "categories": ["utilities", "productivity"],
+  "icons": [
+    {
+      "src": "/assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

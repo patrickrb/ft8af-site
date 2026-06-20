@@ -71,7 +71,17 @@ function jsonld(t) {
         "@id": "https://ft8af.app#org"
       },
       "description": ${JSON.stringify(t('index.appDescription'))},
-      "screenshot": "https://ft8af.app/assets/og-image.png"
+      "screenshot": "https://ft8af.app/assets/og-image.png",
+      "keywords": "FT8 app, FT8 for Android, FT8 Android app, FT4, FT2, amateur radio, ham radio, USB CAT, POTA, FT8CN",
+      "featureList": [
+        "FT8, FT4 and FT2 decoding with a live waterfall",
+        "USB CAT control for 75+ rig models — no PC required",
+        "Active QSO monitor with auto-sequence and smart hunting",
+        "World map with great-circle QSO paths",
+        "POTA activation mode with direct upload",
+        "Automatic logging to Cloudlog, QRZ, Wavelog and PSKReporter",
+        "16-language UI including right-to-left Arabic"
+      ]
     }
   ]
 }`;
