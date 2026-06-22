@@ -174,6 +174,9 @@ function footerPartial(t) {
       <div class="footer-col">
         <h4>${t('common.footer.community')}</h4>
         <a href="https://discord.gg/tz4spm5nWB" target="_blank" rel="noopener">${t('common.footer.links.discord')}</a>
+        <a href="https://x.com/FT8AF" target="_blank" rel="noopener">X</a>
+        <a href="https://www.facebook.com/profile.php?id=61590478809227" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.linkedin.com/company/ft8af" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
     <div class="footer-bottom">

@@ -29,6 +29,9 @@ function jsonld(t) {
       "sameAs": [
         "https://github.com/patrickrb/FT8AF",
         "https://discord.gg/tz4spm5nWB",
+        "https://x.com/FT8AF",
+        "https://www.facebook.com/profile.php?id=61590478809227",
+        "https://www.linkedin.com/company/ft8af",
         "https://play.google.com/store/apps/details?id=radio.ks3ckc.ft8af"
       ]
     },
