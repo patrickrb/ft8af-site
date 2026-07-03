@@ -718,12 +718,12 @@
       "steps": [
         "Buka aplikasi <strong>Files</strong> (atau <strong>My Files</strong>) di ponsel Anda.",
         "Navigasi ke <strong>Penyimpanan internal → Android → data</strong>. Di sebagian perangkat, Android menyembunyikan folder ini secara default; ketuk menu tiga titik dan aktifkan <em>Tampilkan berkas tersembunyi</em> atau <em>Folder sistem</em>.",
-        "Buka folder bernama <code>com.bg7yoz.ft8cn</code>, lalu <code>files</code>. Anda harusnya melihat <code>debug.log</code> di dalamnya.",
+        "Buka folder bernama <code>radio.ks3ckc.ft8af</code>, lalu <code>files</code>. Anda harusnya melihat <code>debug.log</code> di dalamnya.",
         "Tekan lama <code>debug.log</code> dan ketuk <strong>Bagikan</strong>."
       ],
       "callout": {
         "h": "Android 11+ mungkin memblokir <code>/Android/data</code> di Files.",
-        "p": "Jika Anda tak bisa melihat <code>com.bg7yoz.ft8cn</code> di folder data pada Android baru, pasang pengelola berkas pihak ketiga seperti <strong>Material Files</strong> atau <strong>Solid Explorer</strong> dari Play Store — keduanya bisa membaca folder data aplikasi. Atau, lebih mudah: gunakan layar Debug di dalam aplikasi di atas, yang sepenuhnya menghindari ini."
+        "p": "Jika Anda tak bisa melihat <code>radio.ks3ckc.ft8af</code> di folder data pada Android baru, pasang pengelola berkas pihak ketiga seperti <strong>Material Files</strong> atau <strong>Solid Explorer</strong> dari Play Store — keduanya bisa membaca folder data aplikasi. Atau, lebih mudah: gunakan layar Debug di dalam aplikasi di atas, yang sepenuhnya menghindari ini."
       }
     },
     "s5": {

@@ -116,7 +116,7 @@ ${dl('wikiBug.s3.dl', 3)}
 
         <h2 id="fallback-files"><span class="step-num cyan">4</span>${t('wikiBug.s4.h')}</h2>
         <p>${t('wikiBug.s4.p1')}</p>
-        <pre><code>/Android/data/com.bg7yoz.ft8cn/files/debug.log</code></pre>
+        <pre><code>/Android/data/radio.ks3ckc.ft8af/files/debug.log</code></pre>
 
         <ol class="wiki-steps cyan">
 ${steps('wikiBug.s4.steps', 4)}
@@ -139,7 +139,7 @@ ${steps('wikiBug.s4.steps', 4)}
             <pre><code>adb devices -l</code></pre>
           </li>
           <li>${t('wikiBug.s5.steps.3')}
-            <pre><code>adb pull /sdcard/Android/data/com.bg7yoz.ft8cn/files/debug.log .</code></pre>
+            <pre><code>adb pull /sdcard/Android/data/radio.ks3ckc.ft8af/files/debug.log .</code></pre>
             ${t('wikiBug.s5.steps3b')}
           </li>
         </ol>

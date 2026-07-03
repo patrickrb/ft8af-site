@@ -718,12 +718,12 @@
       "steps": [
         "Open de app <strong>Bestanden</strong> (of <strong>Mijn bestanden</strong>) op je telefoon.",
         "Navigeer naar <strong>Interne opslag → Android → data</strong>. Op sommige toestellen verbergt Android deze map standaard; tik op het menu met drie puntjes en schakel <em>Verborgen bestanden tonen</em> of <em>Systeemmappen</em> in.",
-        "Open de map genaamd <code>com.bg7yoz.ft8cn</code>, dan <code>files</code>. Je zou <code>debug.log</code> erin moeten zien.",
+        "Open de map genaamd <code>radio.ks3ckc.ft8af</code>, dan <code>files</code>. Je zou <code>debug.log</code> erin moeten zien.",
         "Houd <code>debug.log</code> ingedrukt en tik op <strong>Delen</strong>."
       ],
       "callout": {
         "h": "Android 11+ kan <code>/Android/data</code> in Bestanden blokkeren.",
-        "p": "Als je <code>com.bg7yoz.ft8cn</code> niet in de data-map ziet op een recente Android, installeer dan een externe bestandsbeheerder als <strong>Material Files</strong> of <strong>Solid Explorer</strong> uit de Play Store — beide kunnen app-datamappen lezen. Of, makkelijker: gebruik het in-app Debugscherm hierboven, dat dit helemaal omzeilt."
+        "p": "Als je <code>radio.ks3ckc.ft8af</code> niet in de data-map ziet op een recente Android, installeer dan een externe bestandsbeheerder als <strong>Material Files</strong> of <strong>Solid Explorer</strong> uit de Play Store — beide kunnen app-datamappen lezen. Of, makkelijker: gebruik het in-app Debugscherm hierboven, dat dit helemaal omzeilt."
       }
     },
     "s5": {

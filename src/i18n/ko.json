@@ -718,12 +718,12 @@
       "steps": [
         "휴대폰에서 <strong>Files</strong>(또는 <strong>내 파일</strong>) 앱을 여세요.",
         "<strong>내부 저장소 → Android → data</strong>로 이동하세요. 일부 기기에서는 Android가 이 폴더를 기본으로 숨깁니다; 점 세 개 메뉴를 탭하고 <em>숨김 파일 표시</em> 또는 <em>시스템 폴더</em>를 켜세요.",
-        "<code>com.bg7yoz.ft8cn</code>라는 폴더를 열고, 그다음 <code>files</code>를 여세요. 안에 <code>debug.log</code>가 보일 것입니다.",
+        "<code>radio.ks3ckc.ft8af</code>라는 폴더를 열고, 그다음 <code>files</code>를 여세요. 안에 <code>debug.log</code>가 보일 것입니다.",
         "<code>debug.log</code>를 길게 누르고 <strong>공유</strong>를 탭하세요."
       ],
       "callout": {
         "h": "Android 11+에서는 Files에서 <code>/Android/data</code>가 차단될 수 있습니다.",
-        "p": "최근 Android에서 data 폴더에 <code>com.bg7yoz.ft8cn</code>이 보이지 않으면, Play Store에서 <strong>Material Files</strong>나 <strong>Solid Explorer</strong> 같은 서드파티 파일 관리자를 설치하세요 — 둘 다 앱 데이터 폴더를 읽을 수 있습니다. 또는 더 쉽게: 위의 앱 안 Debug 화면을 사용하면 이를 완전히 우회합니다."
+        "p": "최근 Android에서 data 폴더에 <code>radio.ks3ckc.ft8af</code>이 보이지 않으면, Play Store에서 <strong>Material Files</strong>나 <strong>Solid Explorer</strong> 같은 서드파티 파일 관리자를 설치하세요 — 둘 다 앱 데이터 폴더를 읽을 수 있습니다. 또는 더 쉽게: 위의 앱 안 Debug 화면을 사용하면 이를 완전히 우회합니다."
       }
     },
     "s5": {

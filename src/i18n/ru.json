@@ -718,12 +718,12 @@
       "steps": [
         "Откройте приложение <strong>Files</strong> (или <strong>Мои файлы</strong>) на телефоне.",
         "Перейдите в <strong>Внутренняя память → Android → data</strong>. На некоторых устройствах Android скрывает эту папку по умолчанию; коснитесь меню из трёх точек и включите <em>Показать скрытые файлы</em> или <em>Системные папки</em>.",
-        "Откройте папку с именем <code>com.bg7yoz.ft8cn</code>, затем <code>files</code>. Внутри вы должны увидеть <code>debug.log</code>.",
+        "Откройте папку с именем <code>radio.ks3ckc.ft8af</code>, затем <code>files</code>. Внутри вы должны увидеть <code>debug.log</code>.",
         "Удерживайте <code>debug.log</code> и коснитесь <strong>Поделиться</strong>."
       ],
       "callout": {
         "h": "Android 11+ может блокировать <code>/Android/data</code> в Files.",
-        "p": "Если вы не видите <code>com.bg7yoz.ft8cn</code> в папке data на новом Android, установите сторонний файловый менеджер вроде <strong>Material Files</strong> или <strong>Solid Explorer</strong> из Play Store — оба могут читать папки данных приложений. Или, проще: используйте экран Debug внутри приложения выше, который полностью это обходит."
+        "p": "Если вы не видите <code>radio.ks3ckc.ft8af</code> в папке data на новом Android, установите сторонний файловый менеджер вроде <strong>Material Files</strong> или <strong>Solid Explorer</strong> из Play Store — оба могут читать папки данных приложений. Или, проще: используйте экран Debug внутри приложения выше, который полностью это обходит."
       }
     },
     "s5": {

@@ -718,12 +718,12 @@
       "steps": [
         "افتح تطبيق <strong>Files</strong> (أو <strong>ملفاتي</strong>) على هاتفك.",
         "انتقل إلى <strong>التخزين الداخلي → Android → data</strong>. على بعض الأجهزة يخفي أندرويد هذا المجلد افتراضيًا؛ انقر قائمة النقاط الثلاث وفعّل <em>إظهار الملفات المخفية</em> أو <em>مجلدات النظام</em>.",
-        "افتح المجلد المسمّى <code>com.bg7yoz.ft8cn</code>، ثم <code>files</code>. ينبغي أن ترى <code>debug.log</code> بداخله.",
+        "افتح المجلد المسمّى <code>radio.ks3ckc.ft8af</code>، ثم <code>files</code>. ينبغي أن ترى <code>debug.log</code> بداخله.",
         "اضغط مطوّلًا على <code>debug.log</code> وانقر <strong>مشاركة</strong>."
       ],
       "callout": {
         "h": "قد يحجب Android 11+ المسار <code>/Android/data</code> في Files.",
-        "p": "إن لم تستطع رؤية <code>com.bg7yoz.ft8cn</code> في مجلد data على أندرويد حديث، فثبّت مدير ملفات طرف ثالث مثل <strong>Material Files</strong> أو <strong>Solid Explorer</strong> من Play Store — كلاهما يقرأ مجلدات بيانات التطبيقات. أو، الأسهل: استخدم شاشة Debug داخل التطبيق أعلاه، فهي تتجاوز هذا كله."
+        "p": "إن لم تستطع رؤية <code>radio.ks3ckc.ft8af</code> في مجلد data على أندرويد حديث، فثبّت مدير ملفات طرف ثالث مثل <strong>Material Files</strong> أو <strong>Solid Explorer</strong> من Play Store — كلاهما يقرأ مجلدات بيانات التطبيقات. أو، الأسهل: استخدم شاشة Debug داخل التطبيق أعلاه، فهي تتجاوز هذا كله."
       }
     },
     "s5": {

@@ -718,12 +718,12 @@
       "steps": [
         "Abre la app <strong>Archivos</strong> (o <strong>Mis archivos</strong>) en tu teléfono.",
         "Navega a <strong>Almacenamiento interno → Android → data</strong>. En algunos dispositivos Android oculta esta carpeta por defecto; toca el menú de tres puntos y activa <em>Mostrar archivos ocultos</em> o <em>Carpetas del sistema</em>.",
-        "Abre la carpeta llamada <code>com.bg7yoz.ft8cn</code>, luego <code>files</code>. Deberías ver <code>debug.log</code> dentro.",
+        "Abre la carpeta llamada <code>radio.ks3ckc.ft8af</code>, luego <code>files</code>. Deberías ver <code>debug.log</code> dentro.",
         "Mantén pulsado <code>debug.log</code> y toca <strong>Compartir</strong>."
       ],
       "callout": {
         "h": "Android 11+ puede bloquear <code>/Android/data</code> en Archivos.",
-        "p": "Si no ves <code>com.bg7yoz.ft8cn</code> en la carpeta data de un Android reciente, instala un gestor de archivos de terceros como <strong>Material Files</strong> o <strong>Solid Explorer</strong> desde Play Store — ambos pueden leer carpetas de datos de apps. O, más fácil: usa la pantalla Debug dentro de la app de arriba, que evita esto por completo."
+        "p": "Si no ves <code>radio.ks3ckc.ft8af</code> en la carpeta data de un Android reciente, instala un gestor de archivos de terceros como <strong>Material Files</strong> o <strong>Solid Explorer</strong> desde Play Store — ambos pueden leer carpetas de datos de apps. O, más fácil: usa la pantalla Debug dentro de la app de arriba, que evita esto por completo."
       }
     },
     "s5": {
