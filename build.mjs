@@ -91,6 +91,7 @@ function navPartial(t, ctx) {
     <div class="nav-links">
       ${n('/', 'home', ctx.navActive === 'home')}
       ${n('/features', 'features', ctx.navActive === 'features')}
+      ${n('/supported-radios', 'radios', ctx.navActive === 'radios')}
       ${n('/download', 'download', ctx.navActive === 'download')}
       ${n('/wiki', 'wiki', ctx.navActive === 'wiki')}
       ${n('/faq', 'faq', ctx.navActive === 'faq')}
@@ -111,6 +112,7 @@ function navPartial(t, ctx) {
   <div class="mobile-menu">
     <a href="/">${t('common.nav.home')}</a>
     <a href="/features">${t('common.nav.features')}</a>
+    <a href="/supported-radios">${t('common.nav.radios')}</a>
     <a href="/download">${t('common.nav.download')}</a>
     <a href="/wiki">${t('common.nav.wiki')}</a>
     <a href="/faq">${t('common.nav.faq')}</a>
@@ -154,6 +156,7 @@ function footerPartial(t) {
       <div class="footer-col">
         <h4>${t('common.footer.product')}</h4>
         <a href="/features">${t('common.nav.features')}</a>
+        <a href="/supported-radios">${t('common.nav.radios')}</a>
         <a href="/ft8-app-for-android">${t('common.footer.compareLink')}</a>
         <a href="/download">${t('common.nav.download')}</a>
         <a href="/wiki">${t('common.nav.wiki')}</a>
