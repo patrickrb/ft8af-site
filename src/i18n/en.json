@@ -285,7 +285,7 @@
   "download": {
     "meta": {
       "title": "FT8AF — Download",
-      "description": "Get FT8AF free from GitHub — sideload the APK or build from source — or support the project for $3.50 on Google Play with automatic updates.",
+      "description": "Get FT8AF free from GitHub — sideload the APK or build from source — or support the project for $3.50 on Google Play with automatic updates. Cross-platform desktop preview builds for Windows, macOS and Linux are also available.",
       "ogTitle": "FT8AF — Get FT8 on your Android phone",
       "ogDescription": "Free APK from GitHub, or $3.50 on Google Play for automatic updates. Same app, every feature. Works on any USB-OTG capable Android."
     },
@@ -325,6 +325,13 @@
     "callout": {
       "title": "Heads up: the Play Store build is on an internal test track",
       "body": "You may need to be added to the tester list before the Google Play link will install. If it won't open, grab the free APK from GitHub in the meantime — it's the same app."
+    },
+    "desktop": {
+      "eyebrow": "Also on desktop",
+      "title": "Run FT8AF on your computer, too.",
+      "body": "A cross-platform desktop build for <strong>Windows, macOS and Linux</strong> is now in early preview. It shares the same FT8 decoder as the Android app and covers the core loop: decode and transmit with automatic QSO sequencing, a live waterfall, rig control via <strong>Hamlib</strong> (300+ radios), FLrig or direct serial CAT, audio-device selection, and a logbook with ADIF export.",
+      "note": "Preview builds are versioned <code>desktop-*</code> on the GitHub Releases page — grab the <code>.dmg</code> for macOS, <code>.exe</code> or <code>.msi</code> for Windows, or <code>.AppImage</code> / <code>.deb</code> / <code>.rpm</code> for Linux. The world map, POTA activation mode and PSKReporter spotting are Android-only for now.",
+      "cta": "Get the desktop preview"
     },
     "methods": {
       "eyebrow": "How to install",
@@ -795,14 +802,14 @@
     },
     "intro": {
       "p1": "On the desktop, <strong>WSJT-X</strong> is the reference FT8 software — the decoder everything else is measured against — and <strong>JTDX</strong> is a popular fork tuned for weak-signal DXing. Both are superb, free and open source. Both also assume a PC, a sound-card interface and CAT cabling on a desk.",
-      "p2": "If you'd rather leave the laptop at home, the FT8 app lives on your phone. <strong>FT8CN</strong> first brought native FT8 to Android over a single USB cable; <strong>FT8AF</strong> is a community fork that rebuilds it with a modern Material 3 interface, FT4 and FT2 modes, a world map, POTA activation, automatic logging and 16 languages. For a portable, PC-free station, it's the most complete FT8 app for Android."
+      "p2": "If you'd rather leave the laptop at home, the FT8 app lives on your phone. <strong>FT8CN</strong> first brought native FT8 to Android over a single USB cable; <strong>FT8AF</strong> is a community fork that rebuilds it with a modern Material 3 interface, FT4 and FT2 modes, a world map, POTA activation, automatic logging and 16 languages. For a portable, PC-free station, it's the most complete FT8 app for Android. A cross-platform <strong>desktop preview</strong> (Windows, macOS and Linux) is now available too, for when you're back at the operating desk."
     },
     "table": {
       "caption": "FT8 app comparison — FT8AF vs FT8CN, WSJT-X and JTDX",
       "feature": "Capability",
       "cols": ["FT8AF", "FT8CN", "WSJT-X", "JTDX"],
       "rows": [
-        { "label": "Platform", "cells": ["Android", "Android", "Win · macOS · Linux", "Win · macOS · Linux"] },
+        { "label": "Platform", "cells": ["Android · Desktop*", "Android", "Win · macOS · Linux", "Win · macOS · Linux"] },
         { "label": "Runs without a PC", "cells": ["yes", "yes", "no", "no"] },
         { "label": "Connects to the rig", "cells": ["USB-C, in-app", "USB-C, in-app", "PC + CAT interface", "PC + CAT interface"] },
         { "label": "USB CAT rig models", "cells": ["75+", "many", "via Hamlib", "via Hamlib"] },
@@ -822,7 +829,7 @@
       "legendYes": "Built in",
       "legendNo": "Not available",
       "legendPartial": "Partial / limited",
-      "footnote": "Comparison reflects typical default and built-in capabilities as of 2026. WSJT-X (by K1JT and the WSJT Development Group) is the reference FT8 implementation, and FT8AF is a respectful fork of BG7YOZ's FT8CN — credit for the core decoding heritage belongs to them. WSJT-X and JTDX cover many more modes than FT8/FT4 and pair with desktop loggers like JTAlert."
+      "footnote": "Comparison reflects typical default and built-in capabilities as of 2026. * The Android app is the mature, full-featured FT8AF; a cross-platform desktop build (Windows/macOS/Linux) is in early preview and covers decode, transmit, rig control and logging, with the map, POTA and PSKReporter spotting still Android-only. WSJT-X (by K1JT and the WSJT Development Group) is the reference FT8 implementation, and FT8AF is a respectful fork of BG7YOZ's FT8CN — credit for the core decoding heritage belongs to them. WSJT-X and JTDX cover many more modes than FT8/FT4 and pair with desktop loggers like JTAlert."
     },
     "choose": {
       "eyebrow": "Which should you run?",
