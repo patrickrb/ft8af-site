@@ -166,6 +166,7 @@ function footerPartial(t) {
         ${fl('https://github.com/patrickrb/FT8AF/releases', 'releases', true)}
         ${fl('https://github.com/patrickrb/FT8AF/issues', 'reportBug', true)}
         ${fl('https://github.com/N0BOY/FT8CN', 'originalFt8cn', true)}
+        ${fl('https://sstvaf.app', 'sstvaf', true)}
       </div>
       <div class="footer-col">
         <h4>${t('common.footer.operators')}</h4>
