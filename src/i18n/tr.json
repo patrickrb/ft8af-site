@@ -718,12 +718,12 @@
       "steps": [
         "Telefonunuzda <strong>Dosyalar</strong> (veya <strong>Dosyalarım</strong>) uygulamasını açın.",
         "<strong>Dahili depolama → Android → data</strong>'ya gidin. Bazı cihazlarda Android bu klasörü varsayılan olarak gizler; üç nokta menüsüne dokunun ve <em>Gizli dosyaları göster</em> veya <em>Sistem klasörleri</em>'ni etkinleştirin.",
-        "<code>com.bg7yoz.ft8cn</code> adlı klasörü, sonra <code>files</code>'ı açın. İçinde <code>debug.log</code>'u görmelisiniz.",
+        "<code>radio.ks3ckc.ft8af</code> adlı klasörü, sonra <code>files</code>'ı açın. İçinde <code>debug.log</code>'u görmelisiniz.",
         "<code>debug.log</code>'a uzun basın ve <strong>Paylaş</strong>'a dokunun."
       ],
       "callout": {
         "h": "Android 11+, Dosyalar'da <code>/Android/data</code>'yı engelleyebilir.",
-        "p": "Yeni bir Android'de data klasöründe <code>com.bg7yoz.ft8cn</code>'i göremiyorsanız, Play Store'dan <strong>Material Files</strong> veya <strong>Solid Explorer</strong> gibi üçüncü taraf bir dosya yöneticisi kurun — ikisi de uygulama veri klasörlerini okuyabilir. Ya da daha kolayı: yukarıdaki uygulama içi Debug ekranını kullanın, bu durumu tamamen atlar."
+        "p": "Yeni bir Android'de data klasöründe <code>radio.ks3ckc.ft8af</code>'i göremiyorsanız, Play Store'dan <strong>Material Files</strong> veya <strong>Solid Explorer</strong> gibi üçüncü taraf bir dosya yöneticisi kurun — ikisi de uygulama veri klasörlerini okuyabilir. Ya da daha kolayı: yukarıdaki uygulama içi Debug ekranını kullanın, bu durumu tamamen atlar."
       }
     },
     "s5": {

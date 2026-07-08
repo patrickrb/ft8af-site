@@ -718,12 +718,12 @@
       "steps": [
         "Apri l'app <strong>File</strong> (o <strong>I miei file</strong>) sul telefono.",
         "Vai a <strong>Memoria interna → Android → data</strong>. Su alcuni dispositivi Android nasconde questa cartella per default; tocca il menu a tre punti e attiva <em>Mostra file nascosti</em> o <em>Cartelle di sistema</em>.",
-        "Apri la cartella chiamata <code>com.bg7yoz.ft8cn</code>, poi <code>files</code>. Dovresti vedere <code>debug.log</code> dentro.",
+        "Apri la cartella chiamata <code>radio.ks3ckc.ft8af</code>, poi <code>files</code>. Dovresti vedere <code>debug.log</code> dentro.",
         "Tieni premuto <code>debug.log</code> e tocca <strong>Condividi</strong>."
       ],
       "callout": {
         "h": "Android 11+ può bloccare <code>/Android/data</code> in File.",
-        "p": "Se non vedi <code>com.bg7yoz.ft8cn</code> nella cartella data su un Android recente, installa un file manager di terze parti come <strong>Material Files</strong> o <strong>Solid Explorer</strong> dal Play Store — entrambi possono leggere le cartelle dati delle app. Oppure, più facile: usa la schermata Debug nell'app qui sopra, che aggira del tutto questo problema."
+        "p": "Se non vedi <code>radio.ks3ckc.ft8af</code> nella cartella data su un Android recente, installa un file manager di terze parti come <strong>Material Files</strong> o <strong>Solid Explorer</strong> dal Play Store — entrambi possono leggere le cartelle dati delle app. Oppure, più facile: usa la schermata Debug nell'app qui sopra, che aggira del tutto questo problema."
       }
     },
     "s5": {

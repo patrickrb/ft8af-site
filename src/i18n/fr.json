@@ -718,12 +718,12 @@
       "steps": [
         "Ouvrez l'app <strong>Fichiers</strong> (ou <strong>Mes fichiers</strong>) sur votre téléphone.",
         "Naviguez jusqu'à <strong>Stockage interne → Android → data</strong>. Sur certains appareils, Android cache ce dossier par défaut ; touchez le menu à trois points et activez <em>Afficher les fichiers cachés</em> ou <em>Dossiers système</em>.",
-        "Ouvrez le dossier nommé <code>com.bg7yoz.ft8cn</code>, puis <code>files</code>. Vous devriez voir <code>debug.log</code> à l'intérieur.",
+        "Ouvrez le dossier nommé <code>radio.ks3ckc.ft8af</code>, puis <code>files</code>. Vous devriez voir <code>debug.log</code> à l'intérieur.",
         "Appui long sur <code>debug.log</code> et touchez <strong>Partager</strong>."
       ],
       "callout": {
         "h": "Android 11+ peut bloquer <code>/Android/data</code> dans Fichiers.",
-        "p": "Si vous ne voyez pas <code>com.bg7yoz.ft8cn</code> dans le dossier data sur un Android récent, installez un gestionnaire de fichiers tiers comme <strong>Material Files</strong> ou <strong>Solid Explorer</strong> depuis le Play Store — tous deux peuvent lire les dossiers de données d'app. Ou, plus simple : utilisez l'écran Debug dans l'app ci-dessus, qui contourne entièrement ce souci."
+        "p": "Si vous ne voyez pas <code>radio.ks3ckc.ft8af</code> dans le dossier data sur un Android récent, installez un gestionnaire de fichiers tiers comme <strong>Material Files</strong> ou <strong>Solid Explorer</strong> depuis le Play Store — tous deux peuvent lire les dossiers de données d'app. Ou, plus simple : utilisez l'écran Debug dans l'app ci-dessus, qui contourne entièrement ce souci."
       }
     },
     "s5": {

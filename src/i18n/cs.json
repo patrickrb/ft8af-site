@@ -718,12 +718,12 @@
       "steps": [
         "Otevřete aplikaci <strong>Soubory</strong> (nebo <strong>Moje soubory</strong>) v telefonu.",
         "Přejděte do <strong>Interní úložiště → Android → data</strong>. Na některých zařízeních Android tuto složku ve výchozím stavu skrývá; klepněte na nabídku se třemi tečkami a zapněte <em>Zobrazit skryté soubory</em> nebo <em>Systémové složky</em>.",
-        "Otevřete složku s názvem <code>com.bg7yoz.ft8cn</code>, pak <code>files</code>. Měli byste uvnitř vidět <code>debug.log</code>.",
+        "Otevřete složku s názvem <code>radio.ks3ckc.ft8af</code>, pak <code>files</code>. Měli byste uvnitř vidět <code>debug.log</code>.",
         "Podržte <code>debug.log</code> a klepněte na <strong>Sdílet</strong>."
       ],
       "callout": {
         "h": "Android 11+ může blokovat <code>/Android/data</code> v Souborech.",
-        "p": "Pokud nevidíte <code>com.bg7yoz.ft8cn</code> ve složce data na novějším Androidu, nainstalujte správce souborů třetí strany jako <strong>Material Files</strong> nebo <strong>Solid Explorer</strong> z Play Store — oba umějí číst datové složky aplikací. Nebo, jednodušší: použijte ladicí obrazovku Debug v aplikaci výše, která to celé obejde."
+        "p": "Pokud nevidíte <code>radio.ks3ckc.ft8af</code> ve složce data na novějším Androidu, nainstalujte správce souborů třetí strany jako <strong>Material Files</strong> nebo <strong>Solid Explorer</strong> z Play Store — oba umějí číst datové složky aplikací. Nebo, jednodušší: použijte ladicí obrazovku Debug v aplikaci výše, která to celé obejde."
       }
     },
     "s5": {

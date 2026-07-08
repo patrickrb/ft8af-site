@@ -718,12 +718,12 @@
       "steps": [
         "在你的手机上打开 <strong>Files</strong>（或 <strong>我的文件</strong>）应用。",
         "导航到 <strong>内部存储 → Android → data</strong>。在某些设备上，Android 默认隐藏此文件夹；点击三点菜单并启用 <em>显示隐藏文件</em> 或 <em>系统文件夹</em>。",
-        "打开名为 <code>com.bg7yoz.ft8cn</code> 的文件夹，然后 <code>files</code>。你应该会在里面看到 <code>debug.log</code>。",
+        "打开名为 <code>radio.ks3ckc.ft8af</code> 的文件夹，然后 <code>files</code>。你应该会在里面看到 <code>debug.log</code>。",
         "长按 <code>debug.log</code> 并点击 <strong>分享</strong>。"
       ],
       "callout": {
         "h": "Android 11+ 可能在 Files 中屏蔽 <code>/Android/data</code>。",
-        "p": "如果在较新的 Android 上你在 data 文件夹里看不到 <code>com.bg7yoz.ft8cn</code>，请从 Play Store 安装第三方文件管理器，例如 <strong>Material Files</strong> 或 <strong>Solid Explorer</strong> —— 两者都能读取应用数据文件夹。或者更简单：使用上面应用内的 Debug 界面，它会完全绕开这个问题。"
+        "p": "如果在较新的 Android 上你在 data 文件夹里看不到 <code>radio.ks3ckc.ft8af</code>，请从 Play Store 安装第三方文件管理器，例如 <strong>Material Files</strong> 或 <strong>Solid Explorer</strong> —— 两者都能读取应用数据文件夹。或者更简单：使用上面应用内的 Debug 界面，它会完全绕开这个问题。"
       }
     },
     "s5": {

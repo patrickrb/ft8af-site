@@ -723,12 +723,12 @@
       "steps": [
         "Open the <strong>Files</strong> (or <strong>My Files</strong>) app on your phone.",
         "Navigate to <strong>Internal storage → Android → data</strong>. On some devices, Android hides this folder by default; tap the three-dot menu and enable <em>Show hidden files</em> or <em>System folders</em>.",
-        "Open the folder named <code>com.bg7yoz.ft8cn</code>, then <code>files</code>. You should see <code>debug.log</code> inside.",
+        "Open the folder named <code>radio.ks3ckc.ft8af</code>, then <code>files</code>. You should see <code>debug.log</code> inside.",
         "Long-press <code>debug.log</code> and tap <strong>Share</strong>."
       ],
       "callout": {
         "h": "Android 11+ may block <code>/Android/data</code> in Files.",
-        "p": "If you can't see <code>com.bg7yoz.ft8cn</code> in the data folder on a recent Android, install a third-party file manager like <strong>Material Files</strong> or <strong>Solid Explorer</strong> from the Play Store — both can read app data folders. Or, easier: use the in-app Debug screen above, which sidesteps this entirely."
+        "p": "If you can't see <code>radio.ks3ckc.ft8af</code> in the data folder on a recent Android, install a third-party file manager like <strong>Material Files</strong> or <strong>Solid Explorer</strong> from the Play Store — both can read app data folders. Or, easier: use the in-app Debug screen above, which sidesteps this entirely."
       }
     },
     "s5": {

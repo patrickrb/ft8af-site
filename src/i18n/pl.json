@@ -718,12 +718,12 @@
       "steps": [
         "Otwórz aplikację <strong>Pliki</strong> (lub <strong>Moje pliki</strong>) na telefonie.",
         "Przejdź do <strong>Pamięć wewnętrzna → Android → data</strong>. Na niektórych urządzeniach Android domyślnie ukrywa ten folder; dotknij menu z trzema kropkami i włącz <em>Pokaż ukryte pliki</em> lub <em>Foldery systemowe</em>.",
-        "Otwórz folder o nazwie <code>com.bg7yoz.ft8cn</code>, potem <code>files</code>. Powinieneś zobaczyć <code>debug.log</code> w środku.",
+        "Otwórz folder o nazwie <code>radio.ks3ckc.ft8af</code>, potem <code>files</code>. Powinieneś zobaczyć <code>debug.log</code> w środku.",
         "Przytrzymaj <code>debug.log</code> i dotknij <strong>Udostępnij</strong>."
       ],
       "callout": {
         "h": "Android 11+ może blokować <code>/Android/data</code> w Plikach.",
-        "p": "Jeśli nie widzisz <code>com.bg7yoz.ft8cn</code> w folderze data na nowszym Androidzie, zainstaluj zewnętrzny menedżer plików jak <strong>Material Files</strong> lub <strong>Solid Explorer</strong> ze Sklepu Play — oba potrafią czytać foldery danych aplikacji. Albo, łatwiej: użyj ekranu Debug w aplikacji powyżej, który całkowicie to omija."
+        "p": "Jeśli nie widzisz <code>radio.ks3ckc.ft8af</code> w folderze data na nowszym Androidzie, zainstaluj zewnętrzny menedżer plików jak <strong>Material Files</strong> lub <strong>Solid Explorer</strong> ze Sklepu Play — oba potrafią czytać foldery danych aplikacji. Albo, łatwiej: użyj ekranu Debug w aplikacji powyżej, który całkowicie to omija."
       }
     },
     "s5": {

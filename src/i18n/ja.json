@@ -718,12 +718,12 @@
       "steps": [
         "スマホで <strong>Files</strong>（または <strong>My Files</strong>）アプリを開きます。",
         "<strong>内部ストレージ → Android → data</strong> へ移動します。一部の端末では Android がこのフォルダーを既定で隠します。三点メニューをタップして <em>隠しファイルを表示</em> または <em>システムフォルダー</em> を有効にしてください。",
-        "<code>com.bg7yoz.ft8cn</code> という名のフォルダーを開き、次に <code>files</code> を開きます。中に <code>debug.log</code> が見えるはずです。",
+        "<code>radio.ks3ckc.ft8af</code> という名のフォルダーを開き、次に <code>files</code> を開きます。中に <code>debug.log</code> が見えるはずです。",
         "<code>debug.log</code> を長押しして <strong>共有</strong> をタップします。"
       ],
       "callout": {
         "h": "Android 11+ では Files で <code>/Android/data</code> がブロックされることがあります。",
-        "p": "最近の Android で data フォルダーに <code>com.bg7yoz.ft8cn</code> が見えない場合は、<strong>Material Files</strong> や <strong>Solid Explorer</strong> のようなサードパーティのファイルマネージャーを Play Store からインストールしてください — どちらもアプリのデータフォルダーを読めます。あるいはもっと簡単に：上のアプリ内 Debug 画面を使えば、これを完全に回避できます。"
+        "p": "最近の Android で data フォルダーに <code>radio.ks3ckc.ft8af</code> が見えない場合は、<strong>Material Files</strong> や <strong>Solid Explorer</strong> のようなサードパーティのファイルマネージャーを Play Store からインストールしてください — どちらもアプリのデータフォルダーを読めます。あるいはもっと簡単に：上のアプリ内 Debug 画面を使えば、これを完全に回避できます。"
       }
     },
     "s5": {
