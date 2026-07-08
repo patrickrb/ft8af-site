@@ -9,7 +9,8 @@
       "github": "GitHub",
       "star": "Star",
       "getFree": "Get it free",
-      "menu": "Menu"
+      "menu": "Menu",
+      "radios": "Radios"
     },
     "langLabel": "Language",
     "ogImageAlt": "FT8AF — Work the world from your pocket. FT8 on Android.",
@@ -283,6 +284,29 @@
     }
   },
 
+  "radios": {
+    "meta": {
+      "title": "FT8AF — Supported radios",
+      "description": "The full list of transceivers FT8AF controls over USB CAT — more than 60 models across Icom, Yaesu, Kenwood, Xiegu, Guohe, Elecraft, FlexRadio, Lab599 and more.",
+      "ogTitle": "FT8AF — Supported radios",
+      "ogDescription": "Every transceiver FT8AF drives over a single USB-C cable — Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio and more."
+    },
+    "hero": {
+      "eyebrow": "Supported radios",
+      "title": "Does it work with your rig?",
+      "lede": "FT8AF drives <strong>{count} transceiver models</strong> over a single USB-C cable — CAT control and audio together. Pick yours in Settings and get on the air."
+    },
+    "intro": "These are the rig models built into FT8AF's radio picker, grouped by manufacturer. Some radios expose more than one connection mode (USB, DATA-USB, U-DIG) in the app — those are collapsed here into one entry per model. Many rigs share a CAT protocol, so a model close to one listed here will often work with the nearest match.",
+    "notlisted": {
+      "title": "Don't see your radio?",
+      "body": "New rigs are added regularly. If yours isn't here, <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\">open an issue on GitHub</a> with the model and CAT details — or try the closest match, since many radios share a control protocol. You can also decode with the phone's microphone and no CAT connection at all."
+    },
+    "cta": {
+      "title": "Wire up your rig and get on the air.",
+      "request": "Request a radio"
+    }
+  },
+
   "download": {
     "meta": {
       "title": "FT8AF — Download",
@@ -425,7 +449,7 @@
       },
       "radios": {
         "q": "Which radios are supported?",
-        "a": "Over <strong>75 rig models</strong> across Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 and more — picked from a list in Settings along with control mode and audio device. Popular rigs like the Icom IC-7300 and Yaesu FT-891 are well supported, and recent additions include the <strong>Yaesu FT-710</strong>, <strong>Kenwood TS-440</strong>, and <strong>Lab599 Discovery TX-500</strong>. FT8AF also adds ALC auto-leveling and an SWR-triggered TX halt to protect your radio. If your rig isn't listed, <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\">open an issue</a> and let us know."
+        "a": "Over <strong>75 rig models</strong> across Icom, Yaesu, Kenwood, Xiegu, Elecraft, FlexRadio, Lab599 and more — picked from a list in Settings along with control mode and audio device (see the <a href=\"/supported-radios\">full list of supported radios</a>). Popular rigs like the Icom IC-7300 and Yaesu FT-891 are well supported, and recent additions include the <strong>Yaesu FT-710</strong>, <strong>Kenwood TS-440</strong>, and <strong>Lab599 Discovery TX-500</strong>. FT8AF also adds ALC auto-leveling and an SWR-triggered TX halt to protect your radio. If your rig isn't listed, <a href=\"https://github.com/patrickrb/FT8AF/issues\" target=\"_blank\" rel=\"noopener\">open an issue</a> and let us know."
       },
       "cable": {
         "q": "What cable do I need?",
