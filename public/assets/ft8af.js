@@ -181,7 +181,7 @@
     var errMsg = form.querySelector('[data-report-errmsg]');
     var submitBtn = form.querySelector('[data-report-submit]');
     var maxFiles = parseInt(form.getAttribute('data-max-files'), 10) || 5;
-    var maxBytes = (parseFloat(form.getAttribute('data-max-mb')) || 9) * 1024 * 1024;
+    var maxBytes = (parseFloat(form.getAttribute('data-max-mb')) || 4) * 1024 * 1024;
     var sendingLabel = form.getAttribute('data-sending') || '…';
     var submitLabel = submitBtn ? submitBtn.textContent : '';
 
@@ -234,7 +234,7 @@
     }
     function showError(msg) {
       if (errMsg && msg) errMsg.textContent = msg;
-      if (errNote) { errNote.hidden = false; errNote.focus && errNote.setAttribute('tabindex', '-1'); }
+      if (errNote) { errNote.hidden = false; errNote.setAttribute('tabindex', '-1'); errNote.focus && errNote.focus(); }
       resetBtn();
     }
     function resetBtn() {

@@ -10,7 +10,7 @@ const GH_SVG = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48
 const INFO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16v.5"/></svg>';
 
 // One <input>/<textarea> field. `req` marks it required (adds the aria + tag).
-function field(t, { id, label, type = 'text', placeholder, hint, req, group, ph }) {
+function field(t, { id, label, type = 'text', placeholder, hint, req, group }) {
   const tag = req ? `<span class="rf-req">${t('report.form.required')}</span>` : `<span class="rf-opt">${t('report.form.optional')}</span>`;
   const attrs = `id="${id}" name="${id}"${req ? ' required aria-required="true"' : ''}${placeholder ? ` placeholder="${t(placeholder)}"` : ''}`;
   const control =
@@ -140,7 +140,7 @@ ${field(t, { id: 'email', label: 'report.form.emailLabel', type: 'email', placeh
       <!-- Honeypot: positioned off-screen; real users leave it blank, bots that
            autofill every field trip it and the submission is silently dropped. -->
       <div class="rf-hp">
-        <label for="website">Website (leave this blank)</label>
+        <label for="website">${t('report.form.honeypotLabel')}</label>
         <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
       </div>
 

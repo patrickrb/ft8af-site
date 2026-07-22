@@ -941,6 +941,7 @@
       "imagesHint": "Images only — up to 5, about 4&nbsp;MB total. A screenshot of the problem is gold.",
       "required": "Required",
       "optional": "Optional",
+      "honeypotLabel": "Website (leave this blank)",
       "submit": "Send it",
       "submitting": "Sending…",
       "privacy": "We only use what you send to work on your report. No newsletter, no sharing."
