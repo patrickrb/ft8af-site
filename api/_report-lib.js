@@ -21,9 +21,12 @@ export const LIMITS = {
   line: 2000,
   block: 8000,
   files: 5,
-  fileBytes: 5 * 1024 * 1024, // 5 MB per image
-  totalBytes: 9 * 1024 * 1024, // ~9 MB total (under Vercel's request-body ceiling)
+  fileBytes: 4 * 1024 * 1024, // 4 MB per image
+  totalBytes: 4 * 1024 * 1024, // ~4 MB total — Vercel caps the request body at 4.5 MB
 };
+
+// Only real images are accepted as attachments; other file types are dropped.
+export const ATTACHMENT_TYPE_RE = /^image\//i;
 
 // Name of the honeypot field. Real users never see it (CSS-hidden); bots that
 // autofill every input trip it, and we silently drop the submission.

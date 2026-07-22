@@ -21,6 +21,7 @@ import {
   buildHtml,
   safeFilename,
   LIMITS,
+  ATTACHMENT_TYPE_RE,
   DEFAULT_TO,
   DEFAULT_FROM,
 } from './_report-lib.js';
@@ -37,7 +38,9 @@ function json(obj, status = 200) {
 // Pull image uploads off the form, enforcing the count/size caps, and encode them
 // for Resend (base64). Non-file and empty parts are ignored.
 async function collectAttachments(form) {
-  const parts = form.getAll('images').filter((v) => v && typeof v !== 'string' && v.size > 0);
+  const parts = form
+    .getAll('images')
+    .filter((v) => v && typeof v !== 'string' && v.size > 0 && ATTACHMENT_TYPE_RE.test(v.type));
   const attachments = [];
   let total = 0;
   for (const file of parts.slice(0, LIMITS.files)) {

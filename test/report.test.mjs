@@ -177,6 +177,25 @@ test('handler attaches uploaded images', async () => {
   assert.equal(payload.attachments[0].content, Buffer.from([1, 2, 3, 4]).toString('base64'));
 });
 
+test('handler drops non-image attachments', async () => {
+  let payload;
+  const png = new Blob([new Uint8Array([1, 2, 3])], { type: 'image/png' });
+  const evil = new Blob(['#!/bin/sh\nrm -rf /'], { type: 'application/x-sh' });
+  await handle(
+    formRequest(validBug, [
+      { blob: png, name: 'ok.png' },
+      { blob: evil, name: 'payload.sh' },
+    ]),
+    { RESEND_API_KEY: 'k' },
+    async (_url, opts) => {
+      payload = JSON.parse(opts.body);
+      return new Response('{}', { status: 200 });
+    }
+  );
+  assert.equal(payload.attachments.length, 1);
+  assert.equal(payload.attachments[0].filename, 'ok.png');
+});
+
 test('handler surfaces a transport failure as 502', async () => {
   const res = await handle(formRequest(validBug), { RESEND_API_KEY: 'k' }, async () => {
     return new Response('nope', { status: 500 });

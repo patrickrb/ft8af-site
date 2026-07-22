@@ -53,7 +53,7 @@ export default {
   <div class="wrap report-layout">
 
     <form class="report-form card reveal" data-report action="/api/report" method="post" enctype="multipart/form-data"
-      data-max-files="5" data-max-mb="9"
+      data-max-files="5" data-max-mb="4"
       data-sending="${t('report.form.submitting')}"
       data-msg-error="${t('report.status.errorBody')}"
       data-msg-config="${t('report.status.errorConfig')}"

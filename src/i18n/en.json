@@ -938,7 +938,7 @@
       "emailHint": "Optional — only used to follow up on this report.",
       "emailPlaceholder": "you@callsign.radio",
       "imagesLabel": "Screenshots",
-      "imagesHint": "Up to 5 images, 5&nbsp;MB each. A screenshot of the problem is gold.",
+      "imagesHint": "Images only — up to 5, about 4&nbsp;MB total. A screenshot of the problem is gold.",
       "required": "Required",
       "optional": "Optional",
       "submit": "Send it",
@@ -952,7 +952,7 @@
       "errorBody": "Something went wrong sending your report. Please try again in a moment, or open a GitHub issue instead.",
       "errorConfig": "The form isn't accepting submissions right now. Please open a GitHub issue or email us directly — links are on this page.",
       "errorNetwork": "We couldn't reach the server. Check your connection and try again, or open a GitHub issue instead.",
-      "tooBig": "Those images are too large — keep it to 5 files and about 9&nbsp;MB total, or share the big ones in a GitHub issue."
+      "tooBig": "Those images are too large — keep it to 5 files and about 4&nbsp;MB total, or share the big ones in a GitHub issue."
     },
     "noscript": {
       "title": "This form needs JavaScript",
