@@ -5,7 +5,8 @@
   "description": "Static-site generator for ft8af.app — renders localized HTML from templates + message catalogs.",
   "scripts": {
     "build": "node build.mjs",
-    "check:i18n": "node .github/scripts/check-i18n.mjs"
+    "check:i18n": "node .github/scripts/check-i18n.mjs",
+    "test": "node --test"
   },
   "dependencies": {
     "@vercel/functions": "^3.7.1"

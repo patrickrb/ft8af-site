@@ -26,9 +26,30 @@ src/
   i18n/<locale>.json # translatable copy — en.json is the source of truth
   data/site.mjs      # locale registry (native names, og-locale, dir, font flag)
 build.mjs            # the generator
+api/report.js        # Vercel function backing the /report feedback form
+api/_report-lib.js   # pure validation/email-building logic (unit-tested)
+test/                # `node --test` suites (no framework, no deps)
 public/assets/       # committed static assets (CSS, JS, fonts, screenshots)
 public/**/*.html     # GENERATED — git-ignored, do not edit by hand
 ```
+
+## Feedback form
+
+`/report` (`src/pages/report.mjs`) is a web form for reporting a bug or requesting
+a feature — an alternative to opening a GitHub issue. It posts a multipart
+submission (with optional screenshots) to the `POST /api/report` Vercel function,
+which validates it and sends **one email per submission** to `k1af@ft8af.app`.
+
+Email delivery uses [Resend](https://resend.com); configure it with Vercel
+environment variables:
+
+- `RESEND_API_KEY` — **required** to send. Without it the endpoint returns a clear
+  "not configured" response and the form shows its GitHub / email fallbacks.
+- `REPORT_TO` — optional, defaults to `k1af@ft8af.app`.
+- `REPORT_FROM` — optional, defaults to `FT8AF Feedback <feedback@ft8af.app>` (must
+  be a verified Resend sender domain).
+
+Run the backend tests with `npm test` (`node --test`).
 
 ## Editing copy
 

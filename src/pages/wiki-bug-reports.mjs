@@ -51,6 +51,14 @@ ${toc}
 
       <article class="wiki-body">
 
+        <div class="callout">
+          ${INFO}
+          <div>
+            <h4>${t('wikiBug.webform.h')}</h4>
+            <p>${t('wikiBug.webform.p')} <a href="/report">${t('wikiBug.webform.cta')}</a></p>
+          </div>
+        </div>
+
         <h2 id="what"><span class="step-num cyan">1</span>${t('wikiBug.s1.h')}</h2>
         <p>${t('wikiBug.s1.p1')}</p>
         <ul>

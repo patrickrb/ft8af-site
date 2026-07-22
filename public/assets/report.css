@@ -1,0 +1,135 @@
+/* FT8AF — bug-report / feature-request form (/report) */
+
+.report-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .report-layout { grid-template-columns: 1fr; gap: 24px; }
+}
+
+/* ───── Form shell ───── */
+.report-form { padding: 30px; display: flex; flex-direction: column; gap: 20px; }
+@media (max-width: 560px) { .report-form { padding: 22px; } }
+
+.report-form fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+
+.rf-field { display: flex; flex-direction: column; }
+
+.rf-label {
+  font-size: 14px; font-weight: 600; color: var(--text);
+  margin-bottom: 8px; display: flex; align-items: baseline; gap: 8px;
+}
+.rf-label-sm { font-size: 13px; font-weight: 500; color: var(--text-muted); }
+
+.rf-req, .rf-opt {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.06em;
+  text-transform: uppercase; font-weight: 500;
+}
+.rf-req { color: var(--accent); }
+.rf-opt { color: var(--text-dim); }
+
+.rf-hint { margin: -2px 0 8px; font-size: 13px; color: var(--text-faint); }
+
+/* ───── Controls ───── */
+.rf-control {
+  width: 100%; box-sizing: border-box;
+  background: var(--bg-app); border: 1px solid var(--border-strong);
+  border-radius: var(--r-md); padding: 12px 14px;
+  color: var(--text); font-family: var(--font-ui); font-size: 15px;
+  outline: none; transition: border-color 0.15s;
+}
+.rf-control:focus { border-color: var(--accent); }
+.rf-control::placeholder { color: var(--text-dim); }
+.rf-textarea { resize: vertical; min-height: 92px; line-height: 1.5; }
+.rf-select { appearance: none; cursor: pointer; }
+
+.rf-row {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+}
+@media (max-width: 560px) { .rf-row { grid-template-columns: 1fr; } }
+
+.rf-env { display: flex; flex-direction: column; gap: 14px;
+  padding: 18px; border: 1px solid var(--border); border-radius: var(--r-lg);
+  background: rgba(148,163,184,0.02); }
+
+/* ───── Type selector (segmented) ───── */
+.rf-seg {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+}
+.rf-seg-opt { position: relative; cursor: pointer; }
+.rf-seg-opt input {
+  position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer;
+}
+.rf-seg-opt span {
+  display: block; text-align: center;
+  padding: 13px 16px; border-radius: var(--r-md);
+  border: 1px solid var(--border-strong); background: var(--bg-app);
+  color: var(--text-muted); font-weight: 600; font-size: 15px;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.rf-seg-opt input:checked + span {
+  border-color: var(--accent); color: var(--accent); background: var(--accent-soft);
+}
+.rf-seg-opt input:focus-visible + span { outline: 2px solid var(--signal); outline-offset: 2px; }
+
+/* ───── File input + list ───── */
+.rf-file { font-size: 14px; color: var(--text-muted); }
+.rf-file::file-selector-button {
+  margin-right: 12px; padding: 9px 14px; cursor: pointer;
+  border-radius: var(--r-sm); border: 1px solid var(--border-strong);
+  background: var(--bg-surface-2); color: var(--text); font-family: var(--font-ui); font-size: 13.5px;
+}
+.rf-file::file-selector-button:hover { border-color: var(--text-faint); }
+.rf-filelist { list-style: none; margin: 10px 0 0; padding: 0;
+  display: flex; flex-direction: column; gap: 4px; }
+.rf-filelist:empty { display: none; }
+.rf-filelist li {
+  font-family: var(--font-mono); font-size: 12px; color: var(--text-muted);
+  display: flex; justify-content: space-between; gap: 12px;
+}
+.rf-filelist li span { color: var(--text-faint); }
+
+/* ───── Honeypot — off-screen, never shown to users ───── */
+.rf-hp {
+  position: absolute; left: -9999px; width: 1px; height: 1px;
+  overflow: hidden; opacity: 0;
+}
+
+/* ───── Actions ───── */
+.rf-actions { display: flex; flex-direction: column; gap: 12px; margin-top: 4px; }
+.rf-actions .btn[disabled] { opacity: 0.6; pointer-events: none; }
+.rf-privacy { margin: 0; font-size: 12.5px; color: var(--text-faint); }
+
+/* ───── Result notes ───── */
+.rf-note {
+  display: flex; gap: 14px; align-items: flex-start;
+  padding: 18px 20px; border-radius: var(--r-lg); border: 1px solid var(--border);
+}
+.rf-note h3 { margin: 0 0 4px; font-size: 16px; }
+.rf-note p { margin: 0; font-size: 14px; color: var(--text-muted); }
+.rf-note-ic { flex-shrink: 0; margin-top: 2px; }
+.rf-note-ic svg { width: 24px; height: 24px; display: block; }
+.rf-ok { background: rgba(74,222,128,0.06); border-color: rgba(74,222,128,0.24); }
+.rf-ok .rf-note-ic svg { color: var(--status-confirmed); }
+.rf-err { background: rgba(255,175,94,0.05); border-color: var(--border-amber); }
+.rf-err .rf-note-ic svg { color: var(--accent); }
+
+/* When the form has been submitted successfully we hide the inputs. */
+.report-form.rf-sent > *:not(.rf-ok):not(.rf-actions) { display: none; }
+.report-form.rf-sent .rf-actions .btn,
+.report-form.rf-sent .rf-privacy { display: none; }
+
+/* ───── Aside ───── */
+.report-aside { position: sticky; top: 92px; }
+@media (max-width: 900px) { .report-aside { position: static; } }
+.rf-aside-card { padding: 26px; }
+.rf-aside-h { font-size: 20px; margin: 0 0 10px; }
+.rf-aside-card > p { font-size: 14.5px; color: var(--text-muted); margin: 0 0 18px; }
+.rf-aside-card .btn { width: 100%; }
+.rf-aside-card .callout a { color: var(--signal); }
+.rf-aside-card .callout a:hover { text-decoration: underline; }
