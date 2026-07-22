@@ -32,6 +32,7 @@
         "repo": "GitHub repo",
         "releases": "Releases",
         "reportBug": "Report a bug",
+        "feedback": "Report a bug / request a feature",
         "originalFt8cn": "Original FT8CN",
         "sstvaf": "SSTV-AF",
         "k1af": "Patrick · K1AF",
@@ -709,6 +710,11 @@
         "Privacy"
       ]
     },
+    "webform": {
+      "h": "Prefer not to use GitHub?",
+      "p": "You can send a bug report straight from your browser — attach a screenshot and it reaches us as one message, no account needed.",
+      "cta": "Open the report form →"
+    },
     "s1": {
       "h": "What's in the log",
       "p1": "FT8AF maintains a rolling text file called <code>debug.log</code> in its app data directory. It captures things like:",
@@ -877,6 +883,89 @@
     "cta": {
       "title": "Put a full FT8 station<br />in your pocket.",
       "lede": "Free and open source on GitHub, or $3.50 on Google Play for automatic updates. The same native FT8 app for Android, either way."
+    }
+  },
+
+  "report": {
+    "meta": {
+      "title": "FT8AF — Report a bug or request a feature",
+      "description": "Send the FT8AF team a bug report or a feature request straight from your browser — no GitHub account needed. Attach screenshots, add your radio and Android details, and it lands in our inbox as a single message.",
+      "ogTitle": "FT8AF — Report a bug or request a feature",
+      "ogDescription": "A simple web form to report a bug or request a feature in FT8AF — attach screenshots and send it straight to the maintainers, or open a GitHub issue instead."
+    },
+    "hero": {
+      "eyebrow": "Feedback",
+      "title": "Found a bug? Want a feature?",
+      "lede": "Send it straight to us with this form — no GitHub account required. Attach a screenshot or two, add your rig and Android details if it's a bug, and it arrives in our inbox as one tidy message. Prefer GitHub? That works too — links are on the right."
+    },
+    "form": {
+      "typeLegend": "What are you sending?",
+      "typeBug": "Bug report",
+      "typeFeature": "Feature request",
+      "titleLabel": "Summary",
+      "titlePlaceholder": "One line — e.g. TX never keys up on 20m",
+      "detailsLabel": "Details",
+      "detailsPlaceholder": "Describe the bug, or the feature you'd like. The more specific, the better.",
+      "stepsLabel": "Steps to reproduce",
+      "stepsPlaceholder": "e.g. Plugged in the FT-891, tapped CQ on 20m, waited a slot…",
+      "expectedLabel": "Expected result",
+      "expectedPlaceholder": "The rig keys up and starts sending tones.",
+      "actualLabel": "Actual result",
+      "actualPlaceholder": "The TX strip stayed on LISTENING.",
+      "envLegend": "Your setup",
+      "envHint": "All optional, but they help us reproduce a bug fast.",
+      "versionLabel": "FT8AF version",
+      "versionPlaceholder": "Settings → About, e.g. v1.2",
+      "sourceLabel": "Installed from",
+      "sourceChoose": "Choose one…",
+      "sourceGithub": "GitHub APK",
+      "sourcePlay": "Google Play",
+      "sourceSource": "Built from source",
+      "sourceOther": "Other / not sure",
+      "androidLabel": "Android version",
+      "androidPlaceholder": "e.g. 14",
+      "deviceLabel": "Device",
+      "devicePlaceholder": "e.g. Pixel 8",
+      "radioLabel": "Radio",
+      "radioPlaceholder": "e.g. Yaesu FT-891",
+      "cableLabel": "Cable",
+      "cablePlaceholder": "e.g. USB-C direct / OTG adapter",
+      "useCaseLabel": "What problem would it solve?",
+      "useCasePlaceholder": "Tell us how you'd use it and why it matters to your operating.",
+      "callsignLabel": "Callsign",
+      "callsignPlaceholder": "e.g. K1AF",
+      "emailLabel": "Your email",
+      "emailHint": "Optional — only used to follow up on this report.",
+      "emailPlaceholder": "you@callsign.radio",
+      "imagesLabel": "Screenshots",
+      "imagesHint": "Images only — up to 5, about 4&nbsp;MB total. A screenshot of the problem is gold.",
+      "required": "Required",
+      "optional": "Optional",
+      "honeypotLabel": "Website (leave this blank)",
+      "submit": "Send it",
+      "submitting": "Sending…",
+      "privacy": "We only use what you send to work on your report. No newsletter, no sharing."
+    },
+    "status": {
+      "successTitle": "Got it — thank you!",
+      "successBody": "Your report is on its way to us. If you left an email, we'll reach out if we need more detail. 73!",
+      "errorTitle": "That didn't go through",
+      "errorBody": "Something went wrong sending your report. Please try again in a moment, or open a GitHub issue instead.",
+      "errorConfig": "The form isn't accepting submissions right now. Please open a GitHub issue or email us directly — links are on this page.",
+      "errorNetwork": "We couldn't reach the server. Check your connection and try again, or open a GitHub issue instead.",
+      "tooBig": "Those images are too large — keep it to 5 files and about 4&nbsp;MB total, or share the big ones in a GitHub issue."
+    },
+    "noscript": {
+      "title": "This form needs JavaScript",
+      "body": "To send a report without JavaScript, please open a GitHub issue or email us — see the options on this page."
+    },
+    "aside": {
+      "title": "Rather use GitHub?",
+      "body": "If you have a GitHub account, opening an issue keeps the conversation public and lets you follow the fix. Either way reaches us.",
+      "githubCta": "Open a GitHub issue",
+      "tipsTitle": "Writing a useful bug report",
+      "tipsBody": "A screenshot and the debug log make bugs far easier to fix.",
+      "wikiLink": "See the bug-report guide →"
     }
   }
 }

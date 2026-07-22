@@ -168,6 +168,7 @@ function footerPartial(t) {
         ${fl('https://github.com/patrickrb/FT8AF', 'repo', true)}
         ${fl('https://github.com/patrickrb/FT8AF/releases', 'releases', true)}
         ${fl('https://github.com/patrickrb/FT8AF/issues', 'reportBug', true)}
+        ${fl('/report', 'feedback')}
         ${fl('https://github.com/N0BOY/FT8CN', 'originalFt8cn', true)}
         ${fl('https://sstvaf.app', 'sstvaf', true)}
       </div>

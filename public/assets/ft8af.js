@@ -164,6 +164,125 @@
     });
   }
 
+  // ───── Report form (/report) ─────
+  // Progressive enhancement for the bug-report / feature-request form: swap the
+  // bug-vs-feature field groups, preview attachments, and submit via fetch to
+  // /api/report. Without JS the form still POSTs and the <noscript> notice points
+  // people to GitHub / email.
+  function initReportForm() {
+    var form = document.querySelector('form[data-report]');
+    if (!form) return;
+
+    var groups = form.querySelectorAll('[data-when]');
+    var fileInput = form.querySelector('input[type="file"]');
+    var fileList = form.querySelector('[data-report-files]');
+    var okNote = form.querySelector('[data-report-ok]');
+    var errNote = form.querySelector('[data-report-err]');
+    var errMsg = form.querySelector('[data-report-errmsg]');
+    var submitBtn = form.querySelector('[data-report-submit]');
+    var maxFiles = parseInt(form.getAttribute('data-max-files'), 10) || 5;
+    var maxBytes = (parseFloat(form.getAttribute('data-max-mb')) || 4) * 1024 * 1024;
+    var sendingLabel = form.getAttribute('data-sending') || '…';
+    var submitLabel = submitBtn ? submitBtn.textContent : '';
+
+    function selectedType() {
+      var r = form.querySelector('input[name="type"]:checked');
+      return r ? r.value : 'bug';
+    }
+
+    // Show the fields for the chosen type; disable the hidden ones so they're
+    // neither validated nor submitted.
+    function applyType() {
+      var type = selectedType();
+      for (var i = 0; i < groups.length; i++) {
+        var el = groups[i];
+        var show = el.getAttribute('data-when') === type;
+        el.hidden = !show;
+        var controls = el.querySelectorAll('input, textarea, select');
+        for (var j = 0; j < controls.length; j++) controls[j].disabled = !show;
+      }
+    }
+    var radios = form.querySelectorAll('input[name="type"]');
+    for (var k = 0; k < radios.length; k++) radios[k].addEventListener('change', applyType);
+    applyType();
+
+    function fmtSize(b) {
+      return b < 1024 * 1024 ? Math.max(1, Math.round(b / 1024)) + ' KB' : (b / 1048576).toFixed(1) + ' MB';
+    }
+    function renderFiles() {
+      if (!fileList) return;
+      fileList.textContent = '';
+      var files = fileInput && fileInput.files ? fileInput.files : [];
+      for (var i = 0; i < files.length; i++) {
+        var li = document.createElement('li');
+        var name = document.createElement('span');
+        name.className = 'rf-fn';
+        name.style.color = 'var(--text-muted)';
+        name.textContent = files[i].name;
+        var size = document.createElement('span');
+        size.textContent = fmtSize(files[i].size);
+        li.appendChild(name);
+        li.appendChild(size);
+        fileList.appendChild(li);
+      }
+    }
+    if (fileInput) fileInput.addEventListener('change', renderFiles);
+
+    function hideNotes() {
+      if (okNote) okNote.hidden = true;
+      if (errNote) errNote.hidden = true;
+    }
+    function showError(msg) {
+      if (errMsg && msg) errMsg.textContent = msg;
+      if (errNote) { errNote.hidden = false; errNote.setAttribute('tabindex', '-1'); errNote.focus && errNote.focus(); }
+      resetBtn();
+    }
+    function resetBtn() {
+      if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = submitLabel; }
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      hideNotes();
+
+      var files = fileInput && fileInput.files ? fileInput.files : [];
+      var total = 0;
+      for (var i = 0; i < files.length; i++) total += files[i].size;
+      if (files.length > maxFiles || total > maxBytes) {
+        showError(form.getAttribute('data-msg-toobig'));
+        return;
+      }
+
+      track('report_submit', { page: location.pathname, type: selectedType() });
+      if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = sendingLabel; }
+
+      var status = 0;
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'X-Requested-With': 'fetch' }
+      })
+        .then(function (res) {
+          status = res.status;
+          return res.json().catch(function () { return {}; });
+        })
+        .then(function (data) {
+          if (status >= 200 && status < 300 && data && data.ok) {
+            form.classList.add('rf-sent');
+            if (okNote) { okNote.hidden = false; okNote.setAttribute('tabindex', '-1'); okNote.focus && okNote.focus(); }
+            okNote && okNote.scrollIntoView && okNote.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          } else if (status === 503 || (data && data.error === 'not_configured')) {
+            showError(form.getAttribute('data-msg-config'));
+          } else {
+            showError(form.getAttribute('data-msg-error'));
+          }
+        })
+        .catch(function () {
+          showError(form.getAttribute('data-msg-network'));
+        });
+    });
+  }
+
   // ───── Vercel Analytics — custom events ─────
   // window.va is defined by /_vercel/insights/script.js; we stubbed a queue in <head>
   // so events fired before it loads aren't lost.
@@ -224,7 +343,7 @@
   }
 
   function init() {
-    initNav(); initReveal(); initCanvases(); initFaq(); initForms(); initAnalytics(); initLocalePref();
+    initNav(); initReveal(); initCanvases(); initFaq(); initForms(); initReportForm(); initAnalytics(); initLocalePref();
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
